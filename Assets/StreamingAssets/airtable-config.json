@@ -1,0 +1,8 @@
+{
+    "doDefaultLocalLoadContent": "false",
+    "ApiVersion": "v0",
+    "AppKey": "appUsy1Dg5dBn0vzW",
+    "ApiKey": "keyQKHHHYReKR0nOM",
+    "TableName": "tblQedMkHxykluIjs",
+    "mainTableFilterByFormula": "%7BStation+ID%7D+%3D+%22Station+1%22"
+}
