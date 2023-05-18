@@ -19,6 +19,7 @@ namespace JoshKery.USGA.LockerCapstones
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 sequenceManager.CompleteCurrentSequence();
+                BaseWindow.onAwakeWindows.Invoke();
                 BaseWindow.onStartUpWindows.Invoke();
                 BaseStateMachine.onStartUpStateMachines.Invoke();
             }
