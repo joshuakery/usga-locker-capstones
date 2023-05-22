@@ -104,7 +104,7 @@ namespace JoshKery.GenericUI.Accordion
 
                     Tween tween = CreateTween(individualSequencingData, childWindows);
 
-                    UIAnimatorModule.AttachTweenToSequence(animationSequenceData.sequenceType, tween, sequence,
+                    sequence = UIAnimatorModule.AttachTweenToSequence(animationSequenceData.sequenceType, tween, sequence,
                                     individualSequencingData.doOffsetFromStartOfLastTween, individualSequencingData.offset, lastTween);
                     lastTween = tween;
                 }

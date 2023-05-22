@@ -8,6 +8,11 @@ namespace JoshKery.USGA.LockerCapstones
     public class MenuItem : BaseWindow
     {
         public List<string> categories;
+
+        public void OnClick()
+        {
+            MainCanvasStateMachine.onAnimateToProfile.Invoke();
+        }
     }
 }
 

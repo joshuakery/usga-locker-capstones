@@ -26,14 +26,14 @@ namespace JoshKery.USGA.LockerCapstones
         {
             base.OnEnable();
 
-            FilterOptionButton.onFilterClicked += SetSelectedCategory;
+            FilterOptionButton.onFilterClicked += SetSelectedCategoryAndFilter;
         }
 
         protected override void OnDisable()
         {
             base.OnDisable();
 
-            FilterOptionButton.onFilterClicked -= SetSelectedCategory;
+            FilterOptionButton.onFilterClicked -= SetSelectedCategoryAndFilter;
         }
 
         //-------------------------------------Pulse--------------------------------------------
@@ -57,29 +57,45 @@ namespace JoshKery.USGA.LockerCapstones
 
         //-------------------------------------Filter--------------------------------------------
 
-        private void Filter()
+        public void Filter()
         {
             if (childMenuItems != null && childMenuItems.Length > 0)
             {
-                foreach (MenuItem menuItem in childMenuItems)
+                if (selectedCategories != null && selectedCategories.Count > 0)
                 {
-                    bool hasAtLeastOneCategoryInCommon = selectedCategories.Intersect(menuItem.categories).Any();
-                    menuItem.gameObject.SetActive(hasAtLeastOneCategoryInCommon);
+                    foreach (MenuItem menuItem in childMenuItems)
+                    {
+                        bool hasAtLeastOneCategoryInCommon = selectedCategories.Intersect(menuItem.categories).Any();
+                        menuItem.gameObject.SetActive(hasAtLeastOneCategoryInCommon);
+                    }
                 }
+                else
+                {
+                    foreach (MenuItem menuItem in childMenuItems)
+                    {
+                        menuItem.gameObject.SetActive(true);
+                    }
+                }
+                
             }
         }
 
-        public void SetSelectedCategory(string category)
+        private void SetSelectedCategory(string category)
         {
             if (selectedCategories == null)
                 selectedCategories = new List<string>();
 
             selectedCategories.Clear();
 
-            selectedCategories.Add(category);
+            if (!string.IsNullOrEmpty(category))
+                selectedCategories.Add(category);
         }
 
-
+        private void SetSelectedCategoryAndFilter(string category)
+        {
+            SetSelectedCategory(category);
+            Pulse(SequenceType.Join);
+        }
     }
 
 }
