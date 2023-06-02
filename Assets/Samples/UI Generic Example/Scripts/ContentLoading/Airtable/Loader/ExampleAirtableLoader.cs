@@ -106,7 +106,7 @@ namespace JoshKery.GenericUI.Example
         private string PrepareMediaPath(string path)
         {
             path = MediaLoadingUtility.RemoveStartingPathSplitCharacter(path);
-            path = Path.Combine(ContentDirectory, path);
+            path = Path.Combine(LocalContentDirectory, path);
             return path;
         }
 

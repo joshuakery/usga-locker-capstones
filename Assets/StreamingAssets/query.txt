@@ -1,0 +1,70 @@
+query LockerProfiles {
+  lockerProfiles {
+    lastName
+    firstName
+    id
+    inductionYear
+    lockerNumber
+    media {
+      directus_files_id {
+        description
+        filename_disk
+        filename_download
+        title
+      }
+    }
+    featuredImage {
+      description
+      filename_download
+      filename_disk
+      title
+    }
+    accomplishments {
+      earnedAccomplishments_id {
+        timesEarned
+        id
+        customImage {
+          description
+          filename_disk
+          filename_download
+          title
+        }
+        customDescription
+        type {
+          description
+          id
+          name
+          image {
+            description
+            filename_disk
+            filename_download
+            title
+          }
+        }
+      }
+      id
+    }
+    bioImages {
+      directus_files_id {
+        description
+        filename_disk
+        filename_download
+        title
+      }
+    }
+    bioText
+    quote
+    signatureImage {
+      filename_disk
+      filename_download
+      description
+      title
+    }
+    contentTrails {
+      contentTrails_id {
+        id
+        name
+      }
+    }
+  }
+}
