@@ -1,34 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using JoshKery.GenericUI.DOTweenHelpers;
+
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class AttractStateMachine : BaseWindow
+    public class AttractStateMachine : LockerCapstonesStateMachine
     {
         [SerializeField]
-        private UIAnimationSequenceData toIntroSequence;
+        private TMP_Text titleField;
 
         [SerializeField]
-        private UIAnimationSequenceData toMenuSequence;
+        private TMP_Text dateField;
 
-        [SerializeField]
-        private UIAnimationSequenceData toProfileSequence;
-
-        public void AnimateToIntro()
+        public override void SetContent()
         {
-            _WindowAction(toIntroSequence, SequenceType.Join);
-        }
-
-        public void AnimateToMenu()
-        {
-            _WindowAction(toMenuSequence, SequenceType.Join);
-        }
-
-        public void AnimateToProfile()
-        {
-            _WindowAction(toProfileSequence, SequenceType.Join);
+            if (titleField != null)
+            {
+                //so how will eras work? will they be like designated on each profile, or will each era have a list of profiles?
+            }
         }
     }
 }

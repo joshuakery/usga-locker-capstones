@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using JoshKery.GenericUI.ContentLoading;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.USGA.Directus;
 using GraphQlClient.Core;
 using Newtonsoft.Json;
 using rlmg.logging;
@@ -61,7 +62,6 @@ namespace JoshKery.USGA.LockerCapstones
 
         private async Task LoadGraphContent()
         {
-
             await queryLoader.LoadContentCoroutine();
 
             await new WaitForEndOfFrame();
@@ -129,16 +129,95 @@ namespace JoshKery.USGA.LockerCapstones
         private IEnumerator PopulateContent(string text)
         {
             yield return null;
-            //TODO manage displays for pgoress updates?
+            //TODO manage displays for progess updates?
 
             LockerCapstonesDataWrapper wrapper = JsonConvert.DeserializeObject<LockerCapstonesDataWrapper>(text);
             appState.data = wrapper.data;
 
-            /*yield return StartCoroutine(LoadNewInducteesMedia());*/
+            yield return StartCoroutine(LoadLockerCapstonesMedia());
 
             yield return null;
 
             /*NewInducteesWindow.onSetContent.Invoke();*/
+        }
+
+        private IEnumerator LoadLockerCapstonesMedia()
+        {
+            if (appState?.data == null) { yield break; }
+            if (appState.data.lockerProfiles != null)
+            {
+                foreach (LockerProfile lockerProfile in appState.data.lockerProfiles)
+                {
+                    yield return StartCoroutine(LoadMediaForLockerProfile(lockerProfile));
+                }
+            }
+            if (appState.data.accomplishmentTypes != null)
+            {
+                foreach (Accomplishment accomplishment in appState.data.accomplishmentTypes)
+                {
+                    yield return StartCoroutine(LoadMediaForAccomplishment(accomplishment));
+                }
+            }
+        }
+
+        private IEnumerator LoadMediaForLockerProfile(LockerProfile lockerProfile)
+        {
+            if (lockerProfile != null)
+            {
+                yield return StartCoroutine(LoadMediaFromMediaFile(lockerProfile.featuredImage));
+                
+                if (lockerProfile.media != null)
+                {
+                    foreach (MediaItem item in lockerProfile.media)
+                    {
+                        yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile));
+                    }
+                }
+
+                yield return StartCoroutine(LoadMediaFromMediaFile(lockerProfile.signatureImage));
+
+                if (lockerProfile.bioImages != null)
+                {
+                    foreach (MediaItem item in lockerProfile.bioImages)
+                    {
+                        yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile));
+                    }
+                }
+
+                if (lockerProfile.earnedAccomplishmentItems != null)
+                {
+                    foreach (EarnedAccomplishmentItem item in lockerProfile.earnedAccomplishmentItems)
+                    {
+                        yield return StartCoroutine(LoadMediaFromMediaFile(item?.earnedAccomplishment?.customImage));
+                    }
+                }
+
+            }
+        }
+
+        private IEnumerator LoadMediaForAccomplishment(Accomplishment accomplishment)
+        {
+            yield return StartCoroutine(LoadMediaFromMediaFile(accomplishment?.image));
+        }
+
+        private IEnumerator LoadMediaFromMediaFile(MediaFile mediaFile)
+        {
+            if (mediaFile != null)
+            {
+                string localPath = GetLocalMediaPath(mediaFile.filename_disk);
+
+                if (File.Exists(localPath))
+                {
+                    yield return StartCoroutine(appState.SetMediaFileTextureFromPath(mediaFile, localPath));
+                }
+                else if (!doDefaultLocalLoadContent)
+                {
+                    string onlinePath = Path.Combine(OnlineContentDirectory, mediaFile.filename_disk);
+                    yield return SaveMediaToDisk(onlinePath, localPath);
+                    yield return StartCoroutine(appState.SetMediaFileTextureFromPath(mediaFile, localPath));
+                }
+
+            }
         }
         #endregion
 

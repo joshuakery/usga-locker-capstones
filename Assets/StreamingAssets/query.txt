@@ -31,15 +31,7 @@ query LockerProfiles {
         }
         customDescription
         type {
-          description
           id
-          name
-          image {
-            description
-            filename_disk
-            filename_download
-            title
-          }
         }
       }
       id
@@ -65,6 +57,17 @@ query LockerProfiles {
         id
         name
       }
+    }
+  }
+  accomplishmentTypes {
+    description
+    id
+    name
+    image {
+      description
+      filename_disk
+      filename_download
+      title
     }
   }
 }

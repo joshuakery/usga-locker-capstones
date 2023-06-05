@@ -16,6 +16,10 @@ namespace JoshKery.USGA.LockerCapstones
     {
         [JsonProperty("lockerProfiles")]
         public List<LockerProfile> lockerProfiles { get; set; }
+
+        [JsonProperty("accomplishmentTypes")]
+        public List<Accomplishment> accomplishmentTypes { get; set; }
+
     }
 
     [Serializable]
@@ -108,7 +112,7 @@ namespace JoshKery.USGA.LockerCapstones
         public string name { get; set; }
 
         [JsonProperty("image")]
-        public MediaItem image { get; set; }
+        public MediaFile image { get; set; }
     }
 
     [Serializable]
