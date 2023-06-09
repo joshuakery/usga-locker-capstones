@@ -8,6 +8,9 @@ namespace JoshKery.USGA.Directus
     public class MediaFile
     {
         #region Graph Properties
+        [JsonProperty("id")]
+        public string id { get; set; }
+
         [JsonProperty("filename_download")]
         public string filename_download { get; set; }
 

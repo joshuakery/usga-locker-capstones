@@ -10,6 +10,7 @@ using JoshKery.USGA.Directus;
 using GraphQlClient.Core;
 using Newtonsoft.Json;
 using rlmg.logging;
+using JoshKery.GenericUI.GraphQL;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -21,11 +22,16 @@ namespace JoshKery.USGA.LockerCapstones
 
         private QueryLoader queryLoader;
 
+        private QueryHolder queryHolder;
+
         [SerializeField]
         private string OnlineContentDirectory;
 
         [SerializeField]
         private AppState appState;
+
+        [SerializeField]
+        private GraphApi erasByIdGraphRef;
         #endregion
 
         #region Monobehaviour Methods
@@ -33,6 +39,7 @@ namespace JoshKery.USGA.LockerCapstones
         protected override void Awake()
         {
             queryLoader = GetComponent<QueryLoader>();
+            queryHolder = GetComponent<QueryHolder>();
 
             base.Awake();
         }
@@ -62,11 +69,14 @@ namespace JoshKery.USGA.LockerCapstones
 
         private async Task LoadGraphContent()
         {
-            await queryLoader.LoadContentCoroutine();
+            /*            await queryLoader.LoadContentCoroutine();
+             *            await new WaitForEndOfFrame();
+            */
 
-            await new WaitForEndOfFrame();
 
-            UnityWebRequest request = await HttpHandler.PostAsync(queryLoader.url, queryLoader.query, queryLoader.authToken);
+
+
+            UnityWebRequest request = await HttpHandler.PostAsync(queryLoader.url, queryHolder.GetPostString(), queryLoader.authToken);
 
             if (request.result != UnityWebRequest.Result.Success)
             {
@@ -138,7 +148,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             yield return null;
 
-            /*NewInducteesWindow.onSetContent.Invoke();*/
+            LockerCapstonesWindow.onSetContent.Invoke();
         }
 
         private IEnumerator LoadLockerCapstonesMedia()

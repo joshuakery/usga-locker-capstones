@@ -11,6 +11,7 @@ query LockerProfiles {
         filename_disk
         filename_download
         title
+        id
       }
     }
     featuredImage {
@@ -18,6 +19,7 @@ query LockerProfiles {
       filename_download
       filename_disk
       title
+      id
     }
     accomplishments {
       earnedAccomplishments_id {
@@ -28,6 +30,7 @@ query LockerProfiles {
           filename_disk
           filename_download
           title
+          id
         }
         customDescription
         type {
@@ -42,6 +45,7 @@ query LockerProfiles {
         filename_disk
         filename_download
         title
+        id
       }
     }
     bioText
@@ -51,6 +55,7 @@ query LockerProfiles {
       filename_download
       description
       title
+      id
     }
     contentTrails {
       contentTrails_id {
@@ -68,6 +73,33 @@ query LockerProfiles {
       filename_disk
       filename_download
       title
+      id
+    }
+  }
+  eras {
+    description
+    endYear
+    startYear
+    id
+    title
+    historySlides {
+      id
+      image {
+        filename_disk
+        filename_download
+        description
+        title
+      }
+      backgroundVideo {
+        filename_disk
+        filename_download
+        description
+        title
+      }
+      title
+      order
+      quote
+      text
     }
   }
 }

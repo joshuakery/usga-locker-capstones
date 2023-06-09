@@ -6,7 +6,7 @@ using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class MenuItemManager : BaseWindow
+    public class MenuItemManager : LockerCapstonesWindow
     {
         private MenuItem[] childMenuItems;
 
@@ -15,6 +15,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         public List<string> selectedCategories;
 
+        #region Monobehaviour Methods
         protected override void Awake()
         {
             base.Awake();
@@ -35,8 +36,28 @@ namespace JoshKery.USGA.LockerCapstones
 
             FilterOptionButton.onFilterClicked -= SetSelectedCategoryAndFilter;
         }
+        #endregion
 
-        //-------------------------------------Pulse--------------------------------------------
+        public override void SetContent()
+        {
+            if (appState == null) { return; }
+
+            List<LockerProfile> lockerProfiles = appState.data?.lockerProfiles;
+            if (lockerProfiles != null)
+            {
+                foreach (LockerProfile lockerProfile in lockerProfiles)
+                {
+                    MenuItem display = InstantiateDisplay<MenuItem>();
+                    display.SetContent(lockerProfile);
+
+                    int id = lockerProfile.id;
+                    display.gameObject.name = string.Format("Menu Button: {0} {1} {2}", id, lockerProfile.firstName, lockerProfile.lastName);
+                    display.button.onClick.AddListener(() => { Debug.Log("click"); MainCanvasStateMachine.onAnimateToProfile.Invoke(id); });
+                }
+            }
+        }
+
+        #region Pulse Animation Methods
         protected virtual void _Pulse(
             SequenceType sequenceType = SequenceType.UnSequenced,
             float atPosition = 0f
@@ -54,8 +75,9 @@ namespace JoshKery.USGA.LockerCapstones
         {
             _Pulse(SequenceType.Insert, atPosition);
         }
+        #endregion
 
-        //-------------------------------------Filter--------------------------------------------
+        #region Filter Methods
 
         public void Filter()
         {
@@ -96,6 +118,7 @@ namespace JoshKery.USGA.LockerCapstones
             SetSelectedCategory(category);
             Pulse(SequenceType.Join);
         }
+        #endregion
     }
 
 }

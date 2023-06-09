@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using JoshKery.USGA.Directus;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -26,12 +27,29 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private RawImage signatureImage;
 
-        public void SetContent()
+        public void SetContent(LockerProfile lockerProfile)
         {
-            lockerNumberField.text = "#001";
-            firstNameField.text = "Jack";
-            lastNameField.text = "Nicklaus";
-            yearInductedField.text = "Inducted 1999";
+            if (lockerProfile != null)
+            {
+                if (lockerNumberField != null)
+                    lockerNumberField.text = "#" + lockerProfile.lockerNumber.ToString();
+
+                if (firstNameField != null)
+                    firstNameField.text = lockerProfile.firstName;
+
+                if (lastNameField != null)
+                    lastNameField.text = lockerProfile.lastName;
+
+                if (yearInductedField != null)
+                    yearInductedField.text = "Inducted " + lockerProfile.inductionYear.ToString();
+
+                if (profileImage != null)
+                    profileImage.texture = lockerProfile.featuredImage.texture;
+
+                if (signatureImage != null)
+                    signatureImage.texture = lockerProfile.signatureImage.texture;
+            }
+
         }
     }
 }

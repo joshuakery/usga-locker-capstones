@@ -41,7 +41,7 @@ namespace JoshKery.USGA.LockerCapstones
             else if (Input.GetKeyDown(KeyCode.Alpha5))
             {
                 sequenceManager.CompleteCurrentSequence();
-                mainCanvasState.AnimateToProfile();
+                mainCanvasState.AnimateToProfile(0);
             }
         }
     }

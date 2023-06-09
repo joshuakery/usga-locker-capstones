@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.GenericUI.Events;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -44,13 +45,13 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
 
-        private static UnityEvent _onAnimateToProfile; 
-        public static UnityEvent onAnimateToProfile
+        private static IntEvent _onAnimateToProfile; 
+        public static IntEvent onAnimateToProfile
         {
             get
             {
                 if (_onAnimateToProfile == null)
-                    _onAnimateToProfile = new UnityEvent();
+                    _onAnimateToProfile = new IntEvent();
 
                 return _onAnimateToProfile;
             }
@@ -106,8 +107,10 @@ namespace JoshKery.USGA.LockerCapstones
             _WindowAction(toMenuSequence, SequenceType.Join);
         }
 
-        public void AnimateToProfile()
+        public void AnimateToProfile(int id)
         {
+            sequenceManager.CompleteCurrentSequence();
+            ProfileModulesManager.onResetContent.Invoke(id);
             _WindowAction(toProfileSequence, SequenceType.Join);
         }
 

@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccf793b7ca1cc645b9cd36d753b8e3c, type: 3}
+  m_Name: ErasById
+  m_EditorClassIdentifier: 
+  url: https://usga-exhibits-dev.com/graphql
+  queries:
+  - name: ErasById
+    type: 0
+    query: "query ErasById{\n    eras_by_id(  id :1 ){\n        id\n        startYear\n       
+      endYear\n    }\n}"
+    queryString: eras_by_id
+    returnType: eras
+    queryOptions:
+    - accomplishmentTypes
+    - accomplishmentTypes_by_id
+    - accomplishmentTypes_aggregated
+    - bobJonesWinners
+    - bobJonesWinners_by_id
+    - bobJonesWinners_aggregated
+    - contentTrails
+    - contentTrails_by_id
+    - contentTrails_aggregated
+    - earnedAccomplishments
+    - earnedAccomplishments_by_id
+    - earnedAccomplishments_aggregated
+    - eraSlides
+    - eraSlides_by_id
+    - eraSlides_aggregated
+    - eras
+    - eras_by_id
+    - eras_aggregated
+    - introMedia
+    - introMedia_files
+    - introMedia_files_by_id
+    - introMedia_files_aggregated
+    - lockerProfiles
+    - lockerProfiles_by_id
+    - lockerProfiles_aggregated
+    - lockerProfiles_contentTrails
+    - lockerProfiles_contentTrails_by_id
+    - lockerProfiles_contentTrails_aggregated
+    - lockerProfiles_earnedAccomplishments
+    - lockerProfiles_earnedAccomplishments_by_id
+    - lockerProfiles_earnedAccomplishments_aggregated
+    - lockerProfiles_files
+    - lockerProfiles_files_by_id
+    - lockerProfiles_files_aggregated
+    - lockerProfiles_files_1
+    - lockerProfiles_files_1_by_id
+    - lockerProfiles_files_1_aggregated
+    - lockerProfiles_files_2
+    - lockerProfiles_files_2_by_id
+    - lockerProfiles_files_2_aggregated
+    - lockerProfiles_webMedia
+    - lockerProfiles_webMedia_by_id
+    - lockerProfiles_webMedia_aggregated
+    - newAwards
+    - newAwards_by_id
+    - newAwards_aggregated
+    - newInductees
+    - newProfiles
+    - newProfiles_by_id
+    - newProfiles_aggregated
+    - newProfiles_files
+    - newProfiles_files_by_id
+    - newProfiles_files_aggregated
+    - previousAwardees
+    - previousAwardees_by_id
+    - previousAwardees_aggregated
+    - tableStories
+    - tableStories_by_id
+    - tableStories_aggregated
+    - tableStories_content
+    - tableStories_content_by_id
+    - tableStories_content_aggregated
+    - tableTopics
+    - tableTopics_by_id
+    - tableTopics_aggregated
+    fields:
+    - index: 0
+      name: id
+      type: ID
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: date_updated
+        type: Date
+      - name: date_updated_func
+        type: datetime_functions
+      - name: title
+        type: String
+      - name: description
+        type: String
+      - name: startYear
+        type: Int
+      - name: endYear
+        type: Int
+      - name: historySlides
+        type: eraSlides
+      - name: historySlides_func
+        type: count_functions
+      hasChanged: 0
+    - index: 5
+      name: startYear
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: date_updated
+        type: Date
+      - name: date_updated_func
+        type: datetime_functions
+      - name: title
+        type: String
+      - name: description
+        type: String
+      - name: startYear
+        type: Int
+      - name: endYear
+        type: Int
+      - name: historySlides
+        type: eraSlides
+      - name: historySlides_func
+        type: count_functions
+      hasChanged: 0
+    - index: 6
+      name: endYear
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: date_updated
+        type: Date
+      - name: date_updated_func
+        type: datetime_functions
+      - name: title
+        type: String
+      - name: description
+        type: String
+      - name: startYear
+        type: Int
+      - name: endYear
+        type: Int
+      - name: historySlides
+        type: eraSlides
+      - name: historySlides_func
+        type: count_functions
+      hasChanged: 0
+    isComplete: 1
+  mutations: []
+  subscriptions: []
+  loading: 0

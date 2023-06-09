@@ -13,9 +13,8 @@ namespace GraphQlClient.Core
 {
 	public class HttpHandler
 	{
-		
-		
 		public static async Task<UnityWebRequest> PostAsync(string url, string details, string authToken = null){
+			Debug.Log(details);
             string jsonData = JsonConvert.SerializeObject(new{query = details});
             byte[] postData = Encoding.ASCII.GetBytes(jsonData);
             UnityWebRequest request = UnityWebRequest.PostWwwForm(url, UnityWebRequest.kHttpVerbPOST);
