@@ -9,8 +9,10 @@ namespace JoshKery.GenericUI.GraphQL
         public string url;
         public string authToken;
         public string operationName;
+
         [Multiline]
         public string variables;
+
         [Multiline]
         public string query;
 

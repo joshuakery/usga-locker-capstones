@@ -20,6 +20,9 @@ namespace JoshKery.USGA.LockerCapstones
         [JsonProperty("accomplishmentTypes")]
         public List<Accomplishment> accomplishmentTypes { get; set; }
 
+        [JsonProperty("eras_by_id")]
+        public Era era { get; set; }
+
     }
 
     [Serializable]
@@ -130,6 +133,53 @@ namespace JoshKery.USGA.LockerCapstones
 
         [JsonProperty("name")]
         public string name { get; set; }
+    }
+
+    [Serializable]
+    public class Era
+    {
+        [JsonProperty("id")]
+        public int id { get; set; }
+
+        [JsonProperty("startYear")]
+        public int startYear { get; set; }
+
+        [JsonProperty("endYear")]
+        public int endYear { get; set; }
+
+        [JsonProperty("title")]
+        public string title { get; set; }
+
+        [JsonProperty("historySlides")]
+        public List<HistorySlide> historySlides;
+
+        [JsonProperty("description")]
+        public string description { get; set; }
+    }
+
+    [Serializable]
+    public class HistorySlide
+    {
+        [JsonProperty("id")]
+        public int id { get; set; }
+
+        [JsonProperty("image")]
+        public MediaFile image { get; set; }
+
+        [JsonProperty("order")]
+        public int order { get; set; }
+
+        [JsonProperty("text")]
+        public string text { get; set; }
+
+        [JsonProperty("quote")]
+        public string quote { get; set; }
+
+        [JsonProperty("title")]
+        public string title { get; set; }
+
+        [JsonProperty("backgroundVideo")]
+        public MediaFile backgroundVideo { get; set; }
     }
 
 

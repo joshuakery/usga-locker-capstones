@@ -437,6 +437,66 @@
           "title": "Screen Shot 2023 01 27 at 1.24.50 Pm"
         }
       }
-    ]
+    ],
+    "eras_by_id": {
+      "historySlides": [
+        {
+          "id": 3,
+          "image": {
+            "texture": null,
+            "path_download": null,
+            "id": null,
+            "filename_download": "Mask Group 3.png",
+            "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
+            "description": null,
+            "title": "Mask Group 3"
+          },
+          "order": 0,
+          "text": null,
+          "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d",
+          "title": "Golden Age Slide 1",
+          "backgroundVideo": null
+        },
+        {
+          "id": 4,
+          "image": {
+            "texture": null,
+            "path_download": null,
+            "id": null,
+            "filename_download": "Mask Group 3.png",
+            "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
+            "description": null,
+            "title": "Mask Group 3"
+          },
+          "order": 0,
+          "text": null,
+          "quote": null,
+          "title": "Golden Age Slide 2",
+          "backgroundVideo": null
+        },
+        {
+          "id": 5,
+          "image": {
+            "texture": null,
+            "path_download": null,
+            "id": null,
+            "filename_download": "Mask Group 3.png",
+            "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
+            "description": null,
+            "title": "Mask Group 3"
+          },
+          "order": 0,
+          "text": " dolore eu fugiat nulla pariatadsfa aa aaswewrerrur. Excepteur sint occaecat cupidatat non proident, sunt in culpa. qui officia deserunt mollit anim id est laborum.",
+          "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d",
+          "title": "Golden Age Slide 3",
+          "backgroundVideo": null
+        }
+      ],
+      "id": 1,
+      "startYear": 1920,
+      "endYear": 1930,
+      "title": "Golden Age",
+      "description": "Donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna."
+    }
   }
 }

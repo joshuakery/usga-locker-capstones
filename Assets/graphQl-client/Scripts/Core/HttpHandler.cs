@@ -13,8 +13,91 @@ namespace GraphQlClient.Core
 {
 	public class HttpHandler
 	{
+		public static async Task<UnityWebRequest> PostAsync(
+			string url,
+			string queryString,
+			object variablesObject,
+			string operationNameString,
+			string authToken = null
+		)
+		{
+			string jsonData = JsonConvert.SerializeObject(
+				new { query = queryString, variables = variablesObject }
+			);
+
+			UTF8Encoding encoding = new UTF8Encoding();
+			byte[] postData = encoding.GetBytes(jsonData);
+
+			UnityWebRequest request = UnityWebRequest.PostWwwForm(url, UnityWebRequest.kHttpVerbPOST);
+
+			request.uploadHandler = new UploadHandlerRaw(postData);
+
+			request.SetRequestHeader("Content-Type", "application/json");
+
+			if (!String.IsNullOrEmpty(authToken))
+				request.SetRequestHeader("Authorization", "Bearer " + authToken);
+
+			OnRequestBegin requestBegin = new OnRequestBegin();
+			requestBegin.FireEvent();
+
+			try
+			{
+				await request.SendWebRequest();
+			}
+			catch (Exception e)
+			{
+				Debug.Log("Testing exceptions");
+				OnRequestEnded requestFailed = new OnRequestEnded(e);
+				requestFailed.FireEvent();
+			}
+			Debug.Log(request.downloadHandler.text);
+
+			OnRequestEnded requestSucceeded = new OnRequestEnded(request.downloadHandler.text);
+			requestSucceeded.FireEvent();
+			return request;
+		}
+
+		/// <summary>
+		/// UnityWebRequest.Post in an async method
+		/// with OnRequestBegin, Failed, Ended callbacks;
+		/// this is an addition to GraphQLClient.Core as downloaded
+		/// </summary>
+		/// <param name="url"></param>
+		/// <param name="form"></param>
+		/// <param name="authToken"></param>
+		/// <returns>request</returns>
+		public static async Task<UnityWebRequest> PostAsync(string url, WWWForm form, string authToken = null)
+        {
+			UnityWebRequest request = UnityWebRequest.Post(url, form);
+
+			request.SetRequestHeader("Content-Type", "application/json");
+
+			if (!String.IsNullOrEmpty(authToken))
+				request.SetRequestHeader("Authorization", "Bearer " + authToken);
+
+			OnRequestBegin requestBegin = new OnRequestBegin();
+			requestBegin.FireEvent();
+
+			try
+			{
+				await request.SendWebRequest();
+			}
+			catch (Exception e)
+			{
+				Debug.Log("Testing exceptions");
+				OnRequestEnded requestFailed = new OnRequestEnded(e);
+				requestFailed.FireEvent();
+			}
+
+			Debug.Log(request.downloadHandler.text);
+
+			OnRequestEnded requestSucceeded = new OnRequestEnded(request.downloadHandler.text);
+			requestSucceeded.FireEvent();
+
+			return request;
+		}
+
 		public static async Task<UnityWebRequest> PostAsync(string url, string details, string authToken = null){
-			Debug.Log(details);
             string jsonData = JsonConvert.SerializeObject(new{query = details});
             byte[] postData = Encoding.ASCII.GetBytes(jsonData);
             UnityWebRequest request = UnityWebRequest.PostWwwForm(url, UnityWebRequest.kHttpVerbPOST);

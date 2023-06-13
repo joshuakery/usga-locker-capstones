@@ -20,9 +20,16 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private UISequenceManager sequenceManager;
 
-        private QueryLoader queryLoader;
+        public string graphQLURL;
+        public string authToken;
+        public string operationName;
 
-        private QueryHolder queryHolder;
+        [Multiline]
+        public string query;
+
+        #region GraphQL Variables
+        public int erasByIdIdVariable = 0;
+        #endregion
 
         [SerializeField]
         private string OnlineContentDirectory;
@@ -36,13 +43,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         #region Monobehaviour Methods
 
-        protected override void Awake()
-        {
-            queryLoader = GetComponent<QueryLoader>();
-            queryHolder = GetComponent<QueryHolder>();
 
-            base.Awake();
-        }
         private void OnEnable()
         {
             if (onPopulateContentFinish != null)
@@ -69,14 +70,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         private async Task LoadGraphContent()
         {
-            /*            await queryLoader.LoadContentCoroutine();
-             *            await new WaitForEndOfFrame();
-            */
+            object variables = new { erasByIdId = erasByIdIdVariable };
 
-
-
-
-            UnityWebRequest request = await HttpHandler.PostAsync(queryLoader.url, queryHolder.GetPostString(), queryLoader.authToken);
+            UnityWebRequest request = await HttpHandler.PostAsync(graphQLURL, query, variables, operationName, authToken);
 
             if (request.result != UnityWebRequest.Result.Success)
             {
@@ -149,6 +145,8 @@ namespace JoshKery.USGA.LockerCapstones
             yield return null;
 
             LockerCapstonesWindow.onSetContent.Invoke();
+            LockerCapstonesStateMachine.onSetContent.Invoke();
+            
         }
 
         private IEnumerator LoadLockerCapstonesMedia()
@@ -167,6 +165,10 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     yield return StartCoroutine(LoadMediaForAccomplishment(accomplishment));
                 }
+            }
+            if (appState.data.era != null)
+            {
+                yield return StartCoroutine(LoadMediaForEra(appState.data.era));
             }
         }
 
@@ -208,6 +210,18 @@ namespace JoshKery.USGA.LockerCapstones
         private IEnumerator LoadMediaForAccomplishment(Accomplishment accomplishment)
         {
             yield return StartCoroutine(LoadMediaFromMediaFile(accomplishment?.image));
+        }
+
+        private IEnumerator LoadMediaForEra(Era era)
+        {
+            if (era?.historySlides != null)
+            {
+                foreach (HistorySlide slide in era.historySlides)
+                {
+                    yield return StartCoroutine(LoadMediaFromMediaFile(slide?.image));
+                    yield return StartCoroutine(LoadMediaFromMediaFile(slide?.backgroundVideo));
+                }
+            }
         }
 
         private IEnumerator LoadMediaFromMediaFile(MediaFile mediaFile)

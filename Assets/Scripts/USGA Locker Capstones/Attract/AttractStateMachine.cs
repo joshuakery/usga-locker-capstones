@@ -17,9 +17,20 @@ namespace JoshKery.USGA.LockerCapstones
 
         public override void SetContent()
         {
+            if (appState == null) { return; }
+
             if (titleField != null)
             {
-                //so how will eras work? will they be like designated on each profile, or will each era have a list of profiles?
+                titleField.text = appState.data?.era?.title;
+            }
+
+            if (dateField != null)
+            {
+                string dateString = string.Format(
+                    "{0} to {1}",
+                    appState.data?.era?.startYear.ToString(), appState.data?.era?.endYear.ToString()
+                );
+                dateField.text = dateString;
             }
         }
     }
