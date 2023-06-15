@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -10,7 +11,22 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class MenuItem : LockerCapstonesWindow
     {
-        public List<string> categories;
+        private List<int> _contentTrailIDs;
+
+        public List<int> contentTrailIDs
+        {
+            get
+            {
+                if (_contentTrailIDs == null)
+                    _contentTrailIDs = new List<int>();
+
+                return _contentTrailIDs;
+            }
+            set
+            {
+                _contentTrailIDs = value;
+            }
+        }
 
         private Button _button;
         public Button button
@@ -40,6 +56,15 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (lockerProfile != null)
             {
+                contentTrailIDs.Clear();
+                if (lockerProfile.contentTrailItems != null)
+                {
+                    contentTrailIDs = lockerProfile.contentTrailItems
+                        .Where(item => (item != null && item.contentTrail != null))
+                        .Select(item => item.contentTrail.id)
+                        .ToList();
+                }
+
                 if (firstNameTextField != null)
                 {
                     firstNameTextField.text = lockerProfile.firstName;

@@ -135,7 +135,8 @@
           }
         ],
         "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": null,
+        "quote": "This is a sample quote.",
+        "quoteByline": "Newspaper",
         "signatureImage": {
           "texture": null,
           "path_download": null,
@@ -144,7 +145,15 @@
           "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
           "description": null,
           "title": "Group 678"
-        }
+        },
+        "contentTrails": [
+          {
+            "contentTrails_id": {
+              "id": 1,
+              "name": "Architects"
+            }
+          }
+        ]
       },
       {
         "id": 4,
@@ -190,6 +199,7 @@
         ],
         "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
         "quote": null,
+        "quoteByline": null,
         "signatureImage": {
           "texture": null,
           "path_download": null,
@@ -198,7 +208,15 @@
           "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
           "description": null,
           "title": "Group 678"
-        }
+        },
+        "contentTrails": [
+          {
+            "contentTrails_id": {
+              "id": 1,
+              "name": "Architects"
+            }
+          }
+        ]
       },
       {
         "id": 5,
@@ -232,6 +250,7 @@
         ],
         "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
         "quote": null,
+        "quoteByline": null,
         "signatureImage": {
           "texture": null,
           "path_download": null,
@@ -240,7 +259,8 @@
           "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
           "description": null,
           "title": "Group 678"
-        }
+        },
+        "contentTrails": []
       },
       {
         "id": 6,
@@ -287,6 +307,7 @@
         ],
         "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
         "quote": null,
+        "quoteByline": null,
         "signatureImage": {
           "texture": null,
           "path_download": null,
@@ -295,7 +316,12 @@
           "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
           "description": null,
           "title": "Group 678"
-        }
+        },
+        "contentTrails": [
+          {
+            "contentTrails_id": null
+          }
+        ]
       },
       {
         "id": 7,
@@ -342,6 +368,7 @@
         ],
         "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
         "quote": null,
+        "quoteByline": null,
         "signatureImage": {
           "texture": null,
           "path_download": null,
@@ -350,7 +377,21 @@
           "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
           "description": null,
           "title": "Group 678"
-        }
+        },
+        "contentTrails": [
+          {
+            "contentTrails_id": {
+              "id": 3,
+              "name": "Innovators"
+            }
+          },
+          {
+            "contentTrails_id": {
+              "id": 4,
+              "name": "Jones Award Winners"
+            }
+          }
+        ]
       },
       {
         "id": 8,
@@ -397,6 +438,7 @@
         ],
         "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
         "quote": null,
+        "quoteByline": null,
         "signatureImage": {
           "texture": null,
           "path_download": null,
@@ -405,7 +447,12 @@
           "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
           "description": null,
           "title": "Group 678"
-        }
+        },
+        "contentTrails": [
+          {
+            "contentTrails_id": null
+          }
+        ]
       }
     ],
     "accomplishmentTypes": [
@@ -497,6 +544,60 @@
       "endYear": 1930,
       "title": "Golden Age",
       "description": "Donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna."
-    }
+    },
+    "contentTrails": [
+      {
+        "id": 1,
+        "name": "Architects"
+      },
+      {
+        "id": 2,
+        "name": "Amateurs"
+      },
+      {
+        "id": 3,
+        "name": "Innovators"
+      },
+      {
+        "id": 4,
+        "name": "Jones Award Winners"
+      },
+      {
+        "id": 5,
+        "name": "Military Service"
+      },
+      {
+        "id": 6,
+        "name": "Industry and Business Leaders"
+      },
+      {
+        "id": 7,
+        "name": "Growth Drivers"
+      },
+      {
+        "id": 8,
+        "name": "Multi Sport Athletes"
+      },
+      {
+        "id": 9,
+        "name": "Quads"
+      },
+      {
+        "id": 10,
+        "name": "Career Grand Slam"
+      },
+      {
+        "id": 11,
+        "name": "Teachers"
+      },
+      {
+        "id": 12,
+        "name": "Voices of the Game"
+      },
+      {
+        "id": 13,
+        "name": "Comeback"
+      }
+    ]
   }
 }

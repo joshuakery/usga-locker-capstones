@@ -21,6 +21,14 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private TMP_Text bodyTextField;
 
+        [SerializeField]
+        private GameObject quoteContainer;
+
+        [SerializeField]
+        private TMP_Text quoteTextField;
+
+        [SerializeField]
+        private TMP_Text bylineTextField;
         public void SetContent(LockerProfile lockerProfile)
         {
             if (lockerProfile != null)
@@ -39,6 +47,22 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     imageField2.texture = lockerProfile.bioImages[1].mediaFile?.texture;
                 }
+
+                if (quoteContainer != null)
+                {
+                    quoteContainer.SetActive( !string.IsNullOrEmpty(lockerProfile.quote) );
+                }
+                
+                if (quoteTextField != null)
+                {
+                    quoteTextField.text = lockerProfile.quote;
+                }
+
+                if (bylineTextField != null)
+                {
+                    bylineTextField.text = lockerProfile.quoteByline;
+                }
+                
 
                 if (lockerMapImage != null)
                 {

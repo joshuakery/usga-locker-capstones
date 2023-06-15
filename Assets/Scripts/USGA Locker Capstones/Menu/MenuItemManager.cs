@@ -13,7 +13,7 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private UIAnimationSequenceData pulseSequence;
 
-        public List<string> selectedCategories;
+        public List<int> selectedContentTrailIDs;
 
         #region Monobehaviour Methods
         protected override void Awake()
@@ -52,7 +52,7 @@ namespace JoshKery.USGA.LockerCapstones
 
                     int id = lockerProfile.id;
                     display.gameObject.name = string.Format("Menu Button: {0} {1} {2}", id, lockerProfile.firstName, lockerProfile.lastName);
-                    display.button.onClick.AddListener(() => { Debug.Log("click"); MainCanvasStateMachine.onAnimateToProfile.Invoke(id); });
+                    display.button.onClick.AddListener(() => { MainCanvasStateMachine.onAnimateToProfile.Invoke(id); });
                 }
             }
         }
@@ -83,11 +83,11 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (childMenuItems != null && childMenuItems.Length > 0)
             {
-                if (selectedCategories != null && selectedCategories.Count > 0)
+                if (selectedContentTrailIDs != null && selectedContentTrailIDs.Count > 0)
                 {
                     foreach (MenuItem menuItem in childMenuItems)
                     {
-                        bool hasAtLeastOneCategoryInCommon = selectedCategories.Intersect(menuItem.categories).Any();
+                        bool hasAtLeastOneCategoryInCommon = selectedContentTrailIDs.Intersect(menuItem.contentTrailIDs).Any();
                         menuItem.gameObject.SetActive(hasAtLeastOneCategoryInCommon);
                     }
                 }
@@ -102,20 +102,19 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
 
-        private void SetSelectedCategory(string category)
+        private void SetSelectedCategory(int contentTrailID)
         {
-            if (selectedCategories == null)
-                selectedCategories = new List<string>();
+            if (selectedContentTrailIDs == null)
+                selectedContentTrailIDs = new List<int>();
 
-            selectedCategories.Clear();
+            selectedContentTrailIDs.Clear();
 
-            if (!string.IsNullOrEmpty(category))
-                selectedCategories.Add(category);
+            selectedContentTrailIDs.Add(contentTrailID);
         }
 
-        private void SetSelectedCategoryAndFilter(string category)
+        private void SetSelectedCategoryAndFilter(int contentTrailID)
         {
-            SetSelectedCategory(category);
+            SetSelectedCategory(contentTrailID);
             Pulse(SequenceType.Join);
         }
         #endregion

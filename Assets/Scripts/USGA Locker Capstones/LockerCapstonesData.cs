@@ -23,6 +23,9 @@ namespace JoshKery.USGA.LockerCapstones
         [JsonProperty("eras_by_id")]
         public Era era { get; set; }
 
+        [JsonProperty("contentTrails")]
+        public List<ContentTrail> contentTrails { get; set; }
+
     }
 
     [Serializable]
@@ -61,8 +64,14 @@ namespace JoshKery.USGA.LockerCapstones
         [JsonProperty("quote")]
         public string quote { get; set; }
 
+        [JsonProperty("quoteByline")]
+        public string quoteByline { get; set; }
+
         [JsonProperty("signatureImage")]
         public MediaFile signatureImage { get; set; }
+
+        [JsonProperty("contentTrails")]
+        public List<ContentTrailItem> contentTrailItems { get; set; }
 
     }
 

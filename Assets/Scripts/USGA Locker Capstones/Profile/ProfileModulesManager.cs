@@ -26,7 +26,7 @@ namespace JoshKery.USGA.LockerCapstones
         private ProfileHeaderFieldsManager profileHeaderFieldsManager;
 
         [SerializeField]
-        private ProfileBiographyFieldsManager profileBiographyFieldsManager;
+        private ProfileBiographyTemplatesManager profileBiographyTemplatesManager;
 
         [SerializeField]
         private ProfileAccomplishmentsManager profileAccomplishmentsManager;
@@ -57,7 +57,12 @@ namespace JoshKery.USGA.LockerCapstones
                 LockerProfile lockerProfile = appState.lockerProfilesDict[id];
 
                 profileHeaderFieldsManager.SetContent(lockerProfile);
-                profileBiographyFieldsManager.SetContent(lockerProfile);
+
+                if (profileBiographyTemplatesManager != null)
+                {
+                    profileBiographyTemplatesManager.SetContent(lockerProfile);
+                }
+                
 
                 if (profileAccomplishmentsManager != null)
                 {

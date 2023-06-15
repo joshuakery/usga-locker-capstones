@@ -20,13 +20,13 @@ namespace JoshKery.USGA.LockerCapstones
 
             if (titleTextField != null)
             {
-                /*titleTextField.text*/
+                titleTextField.text = appState.data?.era?.title;
             }
 
             if (descriptionTextField != null)
             {
-/*                descriptionTextField = 
-*/            }
+                descriptionTextField.text = appState.data?.era?.description;
+            }
         }
     }
 }
