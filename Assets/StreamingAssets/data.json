@@ -212,8 +212,14 @@
         "contentTrails": [
           {
             "contentTrails_id": {
-              "id": 1,
-              "name": "Architects"
+              "id": 3,
+              "name": "Innovators"
+            }
+          },
+          {
+            "contentTrails_id": {
+              "id": 7,
+              "name": "Growth Drivers"
             }
           }
         ]
@@ -260,7 +266,20 @@
           "description": null,
           "title": "Group 678"
         },
-        "contentTrails": []
+        "contentTrails": [
+          {
+            "contentTrails_id": {
+              "id": 7,
+              "name": "Growth Drivers"
+            }
+          },
+          {
+            "contentTrails_id": {
+              "id": 1,
+              "name": "Architects"
+            }
+          }
+        ]
       },
       {
         "id": 6,

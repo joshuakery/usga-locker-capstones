@@ -63,6 +63,7 @@ namespace JoshKery.USGA.LockerCapstones
                         .Where(item => (item != null && item.contentTrail != null))
                         .Select(item => item.contentTrail.id)
                         .ToList();
+                    contentTrailIDs.Add(-1); //the default ALL Inductees category
                 }
 
                 if (firstNameTextField != null)

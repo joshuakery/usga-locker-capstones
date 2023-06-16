@@ -146,6 +146,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             LockerCapstonesWindow.onSetContent.Invoke();
             LockerCapstonesStateMachine.onSetContent.Invoke();
+            FilterButtonsManager.onSetContent.Invoke();
             
         }
 

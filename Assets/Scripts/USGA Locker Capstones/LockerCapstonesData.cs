@@ -25,7 +25,6 @@ namespace JoshKery.USGA.LockerCapstones
 
         [JsonProperty("contentTrails")]
         public List<ContentTrail> contentTrails { get; set; }
-
     }
 
     [Serializable]

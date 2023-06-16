@@ -24,6 +24,7 @@ namespace JoshKery.USGA.LockerCapstones
 
                 BuildLockerProfilesDict();
                 BuildAccomplishmentsDict();
+                BuildContentTrailIDsInThisEraList();
             }
         }
 
@@ -52,11 +53,29 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
 
+        /// <summary>
+        /// List of ids actually available for filtering in this era
+        /// Prepared in advance for use by FilterButtonsManager.SetContent()
+        /// </summary>
+        private List<int> _contentTrailIDsInThisEra;
+        public List<int> contentTrailIDsInThisEra
+        {
+            get
+            {
+                if (_contentTrailIDsInThisEra == null)
+                    _contentTrailIDsInThisEra = new List<int>();
+
+                return _contentTrailIDsInThisEra;
+            }
+        }
+
         #endregion
 
         #region Dictionaries
         private void BuildLockerProfilesDict()
         {
+            lockerProfilesDict.Clear();
+
             if (data?.lockerProfiles != null)
             {
                 foreach (LockerProfile lockerProfile in data.lockerProfiles)
@@ -70,6 +89,8 @@ namespace JoshKery.USGA.LockerCapstones
         }
         private void BuildAccomplishmentsDict()
         {
+            accomplishmentsDict.Clear();
+
             if (data?.accomplishmentTypes != null)
             {
                 foreach (Accomplishment accomplishment in data.accomplishmentTypes)
@@ -77,6 +98,33 @@ namespace JoshKery.USGA.LockerCapstones
                     if (accomplishment != null)
                     {
                         accomplishmentsDict[accomplishment.id] = accomplishment;
+                    }
+                }
+            }
+        }
+        #endregion
+
+        #region Lists
+        private void BuildContentTrailIDsInThisEraList()
+        {
+            contentTrailIDsInThisEra.Clear();
+
+            if (data?.lockerProfiles != null)
+            {
+                foreach (LockerProfile lockerProfile in data.lockerProfiles)
+                {
+                    if (lockerProfile?.contentTrailItems != null)
+                    {
+                        foreach (ContentTrailItem item in lockerProfile.contentTrailItems)
+                        {
+                            if (item?.contentTrail != null)
+                            {
+                                if (!contentTrailIDsInThisEra.Contains(item.contentTrail.id))
+                                {
+                                    contentTrailIDsInThisEra.Add(item.contentTrail.id);
+                                }
+                            }
+                        }
                     }
                 }
             }

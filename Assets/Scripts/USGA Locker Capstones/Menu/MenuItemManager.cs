@@ -2,12 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
+using JoshKery.GenericUI.Events;
 using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
     public class MenuItemManager : LockerCapstonesWindow
     {
+        /// <summary>
+        /// Callback event to be invoked after SetSelectedCategory(int contentTrailID)
+        /// </summary>
+        private static ListIntEvent _onCategorySelectedCallback;
+        public static ListIntEvent onCategorySelectedCallback
+        {
+            get
+            {
+                if (_onCategorySelectedCallback == null)
+                    _onCategorySelectedCallback = new ListIntEvent();
+
+                return _onCategorySelectedCallback;
+            }
+        }
+
+
         private MenuItem[] childMenuItems;
 
         [SerializeField]
@@ -16,12 +34,6 @@ namespace JoshKery.USGA.LockerCapstones
         public List<int> selectedContentTrailIDs;
 
         #region Monobehaviour Methods
-        protected override void Awake()
-        {
-            base.Awake();
-
-            childMenuItems = GetComponentsInChildren<MenuItem>();
-        }
 
         protected override void OnEnable()
         {
@@ -38,9 +50,18 @@ namespace JoshKery.USGA.LockerCapstones
         }
         #endregion
 
+        protected override void ResetChildWindows()
+        {
+            base.ResetChildWindows();
+
+            childMenuItems = GetComponentsInChildren<MenuItem>();
+        }
+
         public override void SetContent()
         {
             if (appState == null) { return; }
+
+            ClearAllDisplays();
 
             List<LockerProfile> lockerProfiles = appState.data?.lockerProfiles;
             if (lockerProfiles != null)
@@ -55,6 +76,8 @@ namespace JoshKery.USGA.LockerCapstones
                     display.button.onClick.AddListener(() => { MainCanvasStateMachine.onAnimateToProfile.Invoke(id); });
                 }
             }
+
+            ResetChildWindows();
         }
 
         #region Pulse Animation Methods
@@ -110,6 +133,8 @@ namespace JoshKery.USGA.LockerCapstones
             selectedContentTrailIDs.Clear();
 
             selectedContentTrailIDs.Add(contentTrailID);
+
+            onCategorySelectedCallback.Invoke(selectedContentTrailIDs);
         }
 
         private void SetSelectedCategoryAndFilter(int contentTrailID)
