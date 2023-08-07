@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "com.coffee.softmask-for-ugui": "https://github.com/mob-sakai/SoftMaskForUGUI.git#1.0.2",
-    "com.joshkery.genericui": "file:C:/Users/joshu/Documents/GitHub/com.joshkery.genericui/com.joshkery.genericui",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.feature.2d": "1.0.0",
     "com.unity.ide.rider": "3.0.21",

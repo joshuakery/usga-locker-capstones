@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.GenericUI.AspectRatio;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -13,13 +14,18 @@ namespace JoshKery.USGA.LockerCapstones
         private AppState appState;
 
         [SerializeField]
-        private RawImage iconRI;
+        private RawImageManager iconRI;
 
         [SerializeField]
         private TMP_Text titleTextField;
 
         [SerializeField]
         private TMP_Text numberTextField;
+
+        public Button infoButton;
+
+        public GameObject infoIcon;
+
         public void SetContent(EarnedAccomplishment earnedAccomplishment)
         {
             Accomplishment accomplishmentDefault = null;

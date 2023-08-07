@@ -9,6 +9,7 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class MainCanvasStateMachine : BaseWindow
     {
+        #region UnityEvents
         private static UnityEvent _onAnimateToAttract;
         public static UnityEvent onAnimateToAttract
         {
@@ -56,7 +57,9 @@ namespace JoshKery.USGA.LockerCapstones
                 return _onAnimateToProfile;
             }
         }
+        #endregion
 
+        #region Monobehaviour Methods
         protected override void OnEnable()
         {
             base.OnEnable();
@@ -79,7 +82,9 @@ namespace JoshKery.USGA.LockerCapstones
 
             onAnimateToProfile.RemoveListener(AnimateToProfile);
         }
+        #endregion
 
+        #region FIELDS
         [SerializeField]
         private UIAnimationSequenceData toAttractSequence;
 
@@ -91,7 +96,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private UIAnimationSequenceData toProfileSequence;
+        #endregion
 
+        #region Animate Methods
         public void AnimateToAttract()
         {
             _WindowAction(toAttractSequence, SequenceType.Join);
@@ -113,6 +120,7 @@ namespace JoshKery.USGA.LockerCapstones
             ProfileModulesManager.onResetContent.Invoke(id);
             _WindowAction(toProfileSequence, SequenceType.Join);
         }
+        #endregion
 
         public void InvokeOnAnimateToIntro()
         {

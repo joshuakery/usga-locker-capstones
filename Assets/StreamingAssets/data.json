@@ -65,49 +65,33 @@
         "accomplishments": [
           {
             "earnedAccomplishments_id": {
-              "id": 3,
-              "timesEarned": 1,
-              "customImage": {
-                "texture": null,
-                "path_download": null,
-                "id": "196642f3-a02b-4231-b60f-38416393e60c",
-                "filename_download": "Group 3559.png",
-                "filename_disk": "196642f3-a02b-4231-b60f-38416393e60c.png",
-                "description": null,
-                "title": null
-              },
-              "customDescription": "British Open First Place",
+              "id": 5,
+              "timesEarned": 3,
+              "customImage": null,
+              "customDescription": null,
               "type": {
-                "id": 1,
+                "id": 3,
                 "description": null,
                 "name": null,
                 "image": null
               }
             },
-            "id": 3
+            "id": 10
           },
           {
             "earnedAccomplishments_id": {
-              "id": 4,
-              "timesEarned": 1,
-              "customImage": {
-                "texture": null,
-                "path_download": null,
-                "id": "b0d6f222-8dff-4fc2-85ec-0b1ab58bbe28",
-                "filename_download": "Group 4529.png",
-                "filename_disk": "b0d6f222-8dff-4fc2-85ec-0b1ab58bbe28.png",
-                "description": null,
-                "title": "Group 4529"
-              },
-              "customDescription": "custom description",
+              "id": 6,
+              "timesEarned": 7,
+              "customImage": null,
+              "customDescription": null,
               "type": {
-                "id": 2,
+                "id": 3,
                 "description": null,
                 "name": null,
                 "image": null
               }
             },
-            "id": 9
+            "id": 11
           }
         ],
         "bioImages": [
@@ -501,6 +485,20 @@
           "filename_disk": "baa6fc06-9c9f-492f-95e4-bfd78d0b6071.png",
           "description": null,
           "title": "Screen Shot 2023 01 27 at 1.24.50 Pm"
+        }
+      },
+      {
+        "id": 3,
+        "description": null,
+        "name": "Empty Accomplishment",
+        "image": {
+          "texture": null,
+          "path_download": null,
+          "id": "743f0d09-2982-4cb5-a4c9-ed85119bb15f",
+          "filename_download": "noun-house-5659418.png",
+          "filename_disk": "743f0d09-2982-4cb5-a4c9-ed85119bb15f.png",
+          "description": null,
+          "title": "Noun House 5659418"
         }
       }
     ],

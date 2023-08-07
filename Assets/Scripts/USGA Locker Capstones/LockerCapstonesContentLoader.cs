@@ -121,7 +121,7 @@ namespace JoshKery.USGA.LockerCapstones
         #endregion
 
         #region Save Local Content to Disk Override
-        protected override void SaveContentFileToDisk(string text)
+        public override void SaveContentFileToDisk(string text)
         {
             string aux = JsonConvert.SerializeObject(JsonConvert.DeserializeObject<LockerCapstonesDataWrapper>(text), Formatting.Indented);
 

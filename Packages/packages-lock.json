@@ -7,15 +7,6 @@
       "dependencies": {},
       "hash": "b870d64b5704a764fd03aaccb11f2dbe652b1756"
     },
-    "com.joshkery.genericui": {
-      "version": "file:C:/Users/joshu/Documents/GitHub/com.joshkery.genericui/com.joshkery.genericui",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.textmeshpro": "3.0.6",
-        "com.unity.nuget.newtonsoft-json": "3.2.1"
-      }
-    },
     "com.unity.2d.animation": {
       "version": "9.0.2",
       "depth": 1,
