@@ -251,7 +251,21 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         {
             if (tweenData.baseWindow == null) { return null; }
 
-            return tweenData.baseWindow.GetWindowAction(tweenData.windowAction);
+            Tween tween = tweenData.baseWindow.GetWindowAction(tweenData.windowAction);
+
+            tween.OnStart(() =>
+            {
+                if (tweenData.onStartEvent != null)
+                    tweenData.onStartEvent.Invoke();
+            });
+
+            tween.OnComplete(() =>
+            {
+                if (tweenData.onCompleteEvent != null)
+                    tweenData.onCompleteEvent.Invoke();
+            });
+
+            return tween;
         }
 
         /// <summary>
@@ -263,7 +277,21 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         {
             if (tweenData.baseStateMachine == null) { return null; }
 
-            return tweenData.baseStateMachine.GetStateMachineAction(tweenData.stateToAnimateTo);
+            Tween tween = tweenData.baseStateMachine.GetStateMachineAction(tweenData.stateToAnimateTo);
+
+            tween.OnStart(() =>
+            {
+                if (tweenData.onStartEvent != null)
+                    tweenData.onStartEvent.Invoke();
+            });
+
+            tween.OnComplete(() =>
+            {
+                if (tweenData.onCompleteEvent != null)
+                    tweenData.onCompleteEvent.Invoke();
+            });
+
+            return tween;
         }
 
         /// <summary>

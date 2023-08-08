@@ -17,8 +17,7 @@ namespace JoshKery.GenericUI.Carousel
 
         public bool doLoop = false;
 
-        [SerializeField]
-        private UISequenceManager sequenceManager;
+        public UISequenceManager sequenceManager;
 
         /// <summary>
         /// Gets id used in slideOrder List of slideManager

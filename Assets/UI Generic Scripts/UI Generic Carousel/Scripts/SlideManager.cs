@@ -7,6 +7,7 @@ namespace JoshKery.GenericUI.Carousel
 {
     public class SlideManager : BaseDisplay
     {
+        #region Slide Tracking Dict and List
         private Dictionary<string, SlideDisplay> _slideDisplays;
         public Dictionary<string, SlideDisplay> slideDisplays
         {
@@ -38,12 +39,31 @@ namespace JoshKery.GenericUI.Carousel
                 _slideOrder = value;
             }
         }
+        #endregion
 
+        #region FIELDS
         [SerializeField]
         protected SlideManager navbarManager;
 
-        public UnityEvent onInitialized;
+        [SerializeField]
+        private bool doUseExistingChildren = false;
+        #endregion
 
+        #region Events
+        public UnityEvent onInitialized;
+        #endregion
+
+        #region Monobehaviour Methods
+        protected override void Awake()
+        {
+            if (!doUseExistingChildren)
+                base.Awake();
+            else
+                InitializeWithExistingChildren();
+        }
+        #endregion
+
+        #region Initialization
         public void InstantiateSlideDisplays(int n)
         {
             ClearAllDisplays();
@@ -73,6 +93,38 @@ namespace JoshKery.GenericUI.Carousel
         }
 
         /// <summary>
+        /// We can optionally define all the slides in the carousel in the Editor
+        /// and initialize them here.
+        /// </summary>
+        public void InitializeWithExistingChildren()
+        {
+            childDisplays.Clear(); //clear lists but don't destroy children
+            slideDisplays.Clear();
+            slideOrder.Clear();
+
+            SlideDisplay[] displays = childDisplaysContainer.gameObject.GetComponentsInChildren<SlideDisplay>();
+
+            for (int i=0; i<displays.Length; i++)
+            {
+                SlideDisplay display = displays[i];
+                childDisplays.Add(display);
+                slideDisplays[i.ToString()] = display;
+                slideOrder.Add(i.ToString());
+            }
+
+            if (navbarManager != null)
+            {
+                navbarManager.ClearAllDisplays();
+                navbarManager.InstantiateSlideDisplays(displays.Length);
+            }
+
+            onInitialized.Invoke();
+
+        }
+        #endregion
+
+        #region Helper Methods
+        /// <summary>
         /// Gets an id string from slideOrder
         /// </summary>
         /// <param name="currentSlideIndex">Index of id to get</param>
@@ -88,6 +140,7 @@ namespace JoshKery.GenericUI.Carousel
                 return null;
             }
         }
+        #endregion
 
 
     }

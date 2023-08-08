@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.GenericUI.Carousel;
 
 
 namespace JoshKery.USGA.LockerCapstones
@@ -14,6 +15,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private TMP_Text dateField;
+
+        [SerializeField]
+        private SlideManager slideManager;
 
         public override void SetContent()
         {
@@ -32,6 +36,11 @@ namespace JoshKery.USGA.LockerCapstones
                 );
                 dateField.text = dateString;
             }
+
+            /*if (slideManager != null)
+            {
+                slideManager.InitializeWithExistingChildren();
+            }*/
         }
     }
 }
