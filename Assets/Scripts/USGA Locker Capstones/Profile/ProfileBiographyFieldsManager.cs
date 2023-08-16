@@ -4,19 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using JoshKery.USGA.Directus;
+using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class ProfileBiographyFieldsManager : MonoBehaviour
+    public class ProfileBiographyFieldsManager : BaseWindow
     {
         [SerializeField]
-        private RawImage lockerMapImage;
+        private TMP_Text nameTextField;
 
         [SerializeField]
-        private RawImage imageField1;
-
-        [SerializeField]
-        private RawImage imageField2;
+        private TMP_Text birthDeathInfoTextField;
 
         [SerializeField]
         private TMP_Text bodyTextField;
@@ -29,23 +27,23 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private TMP_Text bylineTextField;
+
+        [SerializeField]
+        private ProfileBioImagesManager bioImagesManager;
+
         public void SetContent(LockerProfile lockerProfile)
         {
             if (lockerProfile != null)
             {
+                if (nameTextField != null)
+                    nameTextField.text = lockerProfile.fullName;
+
+                if (birthDeathInfoTextField != null)
+                    birthDeathInfoTextField.text = lockerProfile.lifeDates + "\n" + lockerProfile.birthplace;
+
                 if (bodyTextField != null)
                 {
                     bodyTextField.text = lockerProfile.bioText;
-                }
-
-                if (imageField1 != null && lockerProfile.bioImages != null && lockerProfile.bioImages.Count >= 1)
-                {
-                    imageField1.texture = lockerProfile.bioImages[0].mediaFile?.texture;
-                }
-
-                if (imageField2 != null && lockerProfile.bioImages != null && lockerProfile.bioImages.Count >= 2)
-                {
-                    imageField2.texture = lockerProfile.bioImages[1].mediaFile?.texture;
                 }
 
                 if (quoteContainer != null)
@@ -62,12 +60,9 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     bylineTextField.text = lockerProfile.quoteByline;
                 }
-                
 
-                if (lockerMapImage != null)
-                {
-/*                    lockerMapImage.texture = 
-*/                }
+                if (bioImagesManager != null)
+                    bioImagesManager.SetContent(lockerProfile);
             }
 
 

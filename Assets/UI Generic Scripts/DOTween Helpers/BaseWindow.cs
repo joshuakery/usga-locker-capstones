@@ -85,10 +85,10 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         public bool doOpenOnStartToSet = true;
 
         [SerializeField]
-        private UIAnimationSequenceData openSequence;
+        protected UIAnimationSequenceData openSequence;
 
         [SerializeField]
-        private UIAnimationSequenceData closeSequence;
+        protected UIAnimationSequenceData closeSequence;
 
         /// <summary>
         /// Array of BaseWindows that are used when an animation is prepared using
@@ -508,6 +508,11 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         {
             _Open(SequenceType.Insert, atPosition);
         }
+
+        public virtual void Open()
+        {
+            _Open(SequenceType.Join);
+        }
         #endregion
 
         #region Window Close Methods
@@ -528,6 +533,39 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         public virtual void Close(float atPosition)
         {
             _Close(SequenceType.Insert, atPosition);
+        }
+
+        public virtual void Close()
+        {
+            _Close(SequenceType.Join);
+        }
+        #endregion
+
+        #region Window Toggle Methods
+        protected virtual void _Toggle(
+            SequenceType sequenceType = SequenceType.UnSequenced,
+            float atPosition = 0f
+        )
+        {
+            if (isOpen)
+                _Close(sequenceType, atPosition);
+            else
+                _Open(sequenceType, atPosition);
+        }
+
+        public virtual void Toggle(SequenceType sequenceType = SequenceType.UnSequenced)
+        {
+            _Toggle(sequenceType);
+        }
+
+        public virtual void Toggle(float atPosition)
+        {
+            _Toggle(SequenceType.Insert, atPosition);
+        }
+
+        public virtual void Toggle()
+        {
+            _Toggle(SequenceType.Join);
         }
         #endregion
 

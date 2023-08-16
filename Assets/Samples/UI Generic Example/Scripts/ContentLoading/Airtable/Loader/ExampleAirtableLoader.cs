@@ -40,11 +40,11 @@ namespace JoshKery.GenericUI.Example
         }
 
         //--------------------------------------Target Load Airtable--------------------------------------
-        protected override IEnumerator AirtableResponseFinishCo(List<BaseRecord<ExampleFields>> records)
+        protected override IEnumerator AirtableResponseFinish(List<BaseRecord<ExampleFields>> records)
         {
             yield return StartCoroutine(LoadMedia(records));
             yield return StartCoroutine(PopulateContent(records));
-            yield return StartCoroutine(base.AirtableResponseFinishCo(records));
+            yield return StartCoroutine(base.AirtableResponseFinish(records));
         }
 
         //--------------------------------------Fallback Load Local--------------------------------------

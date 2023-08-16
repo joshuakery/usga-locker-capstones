@@ -8,16 +8,26 @@ namespace JoshKery.GenericUI.ContentLoading.Airtable
 {
     public abstract class AirtableErrorDisplayManager<T> : BaseDisplay
     {
+        [SerializeField]
+        private AirtableLoader<T> airtableLoader;
+
         private void OnEnable()
         {
-            AirtableLoader<T>.onAirtableResponseFail += InstantiateErrorDisplay;
-            AirtableLoader<T>.onAirtableResponseFinish += InstantiateSuccessDisplay;
+            if (airtableLoader != null)
+            {
+                airtableLoader.onAirtableResponseFail += InstantiateErrorDisplay;
+                airtableLoader.onAirtableResponseFinish += InstantiateSuccessDisplay;
+            }
+            
         }
 
         private void OnDisable()
         {
-            AirtableLoader<T>.onAirtableResponseFail -= InstantiateErrorDisplay;
-            AirtableLoader<T>.onAirtableResponseFinish -= InstantiateSuccessDisplay;
+            if (airtableLoader != null)
+            {
+                airtableLoader.onAirtableResponseFail -= InstantiateErrorDisplay;
+                airtableLoader.onAirtableResponseFinish -= InstantiateSuccessDisplay;
+            }
         }
 
         protected void InstantiateSuccessDisplay(List<BaseRecord<T>> records)

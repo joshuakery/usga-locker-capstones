@@ -5,16 +5,20 @@ using UnityEngine;
 using UnityEngine.Networking;
 using AirtableUnity.PX.Model;
 using Newtonsoft.Json;
+using rlmg.logging;
 
 namespace JoshKery.GenericUI.ContentLoading.Airtable
 {
     public abstract class AirtableLoader<T> : ContentLoader
     {
-        public delegate void OnAirtableResponseFinish(List<BaseRecord<T>> records);
-        public static OnAirtableResponseFinish onAirtableResponseFinish;
+        public delegate void OnAirtableResponseSuccess(List<BaseRecord<T>> records);
+        public OnAirtableResponseSuccess onAirtableResponseSuccess;
 
         public delegate void OnAirtableResponseFail(AirtableUnity.PX.Response response, UnityWebRequest request);
-        public static OnAirtableResponseFail onAirtableResponseFail;
+        public OnAirtableResponseFail onAirtableResponseFail;
+
+        public delegate void OnAirtableResponseFinish(List<BaseRecord<T>> records);
+        public OnAirtableResponseFinish onAirtableResponseFinish;
 
         public string DefaultTableName;
         public string DefaultFilterByFormula;
@@ -22,6 +26,7 @@ namespace JoshKery.GenericUI.ContentLoading.Airtable
         [SerializeField]
         private AirtableLocalConfigLoader airtableLocalConfigLoader;
 
+        #region Monobehaviour Methods
         protected override void Awake()
         {
             base.Awake();
@@ -41,54 +46,92 @@ namespace JoshKery.GenericUI.ContentLoading.Airtable
             if (airtableLocalConfigLoader != null)
                 airtableLocalConfigLoader.onPopulateContentFinish.RemoveListener(LoadContent);
         }
+        #endregion
 
-        //--------------------------------------Load Airtable Content--------------------------------------
         protected override IEnumerator LoadTargetContent()
         {
             yield return LoadAirtableContent();
         }
 
-        //--------------------------------------Load Airtable Content Helpers--------------------------------------
+        #region Load Airtable Content Helpers
         protected virtual IEnumerator LoadAirtableContent()
         {
-            yield return StartCoroutine(
-                AirtableUnity.PX.Proxy.ListRecordsCo<T>(
-                    DefaultTableName,
-                    AirtableResponseFinish,
-                    AirtableResponseFail,
-                    DefaultFilterByFormula
-                )
-            );
+            var recordsToReturn = new List<BaseRecord<T>>();
+            string curOffset = "";
+
+            do
+            {
+                using (UnityWebRequest request = AirtableUnity.PX.Proxy.ListRecords(DefaultTableName, curOffset, DefaultFilterByFormula))
+                {
+                    yield return request.SendWebRequest();
+                    AirtableUnity.PX.Response response = AirtableUnity.PX.Proxy.GetResponse(request);
+
+                    if (response.Success)
+                    {
+                        try
+                        {
+                            var recordsFound = response?.GetAirtableData<T>()?.records;
+
+                            if (recordsFound?.Count > 0)
+                                recordsToReturn.AddRange(recordsFound);
+
+                            curOffset = response?.GetAirtableData<T>()?.offset;
+                        }
+                        catch (Exception e)
+                        {
+                            RLMGLogger.Instance.Log(response.Message, MESSAGETYPE.ERROR);
+                            RLMGLogger.Instance.Log(e.ToString(), MESSAGETYPE.ERROR);
+                        }
+
+                        yield return StartCoroutine(AirtableResponseSuccess(recordsToReturn));
+                    }
+                    else
+                    {
+                        RLMGLogger.Instance.Log(response.Message, MESSAGETYPE.ERROR);
+                        yield return StartCoroutine(AirtableResponseFail(response, request));
+                    }
+                }
+            } while (!string.IsNullOrEmpty(curOffset));
+
+            yield return StartCoroutine(AirtableResponseFinish(recordsToReturn));
         }
 
-        protected virtual void AirtableResponseFinish(List<BaseRecord<T>> records)
+        protected virtual IEnumerator AirtableResponseSuccess(List<BaseRecord<T>> records)
         {
-            if (onAirtableResponseFinish != null)
-                onAirtableResponseFinish.Invoke(records);
-
-            StartCoroutine(AirtableResponseFinishCo(records));
-        }
-
-        protected virtual IEnumerator AirtableResponseFinishCo(List<BaseRecord<T>> records)
-        {
-            string text = JsonConvert.SerializeObject(records, Formatting.Indented);
-            SaveContentFileToDisk(text);
-
-            if (onPopulateContentFinish != null)
-                onPopulateContentFinish.Invoke();
+            if (onAirtableResponseSuccess != null)
+                onAirtableResponseSuccess.Invoke(records);
 
             yield return null;
+
+            string text = JsonConvert.SerializeObject(records, Formatting.Indented);
+            SaveContentFileToDisk(text);
         }
 
-        protected virtual void AirtableResponseFail(AirtableUnity.PX.Response response, UnityWebRequest request)
+        protected virtual IEnumerator AirtableResponseFail(AirtableUnity.PX.Response response, UnityWebRequest request)
         {
             if (onAirtableResponseFail != null)
                 onAirtableResponseFail.Invoke(response, request);
 
+            yield return null;
+
             StartCoroutine(LoadLocalContent());
         }
 
-        //--------------------------------------Updating Airtable Fields--------------------------------------
+        protected virtual IEnumerator AirtableResponseFinish(List<BaseRecord<T>> records)
+        {
+            if (onAirtableResponseFinish != null)
+                onAirtableResponseFinish.Invoke(records);
+
+            yield return null;
+
+            if (onPopulateContentFinish != null)
+                onPopulateContentFinish.Invoke();
+        }
+
+        
+        #endregion
+
+        #region Updating Airtable Fields
         public IEnumerator UpdateRecordCo(
             string tableName,
             string recordId,
@@ -103,6 +146,7 @@ namespace JoshKery.GenericUI.ContentLoading.Airtable
                     callback?.Invoke(baseRecordUpdated);
                 }, useHardUpdate));
         }
+        #endregion
 
 
     }

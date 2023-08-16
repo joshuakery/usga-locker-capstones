@@ -86,6 +86,8 @@ namespace JoshKery.USGA.LockerCapstones
 
         private async Task GraphResponseSuccess(string text)
         {
+            Debug.Log(text);
+
             SaveContentFileToDisk(text);
 
             await PopulateContent(text);

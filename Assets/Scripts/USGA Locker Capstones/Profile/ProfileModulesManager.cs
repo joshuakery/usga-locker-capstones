@@ -26,13 +26,13 @@ namespace JoshKery.USGA.LockerCapstones
         private ProfileHeaderFieldsManager profileHeaderFieldsManager;
 
         [SerializeField]
-        private ProfileBiographyTemplatesManager profileBiographyTemplatesManager;
+        private ProfileBiographyFieldsManager profileBiographyFieldsManager;
 
         [SerializeField]
         private ProfileAccomplishmentsManager profileAccomplishmentsManager;
 
         [SerializeField]
-        private ProfileMediaGalleryManager profileMediaGalleryManager;
+        private MediaGalleryManager profileMediaGalleryManager;
 
         protected override void OnEnable()
         {
@@ -50,48 +50,50 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void SetContent(int id)
         {
-            if (appState == null) { return; }
+            if (appState?.data == null) { return; }
 
-            if (appState.lockerProfilesDict.ContainsKey(id))
+            if (appState.data.lockerProfilesDict.ContainsKey(id))
             {
-                LockerProfile lockerProfile = appState.lockerProfilesDict[id];
+                LockerProfile lockerProfile = appState.data.lockerProfilesDict[id];
 
-                profileHeaderFieldsManager.SetContent(lockerProfile);
-
-                if (profileBiographyTemplatesManager != null)
+                if (lockerProfile != null)
                 {
-                    profileBiographyTemplatesManager.SetContent(lockerProfile);
-                }
-                
+                    if (profileHeaderFieldsManager != null)
+                        profileHeaderFieldsManager.SetContent(lockerProfile);
 
-                if (profileAccomplishmentsManager != null)
-                {
-                    if (lockerProfile?.earnedAccomplishmentItems?.Where(item => item.earnedAccomplishment != null).ToList().Count > 0)
+                    if (profileBiographyFieldsManager != null)
                     {
-                        profileAccomplishmentsManager.gameObject.SetActive(true);
-                        profileAccomplishmentsManager.SetContent(lockerProfile);
+                        profileBiographyFieldsManager.gameObject.SetActive(true);
+                        profileBiographyFieldsManager.SetContent(lockerProfile);
                     }
-                    else
-                    {
-                        profileAccomplishmentsManager.gameObject.SetActive(false);
-                    }
-                }
+                        
 
-
-                if (profileMediaGalleryManager != null)
-                {
-                    if (lockerProfile?.media?.Where(item => item.mediaFile != null).ToList().Count > 0)
+                    if (profileAccomplishmentsManager != null)
                     {
-                        profileMediaGalleryManager.gameObject.SetActive(true);
-                        profileMediaGalleryManager.SetContent(lockerProfile);
+                        if (lockerProfile.hasAccomplishments)
+                        {
+                            profileAccomplishmentsManager.gameObject.SetActive(true);
+                            profileAccomplishmentsManager.SetContent(lockerProfile);
+                        }
+                        else
+                        {
+                            profileAccomplishmentsManager.gameObject.SetActive(false);
+                        }
                     }
-                    else
-                    {
-                        profileMediaGalleryManager.gameObject.SetActive(false);
-                    }
-                }
 
-                    
+                    if (profileMediaGalleryManager != null)
+                    {
+                        if (lockerProfile.hasMedia)
+                        {
+                            profileMediaGalleryManager.gameObject.SetActive(true);
+                            profileMediaGalleryManager.SetContent(lockerProfile);
+                        }
+                        else
+                        {
+                            profileMediaGalleryManager.gameObject.SetActive(false);
+                        }
+                    }
+                }  
             }
 
         }

@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.37254903, b: 0.38039216, a: 1}
+  m_Color: {r: 0, g: 0.23137255, b: 0.28627452, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -353,8 +353,8 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 30
-  m_PreferredHeight: 30
+  m_PreferredWidth: 17.5
+  m_PreferredHeight: 17.5
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
@@ -375,6 +375,8 @@ MonoBehaviour:
   childDisplayPrefab: {fileID: 0}
   sequenceManager: {fileID: 11400000, guid: d0c92ac1ddddf6a4ea4f0b19a2198714, type: 2}
   isOpen: 1
+  doSyncChildWindows: 1
+  exemptions: []
   doOpenOnStartToSet: 1
   openSequence:
     sequenceType: 0
@@ -394,6 +396,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  childWindows: []
   outForNextSequence:
     sequenceType: 0
     individualSequencingData:
@@ -413,6 +416,8 @@ MonoBehaviour:
       childSequenceType: 0
       doOffsetChildrenFromTheirStarts: 0
       childOffset: 0
+      baseStateMachine: {fileID: 0}
+      stateToAnimateTo: 0
     onStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -438,6 +443,8 @@ MonoBehaviour:
       childSequenceType: 0
       doOffsetChildrenFromTheirStarts: 0
       childOffset: 0
+      baseStateMachine: {fileID: 0}
+      stateToAnimateTo: 0
     onStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -463,6 +470,8 @@ MonoBehaviour:
       childSequenceType: 0
       doOffsetChildrenFromTheirStarts: 0
       childOffset: 0
+      baseStateMachine: {fileID: 0}
+      stateToAnimateTo: 0
     onStartEvent:
       m_PersistentCalls:
         m_Calls: []
@@ -488,6 +497,8 @@ MonoBehaviour:
       childSequenceType: 0
       doOffsetChildrenFromTheirStarts: 0
       childOffset: 0
+      baseStateMachine: {fileID: 0}
+      stateToAnimateTo: 0
     onStartEvent:
       m_PersistentCalls:
         m_Calls: []

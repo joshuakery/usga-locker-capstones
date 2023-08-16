@@ -210,4 +210,74 @@ public static class RectTransformExtensions
                 }
         }
     }
+
+    public static void SetPivot(this RectTransform rectTransform, PivotPresets preset, bool doReposition)
+    {
+        if (rectTransform == null) return;
+
+        Vector2 pivot = new Vector2(0, 0);
+        switch (preset)
+        {
+            case (PivotPresets.TopLeft):
+                {
+                    pivot = new Vector2(0, 1);
+                    break;
+                }
+            case (PivotPresets.TopCenter):
+                {
+                    pivot = new Vector2(0.5f, 1);
+                    break;
+                }
+            case (PivotPresets.TopRight):
+                {
+                    pivot = new Vector2(1, 1);
+                    break;
+                }
+
+            case (PivotPresets.MiddleLeft):
+                {
+                    pivot = new Vector2(0, 0.5f);
+                    break;
+                }
+            case (PivotPresets.MiddleCenter):
+                {
+                    pivot = new Vector2(0.5f, 0.5f);
+                    break;
+                }
+            case (PivotPresets.MiddleRight):
+                {
+                    pivot = new Vector2(1, 0.5f);
+                    break;
+                }
+
+            case (PivotPresets.BottomLeft):
+                {
+                    pivot = new Vector2(0, 0);
+                    break;
+                }
+            case (PivotPresets.BottomCenter):
+                {
+                    pivot = new Vector2(0.5f, 0);
+                    break;
+                }
+            case (PivotPresets.BottomRight):
+                {
+                    pivot = new Vector2(1, 0);
+                    break;
+                }
+        }
+
+        if (doReposition)
+        {
+            rectTransform.pivot = pivot;
+        }
+        else
+        {
+            Vector2 size = rectTransform.rect.size;
+            Vector2 deltaPivot = rectTransform.pivot - pivot;
+            Vector3 deltaPosition = new Vector3(deltaPivot.x * size.x, deltaPivot.y * size.y);
+            rectTransform.pivot = pivot;
+            rectTransform.localPosition -= deltaPosition;
+        }
+    }
 }

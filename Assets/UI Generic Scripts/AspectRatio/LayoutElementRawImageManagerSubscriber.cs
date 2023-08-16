@@ -35,15 +35,22 @@ namespace JoshKery.GenericUI.AspectRatio
         {
             if (le != null)
             {
+                float ratio = (float)size.x / (float)size.y;
+
                 switch (aspectMode)
                 {
                     case AspectRatioFitter.AspectMode.HeightControlsWidth:
-                        float ratio = (float)size.x / (float)size.y;
                         le.preferredWidth = le.preferredHeight * ratio;
                         break;
                     case AspectRatioFitter.AspectMode.WidthControlsHeight:
-                        float inverseRatio = (float)size.y / (float)size.x;
-                        le.preferredHeight = le.preferredWidth * inverseRatio;
+                        le.preferredHeight = le.preferredWidth * ( 1f / ratio );
+                        break;
+                    case AspectRatioFitter.AspectMode.FitInParent:
+                        float parentRatio = (float)le.preferredWidth / (float)le.preferredHeight;
+                        if (ratio > parentRatio)
+                            le.preferredHeight = le.preferredWidth * (1f / ratio);
+                        else if (ratio < parentRatio)
+                            le.preferredWidth = le.preferredHeight * ratio;
                         break;
                     default:
                         le.preferredWidth = size.x;

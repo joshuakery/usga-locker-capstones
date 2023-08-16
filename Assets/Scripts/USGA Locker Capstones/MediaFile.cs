@@ -25,7 +25,10 @@ namespace JoshKery.USGA.Directus
         #endregion
 
         #region Other Fields
+        [JsonIgnore]
         public Texture2D texture;
+
+        [JsonIgnore]
         public string path_download;
         #endregion
 

@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteAlways]
-public class FlexibleUIBase : MonoBehaviour {
+public class FlexibleUIBase : MonoBehaviour
+{
+    public delegate void AllOnSkinUI();
+    public static AllOnSkinUI allOnSkinUI;
 
     public FlexibleUIData skinData;
 
@@ -15,6 +18,16 @@ public class FlexibleUIBase : MonoBehaviour {
     public virtual void Awake()
     {
         OnSkinUI();
+    }
+
+    private void OnEnable()
+    {
+            allOnSkinUI += OnSkinUI;
+    }
+
+    private void OnDisable()
+    {
+            allOnSkinUI -= OnSkinUI;
     }
 
 

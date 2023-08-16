@@ -1,3 +1,7 @@
 {
-
+  "eraID": 1,
+  "hex": "#003B49",
+  "timeout": 60,
+  "attractMediaDirectoryName": "attractMedia",
+  "attractInterval": 11
 }

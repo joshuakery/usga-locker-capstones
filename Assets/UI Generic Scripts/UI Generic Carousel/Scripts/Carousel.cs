@@ -10,7 +10,7 @@ namespace JoshKery.GenericUI.Carousel
     public class Carousel : MonoBehaviour
     {
         #region FIELDS
-        private int CurrentSlideIndex = -1;
+        protected int CurrentSlideIndex = -1;
 
         public SlideManager slideManager;
         public Carousel navbar;
@@ -70,7 +70,7 @@ namespace JoshKery.GenericUI.Carousel
         /// <summary>
         /// Trigger a transition out animation for all slides
         /// </summary>
-        private void SlideOutAll()
+        protected virtual void SlideOutAll()
         {
             foreach (KeyValuePair<string, SlideDisplay> kvp in slideManager.slideDisplays)
             {
@@ -162,7 +162,7 @@ namespace JoshKery.GenericUI.Carousel
         /// "Direction" slides should animate, used to override Default order in slideManager.slidesOrder;
         /// Should the new slide move as if it were next in the sequence, or previous?
         /// </summary>
-        private enum ForceDirection
+        protected enum ForceDirection
         {
             Default = 0,
             NewIsNext = 1,
@@ -177,7 +177,7 @@ namespace JoshKery.GenericUI.Carousel
         /// <param name="newSlideIndex">Slide index to transition to.</param>
         /// <param name="forceDirection">Direction slides should animate.</param>
         /// <param name="doCompleteCurrentSequence">If true, current sequence completes before creating new tweens</param>
-        private void GoToSlide(
+        protected virtual void GoToSlide(
             int oldSlideIndex, int newSlideIndex,
             ForceDirection forceDirection = ForceDirection.Default,
             bool doCompleteCurrentSequence = true
@@ -195,14 +195,14 @@ namespace JoshKery.GenericUI.Carousel
 
                     if (forceDirection == ForceDirection.NewIsNext ||
                         (forceDirection == ForceDirection.Default && newSlideIndex > oldSlideIndex)
-                    ) //new should enter as next
+                    ) //new should enter as next; old should exit for next
                     {
                         if (i == oldSlideIndex && i != newSlideIndex) { display.SlideOutForNext(); }
                         if (i == newSlideIndex) { display.SlideInAsNext(); }
                     }
                     else if (forceDirection == ForceDirection.NewIsPrev ||
                              (forceDirection == ForceDirection.Default && newSlideIndex < oldSlideIndex)
-                    ) //new should enter as prev
+                    ) //new should enter as prev; old should exit for prev
                     {
                         if (i == oldSlideIndex && i != newSlideIndex) { display.SlideOutForPrev(); }
                         if (i == newSlideIndex) { display.SlideInAsPrev(); }

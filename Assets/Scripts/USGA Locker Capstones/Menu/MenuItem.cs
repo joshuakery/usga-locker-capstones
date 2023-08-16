@@ -81,13 +81,11 @@ namespace JoshKery.USGA.LockerCapstones
                     yearInductedTextField.text = lockerProfile.inductionYear.ToString();
                 }
 
-                if (rawImage != null)
+                if (rawImage != null && lockerProfile.featuredImage != null)
                 {
                     rawImage.texture = lockerProfile.featuredImage.texture;
                 }
             }
-
-
         }
 
         public override void SetContent()

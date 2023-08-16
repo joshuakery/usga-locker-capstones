@@ -32,7 +32,7 @@ MonoBehaviour:
     rgba: 4279476177
   contentColor1:
     serializedVersion: 2
-    rgba: 4284571392
+    rgba: 4282989312
   primaryTextGradient: {fileID: 0}
   secondaryTextGradient: {fileID: 0}
   primaryButtonSprite: {fileID: 0}
@@ -51,68 +51,68 @@ MonoBehaviour:
   toggleBackground: {fileID: 0}
   primaryTypography:
     title:
-      size: 175
-      font: {fileID: 0}
+      size: 250
+      font: {fileID: 11400000, guid: 144266e051346e546bf7d7ff26746921, type: 2}
       weight: 400
       spacingOptions:
-        character: 0
+        character: 2
         word: 0
-        line: 0
+        line: -11
         paragraph: 0
     subtitle:
-      size: 60
-      font: {fileID: 0}
+      size: 85
+      font: {fileID: 11400000, guid: 3d2fdafed30801f43a8b41c7feede44f, type: 2}
       weight: 400
       spacingOptions:
-        character: 0
-        word: 0
+        character: 6.33
+        word: -6
         line: 0
         paragraph: 0
     h1:
       size: 69
-      font: {fileID: 0}
+      font: {fileID: 11400000, guid: 8cdf0687f5b7cd844af11eee8bfbac4a, type: 2}
       weight: 400
       spacingOptions:
-        character: 0
+        character: 2
         word: 0
         line: 0
         paragraph: 0
     h2:
-      size: 52
-      font: {fileID: 0}
+      size: 60
+      font: {fileID: 11400000, guid: 8cdf0687f5b7cd844af11eee8bfbac4a, type: 2}
       weight: 400
       spacingOptions:
-        character: 0
+        character: 1.75
         word: 0
         line: 0
         paragraph: 0
     h3:
-      size: 40
-      font: {fileID: 0}
+      size: 55
+      font: {fileID: 11400000, guid: d3b099a1d782c504a922578e437a76a7, type: 2}
       weight: 400
       spacingOptions:
         character: 0
         word: 0
-        line: 0
+        line: 5
         paragraph: 0
     h4:
-      size: 24
-      font: {fileID: 0}
+      size: 35
+      font: {fileID: 11400000, guid: 8cdf0687f5b7cd844af11eee8bfbac4a, type: 2}
       weight: 400
       spacingOptions:
-        character: 0
+        character: 2
         word: 0
         line: 0
         paragraph: 0
     p:
-      size: 26
-      font: {fileID: 0}
+      size: 35
+      font: {fileID: 11400000, guid: d3b099a1d782c504a922578e437a76a7, type: 2}
       weight: 400
       spacingOptions:
-        character: 0
+        character: 2
         word: 0
-        line: 0
-        paragraph: 0
+        line: 40
+        paragraph: 31
     caption:
       size: 24
       font: {fileID: 0}

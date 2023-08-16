@@ -36,13 +36,14 @@ public class Typography
 
 public enum ColorChoice
 {
-    Primary,
-    Secondary,
-    White,
-    Black,
-    SupportingNeutral,
-    Accent,
-    ContentColor1
+    Custom = -1,
+    Primary = 0,
+    Secondary = 1,
+    White = 2,
+    Black = 3,
+    SupportingNeutral = 4,
+    Accent = 5,
+    ContentColor1 = 6
 }
 
 [CreateAssetMenu(menuName = "Flexible UI Data")]
@@ -78,7 +79,7 @@ public class FlexibleUIData : ScriptableObject
             case ColorChoice.ContentColor1:
                 return contentColor1;
             default:
-                return Color.white;
+                return Color.red;
         }
     }
 

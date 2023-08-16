@@ -15,18 +15,11 @@ MonoBehaviour:
   animationType: 1
   duration: 2
   delay: 0
-  to: {x: -1250, y: 0, z: 0}
-  useFrom: 1
+  to: {x: -850, y: 0, z: 0}
+  useFrom: 0
   trueFrom: 0
   setToFromImmediately: 0
   from: {x: 0, y: 0, z: 0}
-  toColor:
-    serializedVersion: 2
-    rgba: 0
-  fromColor:
-    serializedVersion: 2
-    rgba: 0
-  useFlexUIColors: 0
   easingOption: 1
   ease: 6
   animationCurve:

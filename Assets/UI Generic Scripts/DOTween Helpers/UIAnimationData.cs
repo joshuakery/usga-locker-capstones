@@ -40,12 +40,6 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         public bool setToFromImmediately = false;
         public Vector3 from;
 
-        public Color32 toColor;
-
-        public Color32 fromColor;
-
-        public bool useFlexUIColors;
-
         public enum EasingOption
         {
             None,

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2159.076" height="1138" viewBox="0 0 2159.076 1138">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.446" x2="0.5" y2="0.62" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#edeeee"/>
+    </linearGradient>
+  </defs>
+  <path id="White_Top_Rectanlge_" data-name="White Top Rectanlge " d="M0,0H2159V1138H0Z" transform="translate(2159.076 1138) rotate(180)" opacity="0.98" fill="url(#linear-gradient)"/>
+</svg>

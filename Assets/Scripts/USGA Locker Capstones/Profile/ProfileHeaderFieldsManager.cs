@@ -44,10 +44,10 @@ namespace JoshKery.USGA.LockerCapstones
                     yearInductedField.text = "Inducted " + lockerProfile.inductionYear.ToString();
 
                 if (profileImage != null)
-                    profileImage.texture = lockerProfile.featuredImage.texture;
+                    profileImage.texture = lockerProfile.featuredImage?.texture;
 
                 if (signatureImage != null)
-                    signatureImage.texture = lockerProfile.signatureImage.texture;
+                    signatureImage.texture = lockerProfile.signatureImage?.texture;
             }
 
         }

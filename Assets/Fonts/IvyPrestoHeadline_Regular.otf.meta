@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cca98b0bea1a19a4381ea4ceea0021f8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - IvyPresto Headline
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 106ac5c1dfa2d4448b3325c892a14877, type: 3}
+  - {fileID: 12800000, guid: c5fb5b1a5c0dcbb459b06decab83198e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

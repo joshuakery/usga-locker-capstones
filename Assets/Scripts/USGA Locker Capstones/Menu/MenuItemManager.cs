@@ -10,10 +10,12 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class MenuItemManager : LockerCapstonesWindow
     {
+        
+        private static ListIntEvent _onCategorySelectedCallback;
+
         /// <summary>
         /// Callback event to be invoked after SetSelectedCategory(int contentTrailID)
         /// </summary>
-        private static ListIntEvent _onCategorySelectedCallback;
         public static ListIntEvent onCategorySelectedCallback
         {
             get
@@ -22,6 +24,22 @@ namespace JoshKery.USGA.LockerCapstones
                     _onCategorySelectedCallback = new ListIntEvent();
 
                 return _onCategorySelectedCallback;
+            }
+        }
+
+        private static UnityEvent _onFiltered;
+
+        /// <summary>
+        /// Callback event to be invoked after Filter()
+        /// </summary>
+        public static UnityEvent onFiltered
+        {
+            get
+            {
+                if (_onFiltered == null)
+                    _onFiltered = new UnityEvent();
+
+                return _onFiltered;
             }
         }
 
@@ -39,14 +57,14 @@ namespace JoshKery.USGA.LockerCapstones
         {
             base.OnEnable();
 
-            FilterOptionButton.onFilterClicked += SetSelectedCategoryAndFilter;
+            FilterDrawer.onFilterClicked += SetSelectedCategoryAndFilter;
         }
 
         protected override void OnDisable()
         {
             base.OnDisable();
 
-            FilterOptionButton.onFilterClicked -= SetSelectedCategoryAndFilter;
+            FilterDrawer.onFilterClicked -= SetSelectedCategoryAndFilter;
         }
         #endregion
 
@@ -121,7 +139,8 @@ namespace JoshKery.USGA.LockerCapstones
                         menuItem.gameObject.SetActive(true);
                     }
                 }
-                
+
+                onFiltered.Invoke();
             }
         }
 

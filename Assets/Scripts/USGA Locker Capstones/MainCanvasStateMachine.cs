@@ -59,6 +59,11 @@ namespace JoshKery.USGA.LockerCapstones
         }
         #endregion
 
+        #region Main UnityEvents Hooks
+        public delegate void BeforeAnimateToMenu();
+        public static BeforeAnimateToMenu beforeAnimateToMenu;
+        #endregion
+
         #region Monobehaviour Methods
         protected override void OnEnable()
         {
@@ -111,6 +116,10 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void AnimateToMenu()
         {
+            beforeAnimateToMenu.Invoke();
+            sequenceManager.CompleteCurrentSequence();
+            FilterDrawer.ClearFilters();
+            sequenceManager.CompleteCurrentSequence();
             _WindowAction(toMenuSequence, SequenceType.Join);
         }
 

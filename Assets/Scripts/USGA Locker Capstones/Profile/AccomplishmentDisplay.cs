@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -14,55 +12,42 @@ namespace JoshKery.USGA.LockerCapstones
         private AppState appState;
 
         [SerializeField]
-        private RawImageManager iconRI;
+        private RawImageManager iconRIManager;
 
         [SerializeField]
         private TMP_Text titleTextField;
 
         [SerializeField]
-        private TMP_Text numberTextField;
+        private Button infoButton;
 
-        public Button infoButton;
-
-        public GameObject infoIcon;
+        [SerializeField]
+        private GameObject infoSkin;
 
         public void SetContent(EarnedAccomplishment earnedAccomplishment)
         {
-            Accomplishment accomplishmentDefault = null;
-            if (appState != null && appState.accomplishmentsDict.ContainsKey(earnedAccomplishment.type.id))
-            {
-                accomplishmentDefault = appState.accomplishmentsDict[earnedAccomplishment.type.id];
-            }
-
             if (earnedAccomplishment != null)
             {
-                if (iconRI != null)
-                {
-                    if (earnedAccomplishment.customImage != null)
-                    {
-                        iconRI.texture = earnedAccomplishment.customImage.texture;
-                    }
-                    else
-                    {
-                        if (appState != null && appState.accomplishmentsDict.ContainsKey(earnedAccomplishment.type.id))
-                        {
-                            iconRI.texture = accomplishmentDefault?.image?.texture;
-                        }
-                    }
-                }
-
+                if (iconRIManager != null)
+                    iconRIManager.texture = earnedAccomplishment.image?.texture;
 
                 if (titleTextField != null)
-                {
-                    titleTextField.text = accomplishmentDefault?.name;
-                }
+                    titleTextField.text = earnedAccomplishment.name;
 
-                if (numberTextField != null)
-                {
-                    numberTextField.text = earnedAccomplishment.timesEarned.ToString() + "X";
-                }
+                SetupInfoButton(earnedAccomplishment);
             }
+        }
 
+        private void SetupInfoButton(EarnedAccomplishment earnedAccomplishment)
+        {
+            infoSkin.SetActive(earnedAccomplishment.hasInfo);
+            infoButton.enabled = earnedAccomplishment.hasInfo;
+
+            infoButton.onClick.RemoveAllListeners();
+            infoButton.onClick.AddListener(() =>
+                {
+                    AccomplishmentModal.onOpen.Invoke(earnedAccomplishment);
+                }
+            );
         }
 
     }

@@ -64,9 +64,19 @@ namespace JoshKery.GenericUI.ContentLoading
 		public UnityEvent onLoadContentCoroutineStart;
 
 		/// <summary>
-        /// Fires at end of LoadContentCouroutine
-        /// </summary>
-		public UnityEvent onLoadContentCoroutineFinish;
+		/// Fires at end of LoadContentCouroutine
+		/// </summary>
+		private UnityEvent _onLoadContentCoroutineFinish;
+		public UnityEvent onLoadContentCoroutineFinish
+        {
+			get
+            {
+				if (_onLoadContentCoroutineFinish == null)
+					_onLoadContentCoroutineFinish = new UnityEvent();
+
+				return _onLoadContentCoroutineFinish;
+            }
+        }
 
 		/// <summary>
         /// Fires when caching and setting up content is complete
@@ -182,7 +192,7 @@ namespace JoshKery.GenericUI.ContentLoading
 		{
 			StopAllCoroutines();
 
-			Debug.Log("loading content");
+			Debug.Log("Loading content...");
 
 			StartCoroutine(LoadContentCoroutine());
 		}
@@ -228,7 +238,7 @@ namespace JoshKery.GenericUI.ContentLoading
 					case UnityWebRequest.Result.ConnectionError:
 					case UnityWebRequest.Result.DataProcessingError:
 					case UnityWebRequest.Result.ProtocolError:
-						yield return LoadLocalContentFailure(webRequest.error);
+						yield return LoadLocalContentFailure(webRequest.error, webRequest.url);
 						break;
 					case UnityWebRequest.Result.Success:
 						yield return LoadLocalContentSuccess(webRequest.downloadHandler.text);
@@ -242,9 +252,9 @@ namespace JoshKery.GenericUI.ContentLoading
 
 		protected abstract IEnumerator LoadLocalContentSuccess(string text);
 
-		protected virtual IEnumerator LoadLocalContentFailure(string error)
+		protected virtual IEnumerator LoadLocalContentFailure(string error, string url)
         {
-			RLMGLogger.Instance.Log("Load Local Content Error: " + error);
+			RLMGLogger.Instance.Log("Load Local Content Error: " + error + " at " + url);
 			yield return null;
         }
 

@@ -1,494 +1,772 @@
 {
   "data": {
-    "lockerProfiles": [
-      {
-        "id": 3,
-        "firstName": "TestFirst",
-        "lastName": "TestLast",
-        "inductionYear": 2000,
-        "lockerNumber": 100,
-        "media": [
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "8b9fe246-df55-4b36-8a08-ce6490f4049e",
-              "filename_download": "Mask Group 5.png",
-              "filename_disk": "8b9fe246-df55-4b36-8a08-ce6490f4049e.png",
-              "description": null,
-              "title": "Mask Group 5"
-            }
+    "eras_by_id": {
+      "historySlides": [
+        {
+          "id": 3,
+          "image": {
+            "id": null,
+            "filename_download": "1000-00701.jpg",
+            "filename_disk": "860b7f61-6aa2-469a-b307-b6ef6116781c.jpg",
+            "description": null,
+            "title": null
           },
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "724beaab-fc61-441d-b21b-90f36d022a61",
-              "filename_download": "Mask Group 5.png",
-              "filename_disk": "724beaab-fc61-441d-b21b-90f36d022a61.png",
-              "description": null,
-              "title": "Mask Group 5"
-            }
-          },
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "c506862c-834e-449f-8db0-1e642e8376e9",
-              "filename_download": "Mask Group 3.png",
-              "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
-              "description": null,
-              "title": "Mask Group 3"
-            }
-          },
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "a3629984-0af1-4389-97a9-9b442f4bc14b",
-              "filename_download": "Image 7.png",
-              "filename_disk": "a3629984-0af1-4389-97a9-9b442f4bc14b.png",
-              "description": null,
-              "title": "Image 7"
-            }
-          }
-        ],
-        "featuredImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-          "filename_download": "INDUCTEE-Tiger-Woods.png",
-          "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-          "description": null,
-          "title": "Inductee Tiger Woods"
+          "order": 1,
+          "text": "Golf first appears on the front page of American newspapers when amateur Francis Ouimet defeats legendary British professionals Harry Vardon and Ted Ray at the 1913 U.S. Open. His victory reflects the rise of the United States as an economic and political powerhouse and heralds the arrival of golf’s golden age.",
+          "imageCaption": null,
+          "title": "Golden Age Slide 1",
+          "backgroundVideo": null
         },
-        "accomplishments": [
-          {
-            "earnedAccomplishments_id": {
-              "id": 5,
-              "timesEarned": 3,
-              "customImage": null,
-              "customDescription": null,
-              "type": {
-                "id": 3,
+        {
+          "id": 4,
+          "image": {
+            "id": null,
+            "filename_download": "1000-00717.jpg",
+            "filename_disk": "1d9f46b7-b7a8-4ee4-8c6b-c53c6a47562e.jpg",
+            "description": null,
+            "title": "1000 00717"
+          },
+          "order": 2,
+          "text": "The 1920s marks the “Golden Age” of sports and sportswriters. The Great War has ended, the economy is booming, and fans everywhere wildly cheer athletes like Jack Dempsey (boxing), Suzanne Lengeln (tennis) and Babe Ruth (baseball). Golf’s great showman Walter Hagen proclaims, “I never wanted to be a millionaire. I just wanted to live like one.”",
+          "imageCaption": null,
+          "title": "Golden Age Slide 2",
+          "backgroundVideo": null
+        },
+        {
+          "id": 5,
+          "image": {
+            "id": null,
+            "filename_download": "1000-03287e.jpg",
+            "filename_disk": "55adee60-2755-41cc-a585-b16a3cda864e.jpg",
+            "description": null,
+            "title": "1000 03287e"
+          },
+          "order": 3,
+          "text": "The art and science of golf course architecture flourish in the 1920s. Golden Age architects like Alister MacKenzie, Donald Ross and A.W. Tillinghast create masterpieces of design across North America, Europe, Asia and Australia. Natural forms and strategic options characterize iconic courses like Royal Melbourne, Seminole and Winged Foot.",
+          "imageCaption": null,
+          "title": "Golden Age Slide 3",
+          "backgroundVideo": null
+        },
+        {
+          "id": 11,
+          "image": {
+            "id": null,
+            "filename_download": "1000-00057.jpg",
+            "filename_disk": "8498d6c0-be15-44e5-93bb-eccd1f2c1a2d.jpg",
+            "description": null,
+            "title": "1000 00057"
+          },
+          "order": 3,
+          "text": "The golden age of golf culminates in Bob Jones’ remarkable “Impregnable Quadrilateral,” as he records victories in the open and amateur championships of the United States and Great Britain in 1930. His “Grand Slam” is hailed widely as the greatest accomplishment in all of sport.",
+          "imageCaption": null,
+          "title": "Golden Age Slide 6",
+          "backgroundVideo": null
+        },
+        {
+          "id": 9,
+          "image": {
+            "id": null,
+            "filename_download": "1000-01728.jpg",
+            "filename_disk": "911d0277-fd38-426f-b9fe-7cb47d43d481.jpg",
+            "description": null,
+            "title": "1000 01728"
+          },
+          "order": 4,
+          "text": "It is a golden age for women’s golf. England’s Joyce Wethered and Glenna Collett Vare dominate on both sides of the Atlantic. Their rivalry - and friendship - elevates the visibility and appreciation of the women’s game. Marion Hollins creates Women’s National Golf and Tennis Club on Long Island, financed entirely by women.",
+          "imageCaption": null,
+          "title": "Golden Age Slide 4",
+          "backgroundVideo": null
+        },
+        {
+          "id": 10,
+          "image": {
+            "id": null,
+            "filename_download": "3000_230160.jpg",
+            "filename_disk": "2c882f32-0778-4453-832c-e0e644ce5f1c.jpg",
+            "description": null,
+            "title": "3000 230160"
+          },
+          "order": 5,
+          "text": "Following the formation of The Professional Golfers’ Association in the United Kingdom in 1901 and The Professional Golfers’ Association of America in 1916, professional golf flourishes. The game’s greatest professionals travel internationally, especially in the years that followed the Great War, leading to the creation of the Ryder Cup in 1927.",
+          "imageCaption": null,
+          "title": "Golden Age Slide 5",
+          "backgroundVideo": null
+        }
+      ],
+      "id": 1,
+      "startYear": "1910s",
+      "endYear": "1930s",
+      "title": "Golf's Golden Age",
+      "description": "Heroes become household names in the era of sports celebrities",
+      "profiles": [
+        {
+          "id": 15,
+          "firstName": "Tommy",
+          "lastName": "Armour",
+          "birth": "1896-09-24T00:00:00",
+          "birthplace": "Edinburgh, Scotland",
+          "death": "1968-09-11T00:00:00",
+          "inductionYear": 1976,
+          "lockerNumber": 40411,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "860b7f61-6aa2-469a-b307-b6ef6116781c",
+                "filename_download": "1000-00701.jpg",
+                "filename_disk": "860b7f61-6aa2-469a-b307-b6ef6116781c.jpg",
                 "description": null,
-                "name": null,
-                "image": null
+                "title": null
               }
             },
-            "id": 10
-          },
-          {
-            "earnedAccomplishments_id": {
-              "id": 6,
-              "timesEarned": 7,
-              "customImage": null,
-              "customDescription": null,
-              "type": {
-                "id": 3,
+            {
+              "directus_files_id": {
+                "id": "fb9363bb-c439-43dd-a7ce-0033ba5ff25a",
+                "filename_download": "1000-00690.jpg",
+                "filename_disk": "fb9363bb-c439-43dd-a7ce-0033ba5ff25a.jpg",
                 "description": null,
-                "name": null,
-                "image": null
+                "title": null
               }
             },
-            "id": 11
-          },
-          {
-            "earnedAccomplishments_id": {
-              "id": 7,
-              "timesEarned": 9,
-              "customImage": {
-                "texture": null,
-                "path_download": null,
-                "id": "a3629984-0af1-4389-97a9-9b442f4bc14b",
-                "filename_download": "Image 7.png",
-                "filename_disk": "a3629984-0af1-4389-97a9-9b442f4bc14b.png",
+            {
+              "directus_files_id": {
+                "id": "1d9f46b7-b7a8-4ee4-8c6b-c53c6a47562e",
+                "filename_download": "1000-00717.jpg",
+                "filename_disk": "1d9f46b7-b7a8-4ee4-8c6b-c53c6a47562e.jpg",
                 "description": null,
-                "title": "Image 7"
+                "title": "1000 00717"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "55adee60-2755-41cc-a585-b16a3cda864e",
+                "filename_download": "1000-03287e.jpg",
+                "filename_disk": "55adee60-2755-41cc-a585-b16a3cda864e.jpg",
+                "description": null,
+                "title": "1000 03287e"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "239f3a70-d6eb-4902-a6b1-ac5579225658",
+                "filename_download": "1000-01728.jpg",
+                "filename_disk": "239f3a70-d6eb-4902-a6b1-ac5579225658.jpg",
+                "description": null,
+                "title": "1000 01728"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
+            "filename_download": "INDUCTEE-Tiger-Woods.png",
+            "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
+            "description": null,
+            "title": "Inductee Tiger Woods"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "earnedAccomplishments_id": {
+                "id": 8,
+                "timesEarned": 1,
+                "customImage": null,
+                "customDescription": null,
+                "type": {
+                  "id": 1,
+                  "description": "default British Open description",
+                  "name": "British Open",
+                  "image": {
+                    "id": null,
+                    "filename_download": "noun-house-5659418.png",
+                    "filename_disk": "743f0d09-2982-4cb5-a4c9-ed85119bb15f.png",
+                    "description": null,
+                    "title": "Noun House 5659418"
+                  }
+                }
               },
-              "customDescription": "test",
-              "type": {
-                "id": 2,
-                "description": null,
-                "name": null,
-                "image": null
+              "id": 13
+            },
+            {
+              "earnedAccomplishments_id": {
+                "id": 9,
+                "timesEarned": 1,
+                "customImage": null,
+                "customDescription": "Custom Description for US Amateur",
+                "type": {
+                  "id": 2,
+                  "description": "default US Amateur desription",
+                  "name": "US Amateur",
+                  "image": {
+                    "id": null,
+                    "filename_download": "Screen Shot 2023-01-27 at 1.24.50 PM.png",
+                    "filename_disk": "baa6fc06-9c9f-492f-95e4-bfd78d0b6071.png",
+                    "description": null,
+                    "title": "Screen Shot 2023 01 27 at 1.24.50 Pm"
+                  }
+                }
+              },
+              "id": 14
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "1000-02114e.png",
+                "filename_disk": "6afd726a-1c42-4aba-9deb-fc0deea4829c.png",
+                "description": "Placeholder caption lorem ipsum...",
+                "title": "Placeholder Bio Image"
               }
             },
-            "id": 12
-          }
-        ],
-        "bioImages": [
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "bb4c1846-48a8-4196-8142-cdc295efd783",
-              "filename_download": "Mask Group 3.png",
-              "filename_disk": "bb4c1846-48a8-4196-8142-cdc295efd783.png",
-              "description": null,
-              "title": "Mask Group 3"
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player Image.png",
+                "filename_disk": "afd85c4e-740b-4368-a5f3-31c54393bfe3.png",
+                "description": "Placeholder caption lorem ipsum",
+                "title": "Placeholder Bio Image"
+              }
             }
+          ],
+          "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+          "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "quoteByline": "Lorem ipsum",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_armour.png",
+            "filename_disk": "d22a15d9-c9d3-4fac-8944-bc0f2c30c681.png",
+            "description": null,
+            "title": "Sig Armour"
           },
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "25fe3102-4ae6-4f5f-b316-7c58a7336c0e",
-              "filename_download": "Image 7.png",
-              "filename_disk": "25fe3102-4ae6-4f5f-b316-7c58a7336c0e.png",
-              "description": null,
-              "title": "Image 7"
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 5,
+                "name": "Military Figures",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 11,
+                "name": "Teachers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
+                "description": null
+              }
             }
-          }
-        ],
-        "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": "This is a sample quote.",
-        "quoteByline": "Newspaper",
-        "signatureImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "422c9f46-df61-405c-aac3-d9e0f9d473ab",
-          "filename_download": "Group 678.png",
-          "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
-          "description": null,
-          "title": "Group 678"
+          ]
         },
-        "contentTrails": [
-          {
-            "contentTrails_id": {
-              "id": 1,
-              "name": "Architects"
+        {
+          "id": 16,
+          "firstName": "Jim",
+          "lastName": "Barnes",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1989,
+          "lockerNumber": 40414,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_barnes.png",
+            "filename_disk": "94dbf018-0221-4720-8a47-53dcc53df9f6.png",
+            "description": null,
+            "title": "Sig Barnes"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 5,
+                "name": "Military Figures",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
             }
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "firstName": "TestFirst2",
-        "lastName": "TestLast2",
-        "inductionYear": 2000,
-        "lockerNumber": 100,
-        "media": [
-          {
-            "directus_files_id": {
-              "texture": null,
-              "path_download": null,
-              "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-              "filename_download": "INDUCTEE-Tiger-Woods.png",
-              "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-              "description": null,
-              "title": "Inductee Tiger Woods"
-            }
-          }
-        ],
-        "featuredImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-          "filename_download": "INDUCTEE-Tiger-Woods.png",
-          "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-          "description": null,
-          "title": "Inductee Tiger Woods"
+          ]
         },
-        "accomplishments": [
-          {
-            "earnedAccomplishments_id": null,
-            "id": 4
-          }
-        ],
-        "bioImages": [
-          {
-            "directus_files_id": null
+        {
+          "id": 17,
+          "firstName": "Dorothy",
+          "lastName": "Campbell",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1978,
+          "lockerNumber": 40611,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_campbell.png",
+            "filename_disk": "41175777-c4f2-4fbd-aaa7-d3a1c0d777e6.png",
+            "description": null,
+            "title": "Sig Campbell"
           },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": null,
-        "quoteByline": null,
-        "signatureImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "422c9f46-df61-405c-aac3-d9e0f9d473ab",
-          "filename_download": "Group 678.png",
-          "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
-          "description": null,
-          "title": "Group 678"
+          "contentTrails": []
         },
-        "contentTrails": [
-          {
-            "contentTrails_id": {
-              "id": 3,
-              "name": "Innovators"
-            }
+        {
+          "id": 18,
+          "firstName": "Bernard",
+          "lastName": "Darwin",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 2005,
+          "lockerNumber": 40612,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_darwin.png",
+            "filename_disk": "686618e0-560d-4758-bfb8-9eb0458dc0f8.png",
+            "description": null,
+            "title": "Sig Darwin"
           },
-          {
-            "contentTrails_id": {
-              "id": 7,
-              "name": "Growth Drivers"
-            }
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "firstName": "TestFirst3",
-        "lastName": "TestLast3",
-        "inductionYear": 2000,
-        "lockerNumber": 100,
-        "media": [],
-        "featuredImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-          "filename_download": "INDUCTEE-Tiger-Woods.png",
-          "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-          "description": null,
-          "title": "Inductee Tiger Woods"
+          "contentTrails": []
         },
-        "accomplishments": [
-          {
-            "earnedAccomplishments_id": null,
-            "id": 5
-          }
-        ],
-        "bioImages": [
-          {
-            "directus_files_id": null
+        {
+          "id": 19,
+          "firstName": "Leo",
+          "lastName": "Diegel",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 2003,
+          "lockerNumber": 40409,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_diegel.png",
+            "filename_disk": "329f4378-271f-4b66-9743-e6a678bea6c6.png",
+            "description": null,
+            "title": "Sig Diegel"
           },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": null,
-        "quoteByline": null,
-        "signatureImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "422c9f46-df61-405c-aac3-d9e0f9d473ab",
-          "filename_download": "Group 678.png",
-          "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
-          "description": null,
-          "title": "Group 678"
+          "contentTrails": []
         },
-        "contentTrails": [
-          {
-            "contentTrails_id": {
-              "id": 7,
-              "name": "Growth Drivers"
-            }
+        {
+          "id": 20,
+          "firstName": "Chick",
+          "lastName": "Evans",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1975,
+          "lockerNumber": 40403,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_evans.png",
+            "filename_disk": "171792f8-2820-4144-9b35-1ecfeb2ce560.png",
+            "description": null,
+            "title": "Sig Evans"
           },
-          {
-            "contentTrails_id": {
-              "id": 1,
-              "name": "Architects"
-            }
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "firstName": "TestFirst4",
-        "lastName": "TestLast4",
-        "inductionYear": 2000,
-        "lockerNumber": 100,
-        "media": [
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "featuredImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-          "filename_download": "INDUCTEE-Tiger-Woods.png",
-          "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-          "description": null,
-          "title": "Inductee Tiger Woods"
+          "contentTrails": []
         },
-        "accomplishments": [
-          {
-            "earnedAccomplishments_id": null,
-            "id": 6
-          }
-        ],
-        "bioImages": [
-          {
-            "directus_files_id": null
+        {
+          "id": 21,
+          "firstName": "Walter",
+          "lastName": "Hagen",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1974,
+          "lockerNumber": 40416,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_hagen.png",
+            "filename_disk": "8d95c7f6-8f3c-4cba-a18f-34860f1c9482.png",
+            "description": null,
+            "title": "Sig Hagen"
           },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": null,
-        "quoteByline": null,
-        "signatureImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "422c9f46-df61-405c-aac3-d9e0f9d473ab",
-          "filename_download": "Group 678.png",
-          "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
-          "description": null,
-          "title": "Group 678"
+          "contentTrails": []
         },
-        "contentTrails": [
-          {
-            "contentTrails_id": null
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "firstName": "TestFirst5",
-        "lastName": "TestLast5",
-        "inductionYear": 2000,
-        "lockerNumber": 100,
-        "media": [
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "featuredImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-          "filename_download": "INDUCTEE-Tiger-Woods.png",
-          "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-          "description": null,
-          "title": "Inductee Tiger Woods"
+        {
+          "id": 22,
+          "firstName": "Marion",
+          "lastName": "Hollins",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 2022,
+          "lockerNumber": 40606,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": null,
+          "contentTrails": []
         },
-        "accomplishments": [
-          {
-            "earnedAccomplishments_id": null,
-            "id": 7
-          }
-        ],
-        "bioImages": [
-          {
-            "directus_files_id": null
+        {
+          "id": 23,
+          "firstName": "Jock",
+          "lastName": "Hutchison",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 2011,
+          "lockerNumber": 40410,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_hutchinson.png",
+            "filename_disk": "0a09b98d-4fb7-406b-8f5f-af302f774b28.png",
+            "description": null,
+            "title": "Sig Hutchinson"
           },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": null,
-        "quoteByline": null,
-        "signatureImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "422c9f46-df61-405c-aac3-d9e0f9d473ab",
-          "filename_download": "Group 678.png",
-          "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
-          "description": null,
-          "title": "Group 678"
+          "contentTrails": []
         },
-        "contentTrails": [
-          {
-            "contentTrails_id": {
-              "id": 3,
-              "name": "Innovators"
-            }
+        {
+          "id": 24,
+          "firstName": "Bob",
+          "lastName": "Jones",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1974,
+          "lockerNumber": 40401,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "Bobby-Jones-e1452089977219.png",
+            "filename_disk": "88900d8e-5914-411f-b07b-50e3d7476c0a.png",
+            "description": null,
+            "title": "Bobby Jones E1452089977219"
           },
-          {
-            "contentTrails_id": {
-              "id": 4,
-              "name": "Jones Award Winners"
-            }
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "firstName": "TestFirst6",
-        "lastName": "TestLast6",
-        "inductionYear": 2000,
-        "lockerNumber": 100,
-        "media": [
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "featuredImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
-          "filename_download": "INDUCTEE-Tiger-Woods.png",
-          "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
-          "description": null,
-          "title": "Inductee Tiger Woods"
+          "contentTrails": []
         },
-        "accomplishments": [
-          {
-            "earnedAccomplishments_id": null,
-            "id": 8
-          }
-        ],
-        "bioImages": [
-          {
-            "directus_files_id": null
+        {
+          "id": 25,
+          "firstName": "Alister",
+          "lastName": "MacKenzie",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 2005,
+          "lockerNumber": 40605,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_mackenzie.png",
+            "filename_disk": "dfead3c1-b303-49ab-b809-bf5cb381132e.png",
+            "description": null,
+            "title": "Sig Mackenzie"
           },
-          {
-            "directus_files_id": null
-          }
-        ],
-        "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
-        "quote": null,
-        "quoteByline": null,
-        "signatureImage": {
-          "texture": null,
-          "path_download": null,
-          "id": "422c9f46-df61-405c-aac3-d9e0f9d473ab",
-          "filename_download": "Group 678.png",
-          "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
-          "description": null,
-          "title": "Group 678"
+          "contentTrails": []
         },
-        "contentTrails": [
-          {
-            "contentTrails_id": null
-          }
-        ]
-      }
-    ],
+        {
+          "id": 26,
+          "firstName": "Francis",
+          "lastName": "Ouimet",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1974,
+          "lockerNumber": 40402,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_ouimet.png",
+            "filename_disk": "5698f0b7-a5a4-4296-a76e-992de03e7365.png",
+            "description": null,
+            "title": "Sig Ouimet"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 27,
+          "firstName": "Donald",
+          "lastName": "Ross",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1977,
+          "lockerNumber": 40608,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_ross.png",
+            "filename_disk": "ee6bbe3c-3475-48fa-a099-d4290445da88.png",
+            "description": null,
+            "title": "Sig Ross"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 28,
+          "firstName": "Gene",
+          "lastName": "Sarazen",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1974,
+          "lockerNumber": 40415,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_sarazen.png",
+            "filename_disk": "e7010aae-3b1f-49f0-aa31-3d9a824f04e7.png",
+            "description": null,
+            "title": "Sig Sarazen"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 29,
+          "firstName": "A.W.",
+          "lastName": "Tillinghast",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 2015,
+          "lockerNumber": 40607,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "AW-Tillinghast-sig-e1436538449538.png",
+            "filename_disk": "92900c75-32cb-4311-a141-5c3555a056c5.png",
+            "description": null,
+            "title": "Aw Tillinghast Sig E1436538449538"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 30,
+          "firstName": "Jerry",
+          "lastName": "Travers",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1976,
+          "lockerNumber": 40404,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_travers.png",
+            "filename_disk": "0b1108c5-717f-4c5a-aeb9-cebee3beae66.png",
+            "description": null,
+            "title": "Sig Travers"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 31,
+          "firstName": "Walter",
+          "lastName": "Travis",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1979,
+          "lockerNumber": 40406,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_travis.png",
+            "filename_disk": "b22ac814-e67e-480f-b720-fdde67a6c60c.png",
+            "description": null,
+            "title": "Sig Travis"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 32,
+          "firstName": "Glenna",
+          "lastName": "Collett-Vare",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1975,
+          "lockerNumber": 40609,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_vare.png",
+            "filename_disk": "fe5b660d-41bb-4086-b3a8-38a182d5b134.png",
+            "description": null,
+            "title": "Sig Vare"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 33,
+          "firstName": "Joyce",
+          "lastName": "Wethered",
+          "birth": null,
+          "birthplace": null,
+          "death": null,
+          "inductionYear": 1975,
+          "lockerNumber": 40610,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [],
+          "bioImages": [],
+          "bioText": null,
+          "quote": null,
+          "quoteByline": null,
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_wethered.png",
+            "filename_disk": "486ccc6d-bd35-494a-a9f5-3c7202a32210.png",
+            "description": null,
+            "title": "Sig Wethered"
+          },
+          "contentTrails": []
+        }
+      ]
+    },
     "accomplishmentTypes": [
       {
         "id": 1,
         "description": "default British Open description",
         "name": "British Open",
         "image": {
-          "texture": null,
-          "path_download": null,
           "id": "743f0d09-2982-4cb5-a4c9-ed85119bb15f",
           "filename_download": "noun-house-5659418.png",
           "filename_disk": "743f0d09-2982-4cb5-a4c9-ed85119bb15f.png",
@@ -501,8 +779,6 @@
         "description": "default US Amateur desription",
         "name": "US Amateur",
         "image": {
-          "texture": null,
-          "path_download": null,
           "id": "baa6fc06-9c9f-492f-95e4-bfd78d0b6071",
           "filename_download": "Screen Shot 2023-01-27 at 1.24.50 PM.png",
           "filename_disk": "baa6fc06-9c9f-492f-95e4-bfd78d0b6071.png",
@@ -515,8 +791,6 @@
         "description": null,
         "name": "Empty Accomplishment",
         "image": {
-          "texture": null,
-          "path_download": null,
           "id": "743f0d09-2982-4cb5-a4c9-ed85119bb15f",
           "filename_download": "noun-house-5659418.png",
           "filename_disk": "743f0d09-2982-4cb5-a4c9-ed85119bb15f.png",
@@ -525,118 +799,36 @@
         }
       }
     ],
-    "eras_by_id": {
-      "historySlides": [
-        {
-          "id": 3,
-          "image": {
-            "texture": null,
-            "path_download": null,
-            "id": null,
-            "filename_download": "Mask Group 3.png",
-            "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
-            "description": null,
-            "title": "Mask Group 3"
-          },
-          "order": 0,
-          "text": null,
-          "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d",
-          "title": "Golden Age Slide 1",
-          "backgroundVideo": null
-        },
-        {
-          "id": 4,
-          "image": {
-            "texture": null,
-            "path_download": null,
-            "id": null,
-            "filename_download": "Mask Group 3.png",
-            "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
-            "description": null,
-            "title": "Mask Group 3"
-          },
-          "order": 0,
-          "text": null,
-          "quote": null,
-          "title": "Golden Age Slide 2",
-          "backgroundVideo": null
-        },
-        {
-          "id": 5,
-          "image": {
-            "texture": null,
-            "path_download": null,
-            "id": null,
-            "filename_download": "Mask Group 3.png",
-            "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
-            "description": null,
-            "title": "Mask Group 3"
-          },
-          "order": 0,
-          "text": " dolore eu fugiat nulla pariatadsfa aa aaswewrerrur. Excepteur sint occaecat cupidatat non proident, sunt in culpa. qui officia deserunt mollit anim id est laborum.",
-          "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d",
-          "title": "Golden Age Slide 3",
-          "backgroundVideo": null
-        }
-      ],
-      "id": 1,
-      "startYear": 1920,
-      "endYear": 1930,
-      "title": "Golden Age",
-      "description": "Donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna."
-    },
     "contentTrails": [
       {
         "id": 1,
-        "name": "Architects"
-      },
-      {
-        "id": 2,
-        "name": "Amateurs"
-      },
-      {
-        "id": 3,
-        "name": "Innovators"
-      },
-      {
-        "id": 4,
-        "name": "Jones Award Winners"
+        "name": "Architects & Designers",
+        "description": null
       },
       {
         "id": 5,
-        "name": "Military Service"
-      },
-      {
-        "id": 6,
-        "name": "Industry and Business Leaders"
+        "name": "Military Figures",
+        "description": null
       },
       {
         "id": 7,
-        "name": "Growth Drivers"
-      },
-      {
-        "id": 8,
-        "name": "Multi Sport Athletes"
-      },
-      {
-        "id": 9,
-        "name": "Quads"
-      },
-      {
-        "id": 10,
-        "name": "Career Grand Slam"
+        "name": "Growth Drivers",
+        "description": null
       },
       {
         "id": 11,
-        "name": "Teachers"
+        "name": "Teachers",
+        "description": null
       },
       {
         "id": 12,
-        "name": "Voices of the Game"
+        "name": "Voices of the Game",
+        "description": null
       },
       {
         "id": 13,
-        "name": "Comeback"
+        "name": "Comeback Stories",
+        "description": null
       }
     ]
   }

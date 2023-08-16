@@ -149,7 +149,7 @@ namespace AirtableUnity.PX
 
         public static IEnumerator ListRecordsCo<T>(
             string tableName,
-            Action<List<BaseRecord<T>>> outputActionRecords = null,
+            Action<List<BaseRecord<T>>> onFinish = null,
             Action<Response, UnityWebRequest> onFail = null,
             string filterByFormula = ""
         )
@@ -175,10 +175,10 @@ namespace AirtableUnity.PX
                     });
             } while (!string.IsNullOrEmpty(curOffset));
 
-            outputActionRecords?.Invoke(recordsToReturn);
+            onFinish?.Invoke(recordsToReturn);
         }
         
-        private static UnityWebRequest ListRecords(string tableName, string offset = "", string filterByFormula = "")
+        public static UnityWebRequest ListRecords(string tableName, string offset = "", string filterByFormula = "")
         {
             var relativeUri = "";
             var baseUri = BaseRequestString(tableName);

@@ -32,7 +32,8 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 string dateString = string.Format(
                     "{0} to {1}",
-                    appState.data?.era?.startYear.ToString(), appState.data?.era?.endYear.ToString()
+                    appState.data?.era?.startYear,
+                    appState.data?.era?.endYear
                 );
                 dateField.text = dateString;
             }

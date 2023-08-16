@@ -10,6 +10,12 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class AccomplishmentModal : BaseWindow
     {
+        public delegate void OnOpen(EarnedAccomplishment earnedAccomplishment);
+        public static OnOpen onOpen;
+
+        public delegate void OnClose();
+        public static OnClose onClose;
+
         [SerializeField]
         private TMP_Text headerField;
 
@@ -19,22 +25,46 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private RawImageManager iconField;
 
-        public void SetContent(string header, string description, Texture2D icon)
+        protected override void OnEnable()
         {
-            if (headerField != null)
-                headerField.text = header;
+            base.OnEnable();
 
-            if (descriptionField != null)
-                descriptionField.text = description;
-
-            if (iconField != null)
-                iconField.texture = icon;
+            onOpen += SetContentAndOpen;
+            onClose += Close;
         }
 
-        public void Close()
+        protected override void OnDisable()
         {
-            Close(SequenceType.Join);
+            base.OnDisable();
+
+            onOpen -= SetContentAndOpen;
+            onClose -= Close;
         }
+
+        public void SetContentAndOpen(EarnedAccomplishment earnedAccomplishment)
+        {
+            if (earnedAccomplishment != null)
+            {
+                if (headerField != null)
+                    headerField.text = earnedAccomplishment.name;
+
+                if (descriptionField != null)
+                    descriptionField.text = earnedAccomplishment.description;
+
+                if (iconField != null)
+                    iconField.texture = earnedAccomplishment.image?.texture;
+
+                Open();
+            }
+            
+        }
+
+        public void InvokeOnClose()
+        {
+            onClose.Invoke();
+        }
+
+        
     }
 }
 
