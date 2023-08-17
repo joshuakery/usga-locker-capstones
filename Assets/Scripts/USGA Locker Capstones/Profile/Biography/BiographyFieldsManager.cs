@@ -8,7 +8,7 @@ using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class ProfileBiographyFieldsManager : BaseWindow
+    public class BiographyFieldsManager : BaseWindow
     {
         [SerializeField]
         private TMP_Text nameTextField;
@@ -29,7 +29,7 @@ namespace JoshKery.USGA.LockerCapstones
         private TMP_Text bylineTextField;
 
         [SerializeField]
-        private ProfileBioImagesManager bioImagesManager;
+        private BioImagesManager bioImagesManager;
 
         public void SetContent(LockerProfile lockerProfile)
         {

@@ -5,7 +5,7 @@ using JoshKery.GenericUI;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class ProfileBioImagesManager : BaseDisplay
+    public class BioImagesManager : BaseDisplay
     {
         public void SetContent(LockerProfile lockerProfile)
         {
@@ -17,7 +17,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     if (mediaItem?.mediaFile != null)
                     {
-                        ProfileBioImageWindow display = InstantiateDisplay<ProfileBioImageWindow>();
+                        BioImageWindow display = InstantiateDisplay<BioImageWindow>();
                         display.SetContent(mediaItem.mediaFile);
                     }
                 }

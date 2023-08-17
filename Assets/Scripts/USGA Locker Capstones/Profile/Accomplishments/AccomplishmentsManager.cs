@@ -6,7 +6,7 @@ using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class ProfileAccomplishmentsManager : BaseDisplay
+    public class AccomplishmentsManager : BaseDisplay
     {
         //todo dictionary to keep track of opened and closed
 

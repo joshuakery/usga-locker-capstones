@@ -156,116 +156,68 @@ public static class RectTransformExtensions
         }
     }
 
-    public static void SetPivot(this RectTransform source, PivotPresets preset)
+    private static Vector2 GetPivot(PivotPresets preset)
     {
-
         switch (preset)
         {
             case (PivotPresets.TopLeft):
                 {
-                    source.pivot = new Vector2(0, 1);
-                    break;
+                    return new Vector2(0, 1);
                 }
             case (PivotPresets.TopCenter):
                 {
-                    source.pivot = new Vector2(0.5f, 1);
-                    break;
+                    return new Vector2(0.5f, 1);
                 }
             case (PivotPresets.TopRight):
                 {
-                    source.pivot = new Vector2(1, 1);
-                    break;
+                    return new Vector2(1, 1);
                 }
 
             case (PivotPresets.MiddleLeft):
                 {
-                    source.pivot = new Vector2(0, 0.5f);
-                    break;
+                    return new Vector2(0, 0.5f);
                 }
             case (PivotPresets.MiddleCenter):
                 {
-                    source.pivot = new Vector2(0.5f, 0.5f);
-                    break;
+                    return new Vector2(0.5f, 0.5f);
                 }
             case (PivotPresets.MiddleRight):
                 {
-                    source.pivot = new Vector2(1, 0.5f);
-                    break;
+                    return new Vector2(1, 0.5f);
                 }
 
             case (PivotPresets.BottomLeft):
                 {
-                    source.pivot = new Vector2(0, 0);
-                    break;
+                    return new Vector2(0, 0);
                 }
             case (PivotPresets.BottomCenter):
                 {
-                    source.pivot = new Vector2(0.5f, 0);
-                    break;
+                    return new Vector2(0.5f, 0);
                 }
             case (PivotPresets.BottomRight):
                 {
-                    source.pivot = new Vector2(1, 0);
-                    break;
+                    return new Vector2(1, 0);
+                }
+            default:
+                {
+                    return new Vector2(0, 0);
                 }
         }
     }
 
+    public static void SetPivot(this RectTransform source, PivotPresets preset)
+    {
+        source.pivot = GetPivot(preset);
+    }
+
+    /// <summary>
+    /// Set pivot without changing the position of the element
+    /// </summary>
     public static void SetPivot(this RectTransform rectTransform, PivotPresets preset, bool doReposition)
     {
         if (rectTransform == null) return;
 
-        Vector2 pivot = new Vector2(0, 0);
-        switch (preset)
-        {
-            case (PivotPresets.TopLeft):
-                {
-                    pivot = new Vector2(0, 1);
-                    break;
-                }
-            case (PivotPresets.TopCenter):
-                {
-                    pivot = new Vector2(0.5f, 1);
-                    break;
-                }
-            case (PivotPresets.TopRight):
-                {
-                    pivot = new Vector2(1, 1);
-                    break;
-                }
-
-            case (PivotPresets.MiddleLeft):
-                {
-                    pivot = new Vector2(0, 0.5f);
-                    break;
-                }
-            case (PivotPresets.MiddleCenter):
-                {
-                    pivot = new Vector2(0.5f, 0.5f);
-                    break;
-                }
-            case (PivotPresets.MiddleRight):
-                {
-                    pivot = new Vector2(1, 0.5f);
-                    break;
-                }
-
-            case (PivotPresets.BottomLeft):
-                {
-                    pivot = new Vector2(0, 0);
-                    break;
-                }
-            case (PivotPresets.BottomCenter):
-                {
-                    pivot = new Vector2(0.5f, 0);
-                    break;
-                }
-            case (PivotPresets.BottomRight):
-                {
-                    pivot = new Vector2(1, 0);
-                    break;
-                }
-        }
+        Vector2 pivot = GetPivot(preset);
 
         if (doReposition)
         {
@@ -273,11 +225,13 @@ public static class RectTransformExtensions
         }
         else
         {
-            Vector2 size = rectTransform.rect.size;
-            Vector2 deltaPivot = rectTransform.pivot - pivot;
-            Vector3 deltaPosition = new Vector3(deltaPivot.x * size.x, deltaPivot.y * size.y);
-            rectTransform.pivot = pivot;
-            rectTransform.localPosition -= deltaPosition;
+            Vector3 deltaPosition = rectTransform.pivot - pivot;    // get change in pivot
+            deltaPosition.Scale(rectTransform.rect.size);           // apply sizing
+            deltaPosition.Scale(rectTransform.localScale);          // apply scaling
+            deltaPosition = rectTransform.rotation * deltaPosition; // apply rotation
+
+            rectTransform.pivot = pivot;                            // change the pivot
+            rectTransform.localPosition -= deltaPosition;           // reverse the position change
         }
     }
 }

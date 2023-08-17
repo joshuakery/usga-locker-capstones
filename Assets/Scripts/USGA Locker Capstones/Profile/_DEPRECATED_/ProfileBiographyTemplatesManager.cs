@@ -7,7 +7,7 @@ namespace JoshKery.USGA.LockerCapstones
     public class ProfileBiographyTemplatesManager : MonoBehaviour
     {
         [SerializeField]
-        List<ProfileBiographyFieldsManager> templates;
+        List<BiographyFieldsManager> templates;
 
         public void SetContent(LockerProfile lockerProfile)
         {
@@ -21,7 +21,7 @@ namespace JoshKery.USGA.LockerCapstones
 
                     for (int i = 0; i < templates.Count; i++)
                     {
-                        ProfileBiographyFieldsManager template = templates[i];
+                        BiographyFieldsManager template = templates[i];
                         template.gameObject.SetActive(i == chosenTemplate);
                         if (i == chosenTemplate)
                         {

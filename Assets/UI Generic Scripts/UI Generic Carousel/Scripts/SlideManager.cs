@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -58,7 +59,11 @@ namespace JoshKery.GenericUI.Carousel
         {
             if (!doUseExistingChildren)
                 base.Awake();
-            else
+        }
+
+        private void Start()
+        {
+            if (doUseExistingChildren)
                 InitializeWithExistingChildren();
         }
         #endregion
@@ -98,28 +103,28 @@ namespace JoshKery.GenericUI.Carousel
         /// </summary>
         public void InitializeWithExistingChildren()
         {
-            childDisplays.Clear(); //clear lists but don't destroy children
             slideDisplays.Clear();
             slideOrder.Clear();
 
-            SlideDisplay[] displays = childDisplaysContainer.gameObject.GetComponentsInChildren<SlideDisplay>();
-
-            for (int i=0; i<displays.Length; i++)
+            if (childDisplays != null)
             {
-                SlideDisplay display = displays[i];
-                childDisplays.Add(display);
-                slideDisplays[i.ToString()] = display;
-                slideOrder.Add(i.ToString());
-            }
+                SlideDisplay[] displays = childDisplays.Select(c => c.gameObject.GetComponent<SlideDisplay>()).ToArray();
 
-            if (navbarManager != null)
-            {
-                navbarManager.ClearAllDisplays();
-                navbarManager.InstantiateSlideDisplays(displays.Length);
+                for (int i = 0; i < displays.Length; i++)
+                {
+                    SlideDisplay display = displays[i];
+                    slideDisplays[i.ToString()] = display;
+                    slideOrder.Add(i.ToString());
+                }
+
+                if (navbarManager != null)
+                {
+                    navbarManager.ClearAllDisplays();
+                    navbarManager.InstantiateSlideDisplays(displays.Length);
+                }
             }
 
             onInitialized.Invoke();
-
         }
         #endregion
 

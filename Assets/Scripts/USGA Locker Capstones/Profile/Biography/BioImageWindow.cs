@@ -8,7 +8,7 @@ using JoshKery.USGA.Directus;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class ProfileBioImageWindow : BaseWindow
+    public class BioImageWindow : BaseWindow
     {
         [SerializeField]
         private RawImageManager riManager;

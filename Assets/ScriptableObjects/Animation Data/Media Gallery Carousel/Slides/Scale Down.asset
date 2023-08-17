@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18830c9343f7f4c05a156c6317efef79, type: 3}
-  m_Name: In As Up Next
+  m_Name: Scale Down
   m_EditorClassIdentifier: 
-  animationType: 1
+  animationType: 3
   duration: 2
   delay: 0
-  to: {x: -850, y: 0, z: 0}
+  to: {x: 0.5, y: 0.5, z: 0.5}
   useFrom: 0
   trueFrom: 0
   setToFromImmediately: 0
-  from: {x: -2160, y: 0, z: 0}
+  from: {x: 1, y: 1, z: 1}
   easingOption: 1
-  ease: 6
+  ease: 3
   animationCurve:
     serializedVersion: 2
     m_Curve: []

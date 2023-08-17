@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6121958064089110052}
   - component: {fileID: 3503421181115064234}
-  - component: {fileID: 3550048585366425864}
+  - component: {fileID: 1375370386845976381}
   m_Layer: 5
   m_Name: Bio Image Container Prefab
   m_TagString: Untagged
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &3550048585366425864
+--- !u!114 &1375370386845976381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 939911254179016685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a51475cf69f0cc043877c36dd64fb09c, type: 3}
+  m_Script: {fileID: 11500000, guid: b4d78d6b5d4521c4280d500b97322bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   childDisplays: []

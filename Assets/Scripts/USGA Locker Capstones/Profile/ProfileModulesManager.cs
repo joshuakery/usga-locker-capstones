@@ -26,10 +26,10 @@ namespace JoshKery.USGA.LockerCapstones
         private ProfileHeaderFieldsManager profileHeaderFieldsManager;
 
         [SerializeField]
-        private ProfileBiographyFieldsManager profileBiographyFieldsManager;
+        private BiographyFieldsManager profileBiographyFieldsManager;
 
         [SerializeField]
-        private ProfileAccomplishmentsManager profileAccomplishmentsManager;
+        private AccomplishmentsManager profileAccomplishmentsManager;
 
         [SerializeField]
         private MediaGalleryManager profileMediaGalleryManager;

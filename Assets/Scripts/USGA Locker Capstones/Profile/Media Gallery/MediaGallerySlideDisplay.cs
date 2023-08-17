@@ -94,7 +94,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         public virtual void SlideOutForUpNext()
         {
-            rt.SetPivot(PivotPresets.MiddleLeft, false);
+            rt.SetPivot(PivotPresets.MiddleRight, false);
             _WindowAction(outForUpNextSequence, SequenceType.Join);
         }
 
@@ -106,7 +106,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         public virtual void SlideOutForUpPrev()
         {
-            rt.SetPivot(PivotPresets.MiddleRight, false);
+            rt.SetPivot(PivotPresets.MiddleLeft, false);
             _WindowAction(outForUpPrevSequence, SequenceType.Join);
         }
 
