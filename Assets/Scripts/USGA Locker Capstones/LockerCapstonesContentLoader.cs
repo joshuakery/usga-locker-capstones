@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
 using JoshKery.GenericUI.ContentLoading;
@@ -47,13 +48,21 @@ namespace JoshKery.USGA.LockerCapstones
         private void OnEnable()
         {
             if (onPopulateContentFinish != null)
+            {
                 onPopulateContentFinish.AddListener(InvokeDOTweenHelpersStartUp);
+                onPopulateContentFinish.AddListener(ReportMissingLockerLocatorMedia);
+            }
+                
         }
 
         private void OnDisable()
         {
             if (onPopulateContentFinish != null)
+            {
                 onPopulateContentFinish.RemoveListener(InvokeDOTweenHelpersStartUp);
+                onPopulateContentFinish.RemoveListener(ReportMissingLockerLocatorMedia);
+            }
+                
         }
         #endregion
 
@@ -257,6 +266,47 @@ namespace JoshKery.USGA.LockerCapstones
             BaseWindow.onAwakeWindows.Invoke();
             BaseWindow.onStartUpWindows.Invoke();
             BaseStateMachine.onStartUpStateMachines.Invoke();
+        }
+
+        /// <summary>
+        /// Debug Function to log downloaded profiles that are missing locker locator images.
+        /// </summary>
+        private void ReportMissingLockerLocatorMedia()
+        {
+            if (appState != null)
+            {
+                bool success = true;
+                List<LockerProfile> failed = new List<LockerProfile>();
+                foreach (LockerProfile profile in appState.data.lockerProfiles)
+                {
+                    if (!appState.lockerLocatorMedia.ContainsKey(profile.lockerNumber))
+                    {
+                        success = false;
+                        failed.Add(profile);
+                    }
+                }
+                if (success)
+                {
+                    RLMGLogger.Instance.Log(
+                        System.String.Format(
+                            "All {0} locker profiles have their locker locator images",
+                            appState.data.lockerProfiles.Count
+                        ),
+                        MESSAGETYPE.INFO
+                    );
+                }
+                else
+                {
+                    RLMGLogger.Instance.Log(
+                        System.String.Format(
+                            "The following {0} locker profiles are missing their locker locator images:\n{1}",
+                            failed.Count,
+                            System.String.Join("\n", failed.Select(p => System.String.Format("{0}: #{1}", p.fullName, p.lockerNumber)))
+                        ),
+                        MESSAGETYPE.ERROR
+                    );
+                }
+            }
         }
         #endregion
     }

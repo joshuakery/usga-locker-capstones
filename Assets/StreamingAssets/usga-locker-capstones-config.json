@@ -3,5 +3,6 @@
   "hex": "#003B49",
   "timeout": 60,
   "attractMediaDirectoryName": "attractMedia",
-  "attractInterval": 11
+  "attractInterval": 11,
+  "lockerLocatorMediaDirectoryName": "lockerLocatorMedia"
 }

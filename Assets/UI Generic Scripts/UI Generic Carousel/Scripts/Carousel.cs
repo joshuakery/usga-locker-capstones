@@ -10,7 +10,7 @@ namespace JoshKery.GenericUI.Carousel
     public class Carousel : MonoBehaviour
     {
         #region FIELDS
-        protected int CurrentSlideIndex = -1;
+        public int CurrentSlideIndex { get; protected set; } = -1;
 
         public SlideManager slideManager;
         public Carousel navbar;
@@ -70,7 +70,7 @@ namespace JoshKery.GenericUI.Carousel
         /// <summary>
         /// Trigger a transition out animation for all slides
         /// </summary>
-        protected virtual void SlideOutAll()
+        public virtual void SlideOutAll()
         {
             foreach (KeyValuePair<string, SlideDisplay> kvp in slideManager.slideDisplays)
             {
@@ -162,7 +162,7 @@ namespace JoshKery.GenericUI.Carousel
         /// "Direction" slides should animate, used to override Default order in slideManager.slidesOrder;
         /// Should the new slide move as if it were next in the sequence, or previous?
         /// </summary>
-        protected enum ForceDirection
+        public enum ForceDirection
         {
             Default = 0,
             NewIsNext = 1,
@@ -177,7 +177,7 @@ namespace JoshKery.GenericUI.Carousel
         /// <param name="newSlideIndex">Slide index to transition to.</param>
         /// <param name="forceDirection">Direction slides should animate.</param>
         /// <param name="doCompleteCurrentSequence">If true, current sequence completes before creating new tweens</param>
-        protected virtual void GoToSlide(
+        public virtual void GoToSlide(
             int oldSlideIndex, int newSlideIndex,
             ForceDirection forceDirection = ForceDirection.Default,
             bool doCompleteCurrentSequence = true

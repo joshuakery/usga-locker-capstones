@@ -6,6 +6,7 @@ using JoshKery.GenericUI.ContentLoading;
 using JoshKery.GenericUI.Carousel;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
+using rlmg.logging;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -40,6 +41,13 @@ namespace JoshKery.USGA.LockerCapstones
 
             [JsonProperty("attractInterval")]
             public int attractInterval { get; set; } = 10;
+
+            /// <summary>
+            /// Name of directory from which locker finder images will be loaded.
+            /// Paths will be constructed dynamically.
+            /// </summary>
+            [JsonProperty("lockerLocatorMediaDirectoryName")]
+            public string lockerLocatorMediaDirectoryName { get; set; } = "lockerLocatorMedia";
         }
 
         #region FIELDS
@@ -139,6 +147,8 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 autoSpin.spinInterval = data.attractInterval;
             }
+
+            yield return StartCoroutine(LoadLockerLocatorMedia(data.lockerLocatorMediaDirectoryName));
         }
 
         #region Populate Content Helpers
@@ -169,6 +179,53 @@ namespace JoshKery.USGA.LockerCapstones
                 }
             }
         }
+
+        private IEnumerator LoadLockerLocatorMedia(string lockerLocatorMediaDirName)
+        {
+            yield return null;
+
+            if (appState != null)
+            {
+                appState.lockerLocatorMedia.Clear();
+
+                string localDirPath = Path.Combine(LocalContentDirectory, lockerLocatorMediaDirName);
+
+                if (Directory.Exists(localDirPath))
+                {
+                    string[] fileEntries = Directory.GetFiles(localDirPath);
+                    foreach (string path in fileEntries)
+                    {
+                        if (!System.String.IsNullOrEmpty(path) && MediaLoadingUtility.IsImageFile(path))
+                        {
+                            yield return MediaLoadingUtility.LoadTexture2DFromPath(path, (Texture2D tex) =>
+                            {
+                                string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(path);
+
+                                int number;
+
+                                bool success = int.TryParse(fileNameWithoutExtension, out number);
+                                if (success)
+                                {
+                                    appState.lockerLocatorMedia[number] = tex;
+                                }
+                                else
+                                {
+                                    RLMGLogger.Instance.Log(
+                                        System.String.Format(
+                                            "Failed to parse a locker number from the following file name: {0}.\nPlease make the filename only digits that correspond to a profile's locker number in the content management system.",
+                                            path
+                                        ),
+                                        MESSAGETYPE.ERROR
+                                    );
+                                }
+                            });
+                        }
+                    }
+                }
+            }
+        }
+
+        
         #endregion
         #endregion
     }

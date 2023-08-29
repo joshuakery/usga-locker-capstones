@@ -41,7 +41,7 @@ namespace JoshKery.USGA.LockerCapstones
                     lastNameField.text = lockerProfile.lastName;
 
                 if (yearInductedField != null)
-                    yearInductedField.text = "Inducted " + lockerProfile.inductionYear.ToString();
+                    yearInductedField.text = lockerProfile.inductionYear.ToString();
 
                 if (profileImage != null)
                     profileImage.texture = lockerProfile.featuredImage?.texture;

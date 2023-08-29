@@ -7,7 +7,7 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class MediaGalleryCarousel : Carousel
     {
-        protected override void SlideOutAll()
+        public override void SlideOutAll()
         {
             foreach (KeyValuePair<string, SlideDisplay> kvp in slideManager.slideDisplays)
             {
@@ -15,12 +15,12 @@ namespace JoshKery.USGA.LockerCapstones
                 display.SlideOutForUpPrev();
             }
 
-/*            if (navbar != null)
+            if (navbar != null)
             {
                 navbar.SlideOutAll();
-            }*/
+            }
         }
-        protected override void GoToSlide(
+        public override void GoToSlide(
             int oldSlideIndex,
             int newSlideIndex,
             ForceDirection forceDirection = ForceDirection.Default,
@@ -66,10 +66,10 @@ namespace JoshKery.USGA.LockerCapstones
                 }
             }
 
-            /*if (navbar != null)
+            if (navbar != null)
             {
                 navbar.GoToSlide(oldSlideIndex, newSlideIndex, forceDirection, false);
-            }*/
+            }
 
             CurrentSlideIndex = newSlideIndex;
 

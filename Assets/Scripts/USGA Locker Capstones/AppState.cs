@@ -24,6 +24,23 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
 
+        [Header("Locker Finder Media")]
+        private Dictionary<int, Texture2D> _lockerLocatorMedia;
+
+        /// <summary>
+        /// Maps locker numbers to "Locker Finder" images for each locker.
+        /// </summary>
+        public Dictionary<int, Texture2D> lockerLocatorMedia
+        {
+            get
+            {
+                if (_lockerLocatorMedia == null)
+                    _lockerLocatorMedia = new Dictionary<int, Texture2D>();
+
+                return _lockerLocatorMedia;
+            }
+        }
+
         [Header("Data")]
         public LockerCapstonesData data;
         #endregion

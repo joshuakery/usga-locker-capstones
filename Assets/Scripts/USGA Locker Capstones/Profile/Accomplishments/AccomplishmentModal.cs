@@ -13,6 +13,12 @@ namespace JoshKery.USGA.LockerCapstones
         public delegate void OnOpen(EarnedAccomplishment earnedAccomplishment);
         public static OnOpen onOpen;
 
+        public delegate void OnOpening(EarnedAccomplishment earnedAccomplishment, Vector2 cardDestination);
+        /// <summary>
+        /// For passing the placeholder's position to an accomplishment card for its dynamic animation to that position.
+        /// </summary>
+        public static OnOpening onOpening;
+
         public delegate void OnClose();
         public static OnClose onClose;
 
@@ -24,6 +30,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private RawImageManager iconField;
+
+        [SerializeField]
+        private RectTransform accomplishmentCardPlaceholder;
 
         protected override void OnEnable()
         {
@@ -55,8 +64,25 @@ namespace JoshKery.USGA.LockerCapstones
                     iconField.texture = earnedAccomplishment.image?.texture;
 
                 Open();
+
+                StartCoroutine(WaitAndInvokeOnOpening(earnedAccomplishment));
             }
             
+        }
+
+        /// <summary>
+        /// Wait a frame for layout to rebuild.
+        /// </summary>
+        /// <returns></returns>
+        private IEnumerator WaitAndInvokeOnOpening(EarnedAccomplishment earnedAccomplishment)
+        {
+            yield return null;
+
+            if (accomplishmentCardPlaceholder != null)
+            {
+                onOpening.Invoke(earnedAccomplishment, accomplishmentCardPlaceholder.position);
+            }
+                
         }
 
         public void InvokeOnClose()

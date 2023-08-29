@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18830c9343f7f4c05a156c6317efef79, type: 3}
-  m_Name: Module Down to Center
+  m_Name: DynamicCardMove
   m_EditorClassIdentifier: 
-  animationType: 1
-  duration: 2
-  delay: 0
+  animationType: 0
+  duration: 0.5
+  delay: 0.1
   to: {x: 0, y: 0, z: 0}
-  useFrom: 1
+  useFrom: 0
   trueFrom: 0
   setToFromImmediately: 0
-  from: {x: 0, y: -1670, z: 0}
-  easingOption: 0
-  ease: 6
+  from: {x: 0, y: 0, z: 0}
+  easingOption: 1
+  ease: 4
   animationCurve:
     serializedVersion: 2
     m_Curve: []

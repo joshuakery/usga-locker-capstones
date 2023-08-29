@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primaryColor:
     serializedVersion: 2
-    rgba: 4283124555
+    rgba: 4285558896
   secondaryColor:
     serializedVersion: 2
-    rgba: 4288387995
+    rgba: 4292598747
   whiteColor:
     serializedVersion: 2
     rgba: 4294967295
   blackColor:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4280953386
   supportingNeutralColor:
     serializedVersion: 2
-    rgba: 4291019715
+    rgba: 4293848814
   accentColor:
     serializedVersion: 2
     rgba: 4279476177

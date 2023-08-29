@@ -74,7 +74,7 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (scrollRectRT != null)
             {
-                limit = (scrollRect.content.rect.height - scrollRectRT.rect.height) / 2f;
+                limit = Mathf.Max(0f, (scrollRect.content.rect.height - scrollRectRT.rect.height) / 2f);
             }
 
             isMovingThisFrame = Mathf.Round(lastScrollRectPosition.y) != Mathf.Round(scrollRect.content.anchoredPosition.y);
@@ -95,7 +95,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     if (readyToFire)
                     {
-                        OnMoveUp();
+                        OnMoveDown();
 
                         readyToFire = false;
                     }
@@ -104,7 +104,7 @@ namespace JoshKery.USGA.LockerCapstones
                 //If timeout
                 if (readyToFire && HasEnoughTimePassed())
                 {
-                    OnMoveUp();
+                    OnMoveDown();
 
                     readyToFire = false;
 
@@ -127,7 +127,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     if (readyToFire)
                     {
-                        OnMoveDown();
+                        OnMoveUp();
 
                         readyToFire = false;
                     }
@@ -136,7 +136,7 @@ namespace JoshKery.USGA.LockerCapstones
                 //If timeout
                 if (readyToFire && HasEnoughTimePassed())
                 {
-                    OnMoveDown();
+                    OnMoveUp();
 
                     readyToFire = false;
 
@@ -163,20 +163,22 @@ namespace JoshKery.USGA.LockerCapstones
             return ((float)(DateTime.Now - hittingLimitStart).TotalSeconds > timeout);
         }
 
+
+
         private void OnMoveUp()
         {
             Debug.Log("up");
 
-            /*if (carousel != null)
-                carousel.NextSlide();*/
+            if (carousel != null)
+                carousel.NextSlide();
         }
 
         private void OnMoveDown()
         {
             Debug.Log("down");
 
-            /*if (carousel != null)
-                carousel.PrevSlide();*/
+            if (carousel != null)
+                carousel.PrevSlide();
         }
     }
 }

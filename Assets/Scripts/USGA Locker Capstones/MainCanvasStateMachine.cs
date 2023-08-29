@@ -62,6 +62,9 @@ namespace JoshKery.USGA.LockerCapstones
         #region Main UnityEvents Hooks
         public delegate void BeforeAnimateToMenu();
         public static BeforeAnimateToMenu beforeAnimateToMenu;
+
+        public delegate void BeforeAnimateToProfile();
+        public static BeforeAnimateToProfile beforeAnimateToProfile;
         #endregion
 
         #region Monobehaviour Methods
@@ -125,6 +128,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void AnimateToProfile(int id)
         {
+            beforeAnimateToProfile.Invoke();
             sequenceManager.CompleteCurrentSequence();
             ProfileModulesManager.onResetContent.Invoke(id);
             _WindowAction(toProfileSequence, SequenceType.Join);
