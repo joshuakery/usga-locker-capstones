@@ -24,8 +24,8 @@ namespace JoshKery.USGA.LockerCapstones
             new Dictionary<ProfileModuleType, string>()
             {
                 { ProfileModuleType.Biography, "Biography" },
-                { ProfileModuleType.Accomplishments, "Accomplishments" },
-                { ProfileModuleType.MediaGallery, "Media Gallery" }
+                { ProfileModuleType.Accomplishments, "Achievements" },
+                { ProfileModuleType.MediaGallery, "Image Gallery" }
             };
     }
 }

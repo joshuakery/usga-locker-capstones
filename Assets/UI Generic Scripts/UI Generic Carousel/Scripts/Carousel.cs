@@ -45,13 +45,13 @@ namespace JoshKery.GenericUI.Carousel
         }
         #endregion
 
-        private void OnEnable()
+        protected virtual void OnEnable()
         {
             if (slideManager != null)
                 slideManager.onInitialized.AddListener(Setup);
         }
 
-        private void OnDisable()
+        protected virtual void OnDisable()
         {
             if (slideManager != null)
                 slideManager.onInitialized.RemoveListener(Setup);

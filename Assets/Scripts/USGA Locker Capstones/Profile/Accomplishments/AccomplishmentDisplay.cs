@@ -44,13 +44,13 @@ namespace JoshKery.USGA.LockerCapstones
         /// <summary>
         /// Parent for rt to reset to after dynamic animation
         /// </summary>
-        private Transform originalParent;
+        private Transform originalParentOfAnimatedRT;
 
         /// <summary>
         /// RectTransform of card in dynamic animation
         /// </summary>
         [SerializeField]
-        private RectTransform rt;
+        private RectTransform animatedRT;
 
         [SerializeField]
         private UIAnimationData animationData;
@@ -76,9 +76,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         private void Start()
         {
-            if (rt != null)
+            if (animatedRT != null)
             {
-                originalParent = rt.parent;
+                originalParentOfAnimatedRT = animatedRT.parent;
             }
 
             topCanvas = GameObject.FindGameObjectWithTag("TopCanvas");
@@ -123,13 +123,13 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 if (animationData != null)
                 {
-                    if (rt != null && topCanvas != null)
+                    if (animatedRT != null && topCanvas != null)
                     {
-                        originalParent = rt.parent;
+                        originalParentOfAnimatedRT = animatedRT.parent;
 
-                        rt.parent = topCanvas.transform;
+                        animatedRT.parent = topCanvas.transform;
 
-                        activeTween = rt.DOMove(destination, animationData.duration);
+                        activeTween = animatedRT.DOMove(destination, animationData.duration);
                         activeTween.SetDelay(animationData.delay); //todo append to sequence used by modal
                         UIAnimatorModule.SetEase(activeTween, animationData);
                     }
@@ -141,20 +141,26 @@ namespace JoshKery.USGA.LockerCapstones
 
         private void OnModalClose()
         {
-            if (rt != null && originalParent != null && rt.parent != originalParent)
+            if (animatedRT != null && originalParentOfAnimatedRT != null && animatedRT.parent != originalParentOfAnimatedRT)
             {
                 if (animationData != null)
                 {
-                    activeTween = rt.DOMove(originalParent.position, animationData.duration);
+                    activeTween = animatedRT.DOMove(originalParentOfAnimatedRT.position, animationData.duration);
                     UIAnimatorModule.SetEase(activeTween, animationData);
                     activeTween.onComplete = () =>
                     {
-                        if (originalParent != null)
-                            rt.parent = originalParent;
+                        if (originalParentOfAnimatedRT != null)
+                            animatedRT.parent = originalParentOfAnimatedRT;
                     };
                 }
 
             }
+        }
+
+        private void OnDestroy()
+        {
+            if (animatedRT != null)
+                Destroy(animatedRT.gameObject);
         }
 
     }

@@ -89,6 +89,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             //Scroll
             scrollRect.content.anchoredPosition = new Vector2(0, delta);
+            scrollRect.StopMovement();
         }
     }
 }

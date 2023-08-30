@@ -6,7 +6,7 @@ using JoshKery.GenericUI.Carousel;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class ProfileContainerFooter : BaseWindow
+    public class ProfileContainerFooterPrev : BaseWindow
     {
         [SerializeField]
         private Carousel carousel;
@@ -14,7 +14,7 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private TMP_Text label;
 
-        private ProfileModuleType nextModuleType = ProfileModuleType.None;
+        private ProfileModuleType prevModuleType = ProfileModuleType.None;
 
         #region Monobehaviour Methods
         protected override void OnEnable()
@@ -22,6 +22,8 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnEnable();
 
             carousel.onSlideChanged.AddListener(OnSlideChanged);
+
+            ProfileModulesManager.onResetContent.AddListener(Setup);
         }
 
         protected override void OnDisable()
@@ -29,6 +31,8 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             carousel.onSlideChanged.RemoveListener(OnSlideChanged);
+
+            ProfileModulesManager.onResetContent.RemoveListener(Setup);
         }
         #endregion
 
@@ -46,7 +50,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             pulseSequence.Join(pulseDown);
 
-            if (newSlideIndex < carousel.slideManager.slideDisplays.Count - 1)
+            if (newSlideIndex > 0)
             {
                 Tween pulseUp = _WindowAction(openSequence, SequenceType.UnSequenced);
 
@@ -54,6 +58,11 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
         #endregion
+
+        private void Setup(int profileID)
+        {
+            Pulse(0);
+        }
 
         private void OnSlideChanged(int newSlideIndex)
         {
@@ -64,11 +73,11 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (label != null)
             {
-                if (newSlideIndex + 1 >= 0 && newSlideIndex + 1 < ProfileModulesOrder.order.Length)
-                    nextModuleType = ProfileModulesOrder.order[newSlideIndex + 1];
+                if (newSlideIndex - 1 >= 0 && newSlideIndex - 1 < ProfileModulesOrder.order.Length)
+                    prevModuleType = ProfileModulesOrder.order[newSlideIndex - 1];
 
-                if (ProfileModulesOrder.moduleInfo.ContainsKey(nextModuleType))
-                    label.text = ProfileModulesOrder.moduleInfo[nextModuleType];
+                if (ProfileModulesOrder.moduleInfo.ContainsKey(prevModuleType))
+                    label.text = ProfileModulesOrder.moduleInfo[prevModuleType];
                 else
                     label.text = "NONE";
             }

@@ -22,6 +22,9 @@ namespace JoshKery.USGA.LockerCapstones
         public delegate void OnClose();
         public static OnClose onClose;
 
+        public delegate void OnCloseAndComplete();
+        public static OnCloseAndComplete onCloseAndComplete;
+
         [SerializeField]
         private TMP_Text headerField;
 
@@ -40,6 +43,9 @@ namespace JoshKery.USGA.LockerCapstones
 
             onOpen += SetContentAndOpen;
             onClose += Close;
+            onCloseAndComplete += CloseAndComplete;
+
+            MainCanvasStateMachine.beforeAnimateToProfile += InvokeOnCloseAndComplete;
         }
 
         protected override void OnDisable()
@@ -48,6 +54,9 @@ namespace JoshKery.USGA.LockerCapstones
 
             onOpen -= SetContentAndOpen;
             onClose -= Close;
+            onCloseAndComplete -= CloseAndComplete;
+
+            MainCanvasStateMachine.beforeAnimateToProfile -= InvokeOnCloseAndComplete;
         }
 
         public void SetContentAndOpen(EarnedAccomplishment earnedAccomplishment)
@@ -88,6 +97,16 @@ namespace JoshKery.USGA.LockerCapstones
         public void InvokeOnClose()
         {
             onClose.Invoke();
+        }
+
+        private void CloseAndComplete()
+        {
+            Close(SequenceType.CompleteImmediately);
+        }
+
+        private void InvokeOnCloseAndComplete()
+        {
+            onCloseAndComplete.Invoke();
         }
 
         
