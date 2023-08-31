@@ -19,14 +19,7 @@ MonoBehaviour:
   useFrom: 0
   trueFrom: 0
   setToFromImmediately: 0
-  from: {x: 0, y: -975, z: 0}
-  toColor:
-    serializedVersion: 2
-    rgba: 0
-  fromColor:
-    serializedVersion: 2
-    rgba: 0
-  useFlexUIColors: 0
+  from: {x: 0, y: -970, z: 0}
   easingOption: 0
   ease: 6
   animationCurve:
