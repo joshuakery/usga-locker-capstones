@@ -18,12 +18,16 @@ namespace JoshKery.USGA.LockerCapstones
 
         private ProfileModuleType currentModuleType = ProfileModuleType.Biography;
 
+        private Sequence pulseSequence;
+
         #region Monobehaviour Methods
         protected override void OnEnable()
         {
             base.OnEnable();
 
             carousel.onSlideChanged.AddListener(OnSlideChanged);
+
+            ProfileModulesManager.onResetContent.AddListener(WaitAndComplete);
         }
 
         protected override void OnDisable()
@@ -31,13 +35,18 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             carousel.onSlideChanged.RemoveListener(OnSlideChanged);
+
+            ProfileModulesManager.onResetContent.RemoveListener(WaitAndComplete);
         }
         #endregion
 
         #region Pulse Animation Method
         private void Pulse(int index)
         {
-            Sequence pulseSequence = DOTween.Sequence();
+            if (pulseSequence != null)
+                pulseSequence.Complete();
+            
+            pulseSequence = DOTween.Sequence();
 
             Tween pulseDown = _WindowAction(closeSequence, SequenceType.UnSequenced);
 
@@ -71,6 +80,19 @@ namespace JoshKery.USGA.LockerCapstones
                 else
                     label.text = "ERROR";
             }
+        }
+
+        private void WaitAndComplete(int id)
+        {
+            StartCoroutine(WaitAndCompleteCo());
+        }
+
+        private IEnumerator WaitAndCompleteCo()
+        {
+            yield return null;
+
+            if (pulseSequence != null)
+                pulseSequence.Complete();
         }
     }
 }

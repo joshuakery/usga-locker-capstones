@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using JoshKery.GenericUI.AspectRatio;
+using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -12,6 +13,12 @@ namespace JoshKery.USGA.LockerCapstones
         RawImageManager riManager;
 
         private LockerProfile currentProfile;
+
+        /// <summary>
+        /// Enabling this will be used to close the drawer when the user clicks outside it
+        /// </summary>
+        [SerializeField]
+        private ClickNotOnRTHelper clickNotOnRTHelper;
 
         protected override void OnEnable()
         {
@@ -29,6 +36,22 @@ namespace JoshKery.USGA.LockerCapstones
             MainCanvasStateMachine.beforeAnimateToProfile -= CloseAndComplete;
 
             ProfileModulesManager.onResetContent.RemoveListener(SetContent);
+        }
+
+        protected override void _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        {
+            base._Open(sequenceType, atPosition);
+
+            if (clickNotOnRTHelper != null)
+                clickNotOnRTHelper.doCheck = true;
+        }
+
+        protected override void _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        {
+            base._Close(sequenceType, atPosition);
+
+            if (clickNotOnRTHelper != null)
+                clickNotOnRTHelper.doCheck = false;
         }
 
         private void CloseAndComplete()

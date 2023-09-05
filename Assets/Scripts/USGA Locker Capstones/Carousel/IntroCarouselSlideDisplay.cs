@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using JoshKery.GenericUI.AspectRatio;
 using JoshKery.GenericUI.Carousel;
 
 namespace JoshKery.USGA.LockerCapstones
@@ -27,7 +24,7 @@ namespace JoshKery.USGA.LockerCapstones
                 if (bodyField != null)
                 {
                     bodyField.text = historySlide.text;
-                } 
+                }
             }
         }
     }

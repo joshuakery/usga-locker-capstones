@@ -227,9 +227,9 @@
               }
             }
           ],
-          "bioText": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-          "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "quoteByline": "Lorem ipsum",
+          "bioText": "Nicknamed the “Silver Scot” for the color of his hair, Tommy Armour possessed one of the finest golf swings of all time, as well as an uncanny ability to teach the game. He excelled at golf despite injuries he suffered in World War I that left him with one eye and metal plates in his head and arm. While recovering in the hospital, he focused on thoughts of playing golf. He would go on to win three major championship and 25 events on the PGA Tour.\n\nAfter he retired from competitive golf, Armour became one of the most successful instructors in the world. The philosophies and techniques that he taught were detailed in his best-selling book, How to Play Your Best Golf All the Time.",
+          "quote": "It is not solely the capacity to make great shots that makes champions, but the essential quality of making very few bad shots.",
+          "quoteByline": "Tommy Armour",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_armour.png",
@@ -240,22 +240,8 @@
           "contentTrails": [
             {
               "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
                 "id": 5,
                 "name": "Military Figures",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
                 "description": null
               }
             },
@@ -265,13 +251,6 @@
                 "name": "Teachers",
                 "description": null
               }
-            },
-            {
-              "contentTrails_id": {
-                "id": 12,
-                "name": "Voices of the Game",
-                "description": null
-              }
             }
           ]
         },
@@ -279,9 +258,9 @@
           "id": 16,
           "firstName": "Jim",
           "lastName": "Barnes",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1886-04-08T00:00:00",
+          "birthplace": "Lelant, Cornwall, England",
+          "death": "1966-05-25T00:00:00",
           "inductionYear": 1989,
           "lockerNumber": 40414,
           "media": [],
@@ -289,9 +268,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Towering over the competition at 6 feet, 4 inches tall, “Long Jim” Barnes won more than 25 PGA Tour titles in the era dominated by Gene Sarazen, Walter Hagen and Bob Jones. He won the inaugural PGA Championship in 1916 and successfully defended the title the next time it was played in 1919. In 1921, he won the U.S. Open by nine strokes and four years later captured the 1925 Open Championship coming from five strokes back in the final round.\n\nBarnes was an intense, quiet competitor who often kept a sprig of clover clamped tightly between his teeth. In 1919, he authored Picture Analysis of Golf Strokes, revolutionary as the first golf instructional to make extensive use of photography.",
+          "quote": "You can't always be playing well when it counts. You'll never win golf tournaments until you learn how to score well when you're playing badly.",
+          "quoteByline": "Jim Barnes",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_barnes.png",
@@ -302,22 +281,8 @@
           "contentTrails": [
             {
               "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
-                "id": 5,
-                "name": "Military Figures",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
+                "id": 11,
+                "name": "Teachers",
                 "description": null
               }
             }
@@ -327,9 +292,9 @@
           "id": 17,
           "firstName": "Dorothy",
           "lastName": "Campbell",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1883-03-24T00:00:00",
+          "birthplace": "North Berwick, Scotland",
+          "death": "1945-05-20T00:00:00",
           "inductionYear": 1978,
           "lockerNumber": 40611,
           "media": [],
@@ -337,9 +302,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Regarded as golf’s first truly international player, Dorothy Campbell Hurd Howe won championships in Bermuda, Canada, England, and Scotland. Campbell, who did not evolve into a top player until her late teens despite swinging her first club at 18 months old, won her first amateur title at the age of 22 at the Scottish Ladies Championship, where over 4,000 people watched her victory. In 1909, she became the first woman to win the U.S. and British Amateur titles in the same year. Between 1905 and 1924, she claimed every major title in women’s golf: the Scottish Ladies Championship, British Ladies Amateur, U.S. Women’s Amateur, Canadian Women’s Amateur and the North and South Women’s Amateur.",
+          "quote": "How would it be possible to avoid taking an interest in the game, even if one wanted to do so, when the most insistent remembrances of infant summer days are the click of golf balls and the shouts of “fore”?",
+          "quoteByline": "Dorothy Campbell Hurd Howe",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_campbell.png",
@@ -353,9 +318,9 @@
           "id": 18,
           "firstName": "Bernard",
           "lastName": "Darwin",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1876-09-07T00:00:00",
+          "birthplace": "Downe, England",
+          "death": "1961-10-18T00:00:00",
           "inductionYear": 2005,
           "lockerNumber": 40612,
           "media": [],
@@ -363,9 +328,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Bernard Darwin, the grandson of naturalist Charles Darwin, is regarded as the first writer to cover golf daily and was well-known for his entertaining and comprehensive style. Darwin initially practiced law in London, but after a few years decided to change his career to journalism, and more specifically, to write about golf. He wrote articles for The Times of London from 1907 until 1953 with the byline \"Our Golf Correspondent\" and wrote essays for Country Life from 1907 until 1961. \n\nA fine amateur golfer, Darwin competed in the British Amateur 26 times from 1898 to 1925, represented England in 8 international matches, and played for the Great Britain and Ireland team in the 1922 Walker Cup as a last-minute substitute.",
+          "quote": "It is the constant and undying hope for improvement that makes golf so exquisitely worth playing.",
+          "quoteByline": "Bernard Darwin",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_darwin.png",
@@ -373,15 +338,23 @@
             "description": null,
             "title": "Sig Darwin"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 19,
           "firstName": "Leo",
           "lastName": "Diegel",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1899-04-27T00:00:00",
+          "birthplace": "Detroit, Michigan",
+          "death": "1951-05-08T00:00:00",
           "inductionYear": 2003,
           "lockerNumber": 40409,
           "media": [],
@@ -389,9 +362,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Celebrated as one of the game’s great shot-makers, Leo Diegel will forever be remembered for his unorthodox putting stroke. His trademark style of putting, which came to be known as “Diegeling,” consisted of bending over at the waist and widely extending both arms with his elbows at right angles. \n\nDiegel’s peculiar technique earned him 30 PGA Tour titles, including two PGA Championships, between 1920 and 1934. He also claimed four Canadian Open titles, as well as spots on four United States Ryder Cup teams. After retiring in 1938, he became a club professional and worked with the U.S. Army during World War II to promote golf as a form of rehabilitation for wounded soldiers.",
+          "quote": "In all my years of golf, I have never seen anyone whose devotion to the game could match Leo’s. Every night he went to bed dreaming theory and every morning he awakened with some hot idea that was going to revolutionize the game.",
+          "quoteByline": "Gene Sarazen",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_diegel.png",
@@ -399,15 +372,23 @@
             "description": null,
             "title": "Sig Diegel"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 20,
           "firstName": "Chick",
           "lastName": "Evans",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1890-07-18T00:00:00",
+          "birthplace": "Indianapolis, Indiana",
+          "death": "1979-11-06T00:00:00",
           "inductionYear": 1975,
           "lockerNumber": 40403,
           "media": [],
@@ -415,9 +396,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Charles “Chick” Evans, whose competitive career spanned more than 50 years, was endowed with remarkable creativity and shot-making skills. In 1916, he became the first player to win the U.S. Open and U.S. Amateur in the same year. Evans remained at the highest level of competitive golf for decades, competing in every U.S. Amateur from 1907 through 1962 and establishing the championship’s record for most matches won (57). \n\nWith the money Evans earned from producing golf instructional records and writing a golf book, he created a college scholarship for caddies. The Western Golf Association began administering the funds in 1929 and established the Evans Scholars Foundation, whose legacy includes helping over 8,000 caddies receive a college education.",
+          "quote": "I made a rule never to swing a golf club except to hit a golf ball, for I had learned that one could swing beautifully when the ball wasn’t there, and poorly when it was.",
+          "quoteByline": "Chick Evans",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_evans.png",
@@ -425,15 +406,23 @@
             "description": null,
             "title": "Sig Evans"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 11,
+                "name": "Teachers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 21,
           "firstName": "Walter",
           "lastName": "Hagen",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1982-12-21T00:00:00",
+          "birthplace": "Rochester, New York",
+          "death": "1969-10-05T00:00:00",
           "inductionYear": 1974,
           "lockerNumber": 40416,
           "media": [],
@@ -441,9 +430,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Walter Hagen, the greatest showman of golf’s “Golden Age,\" was legendary for his style and charisma. In fact, his reputation as a flamboyant and romantic character often overshadows his accomplishments on the course. Yet these were extraordinary. \n\nHagen won 11 major championships and 45 tournaments during his career, including five Western Opens, an elite tournament which held near-Major status. He also captained the first six American Ryder Cup teams, posting a record of 7-1-1 in Ryder Cup competition. \n\nHagen is justifiably remembered for his devotion to raising the profile of golf professionals and growing the game through nationwide exhibitions. “I never wanted to be a millionaire,” Hagen once wrote, “I just wanted to live like one.”",
+          "quote": "You’re only here for a short visit. Don’t hurry. Don’t worry. And be sure to smell the flowers along the way.",
+          "quoteByline": "Walter Hagen",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_hagen.png",
@@ -451,15 +440,23 @@
             "description": null,
             "title": "Sig Hagen"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 22,
           "firstName": "Marion",
           "lastName": "Hollins",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1892-12-03T00:00:00",
+          "birthplace": "East Islip, New York",
+          "death": "1944-08-27T00:00:00",
           "inductionYear": 2022,
           "lockerNumber": 40606,
           "media": [],
@@ -467,19 +464,27 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Marion Hollins, a leading name in women’s amateur golf in the 1910s and 1920s, led the transformation of the Monterey Peninsula into one of golf’s most celebrated destinations. In 1922, the Del Monte Company hired Hollins to develop the Pebble Beach Golf Links, where she later organized the Pebble Beach Championship for Women.\n \nFor four years, Hollins worked with Alister MacKenzie to design the Cypress Point Club hole-by-hole. The next project for Hollins and MacKenzie was Pasatiempo, the first sporting/residential complex in America. Early in her golf development career she also met Bob Jones. Because of his work on Pasatiempo and relationship with Hollins, Jones selected MacKenzie and used Pasatiempo as a blueprint for Augusta National.",
+          "quote": "Marion Hollins is in a class by herself in everything. She rides as well as she golfs. She’s the best woman driver in the east. She’s the star of the Long Island polo team. She swims like a reincarnated mermaid. She plays tennis like a whirlwind. ",
+          "quoteByline": "Chicago Tribune",
           "signatureImage": null,
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 23,
           "firstName": "Jock",
           "lastName": "Hutchison",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1884-06-06T00:00:00",
+          "birthplace": "St. Andrews, Fife, Scotland",
+          "death": "1977-09-27T00:00:00",
           "inductionYear": 2011,
           "lockerNumber": 40410,
           "media": [],
@@ -487,9 +492,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "St. Andrews native Jock Hutchison immigrated to the United States in the early 1900s and became a naturalized American citizen in 1920. He would go on to win 14 tournaments on the PGA Tour, including two consecutive major championships. In 1921, Hutchinson became the first U.S.-based player to capture the Claret Jug with his victory at the 1921 Open Championship. \n\nKnown around the course as \"Jovial Jock,\" Hutchison won the inaugural Senior PGA Championship in 1937, and did so again in 1947. He returned to Augusta National Golf Club – the site of his 1937 victory – when he joined 1908 U.S. Open champion Fred McLeod as the first honorary starters at the Masters in 1963.",
+          "quote": "When he shifted into a brilliant streak, Jock could play one perfect hole after another, each shot, like mountain views in Switzerland, seemingly more breathtaking than the one that went before.",
+          "quoteByline": "Herbert Warren Wind",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_hutchinson.png",
@@ -503,9 +508,9 @@
           "id": 24,
           "firstName": "Bob",
           "lastName": "Jones",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1902-03-07T00:00:00",
+          "birthplace": "Atlanta, Georgia",
+          "death": "1971-12-18T00:00:00",
           "inductionYear": 1974,
           "lockerNumber": 40401,
           "media": [],
@@ -513,9 +518,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "More than any player in history, Robert Tyre \"Bobby\" Jones, Jr. remains the model of a complete golfer and the quintessential champion. A man of intelligence, character, and pure athleticism, Bob Jones merged all three traits to become not only a singular champion, but a genuine hero. \n\nA lawyer by trade, Jones won five U.S. Amateurs, one British Amateur, four U.S. Opens and three Open Championships. In 1930, he did the near-impossible and claimed all four majors in a single year, then promptly retired from competitive golf. Together with his partner Clifford Roberts, Jones would go on to found Augusta National Golf Club and the Masters, enlisting Alister MacKenzie to assist in the course design.",
+          "quote": "What Jones did was create a model that everyone, consciously or unconsciously, followed, It is why we have so many fine people in golf. He showed the world how to do it.",
+          "quoteByline": "William Campbell",
           "signatureImage": {
             "id": null,
             "filename_download": "Bobby-Jones-e1452089977219.png",
@@ -523,15 +528,23 @@
             "description": null,
             "title": "Bobby Jones E1452089977219"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 25,
           "firstName": "Alister",
           "lastName": "MacKenzie",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1870-08-30T00:00:00",
+          "birthplace": "Normantown, Yorkshire, England",
+          "death": "1934-01-06T00:00:00",
           "inductionYear": 2005,
           "lockerNumber": 40605,
           "media": [],
@@ -539,9 +552,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Augusta National, Cypress Point, Royal Melbourne, Pasatiempo and Crystal Downs have two things in common – each was designed by Dr. Alister MacKenzie and each has become veritable cathedral of the game. \n\nMacKenzie began his career as a surgeon during the Second Boer War, where he took note of the Boer's ability to camouflage their trenches. After the war, he joined Harry S. Colt in designing the Alwoodley Golf Club and the Moortown Golf Club, which hosted the 1929 Ryder Cup. In 1920, MacKenzie published Golf Architecture, in which he articulated thirteen fundamental principles of golf course design. \n\nMacKenzie’s forte was putting green complexes. He refrained from flattening natural undulations and strove to create artificial undulations that were “indistinguishable from nature.”",
+          "quote": "A good golf course grows on one like a good painting, good music, or any other artistic creation.",
+          "quoteByline": "Alister MacKenzie",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_mackenzie.png",
@@ -549,15 +562,30 @@
             "description": null,
             "title": "Sig Mackenzie"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 5,
+                "name": "Military Figures",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 26,
           "firstName": "Francis",
           "lastName": "Ouimet",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1873-05-08T00:00:00",
+          "birthplace": "Brookline, Massachusetts",
+          "death": "1967-09-02T00:00:00",
           "inductionYear": 1974,
           "lockerNumber": 40402,
           "media": [],
@@ -565,9 +593,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Francis Ouimet began his golf career as an 11-year-old caddie at The Country Club, just across the street from his home in Brookline, Massachusetts. He brought new levels of attention to the game when, as a 20-year-old amateur, he defeated British legends Harry Vardon and Ted Ray in an 18-hole playoff at The Country Club in the 1913 U.S. Open. It would mark the first time that golf appeared on the front page of American newspapers.\n\nFollowing that historic victory, Ouimet went on to capture the U.S. Amateur in 1914 and 1931 while pursuing other business ventures. In 1951, he became the first non-Briton elected Captain of the Royal and Ancient Golf Club of St Andrews.",
+          "quote": "To me, the ground here is hallowed. The grass grows greener, the trees bloom better, and there is even warmth to the rocks. Somehow or other the sun seems to shine brighter on The Country Club than any other place that I have ever known.",
+          "quoteByline": "Francis Ouimet",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_ouimet.png",
@@ -575,15 +603,23 @@
             "description": null,
             "title": "Sig Ouimet"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 27,
           "firstName": "Donald",
           "lastName": "Ross",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1872-11-23T00:00:00",
+          "birthplace": "Dornoch, Scotland",
+          "death": "1948-04-26T00:00:00",
           "inductionYear": 1977,
           "lockerNumber": 40608,
           "media": [],
@@ -591,9 +627,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "The name of Donald Ross is forever linked with many of this nation’s most memorable and playable courses. Regarded by many as the premier golf architect in America during the early 20th century, Ross designed over 400 courses that collectively hosted dozens of prestigious events such as the U.S. Open, U.S. Women’s Open, PGA Championship and Ryder Cup. \n\nA native of Scotland, Ross met a Harvard professor who persuaded him in 1899 to come to America and helped him find his first job at Oakley Country Club. His architecture career blossomed after 1900, when James Walker Tufts, the founder of Pinehurst, lured Ross to the Sand Hills and commissioned from him the design of four golf courses.",
+          "quote": "I believe wholeheartedly in golf. I consider it a game of honor. It does more to bring out the finer points in a man’s character than any other sport.",
+          "quoteByline": "Donald Ross",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_ross.png",
@@ -601,15 +637,23 @@
             "description": null,
             "title": "Sig Ross"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 28,
           "firstName": "Gene",
           "lastName": "Sarazen",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1902-02-27T00:00:00",
+          "birthplace": "Harrison, New York",
+          "death": "1999-05-13T00:00:00",
           "inductionYear": 1974,
           "lockerNumber": 40415,
           "media": [],
@@ -617,9 +661,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Born Eugenio Saraceni, the son of an Italian carpenter from Rome, Gene Sarazen spanned golf history as a competitor, innovator and senior statesman. He had a compact but ferocious swing and a fiercely competitive but generous heart.\n\nIn the final round of the 1935 Masters, Sarazen holed a miraculous shot from 220 yards for double eagle on the 15th hole. He finished the round tied with Craig Wood, then won the playoff the next day to become the first player to win all four major championships. \n\nIn 1931, while being taught by Howard Hughes how to fly a plane, Sarazen came upon the idea for the modern sand wedge. He later called it his biggest contribution to the game.",
+          "quote": "When Sarazen saw a chance at the bacon hanging over the last green, he could put as much fire and fury into a finishing round as Jack Dempsey could put into a fight.",
+          "quoteByline": "Bob Jones",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_sarazen.png",
@@ -633,9 +677,9 @@
           "id": 29,
           "firstName": "A.W.",
           "lastName": "Tillinghast",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1876-05-07T00:00:00",
+          "birthplace": "Philadelphia, Pennsylvania",
+          "death": "1942-05-19T00:00:00",
           "inductionYear": 2015,
           "lockerNumber": 40607,
           "media": [],
@@ -643,9 +687,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "An accomplished amateur golfer, early golf photographer, watercolorist and collector of early American antiques, A.W. Tillinghast excelled at the artistry of golf course design. He designed his first course in the Adirondacks in 1898, then went on to become one of the most prolific architects of golf’s “Golden Age,” contributing to the design of more than 260 golf courses throughout the United States and Canada. \n\nTillinghast’s most celebrated designs include Baltusrol Golf Club and Somerset Hills Country Club in New Jersey; Bethpage Black Golf Course, Quaker Ridge Golf Club and Winged Foot Golf Club in New York; and San Francisco Golf Club in California. His original designs have hosted more than 20 major championships.",
+          "quote": "A round of golf should present 18 inspirations.",
+          "quoteByline": "A.W. Tillinghast",
           "signatureImage": {
             "id": null,
             "filename_download": "AW-Tillinghast-sig-e1436538449538.png",
@@ -653,15 +697,23 @@
             "description": null,
             "title": "Aw Tillinghast Sig E1436538449538"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 30,
           "firstName": "Jerry",
           "lastName": "Travers",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1887-05-19T00:00:00",
+          "birthplace": "New York, New York",
+          "death": "1951-03-29T00:00:00",
           "inductionYear": 1976,
           "lockerNumber": 40404,
           "media": [],
@@ -669,9 +721,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "One of the most feared golfers of his generation, Jerry Travers captured four U.S. Amateurs, five Metropolitan Amateurs and a U.S. Open between 1906 and 1915. He had a brilliant short game, but was erratic off the tee. In 1915, Travers became the second amateur to win the U.S. Open, but he chose to not defend his title and subsequently retired from competitive golf. \n\nAs Herbert Warren Wind explained, it was a fierce rivalry with Walter Travis that “formed the crucible in which a talented young golfer was made into the greatest match player of his decade.” Among his peers, Jerry Travers earned ultimate, almost intimidating, respect. Chick Evans called him “the coldest, hardest golfer I ever knew.”",
+          "quote": "Golf is a game of the head as well as a game of the hands.",
+          "quoteByline": "Jerry Travers",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_travers.png",
@@ -685,9 +737,9 @@
           "id": 31,
           "firstName": "Walter",
           "lastName": "Travis",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1862-01-10T00:00:00",
+          "birthplace": "Maldon, Victoria, Australia",
+          "death": "1927-07-31T00:00:00",
           "inductionYear": 1979,
           "lockerNumber": 40406,
           "media": [],
@@ -695,9 +747,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "There has not been a golfer who played so well after starting so late in life as Walter J. Travis. He took up golf at age 35, won his first tournament one month later, and two years later reached the semifinal round of the U.S. Amateur. Within four years, Travis won the first of three U.S. Amateur titles. He was the first American citizen to win the Amateur Championship and ended his career by winning the prestigious Metropolitan Amateur at age 53. \n\nTravis retired from competitive golf in 1916, but went on to design or renovate over 50 courses. He published several books and founded the magazine The American Golfer to share his knowledge of the game.",
+          "quote": "Always be on the aggressive. Act as if you are quite sure of yourself and never give an opponent the psychological advantage of imagining you are the least afraid of him.",
+          "quoteByline": "Walter Travis",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_travis.png",
@@ -705,15 +757,30 @@
             "description": null,
             "title": "Sig Travis"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
+                "description": null
+              }
+            }
+          ]
         },
         {
           "id": 32,
           "firstName": "Glenna",
           "lastName": "Collett-Vare",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1903-06-20T00:00:00",
+          "birthplace": "New Haven, Connecticut",
+          "death": "1989-02-03T00:00:00",
           "inductionYear": 1975,
           "lockerNumber": 40609,
           "media": [],
@@ -721,9 +788,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Glenna Collett Vare was the preeminent female golfer of golf’s “Golden Age,” winning six U.S. Women’s Amateur Championships, six North and South Women’s Amateur titles and six Women’s Eastern Amateur crowns between 1922 and 1935. In 1924, Vare won 59 out of 60 matches, with her only loss coming on the 19th hole of the U.S. Women’s Amateur. Her dominance in match play was often attributed to her prodigious driving distances, which occasionally exceeded 300 yards.\n\nThe “Queen of American Golf” represented the United States on six Curtis Cup teams, serving as captain five times. In 1953, the LPGA introduced the Vare Trophy, which is awarded annually to the player achieving the lowest scoring average during a season.",
+          "quote": "To make oneself a successful match player, there are certain qualities to be sought after, certain ideas must be kept in mind and certain phases of one’s attitude...The three I have taken are these: love of combat, serenity of mind and fearlessness.",
+          "quoteByline": "Glenna Collett Vare",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_vare.png",
@@ -737,9 +804,9 @@
           "id": 33,
           "firstName": "Joyce",
           "lastName": "Wethered",
-          "birth": null,
-          "birthplace": null,
-          "death": null,
+          "birth": "1901-11-17T00:00:00",
+          "birthplace": "Surrey, United Kingdom",
+          "death": "1997-11-18T00:00:00",
           "inductionYear": 1975,
           "lockerNumber": 40610,
           "media": [],
@@ -747,9 +814,9 @@
           "backgroundImage": null,
           "accomplishments": [],
           "bioImages": [],
-          "bioText": null,
-          "quote": null,
-          "quoteByline": null,
+          "bioText": "Joyce Wethered dominated golf in Britain in the 1920s, winning 33 consecutive matches in the Women’s Amateur Championship between 1924 and 1926. In 1929, before a large crowd at St. Andrews, Scotland, she defeated the reigning U.S. Women’s Amateur champion, Glenna Collett Vare, to claim her fourth Women’s Amateur crown. \n\nIn the 1930s, Wethered traversed the United States playing professionally in exhibition matches alongside the best golfers in the world. Bob Jones said she was the best golfer he had ever seen – man or woman. “It was not so much the score she made as the way she made it. It was impossible to expect that Miss Wethered would ever miss a shot,” Jones professed, “and she never did.”",
+          "quote": "She could hit a ball 240 yards on the fly while standing barefoot on a cake of ice.",
+          "quoteByline": "Willie Wilson, Scottish golf professional",
           "signatureImage": {
             "id": null,
             "filename_download": "sig_wethered.png",
