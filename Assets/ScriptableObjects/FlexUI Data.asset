@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   primaryColor:
     serializedVersion: 2
-    rgba: 4285558896
+    rgba: 4282664004
   secondaryColor:
     serializedVersion: 2
-    rgba: 4292598747
+    rgba: 4292927712
   whiteColor:
     serializedVersion: 2
     rgba: 4294967295

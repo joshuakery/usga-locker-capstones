@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 4928414901486258825}
   - component: {fileID: 3866427873516314704}
   - component: {fileID: 770812120258764489}
+  - component: {fileID: 2160830464804217860}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -176,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 26c8e77ba82944f4c85517d5718847fe, type: 3}
+  m_Texture: {fileID: 2800000, guid: d12c269eb537ba649842f91b2af015e8, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -228,6 +229,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspectMode: 1
+--- !u!114 &2160830464804217860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826206636072367782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c162dc854d2f24fa639ba0623de5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: 18.32
+  spread: 0.188
+  useGlobalAngle: 0
+  offsetAngle: 90
+  offsetDistance: 0
+  offset: {x: 0, y: -0}
+  color: {r: 0, g: 0, b: 0, a: 0.36078432}
+  inset: 0
+  blendMode: 0
+  useCasterAlpha: 1
+  ignoreCasterColor: 0
+  colorBleedMode: 2
+  disableFitCompensation: 0
+  shadowAsSibling: 0
+  cutout: 0
+  baked: 0
+  modifiedFromInspector: 0
+  bakedShadows: []
 --- !u!1 &6081797219925948680
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,8 +336,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280953386
-  m_fontColor: {r: 0.16470589, g: 0.16470589, b: 0.16470589, a: 1}
+    rgba: 4282664004
+  m_fontColor: {r: 0.26666668, g: 0.26666668, b: 0.26666668, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -380,4 +411,4 @@ MonoBehaviour:
   skinData: {fileID: 11400000, guid: c16a02915cb99b848b0c5743780f337b, type: 2}
   screenType: 1
   headingType: 9
-  fontColor: 1
+  fontColor: 2

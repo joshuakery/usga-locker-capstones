@@ -16,16 +16,16 @@ namespace JoshKery.USGA.LockerCapstones
 
             if (lockerProfile != null)
             {
-                if (lockerProfile.earnedAccomplishmentItems != null)
+                if (lockerProfile.accomplishments != null)
                 {
                     ClearAllDisplays();
 
-                    foreach (EarnedAccomplishmentItem item in lockerProfile.earnedAccomplishmentItems)
+                    foreach (Accomplishment accomplishment in lockerProfile.accomplishments)
                     {
-                        if (item?.earnedAccomplishment != null)
+                        if (accomplishment != null)
                         {
                             AccomplishmentDisplay display = InstantiateDisplay<AccomplishmentDisplay>();
-                            display.SetContent(item.earnedAccomplishment);
+                            display.SetContent(accomplishment);
                         }
                     }
                 }

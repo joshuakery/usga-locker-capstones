@@ -10,10 +10,10 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class AccomplishmentModal : BaseWindow
     {
-        public delegate void OnOpen(EarnedAccomplishment earnedAccomplishment);
+        public delegate void OnOpen(Accomplishment accomplishment);
         public static OnOpen onOpen;
 
-        public delegate void OnOpening(EarnedAccomplishment earnedAccomplishment, Vector2 cardDestination);
+        public delegate void OnOpening(Accomplishment accomplishment, Vector2 cardDestination);
         /// <summary>
         /// For passing the placeholder's position to an accomplishment card for its dynamic animation to that position.
         /// </summary>
@@ -30,9 +30,6 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private TMP_Text descriptionField;
-
-        [SerializeField]
-        private RawImageManager iconField;
 
         [SerializeField]
         private RectTransform accomplishmentCardPlaceholder;
@@ -59,22 +56,19 @@ namespace JoshKery.USGA.LockerCapstones
             MainCanvasStateMachine.beforeAnimateToProfile -= InvokeOnCloseAndComplete;
         }
 
-        public void SetContentAndOpen(EarnedAccomplishment earnedAccomplishment)
+        public void SetContentAndOpen(Accomplishment accomplishment)
         {
-            if (earnedAccomplishment != null)
+            if (accomplishment != null)
             {
                 if (headerField != null)
-                    headerField.text = earnedAccomplishment.name;
+                    headerField.text = accomplishment.name;
 
                 if (descriptionField != null)
-                    descriptionField.text = earnedAccomplishment.description;
-
-                if (iconField != null)
-                    iconField.texture = earnedAccomplishment.image?.texture;
+                    descriptionField.text = accomplishment.description;
 
                 Open();
 
-                StartCoroutine(WaitAndInvokeOnOpening(earnedAccomplishment));
+                StartCoroutine(WaitAndInvokeOnOpening(accomplishment));
             }
             
         }
@@ -83,13 +77,13 @@ namespace JoshKery.USGA.LockerCapstones
         /// Wait a frame for layout to rebuild.
         /// </summary>
         /// <returns></returns>
-        private IEnumerator WaitAndInvokeOnOpening(EarnedAccomplishment earnedAccomplishment)
+        private IEnumerator WaitAndInvokeOnOpening(Accomplishment accomplishment)
         {
             yield return null;
 
             if (accomplishmentCardPlaceholder != null)
             {
-                onOpening.Invoke(earnedAccomplishment, accomplishmentCardPlaceholder.position);
+                onOpening.Invoke(accomplishment, accomplishmentCardPlaceholder.position);
             }
                 
         }

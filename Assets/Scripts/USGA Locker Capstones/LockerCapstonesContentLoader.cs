@@ -164,6 +164,16 @@ namespace JoshKery.USGA.LockerCapstones
         private IEnumerator LoadLockerCapstonesMedia()
         {
             if (appState?.data == null) { yield break; }
+
+            // AccomplishmentIcons must come first in order to assign images to the locker profiles' accomplishments
+            if (appState.data.accomplishmentIcons != null)
+            {
+                foreach (AccomplishmentIcon icon in appState.data.accomplishmentIcons)
+                {
+                    yield return StartCoroutine(LoadMediaForAccomplishmentIcon(icon));
+                }
+            }
+
             if (appState.data.lockerProfiles != null)
             {
                 foreach (LockerProfile lockerProfile in appState.data.lockerProfiles)
@@ -171,13 +181,7 @@ namespace JoshKery.USGA.LockerCapstones
                     yield return StartCoroutine(LoadMediaForLockerProfile(lockerProfile));
                 }
             }
-            if (appState.data.accomplishmentTypes != null)
-            {
-                foreach (Accomplishment accomplishment in appState.data.accomplishmentTypes)
-                {
-                    yield return StartCoroutine(LoadMediaForAccomplishment(accomplishment));
-                }
-            }
+            
             if (appState.data.era != null)
             {
                 yield return StartCoroutine(LoadMediaForEra(appState.data.era));
@@ -207,21 +211,12 @@ namespace JoshKery.USGA.LockerCapstones
                         yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile));
                     }
                 }
-
-                if (lockerProfile.earnedAccomplishmentItems != null)
-                {
-                    foreach (EarnedAccomplishmentItem item in lockerProfile.earnedAccomplishmentItems)
-                    {
-                        yield return StartCoroutine(LoadMediaFromMediaFile(item?.earnedAccomplishment?.customImage));
-                    }
-                }
-
             }
         }
 
-        private IEnumerator LoadMediaForAccomplishment(Accomplishment accomplishment)
+        private IEnumerator LoadMediaForAccomplishmentIcon(AccomplishmentIcon icon)
         {
-            yield return StartCoroutine(LoadMediaFromMediaFile(accomplishment?.image));
+            yield return StartCoroutine(LoadMediaFromMediaFile(icon?.image));
         }
 
         private IEnumerator LoadMediaForEra(Era era)

@@ -85,41 +85,48 @@ namespace JoshKery.USGA.LockerCapstones
         }
 
         #region Set Content
-        public void SetContent(EarnedAccomplishment earnedAccomplishment)
+        public void SetContent(Accomplishment accomplishment)
         {
-            if (earnedAccomplishment != null)
+            if (accomplishment != null)
             {
-                id = earnedAccomplishment.id;
+                id = accomplishment.id;
 
-                if (iconRIManager != null)
-                    iconRIManager.texture = earnedAccomplishment.image?.texture;
+                if (iconRIManager != null &&
+                    appState?.data != null &&
+                    accomplishment.icon != null &&
+                    appState.data.accomplishmentIconsDict.ContainsKey(accomplishment.icon.id)
+                    )
+                {
+                    iconRIManager.texture = appState.data.accomplishmentIconsDict[accomplishment.icon.id].image?.texture;
+                }
+                    
 
                 if (titleTextField != null)
-                    titleTextField.text = earnedAccomplishment.name;
+                    titleTextField.text = accomplishment.name;
 
-                SetupInfoButton(earnedAccomplishment);
+                SetupInfoButton(accomplishment);
             }
         }
 
-        private void SetupInfoButton(EarnedAccomplishment earnedAccomplishment)
+        private void SetupInfoButton(Accomplishment accomplishment)
         {
-            infoSkin.SetActive(earnedAccomplishment.hasInfo);
-            infoButton.enabled = earnedAccomplishment.hasInfo;
+            infoSkin.SetActive(accomplishment.hasInfo);
+            infoButton.enabled = accomplishment.hasInfo;
 
             infoButton.onClick.RemoveAllListeners();
             infoButton.onClick.AddListener(() =>
                 {
-                    AccomplishmentModal.onOpen.Invoke(earnedAccomplishment);
+                    AccomplishmentModal.onOpen.Invoke(accomplishment);
                 }
             );
         }
 
         #endregion
 
-        private void OnModalOpen(EarnedAccomplishment earnedAccomplishment, Vector2 destination)
+        private void OnModalOpen(Accomplishment accomplishment, Vector2 destination)
         {
             
-            if (id == earnedAccomplishment.id)
+            if (id == accomplishment.id)
             {
                 if (animationData != null)
                 {

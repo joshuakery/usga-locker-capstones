@@ -23,11 +23,11 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 _data = value;
 
-                if (_data?.accomplishmentTypes != null)
-                    _data.accomplishmentsDict = _data.accomplishmentTypes.ToDictionary(a => a.id);
-
                 if (_data?.contentTrails != null)
                     _data.contentTrailsDict = _data.contentTrails.ToDictionary(c => c.id);
+
+                if (_data?.accomplishmentIcons != null)
+                    _data.accomplishmentIconsDict = _data.accomplishmentIcons.ToDictionary(i => i.id);
 
                 if (_data?.lockerProfiles != null)
                     _data.lockerProfilesDict = _data.lockerProfiles.ToDictionary(p => p.id);
@@ -53,50 +53,6 @@ namespace JoshKery.USGA.LockerCapstones
 
                 if (_era != null)
                     _era.BuildContentTrailIDsInThisEraList();
-            }
-        }
-
-        [JsonProperty("accomplishmentTypes")]
-        public List<Accomplishment> accomplishmentTypes { get; set; }
-
-        [JsonIgnore]
-        private Dictionary<int, Accomplishment> _accomplishmentsDict;
-
-        [JsonIgnore]
-        public Dictionary<int, Accomplishment> accomplishmentsDict
-        {
-            get
-            {
-                if (_accomplishmentsDict == null)
-                    _accomplishmentsDict = new Dictionary<int, Accomplishment>();
-
-                return _accomplishmentsDict;
-            }
-            set
-            {
-                _accomplishmentsDict = value;
-            }
-        }
-
-        [JsonProperty("contentTrails")]
-        public List<ContentTrail> contentTrails { get; set; }
-
-        [JsonIgnore]
-        private Dictionary<int, ContentTrail> _contentTrailsDict;
-
-        [JsonIgnore]
-        public Dictionary<int, ContentTrail> contentTrailsDict
-        {
-            get
-            {
-                if (_contentTrailsDict == null)
-                    _contentTrailsDict = new Dictionary<int, ContentTrail>();
-
-                return _contentTrailsDict;
-            }
-            set
-            {
-                _contentTrailsDict = value;
             }
         }
 
@@ -128,6 +84,50 @@ namespace JoshKery.USGA.LockerCapstones
             set
             {
                 _lockerProfilesDict = value;
+            }
+        }
+
+        [JsonProperty("contentTrails")]
+        public List<ContentTrail> contentTrails { get; set; }
+
+        [JsonIgnore]
+        private Dictionary<int, ContentTrail> _contentTrailsDict;
+
+        [JsonIgnore]
+        public Dictionary<int, ContentTrail> contentTrailsDict
+        {
+            get
+            {
+                if (_contentTrailsDict == null)
+                    _contentTrailsDict = new Dictionary<int, ContentTrail>();
+
+                return _contentTrailsDict;
+            }
+            set
+            {
+                _contentTrailsDict = value;
+            }
+        }
+
+        [JsonProperty("accomplishmentIcons")]
+        public List<AccomplishmentIcon> accomplishmentIcons { get; set; }
+
+        [JsonIgnore]
+        private Dictionary<int, AccomplishmentIcon> _accomplishmentIconsDict;
+
+        [JsonIgnore]
+        public Dictionary<int, AccomplishmentIcon> accomplishmentIconsDict
+        {
+            get
+            {
+                if (_accomplishmentIconsDict == null)
+                    _accomplishmentIconsDict = new Dictionary<int, AccomplishmentIcon>();
+
+                return _accomplishmentIconsDict;
+            }
+            set
+            {
+                _accomplishmentIconsDict = value;
             }
         }
     }
@@ -212,7 +212,7 @@ namespace JoshKery.USGA.LockerCapstones
         public MediaFile backgroundImage { get; set; }
 
         [JsonProperty("accomplishments")]
-        public List<EarnedAccomplishmentItem> earnedAccomplishmentItems { get; set; }
+        public List<Accomplishment> accomplishments{ get; set; }
 
         [JsonIgnore]
         public bool hasAccomplishments
@@ -220,8 +220,8 @@ namespace JoshKery.USGA.LockerCapstones
             get
             {
                 return (
-                    earnedAccomplishmentItems != null &&
-                    earnedAccomplishmentItems.Where(item => item.earnedAccomplishment != null).ToList().Count > 0
+                    accomplishments != null &&
+                    accomplishments.Where(item => item != null).ToList().Count > 0
                 );
             }
         }
@@ -254,74 +254,13 @@ namespace JoshKery.USGA.LockerCapstones
     }
 
     [Serializable]
-    public class EarnedAccomplishmentItem
+    public class AccomplishmentIcon
     {
         [JsonProperty("id")]
         public int id { get; set; }
 
-        [JsonProperty("earnedAccomplishments_id")]
-        public EarnedAccomplishment earnedAccomplishment;
-    }
-
-    [Serializable]
-    public class EarnedAccomplishment
-    {
-        [JsonProperty("id")]
-        public int id { get; set; }
-
-        [JsonProperty("timesEarned")]
-        public int timesEarned { get; set; }
-
-        [JsonProperty("customImage")]
-        public MediaFile customImage { get; set; }
-
-        [JsonProperty("customDescription")]
-        public string customDescription { get; set; }
-
-        [JsonProperty("type")]
-        public Accomplishment type { get; set; }
-
-        [JsonIgnore]
-        public string name
-        {
-            get
-            {
-                return type.name;
-            }
-        }
-
-        [JsonIgnore]
-        public string description
-        {
-            get
-            {
-                if (!System.String.IsNullOrEmpty(customDescription))
-                    return customDescription;
-                else
-                    return type.description;
-            }
-        }
-
-        [JsonIgnore]
-        public MediaFile image
-        {
-            get
-            {
-                if (customImage != null)
-                    return customImage;
-                else
-                    return type.image;
-            }
-        }
-
-        [JsonIgnore]
-        public bool hasInfo
-        {
-            get
-            {
-                return !System.String.IsNullOrEmpty(description);
-            }
-        }
+        [JsonProperty("image")]
+        public MediaFile image { get; set; }
     }
 
     [Serializable]
@@ -336,8 +275,20 @@ namespace JoshKery.USGA.LockerCapstones
         [JsonProperty("name")]
         public string name { get; set; }
 
-        [JsonProperty("image")]
-        public MediaFile image { get; set; }
+        [JsonProperty("icon")]
+        public AccomplishmentIcon icon { get; set; }
+
+        [JsonProperty("status")]
+        public string status { get; set; }
+
+        [JsonIgnore]
+        public bool hasInfo
+        {
+            get
+            {
+                return !System.String.IsNullOrEmpty(description);
+            }
+        }
     }
 
     [Serializable]

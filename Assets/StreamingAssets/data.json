@@ -3,156 +3,361 @@
     "eras_by_id": {
       "historySlides": [
         {
-          "id": 3,
-          "image": {
-            "id": null,
-            "filename_download": "1000-00701.jpg",
-            "filename_disk": "860b7f61-6aa2-469a-b307-b6ef6116781c.jpg",
-            "description": null,
-            "title": null
-          },
+          "id": 12,
+          "image": null,
           "order": 1,
-          "text": "Golf first appears on the front page of American newspapers when amateur Francis Ouimet defeats legendary British professionals Harry Vardon and Ted Ray at the 1913 U.S. Open. His victory reflects the rise of the United States as an economic and political powerhouse and heralds the arrival of golf’s golden age.",
+          "text": "Historians believe that golf originated in Scotland in the early 1400s. For centuries, the game was played on sandy linksland in just a handful of coastal towns, most prominently St. Andrews. Early golf was principally the domain of the economic and social elite.",
           "imageCaption": null,
-          "title": "Golden Age Slide 1",
+          "title": "Golf Boom Slide 1",
           "backgroundVideo": null
         },
         {
-          "id": 4,
-          "image": {
-            "id": null,
-            "filename_download": "1000-00717.jpg",
-            "filename_disk": "1d9f46b7-b7a8-4ee4-8c6b-c53c6a47562e.jpg",
-            "description": null,
-            "title": "1000 00717"
-          },
+          "id": 13,
+          "image": null,
           "order": 2,
-          "text": "The 1920s marks the “Golden Age” of sports and sportswriters. The Great War has ended, the economy is booming, and fans everywhere wildly cheer athletes like Jack Dempsey (boxing), Suzanne Lengeln (tennis) and Babe Ruth (baseball). Golf’s great showman Walter Hagen proclaims, “I never wanted to be a millionaire. I just wanted to live like one.”",
+          "text": "The Industrial Revolution transformed Scottish society, encouraging the rapid growth of golf. There were just 24 golf clubs in Britain in 1851 and at least 290 by 1899. The first generation of golf professionals emerged mid-century and by the 1860s were competing in elite competitions like the Open Championship.",
           "imageCaption": null,
-          "title": "Golden Age Slide 2",
+          "title": "Golf Boom Slide 2",
           "backgroundVideo": null
         },
         {
-          "id": 5,
-          "image": {
-            "id": null,
-            "filename_download": "1000-03287e.jpg",
-            "filename_disk": "55adee60-2755-41cc-a585-b16a3cda864e.jpg",
-            "description": null,
-            "title": "1000 03287e"
-          },
+          "id": 14,
+          "image": null,
           "order": 3,
-          "text": "The art and science of golf course architecture flourish in the 1920s. Golden Age architects like Alister MacKenzie, Donald Ross and A.W. Tillinghast create masterpieces of design across North America, Europe, Asia and Australia. Natural forms and strategic options characterize iconic courses like Royal Melbourne, Seminole and Winged Foot.",
+          "text": "Changing perspectives on female sports participation encouraged women to take up the game after 1850. The St. Andrews Ladies’ Club was formed in 1867 and played over an area known as the Himalayas. Westward Ho! (1868), Musselburgh (1872) and Carnoustie (1873) quickly followed in creating clubs and courses for women.",
           "imageCaption": null,
-          "title": "Golden Age Slide 3",
+          "title": "Golf Boom Slide 3",
           "backgroundVideo": null
         },
         {
-          "id": 11,
-          "image": {
-            "id": null,
-            "filename_download": "1000-00057.jpg",
-            "filename_disk": "8498d6c0-be15-44e5-93bb-eccd1f2c1a2d.jpg",
-            "description": null,
-            "title": "1000 00057"
-          },
-          "order": 3,
-          "text": "The golden age of golf culminates in Bob Jones’ remarkable “Impregnable Quadrilateral,” as he records victories in the open and amateur championships of the United States and Great Britain in 1930. His “Grand Slam” is hailed widely as the greatest accomplishment in all of sport.",
-          "imageCaption": null,
-          "title": "Golden Age Slide 6",
-          "backgroundVideo": null
-        },
-        {
-          "id": 9,
-          "image": {
-            "id": null,
-            "filename_download": "1000-01728.jpg",
-            "filename_disk": "911d0277-fd38-426f-b9fe-7cb47d43d481.jpg",
-            "description": null,
-            "title": "1000 01728"
-          },
+          "id": 15,
+          "image": null,
           "order": 4,
-          "text": "It is a golden age for women’s golf. England’s Joyce Wethered and Glenna Collett Vare dominate on both sides of the Atlantic. Their rivalry - and friendship - elevates the visibility and appreciation of the women’s game. Marion Hollins creates Women’s National Golf and Tennis Club on Long Island, financed entirely by women.",
+          "text": "Golf’s emergence as a global game reflected the breadth of British economic interests. Golf spread to India in 1830 and Australia by 1840. Vacationers and expatriates helped extend golf across the Continent, to France in 1856, Belgium in 1888 and Italy and Switzerland by 1890. By 1895, golf proliferated in more than 35 countries.",
           "imageCaption": null,
-          "title": "Golden Age Slide 4",
+          "title": "Golf Boom Slide 4",
           "backgroundVideo": null
         },
         {
-          "id": 10,
-          "image": {
-            "id": null,
-            "filename_download": "3000_230160.jpg",
-            "filename_disk": "2c882f32-0778-4453-832c-e0e644ce5f1c.jpg",
-            "description": null,
-            "title": "3000 230160"
-          },
+          "id": 16,
+          "image": null,
           "order": 5,
-          "text": "Following the formation of The Professional Golfers’ Association in the United Kingdom in 1901 and The Professional Golfers’ Association of America in 1916, professional golf flourishes. The game’s greatest professionals travel internationally, especially in the years that followed the Great War, leading to the creation of the Ryder Cup in 1927.",
+          "text": "Golf was played in America as early as the 1740s, but the game did not flourish in the United States until the 1880s. Many Scottish and English professionals emigrated to America to work at more than 1,000 golf courses that existed by 1900. Some became the first stars of American golf.",
           "imageCaption": null,
-          "title": "Golden Age Slide 5",
+          "title": "Golf Boom Slide 5",
           "backgroundVideo": null
         }
       ],
-      "id": 1,
-      "startYear": "1910s",
-      "endYear": "1930s",
-      "title": "Golf's Golden Age",
-      "description": "Heroes become household names in the era of sports celebrities",
+      "id": 2,
+      "startYear": "Beginnings",
+      "endYear": "1910s",
+      "title": "The Great Golf Boom",
+      "description": "Golf's first legends emerge as the game's popularity explodes",
       "profiles": [
         {
-          "id": 15,
-          "firstName": "Tommy",
-          "lastName": "Armour",
-          "birth": "1896-09-24T00:00:00",
-          "birthplace": "Edinburgh, Scotland",
-          "death": "1968-09-11T00:00:00",
-          "inductionYear": 1976,
-          "lockerNumber": 40411,
+          "id": 3,
+          "firstName": "Allan",
+          "lastName": "Robertson",
+          "birth": "1815-09-11T00:00:00",
+          "birthplace": "St. Andrews, Fife, Scotland",
+          "death": "1859-09-01T00:00:00",
+          "inductionYear": 2001,
+          "lockerNumber": 40201,
           "media": [
             {
               "directus_files_id": {
-                "id": "860b7f61-6aa2-469a-b307-b6ef6116781c",
-                "filename_download": "1000-00701.jpg",
-                "filename_disk": "860b7f61-6aa2-469a-b307-b6ef6116781c.jpg",
+                "id": "8b9fe246-df55-4b36-8a08-ce6490f4049e",
+                "filename_download": "Mask Group 5.png",
+                "filename_disk": "8b9fe246-df55-4b36-8a08-ce6490f4049e.png",
+                "description": null,
+                "title": "Mask Group 5"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "724beaab-fc61-441d-b21b-90f36d022a61",
+                "filename_download": "Mask Group 5.png",
+                "filename_disk": "724beaab-fc61-441d-b21b-90f36d022a61.png",
+                "description": null,
+                "title": "Mask Group 5"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "c506862c-834e-449f-8db0-1e642e8376e9",
+                "filename_download": "Mask Group 3.png",
+                "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
                 "description": null,
                 "title": null
               }
             },
             {
               "directus_files_id": {
-                "id": "fb9363bb-c439-43dd-a7ce-0033ba5ff25a",
-                "filename_download": "1000-00690.jpg",
-                "filename_disk": "fb9363bb-c439-43dd-a7ce-0033ba5ff25a.jpg",
+                "id": "a3629984-0af1-4389-97a9-9b442f4bc14b",
+                "filename_download": "Image 7.png",
+                "filename_disk": "a3629984-0af1-4389-97a9-9b442f4bc14b.png",
                 "description": null,
-                "title": null
+                "title": "Image 7"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "7379804a-1062-40fc-b4c0-f6acf0308a5f",
+            "filename_download": "allan-robertson.jpg",
+            "filename_disk": "7379804a-1062-40fc-b4c0-f6acf0308a5f.jpg",
+            "description": null,
+            "title": "Allan Robertson"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 4,
+              "description": null,
+              "name": "Golf's first professional and greenskeeper",
+              "icon": {
+                "id": 2,
+                "image": null
+              },
+              "status": "draft"
+            },
+            {
+              "id": 5,
+              "description": null,
+              "name": "Premier club and ball maker in St. Andrews",
+              "icon": {
+                "id": 1,
+                "image": null
+              },
+              "status": "draft"
+            },
+            {
+              "id": 6,
+              "description": null,
+              "name": "First player to break 80 on the Old Course in St. Andrews",
+              "icon": {
+                "id": 1,
+                "image": null
+              },
+              "status": "draft"
+            },
+            {
+              "id": 7,
+              "description": null,
+              "name": "Victor in numerous high-profile challenge matches",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 8,
+              "description": null,
+              "name": "Frequent partner of Old Tom Morris",
+              "icon": {
+                "id": 1,
+                "image": null
+              },
+              "status": "draft"
+            },
+            {
+              "id": 9,
+              "description": null,
+              "name": "Architect of course improvements at St. Andrews and Carnoustie",
+              "icon": {
+                "id": 2,
+                "image": null
+              },
+              "status": "draft"
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Mask Group 3.png",
+                "filename_disk": "bb4c1846-48a8-4196-8142-cdc295efd783.png",
+                "description": null,
+                "title": "Mask Group 3"
               }
             },
             {
               "directus_files_id": {
-                "id": "1d9f46b7-b7a8-4ee4-8c6b-c53c6a47562e",
-                "filename_download": "1000-00717.jpg",
-                "filename_disk": "1d9f46b7-b7a8-4ee4-8c6b-c53c6a47562e.jpg",
+                "id": null,
+                "filename_download": "Image 7.png",
+                "filename_disk": "25fe3102-4ae6-4f5f-b316-7c58a7336c0e.png",
                 "description": null,
-                "title": "1000 00717"
+                "title": "Image 7"
               }
+            }
+          ],
+          "bioText": "Often identified as the first golf professional in history, Allan Robertson was the first player to earn distinction as the world’s \"Champion Golfer.\" His grandfather and father were celebrated caddies, as well as feathery ball makers and club makers of the highest repute. Allan followed in the family tradition.\n\nRobertson famously completed in numerous high-stakes challenge matches. He took great delight in deliberately extending challenge matches to the 17th hole, when he could have polished off his foe earlier. He did so not only to avoid wounding his opponent’s pride, but also to make it impossible for the opponent to ask for better odds at their next match.",
+          "quote": "He is not only the best golf player, but quite a capital ball-maker, and withall a quiet, hard-boned, wired little fellow, always as cool as a cucumber.",
+          "quoteByline": "Fifeshire Journal, 1846",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_robertson.png",
+            "filename_disk": "bf8d9c12-5840-4ca3-b40f-480072c452ed.png",
+            "description": null,
+            "title": "Sig Robertson"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 4,
+          "firstName": "Tom",
+          "lastName": "Morris, Sr.",
+          "birth": "1821-06-16T00:00:00",
+          "birthplace": "St. Andrews, Fife, Scotland",
+          "death": "1908-05-24T00:00:00",
+          "inductionYear": 1976,
+          "lockerNumber": 40203,
+          "media": [],
+          "featuredImage": {
+            "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
+            "filename_download": "INDUCTEE-Tiger-Woods.png",
+            "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
+            "description": null,
+            "title": "Inductee Tiger Woods"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 10,
+              "description": "Morris' victories at the Open Championship included winning the 1862 Open by thirteen strokes, and a victory in 1867 at the age of 46.",
+              "name": "Four-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
             },
             {
-              "directus_files_id": {
-                "id": "55adee60-2755-41cc-a585-b16a3cda864e",
-                "filename_download": "1000-03287e.jpg",
-                "filename_disk": "55adee60-2755-41cc-a585-b16a3cda864e.jpg",
-                "description": null,
-                "title": "1000 03287e"
-              }
+              "id": 11,
+              "description": null,
+              "name": "Premier club and ball maker in St. Andrews",
+              "icon": null,
+              "status": "draft"
             },
             {
-              "directus_files_id": {
-                "id": "239f3a70-d6eb-4902-a6b1-ac5579225658",
-                "filename_download": "1000-01728.jpg",
-                "filename_disk": "239f3a70-d6eb-4902-a6b1-ac5579225658.jpg",
-                "description": null,
-                "title": "1000 01728"
+              "id": 12,
+              "description": null,
+              "name": "Design credits include Carnoustie, Muirfield, Prestwick, and Royal Dornoch",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 13,
+              "description": null,
+              "name": "\"Keeper of the Green\" in St. Andrews from 1865-1904",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            }
+          ],
+          "bioText": "Forever linked with the Old Course and St. Andrews, four-time Open Champion Tom Morris Sr. is one of the most revered figures in golf. “Old Tom” learned the game as an apprentice of Allan Robertson, caddying for him, making feather balls in Robertson’s shop, and playing with Robertson in many celebrated challenge matches.\n\nMorris served as greenkeeper at Prestwick before returning to St. Andrews in the mid-1860s to manage the links, rebuild the greens and widen the fairways on the Old Course. He is credited as the architect of more than 75 courses throughout the British Isles. He remained a premier player for decades, last playing in the Open Championship in 1896 at age 75.",
+          "quote": "One of the most remarkable men—best of men and best of golfers—that ever missed a short putt.",
+          "quoteByline": "Horace Hutchison, 1899",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_morris_sr.png",
+            "filename_disk": "0d62a90b-e4a4-46e3-9e8c-04a05e1d8299.png",
+            "description": null,
+            "title": "Sig Morris Sr"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
               }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "firstName": "Tom",
+          "lastName": "Morris, Jr.",
+          "birth": "1851-04-20T00:00:00",
+          "birthplace": "St. Andrews, Fife, Scotland",
+          "death": "1875-12-25T00:00:00",
+          "inductionYear": 1976,
+          "lockerNumber": 40204,
+          "media": [],
+          "featuredImage": {
+            "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
+            "filename_download": "INDUCTEE-Tiger-Woods.png",
+            "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
+            "description": null,
+            "title": "Inductee Tiger Woods"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 14,
+              "description": "Morris first played in, and won, the Open Championship, at age 17.",
+              "name": "Won four Open Championships by age 21",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 15,
+              "description": "Morris went on to win the Claret Jug with his victory at the 1872 Open Championship",
+              "name": "Retired the original Open Championship belt in 1870",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 16,
+              "description": null,
+              "name": "Recorded the first hole-in-one in a major championship in 1869",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            }
+          ],
+          "bioText": "Tall, strong and handsome, Tom Morris Jr. was to golf in his era what Arnold Palmer became in the 1950s. \"Golfers may come and golfers may go,\" wrote Harold Hutchinson, \"but it is very much open to doubt whether any golfers will be quite the idol of the day as Young Tom was during his brilliant career.\"\n\nHe first won a professional challenge match at 13 and a professional tournament at 16. After claiming four Open Championships between 1868-1872, tragedy struck in 1875, when Morris received a telegram that his wife and baby had died during childbirth. He died three months later on Christmas Eve of a pulmonary hemorrhage, leading to speculation that he died from a broken heart.",
+          "quote": "There isn't a man, English or Scotch, with the same sense of power, or golfing genius as Tommy did, the instant he addressed the ball..",
+          "quoteByline": "Reverend W. Proudfoot, 1896",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "Group 678.png",
+            "filename_disk": "422c9f46-df61-405c-aac3-d9e0f9d473ab.png",
+            "description": null,
+            "title": "Group 678"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 6,
+          "firstName": "Willie",
+          "lastName": "Park, Sr.",
+          "birth": "1833-06-30T00:00:00",
+          "birthplace": "Wallyford, Scotland",
+          "death": "1903-07-25T00:00:00",
+          "inductionYear": 2005,
+          "lockerNumber": 40205,
+          "media": [
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
             }
           ],
           "featuredImage": {
@@ -165,308 +370,38 @@
           "backgroundImage": null,
           "accomplishments": [
             {
-              "earnedAccomplishments_id": {
-                "id": 8,
-                "timesEarned": 1,
-                "customImage": null,
-                "customDescription": null,
-                "type": {
-                  "id": 1,
-                  "description": "default British Open description",
-                  "name": "British Open",
-                  "image": {
-                    "id": null,
-                    "filename_download": "Capstone_Accomplishment_founder.png",
-                    "filename_disk": "8b569f2a-b10e-4b14-b2ea-3643059b34ae.png",
-                    "description": null,
-                    "title": "Capstone Accomplishment Founder"
-                  }
-                }
-              },
-              "id": 13
+              "id": 17,
+              "description": "Park was victorious at the Open Championship in 1860, 1863, 1866, and 1875. He added four more runner-up finishes in 1861, 1862, 1865, and 1867.",
+              "name": "Four-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
             },
             {
-              "earnedAccomplishments_id": {
-                "id": 9,
-                "timesEarned": 1,
-                "customImage": null,
-                "customDescription": "Custom Description for US Amateur",
-                "type": {
-                  "id": 2,
-                  "description": "default US Amateur desription",
-                  "name": "US Amateur",
-                  "image": {
-                    "id": null,
-                    "filename_download": "Capstone_Accomplishment_USAmetaur-05.png",
-                    "filename_disk": "e53f7c07-3150-46b9-921b-f78032449331.png",
-                    "description": null,
-                    "title": "Capstone Accomplishment Us Ametaur 05"
-                  }
-                }
-              },
-              "id": 14
+              "id": 18,
+              "description": null,
+              "name": "Designer of at least 35 golf courses in the UK and Ireland",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 19,
+              "description": "Park also famously won a challenge match playing his tee shots from a watch face. The watch was unscathed.",
+              "name": "Often played challenge matches using only one hand and standing on one leg",
+              "icon": null,
+              "status": "draft"
             }
           ],
           "bioImages": [
             {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "1000-02114e.png",
-                "filename_disk": "6afd726a-1c42-4aba-9deb-fc0deea4829c.png",
-                "description": "Placeholder caption lorem ipsum...",
-                "title": "Placeholder Bio Image"
-              }
+              "directus_files_id": null
             },
             {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player Image.png",
-                "filename_disk": "afd85c4e-740b-4368-a5f3-31c54393bfe3.png",
-                "description": "Placeholder caption lorem ipsum",
-                "title": "Placeholder Bio Image"
-              }
+              "directus_files_id": null
             }
           ],
-          "bioText": "Nicknamed the “Silver Scot” for the color of his hair, Tommy Armour possessed one of the finest golf swings of all time, as well as an uncanny ability to teach the game. He excelled at golf despite injuries he suffered in World War I that left him with one eye and metal plates in his head and arm. While recovering in the hospital, he focused on thoughts of playing golf. He would go on to win three major championship and 25 events on the PGA Tour.\n\nAfter he retired from competitive golf, Armour became one of the most successful instructors in the world. The philosophies and techniques that he taught were detailed in his best-selling book, How to Play Your Best Golf All the Time.",
-          "quote": "It is not solely the capacity to make great shots that makes champions, but the essential quality of making very few bad shots.",
-          "quoteByline": "Tommy Armour",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_armour.png",
-            "filename_disk": "d22a15d9-c9d3-4fac-8944-bc0f2c30c681.png",
-            "description": null,
-            "title": "Sig Armour"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 5,
-                "name": "Military Figures",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
-                "id": 11,
-                "name": "Teachers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 16,
-          "firstName": "Jim",
-          "lastName": "Barnes",
-          "birth": "1886-04-08T00:00:00",
-          "birthplace": "Lelant, Cornwall, England",
-          "death": "1966-05-25T00:00:00",
-          "inductionYear": 1989,
-          "lockerNumber": 40414,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Towering over the competition at 6 feet, 4 inches tall, “Long Jim” Barnes won more than 25 PGA Tour titles in the era dominated by Gene Sarazen, Walter Hagen and Bob Jones. He won the inaugural PGA Championship in 1916 and successfully defended the title the next time it was played in 1919. In 1921, he won the U.S. Open by nine strokes and four years later captured the 1925 Open Championship coming from five strokes back in the final round.\n\nBarnes was an intense, quiet competitor who often kept a sprig of clover clamped tightly between his teeth. In 1919, he authored Picture Analysis of Golf Strokes, revolutionary as the first golf instructional to make extensive use of photography.",
-          "quote": "You can't always be playing well when it counts. You'll never win golf tournaments until you learn how to score well when you're playing badly.",
-          "quoteByline": "Jim Barnes",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_barnes.png",
-            "filename_disk": "94dbf018-0221-4720-8a47-53dcc53df9f6.png",
-            "description": null,
-            "title": "Sig Barnes"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 11,
-                "name": "Teachers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 17,
-          "firstName": "Dorothy",
-          "lastName": "Campbell",
-          "birth": "1883-03-24T00:00:00",
-          "birthplace": "North Berwick, Scotland",
-          "death": "1945-05-20T00:00:00",
-          "inductionYear": 1978,
-          "lockerNumber": 40611,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Regarded as golf’s first truly international player, Dorothy Campbell Hurd Howe won championships in Bermuda, Canada, England, and Scotland. Campbell, who did not evolve into a top player until her late teens despite swinging her first club at 18 months old, won her first amateur title at the age of 22 at the Scottish Ladies Championship, where over 4,000 people watched her victory. In 1909, she became the first woman to win the U.S. and British Amateur titles in the same year. Between 1905 and 1924, she claimed every major title in women’s golf: the Scottish Ladies Championship, British Ladies Amateur, U.S. Women’s Amateur, Canadian Women’s Amateur and the North and South Women’s Amateur.",
-          "quote": "How would it be possible to avoid taking an interest in the game, even if one wanted to do so, when the most insistent remembrances of infant summer days are the click of golf balls and the shouts of “fore”?",
-          "quoteByline": "Dorothy Campbell Hurd Howe",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_campbell.png",
-            "filename_disk": "41175777-c4f2-4fbd-aaa7-d3a1c0d777e6.png",
-            "description": null,
-            "title": "Sig Campbell"
-          },
-          "contentTrails": []
-        },
-        {
-          "id": 18,
-          "firstName": "Bernard",
-          "lastName": "Darwin",
-          "birth": "1876-09-07T00:00:00",
-          "birthplace": "Downe, England",
-          "death": "1961-10-18T00:00:00",
-          "inductionYear": 2005,
-          "lockerNumber": 40612,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Bernard Darwin, the grandson of naturalist Charles Darwin, is regarded as the first writer to cover golf daily and was well-known for his entertaining and comprehensive style. Darwin initially practiced law in London, but after a few years decided to change his career to journalism, and more specifically, to write about golf. He wrote articles for The Times of London from 1907 until 1953 with the byline \"Our Golf Correspondent\" and wrote essays for Country Life from 1907 until 1961. \n\nA fine amateur golfer, Darwin competed in the British Amateur 26 times from 1898 to 1925, represented England in 8 international matches, and played for the Great Britain and Ireland team in the 1922 Walker Cup as a last-minute substitute.",
-          "quote": "It is the constant and undying hope for improvement that makes golf so exquisitely worth playing.",
-          "quoteByline": "Bernard Darwin",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_darwin.png",
-            "filename_disk": "686618e0-560d-4758-bfb8-9eb0458dc0f8.png",
-            "description": null,
-            "title": "Sig Darwin"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 12,
-                "name": "Voices of the Game",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 19,
-          "firstName": "Leo",
-          "lastName": "Diegel",
-          "birth": "1899-04-27T00:00:00",
-          "birthplace": "Detroit, Michigan",
-          "death": "1951-05-08T00:00:00",
-          "inductionYear": 2003,
-          "lockerNumber": 40409,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Celebrated as one of the game’s great shot-makers, Leo Diegel will forever be remembered for his unorthodox putting stroke. His trademark style of putting, which came to be known as “Diegeling,” consisted of bending over at the waist and widely extending both arms with his elbows at right angles. \n\nDiegel’s peculiar technique earned him 30 PGA Tour titles, including two PGA Championships, between 1920 and 1934. He also claimed four Canadian Open titles, as well as spots on four United States Ryder Cup teams. After retiring in 1938, he became a club professional and worked with the U.S. Army during World War II to promote golf as a form of rehabilitation for wounded soldiers.",
-          "quote": "In all my years of golf, I have never seen anyone whose devotion to the game could match Leo’s. Every night he went to bed dreaming theory and every morning he awakened with some hot idea that was going to revolutionize the game.",
-          "quoteByline": "Gene Sarazen",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_diegel.png",
-            "filename_disk": "329f4378-271f-4b66-9743-e6a678bea6c6.png",
-            "description": null,
-            "title": "Sig Diegel"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 20,
-          "firstName": "Chick",
-          "lastName": "Evans",
-          "birth": "1890-07-18T00:00:00",
-          "birthplace": "Indianapolis, Indiana",
-          "death": "1979-11-06T00:00:00",
-          "inductionYear": 1975,
-          "lockerNumber": 40403,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Charles “Chick” Evans, whose competitive career spanned more than 50 years, was endowed with remarkable creativity and shot-making skills. In 1916, he became the first player to win the U.S. Open and U.S. Amateur in the same year. Evans remained at the highest level of competitive golf for decades, competing in every U.S. Amateur from 1907 through 1962 and establishing the championship’s record for most matches won (57). \n\nWith the money Evans earned from producing golf instructional records and writing a golf book, he created a college scholarship for caddies. The Western Golf Association began administering the funds in 1929 and established the Evans Scholars Foundation, whose legacy includes helping over 8,000 caddies receive a college education.",
-          "quote": "I made a rule never to swing a golf club except to hit a golf ball, for I had learned that one could swing beautifully when the ball wasn’t there, and poorly when it was.",
-          "quoteByline": "Chick Evans",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_evans.png",
-            "filename_disk": "171792f8-2820-4144-9b35-1ecfeb2ce560.png",
-            "description": null,
-            "title": "Sig Evans"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 11,
-                "name": "Teachers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "firstName": "Walter",
-          "lastName": "Hagen",
-          "birth": "1982-12-21T00:00:00",
-          "birthplace": "Rochester, New York",
-          "death": "1969-10-05T00:00:00",
-          "inductionYear": 1974,
-          "lockerNumber": 40416,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Walter Hagen, the greatest showman of golf’s “Golden Age,\" was legendary for his style and charisma. In fact, his reputation as a flamboyant and romantic character often overshadows his accomplishments on the course. Yet these were extraordinary. \n\nHagen won 11 major championships and 45 tournaments during his career, including five Western Opens, an elite tournament which held near-Major status. He also captained the first six American Ryder Cup teams, posting a record of 7-1-1 in Ryder Cup competition. \n\nHagen is justifiably remembered for his devotion to raising the profile of golf professionals and growing the game through nationwide exhibitions. “I never wanted to be a millionaire,” Hagen once wrote, “I just wanted to live like one.”",
-          "quote": "You’re only here for a short visit. Don’t hurry. Don’t worry. And be sure to smell the flowers along the way.",
-          "quoteByline": "Walter Hagen",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_hagen.png",
-            "filename_disk": "8d95c7f6-8f3c-4cba-a18f-34860f1c9482.png",
-            "description": null,
-            "title": "Sig Hagen"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 22,
-          "firstName": "Marion",
-          "lastName": "Hollins",
-          "birth": "1892-12-03T00:00:00",
-          "birthplace": "East Islip, New York",
-          "death": "1944-08-27T00:00:00",
-          "inductionYear": 2022,
-          "lockerNumber": 40606,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Marion Hollins, a leading name in women’s amateur golf in the 1910s and 1920s, led the transformation of the Monterey Peninsula into one of golf’s most celebrated destinations. In 1922, the Del Monte Company hired Hollins to develop the Pebble Beach Golf Links, where she later organized the Pebble Beach Championship for Women.\n \nFor four years, Hollins worked with Alister MacKenzie to design the Cypress Point Club hole-by-hole. The next project for Hollins and MacKenzie was Pasatiempo, the first sporting/residential complex in America. Early in her golf development career she also met Bob Jones. Because of his work on Pasatiempo and relationship with Hollins, Jones selected MacKenzie and used Pasatiempo as a blueprint for Augusta National.",
-          "quote": "Marion Hollins is in a class by herself in everything. She rides as well as she golfs. She’s the best woman driver in the east. She’s the star of the Long Island polo team. She swims like a reincarnated mermaid. She plays tennis like a whirlwind. ",
-          "quoteByline": "Chicago Tribune",
+          "bioText": "Celebrated as a premier club and ball maker from Musselburgh, Scotland, Willie Park Sr. staked his claim to immortality as the inaugural Open Champion in 1860. Like many professionals of his era, Park was introduced to golf as a caddie, using a whittled stick as his first club.\n\nTall and strong, he soon emerged as one of the most dominant golfers of his generation, gaining notoriety through his victories in challenge matches against contemporaries such as Allan Robertson, Willie Dunn and Old Tom Morris. He was a excellent putter, but it was his powerful drives that most intimidated his peers. Allan Robertson, who refused to respond to Park's public challenge in 1853, once confessed, \"Willie frightens us with his long driving.\"",
+          "quote": "He was not merely good, not merely excellent, but brilliant (as a putter). So deadly was he when within three or four yards of the hole.",
+          "quoteByline": "A.H. Coleman, 1903",
           "signatureImage": null,
           "contentTrails": [
             {
@@ -479,283 +414,97 @@
           ]
         },
         {
-          "id": 23,
-          "firstName": "Jock",
-          "lastName": "Hutchison",
-          "birth": "1884-06-06T00:00:00",
-          "birthplace": "St. Andrews, Fife, Scotland",
-          "death": "1977-09-27T00:00:00",
-          "inductionYear": 2011,
-          "lockerNumber": 40410,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "St. Andrews native Jock Hutchison immigrated to the United States in the early 1900s and became a naturalized American citizen in 1920. He would go on to win 14 tournaments on the PGA Tour, including two consecutive major championships. In 1921, Hutchinson became the first U.S.-based player to capture the Claret Jug with his victory at the 1921 Open Championship. \n\nKnown around the course as \"Jovial Jock,\" Hutchison won the inaugural Senior PGA Championship in 1937, and did so again in 1947. He returned to Augusta National Golf Club – the site of his 1937 victory – when he joined 1908 U.S. Open champion Fred McLeod as the first honorary starters at the Masters in 1963.",
-          "quote": "When he shifted into a brilliant streak, Jock could play one perfect hole after another, each shot, like mountain views in Switzerland, seemingly more breathtaking than the one that went before.",
-          "quoteByline": "Herbert Warren Wind",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_hutchinson.png",
-            "filename_disk": "0a09b98d-4fb7-406b-8f5f-af302f774b28.png",
-            "description": null,
-            "title": "Sig Hutchinson"
-          },
-          "contentTrails": []
-        },
-        {
-          "id": 24,
-          "firstName": "Bob",
-          "lastName": "Jones",
-          "birth": "1902-03-07T00:00:00",
-          "birthplace": "Atlanta, Georgia",
-          "death": "1971-12-18T00:00:00",
-          "inductionYear": 1974,
-          "lockerNumber": 40401,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "More than any player in history, Robert Tyre \"Bobby\" Jones, Jr. remains the model of a complete golfer and the quintessential champion. A man of intelligence, character, and pure athleticism, Bob Jones merged all three traits to become not only a singular champion, but a genuine hero. \n\nA lawyer by trade, Jones won five U.S. Amateurs, one British Amateur, four U.S. Opens and three Open Championships. In 1930, he did the near-impossible and claimed all four majors in a single year, then promptly retired from competitive golf. Together with his partner Clifford Roberts, Jones would go on to found Augusta National Golf Club and the Masters, enlisting Alister MacKenzie to assist in the course design.",
-          "quote": "What Jones did was create a model that everyone, consciously or unconsciously, followed, It is why we have so many fine people in golf. He showed the world how to do it.",
-          "quoteByline": "William Campbell",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "Bobby-Jones-e1452089977219.png",
-            "filename_disk": "88900d8e-5914-411f-b07b-50e3d7476c0a.png",
-            "description": null,
-            "title": "Bobby Jones E1452089977219"
-          },
-          "contentTrails": [
+          "id": 7,
+          "firstName": "Willie",
+          "lastName": "Park, Jr.",
+          "birth": "1864-02-04T00:00:00",
+          "birthplace": "Musselburgh, Scotland",
+          "death": "1925-05-01T00:00:00",
+          "inductionYear": 2013,
+          "lockerNumber": 40206,
+          "media": [
             {
-              "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 25,
-          "firstName": "Alister",
-          "lastName": "MacKenzie",
-          "birth": "1870-08-30T00:00:00",
-          "birthplace": "Normantown, Yorkshire, England",
-          "death": "1934-01-06T00:00:00",
-          "inductionYear": 2005,
-          "lockerNumber": 40605,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Augusta National, Cypress Point, Royal Melbourne, Pasatiempo and Crystal Downs have two things in common – each was designed by Dr. Alister MacKenzie and each has become veritable cathedral of the game. \n\nMacKenzie began his career as a surgeon during the Second Boer War, where he took note of the Boer's ability to camouflage their trenches. After the war, he joined Harry S. Colt in designing the Alwoodley Golf Club and the Moortown Golf Club, which hosted the 1929 Ryder Cup. In 1920, MacKenzie published Golf Architecture, in which he articulated thirteen fundamental principles of golf course design. \n\nMacKenzie’s forte was putting green complexes. He refrained from flattening natural undulations and strove to create artificial undulations that were “indistinguishable from nature.”",
-          "quote": "A good golf course grows on one like a good painting, good music, or any other artistic creation.",
-          "quoteByline": "Alister MacKenzie",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_mackenzie.png",
-            "filename_disk": "dfead3c1-b303-49ab-b809-bf5cb381132e.png",
-            "description": null,
-            "title": "Sig Mackenzie"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
+              "directus_files_id": null
             },
             {
-              "contentTrails_id": {
-                "id": 5,
-                "name": "Military Figures",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 26,
-          "firstName": "Francis",
-          "lastName": "Ouimet",
-          "birth": "1873-05-08T00:00:00",
-          "birthplace": "Brookline, Massachusetts",
-          "death": "1967-09-02T00:00:00",
-          "inductionYear": 1974,
-          "lockerNumber": 40402,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Francis Ouimet began his golf career as an 11-year-old caddie at The Country Club, just across the street from his home in Brookline, Massachusetts. He brought new levels of attention to the game when, as a 20-year-old amateur, he defeated British legends Harry Vardon and Ted Ray in an 18-hole playoff at The Country Club in the 1913 U.S. Open. It would mark the first time that golf appeared on the front page of American newspapers.\n\nFollowing that historic victory, Ouimet went on to capture the U.S. Amateur in 1914 and 1931 while pursuing other business ventures. In 1951, he became the first non-Briton elected Captain of the Royal and Ancient Golf Club of St Andrews.",
-          "quote": "To me, the ground here is hallowed. The grass grows greener, the trees bloom better, and there is even warmth to the rocks. Somehow or other the sun seems to shine brighter on The Country Club than any other place that I have ever known.",
-          "quoteByline": "Francis Ouimet",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_ouimet.png",
-            "filename_disk": "5698f0b7-a5a4-4296-a76e-992de03e7365.png",
-            "description": null,
-            "title": "Sig Ouimet"
-          },
-          "contentTrails": [
+              "directus_files_id": null
+            },
             {
-              "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 27,
-          "firstName": "Donald",
-          "lastName": "Ross",
-          "birth": "1872-11-23T00:00:00",
-          "birthplace": "Dornoch, Scotland",
-          "death": "1948-04-26T00:00:00",
-          "inductionYear": 1977,
-          "lockerNumber": 40608,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "The name of Donald Ross is forever linked with many of this nation’s most memorable and playable courses. Regarded by many as the premier golf architect in America during the early 20th century, Ross designed over 400 courses that collectively hosted dozens of prestigious events such as the U.S. Open, U.S. Women’s Open, PGA Championship and Ryder Cup. \n\nA native of Scotland, Ross met a Harvard professor who persuaded him in 1899 to come to America and helped him find his first job at Oakley Country Club. His architecture career blossomed after 1900, when James Walker Tufts, the founder of Pinehurst, lured Ross to the Sand Hills and commissioned from him the design of four golf courses.",
-          "quote": "I believe wholeheartedly in golf. I consider it a game of honor. It does more to bring out the finer points in a man’s character than any other sport.",
-          "quoteByline": "Donald Ross",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_ross.png",
-            "filename_disk": "ee6bbe3c-3475-48fa-a099-d4290445da88.png",
-            "description": null,
-            "title": "Sig Ross"
-          },
-          "contentTrails": [
+              "directus_files_id": null
+            },
             {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
+              "directus_files_id": null
             }
-          ]
-        },
-        {
-          "id": 28,
-          "firstName": "Gene",
-          "lastName": "Sarazen",
-          "birth": "1902-02-27T00:00:00",
-          "birthplace": "Harrison, New York",
-          "death": "1999-05-13T00:00:00",
-          "inductionYear": 1974,
-          "lockerNumber": 40415,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "Born Eugenio Saraceni, the son of an Italian carpenter from Rome, Gene Sarazen spanned golf history as a competitor, innovator and senior statesman. He had a compact but ferocious swing and a fiercely competitive but generous heart.\n\nIn the final round of the 1935 Masters, Sarazen holed a miraculous shot from 220 yards for double eagle on the 15th hole. He finished the round tied with Craig Wood, then won the playoff the next day to become the first player to win all four major championships. \n\nIn 1931, while being taught by Howard Hughes how to fly a plane, Sarazen came upon the idea for the modern sand wedge. He later called it his biggest contribution to the game.",
-          "quote": "When Sarazen saw a chance at the bacon hanging over the last green, he could put as much fire and fury into a finishing round as Jack Dempsey could put into a fight.",
-          "quoteByline": "Bob Jones",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_sarazen.png",
-            "filename_disk": "e7010aae-3b1f-49f0-aa31-3d9a824f04e7.png",
+          ],
+          "featuredImage": {
+            "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
+            "filename_download": "INDUCTEE-Tiger-Woods.png",
+            "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
             "description": null,
-            "title": "Sig Sarazen"
+            "title": "Inductee Tiger Woods"
           },
-          "contentTrails": []
-        },
-        {
-          "id": 29,
-          "firstName": "A.W.",
-          "lastName": "Tillinghast",
-          "birth": "1876-05-07T00:00:00",
-          "birthplace": "Philadelphia, Pennsylvania",
-          "death": "1942-05-19T00:00:00",
-          "inductionYear": 2015,
-          "lockerNumber": 40607,
-          "media": [],
-          "featuredImage": null,
           "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "An accomplished amateur golfer, early golf photographer, watercolorist and collector of early American antiques, A.W. Tillinghast excelled at the artistry of golf course design. He designed his first course in the Adirondacks in 1898, then went on to become one of the most prolific architects of golf’s “Golden Age,” contributing to the design of more than 260 golf courses throughout the United States and Canada. \n\nTillinghast’s most celebrated designs include Baltusrol Golf Club and Somerset Hills Country Club in New Jersey; Bethpage Black Golf Course, Quaker Ridge Golf Club and Winged Foot Golf Club in New York; and San Francisco Golf Club in California. His original designs have hosted more than 20 major championships.",
-          "quote": "A round of golf should present 18 inspirations.",
-          "quoteByline": "A.W. Tillinghast",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "AW-Tillinghast-sig-e1436538449538.png",
-            "filename_disk": "92900c75-32cb-4311-a141-5c3555a056c5.png",
-            "description": null,
-            "title": "Aw Tillinghast Sig E1436538449538"
-          },
-          "contentTrails": [
+          "accomplishments": [
             {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
+              "id": 20,
+              "description": null,
+              "name": "Two-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 21,
+              "description": null,
+              "name": "Played in his first Open Championship at age 16",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 22,
+              "description": null,
+              "name": "Author of the first book by a golf professional",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 23,
+              "description": null,
+              "name": "Inventor of the offset putter, lob wedge, and convex-faced driver",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 24,
+              "description": null,
+              "name": "Significantly advanced ball aerodynamics",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 25,
+              "description": null,
+              "name": "Designed over 150 courses around the world",
+              "icon": null,
+              "status": "draft"
             }
-          ]
-        },
-        {
-          "id": 30,
-          "firstName": "Jerry",
-          "lastName": "Travers",
-          "birth": "1887-05-19T00:00:00",
-          "birthplace": "New York, New York",
-          "death": "1951-03-29T00:00:00",
-          "inductionYear": 1976,
-          "lockerNumber": 40404,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "One of the most feared golfers of his generation, Jerry Travers captured four U.S. Amateurs, five Metropolitan Amateurs and a U.S. Open between 1906 and 1915. He had a brilliant short game, but was erratic off the tee. In 1915, Travers became the second amateur to win the U.S. Open, but he chose to not defend his title and subsequently retired from competitive golf. \n\nAs Herbert Warren Wind explained, it was a fierce rivalry with Walter Travis that “formed the crucible in which a talented young golfer was made into the greatest match player of his decade.” Among his peers, Jerry Travers earned ultimate, almost intimidating, respect. Chick Evans called him “the coldest, hardest golfer I ever knew.”",
-          "quote": "Golf is a game of the head as well as a game of the hands.",
-          "quoteByline": "Jerry Travers",
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            }
+          ],
+          "bioText": "Willie Park Jr. was golf's first true Renaissance men: two-time Open champion, golf equipment maker, golf writer and one of his era's finest golf course architects. The son of four-time Open Champion Willie Park, Sr., and nephew of 1870 Open Champion Mungo Park, Willie Park, Jr., was born into the \"First Family of Golf.\" His success was often attributed to exceptional putting, perfected through twelve-hour practice sessions.\n\nConfident, competitive and an iconoclast, Park never sought employment from a club, preferring instead to run his own business. He was an innovator in club and ball design and manufacturing, as well as golf course architecture, and parlayed his fame into business ventures that reached throughout the United Kingdom and extended to America.",
+          "quote": "The Man who can putt is a match for anyone.",
+          "quoteByline": "Willie Park Jr., 1920",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_travers.png",
-            "filename_disk": "0b1108c5-717f-4c5a-aeb9-cebee3beae66.png",
+            "filename_download": "parkjrsigfinal.png",
+            "filename_disk": "10b48985-4864-4e7b-907f-62401017e765.png",
             "description": null,
-            "title": "Sig Travers"
-          },
-          "contentTrails": []
-        },
-        {
-          "id": 31,
-          "firstName": "Walter",
-          "lastName": "Travis",
-          "birth": "1862-01-10T00:00:00",
-          "birthplace": "Maldon, Victoria, Australia",
-          "death": "1927-07-31T00:00:00",
-          "inductionYear": 1979,
-          "lockerNumber": 40406,
-          "media": [],
-          "featuredImage": null,
-          "backgroundImage": null,
-          "accomplishments": [],
-          "bioImages": [],
-          "bioText": "There has not been a golfer who played so well after starting so late in life as Walter J. Travis. He took up golf at age 35, won his first tournament one month later, and two years later reached the semifinal round of the U.S. Amateur. Within four years, Travis won the first of three U.S. Amateur titles. He was the first American citizen to win the Amateur Championship and ended his career by winning the prestigious Metropolitan Amateur at age 53. \n\nTravis retired from competitive golf in 1916, but went on to design or renovate over 50 courses. He published several books and founded the magazine The American Golfer to share his knowledge of the game.",
-          "quote": "Always be on the aggressive. Act as if you are quite sure of yourself and never give an opponent the psychological advantage of imagining you are the least afraid of him.",
-          "quoteByline": "Walter Travis",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_travis.png",
-            "filename_disk": "b22ac814-e67e-480f-b720-fdde67a6c60c.png",
-            "description": null,
-            "title": "Sig Travis"
+            "title": "Parkjrsigfinal"
           },
           "contentTrails": [
             {
@@ -775,97 +524,519 @@
           ]
         },
         {
-          "id": 32,
-          "firstName": "Glenna",
-          "lastName": "Collett-Vare",
-          "birth": "1903-06-20T00:00:00",
-          "birthplace": "New Haven, Connecticut",
-          "death": "1989-02-03T00:00:00",
-          "inductionYear": 1975,
-          "lockerNumber": 40609,
+          "id": 8,
+          "firstName": "John",
+          "lastName": "Ball, Jr.",
+          "birth": "1861-12-24T00:00:00",
+          "birthplace": "Hoylake, England",
+          "death": "1940-12-02T00:00:00",
+          "inductionYear": 1977,
+          "lockerNumber": 40208,
+          "media": [
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            }
+          ],
+          "featuredImage": {
+            "id": "2f3c4d39-0f34-4530-9def-a17df08321c8",
+            "filename_download": "INDUCTEE-Tiger-Woods.png",
+            "filename_disk": "2f3c4d39-0f34-4530-9def-a17df08321c8.png",
+            "description": null,
+            "title": "Inductee Tiger Woods"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 26,
+              "description": "In the process, Ball became the first amateur, and first Englishman, to win the Open Championship.",
+              "name": "First to with the Open and Amateur Championships in the same year",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 27,
+              "description": null,
+              "name": "Eight-time winner of the Amateur Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 28,
+              "description": null,
+              "name": "Irish Amateur champion in 1890",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 29,
+              "description": null,
+              "name": "Won more than 40 major amateur competitions",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": null
+            },
+            {
+              "directus_files_id": null
+            }
+          ],
+          "bioText": "A fierce competitor, known for his fiery temper and determined spirt, Englishman John Ball, Jr. dominated amateur golf in late nineteenth-century Great Britain, winning eight Amateur Championships between 1888 and 1912, the Open Championship in 1890, and the hearts and respect of his country.\n\nBall learned the game on the links at Holyoke, competing against his rival and friend, Harold Hilton. His swing was graceful and many contemporaries considered him the most stylish player of his era. But it was his stubbornness and dogged determination that made Ball a lion in match play. He retired with a match-play record of 99 wins against just 22 losses.",
+          "quote": "I have derived greater aesthetic and emotional pleasure from watching John Ball than from any other spectacle in the game.",
+          "quoteByline": "Bernard Darwin",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_ball.png",
+            "filename_disk": "54b2678f-318c-4153-857c-de98961d7a33.png",
+            "description": null,
+            "title": "Sig Ball"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": null
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "firstName": "Harold",
+          "lastName": "Hilton",
+          "birth": "1869-01-14T00:00:00",
+          "birthplace": "West Kirby, England",
+          "death": "1942-03-05T00:00:00",
+          "inductionYear": 1978,
+          "lockerNumber": 40207,
           "media": [],
           "featuredImage": null,
           "backgroundImage": null,
-          "accomplishments": [],
+          "accomplishments": [
+            {
+              "id": 30,
+              "description": null,
+              "name": "Two-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 31,
+              "description": null,
+              "name": "Four-time winner of the Amateur Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 32,
+              "description": null,
+              "name": "Two-time winner of the Irish Amateur",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 33,
+              "description": null,
+              "name": "Winner of the 1911 U.S. Amateur Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 34,
+              "description": null,
+              "name": "First to win the Amateur and U.S. Amateur in the same year",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 35,
+              "description": null,
+              "name": "Won over 20 major amateur competitions",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
           "bioImages": [],
-          "bioText": "Glenna Collett Vare was the preeminent female golfer of golf’s “Golden Age,” winning six U.S. Women’s Amateur Championships, six North and South Women’s Amateur titles and six Women’s Eastern Amateur crowns between 1922 and 1935. In 1924, Vare won 59 out of 60 matches, with her only loss coming on the 19th hole of the U.S. Women’s Amateur. Her dominance in match play was often attributed to her prodigious driving distances, which occasionally exceeded 300 yards.\n\nThe “Queen of American Golf” represented the United States on six Curtis Cup teams, serving as captain five times. In 1953, the LPGA introduced the Vare Trophy, which is awarded annually to the player achieving the lowest scoring average during a season.",
-          "quote": "To make oneself a successful match player, there are certain qualities to be sought after, certain ideas must be kept in mind and certain phases of one’s attitude...The three I have taken are these: love of combat, serenity of mind and fearlessness.",
-          "quoteByline": "Glenna Collett Vare",
+          "bioText": "Harold Hilton, a powerful, if unconventional, shot-maker, won the Open Championship in 1892 &ndash; the first time it was played at 72 holes and contested over two days &ndash; and again in 1897. But it was his dominance of English amateur golf, and his rivalry with John Ball, Jr., that earned him widespread fame.\n\nA wild swinger who re-gripped the club at the top of his backswing, Hilton owned a stellar match play record, boasting a 99-29 mark in amateur competitions. After retiring from competitive golf, Hilton authored several books on golf and became the founding editor of Golf Monthly and editor of Golf Illustrated.",
+          "quote": "He was a small man of powerful physique; it was exhilirating to watch his perky walk between shots. His assiduity was his greatness.",
+          "quoteByline": "Robert Harris",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_vare.png",
-            "filename_disk": "fe5b660d-41bb-4086-b3a8-38a182d5b134.png",
+            "filename_download": "sig_hilton.png",
+            "filename_disk": "8bd4e2b0-2505-4277-929c-1ee130e887a6.png",
             "description": null,
-            "title": "Sig Vare"
+            "title": "Sig Hilton"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "firstName": "Harry",
+          "lastName": "Vardon",
+          "birth": "1870-05-09T00:00:00",
+          "birthplace": "Grouville, Jersey, Channel Islands",
+          "death": "1937-03-20T00:00:00",
+          "inductionYear": 1974,
+          "lockerNumber": 40212,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 36,
+              "description": null,
+              "name": "Six-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 37,
+              "description": null,
+              "name": "Winner of the 1900 U.S. Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 38,
+              "description": null,
+              "name": "Won over 40 professional tournaments",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 39,
+              "description": null,
+              "name": "Popularized the overlapping grip",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 40,
+              "description": "The Vardon Trophy is awarded annually by the PGA of America to the PGA TOUR's leader in scoring average.",
+              "name": "Namesake of the PGA TOUR's Vardon Trophy",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 41,
+              "description": null,
+              "name": "Designer of more than 20 courses in the UK and Europe",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [],
+          "bioText": "Harry Vardon possessed a magnetic personality, immense talent and a method so singular that he was considered a shotmaking machine. He was golf’s first international superstar, winning a record six Open Championship titles between 1896 and 1914. He toured the United States in 1900, 1913, and 1920, promoting awareness and driving growth of the game.\n\nVardon possessed one of the most admired and proficient golf swings the game has ever seen. He stood just 5'9\" tall and tipped the scales at 155 pounds, but he had enormous hands that melted perfectly around the club. His swing was more upright and his ball flight higher than his contemporaries, giving his approach shots the advantage of greater carry and softer landing.",
+          "quote": "I cannot believe that anyone ever had or will have a greater genius for hitting a golf ball than Harry Vardon.",
+          "quoteByline": "Bernard Darwin",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_vardon.png",
+            "filename_disk": "6ace88a2-bc64-4ec6-85ed-79ea0d6455f4.png",
+            "description": null,
+            "title": "Sig Vardon"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "firstName": "J.H.",
+          "lastName": "Taylor",
+          "birth": "1871-03-19T00:00:00",
+          "birthplace": "Northam, Devon, England",
+          "death": "1963-02-10T00:00:00",
+          "inductionYear": 1975,
+          "lockerNumber": 40211,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 42,
+              "description": null,
+              "name": "Five-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 43,
+              "description": null,
+              "name": "Two-time winner of the British PGA Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 44,
+              "description": null,
+              "name": "Winner of the French Open, German Open, and Dutch Open",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 45,
+              "description": null,
+              "name": "1934 Ryder Cup Captain",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 46,
+              "description": null,
+              "name": "Co-founder and first chairman of the British Professional Golfers' Association",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 47,
+              "description": null,
+              "name": "Specialized in designing public golf facilities",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [],
+          "bioText": "Legendary Open champions J.H. Taylor, Harry Vardon and James Braid together dominated professional golf from the mid-1890s to the mid-1910s. Taylor earned his spot in this so-called \"Great Triumvirate\" by winning the Open Championship five times, becoming the first professional from England to do so.\n\nTaylor's ability to play in wind and bad weather set him apart from his peers. He won his first Open Championship battling extreme wind and rain, while defeating Ted Ray by eight strokes. Bernard Darwin once characterized him as \"a man on wires, having to choke down his temper and often suffering agonies.\" Beloved by many, he dedicated his later life to writing books, making clubs, and designing courses.",
+          "quote": "To try to play golf really well is far from being a joke, and lightheartedness of endeavor is a sure sign of eventual failure.",
+          "quoteByline": "J.H. Taylor",
+          "signatureImage": null,
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "firstName": "James",
+          "lastName": "Braid",
+          "birth": "1870-02-06T00:00:00",
+          "birthplace": "Earlsferry, Scotland",
+          "death": "1950-11-27T00:00:00",
+          "inductionYear": 1976,
+          "lockerNumber": 40210,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 48,
+              "description": "Braid was also runner-up at the Open Championship four times.",
+              "name": "Five-time winner of the Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 49,
+              "description": null,
+              "name": "First to break 70 in the Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 50,
+              "description": null,
+              "name": "Four-time News of the World Match Play champion",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 51,
+              "description": null,
+              "name": "Co-founder of the British Professional Golfers' Association",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 52,
+              "description": null,
+              "name": "Long-time club professional at Walton Heath",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [],
+          "bioText": "A tall, stately man of great character who was a friend of princes, peers and the common man, James Braid was a pioneer in elevating the status of professional golfers. As a golfer, he was a late bloomer, not winning his first Open Championship until Harry Vardon and J.H. Taylor had already won three each. But once Braid won his first in 1901, there was no stopping him: He captured the Open again in 1905, 1906, 1908 and 1910, thus becoming the first man to raise the Claret Jug five times. \n\nBraid later turned to golf course architecture, designing or redesigning more than 200 courses, including Carnoustie, Royal Troon and the King's and Queen's courses at Gleneagles.",
+          "quote": "Keep on hitting it straight until the wee ball goes in the hole.",
+          "quoteByline": "James Braid",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_braid.png",
+            "filename_disk": "9ee626b4-1f13-4a9a-8b65-ae6cc7c18e59.png",
+            "description": null,
+            "title": "Sig Braid"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "firstName": "Willie",
+          "lastName": "Anderson",
+          "birth": "1879-10-21T00:00:00",
+          "birthplace": "North Berwick, Scotland",
+          "death": "1910-10-25T00:00:00",
+          "inductionYear": 1975,
+          "lockerNumber": 40408,
+          "media": [],
+          "featuredImage": null,
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 53,
+              "description": "Anderson is the only player to win three consecutive U.S. Open titles. He also finished second in 1897, at the age of 17.",
+              "name": "Four-time winner of the U.S. Open Championship",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 54,
+              "description": null,
+              "name": "Four-time winner of the Western Open",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 55,
+              "description": null,
+              "name": "Head professional at 10 different clubs",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
+          "bioImages": [],
+          "bioText": "Willie Anderson, modest in nature and never boastful of his successes, belongs in the same pantheon of U.S. Open history as Bob Jones, Ben Hogan and Jack Nicklaus. From 1897 to 1910, Anderson won the U. S. Open four times, finished second once, third once, fourth twice and fifth three times. He was, in many respects, the first dominant professional in America.\n\nReared on the links of North Berwick, Scotland, Anderson was a sturdy man with muscular shoulders, brawny forearms and exceptionally large hands. He played with a flat, full-sweeping action known as the \"St. Andrews swing.\" Despite what many considered to be swing flaws, Anderson was consistently accurate. He died prematurely of arteriosclerosis at age 31.",
+          "quote": "Most likely, had he lived longer, Willie would have set a record for U.S. Open championships that would never be beaten.",
+          "quoteByline": "Alex Smith, 1906 and 1910 U.S. Open champion",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_anderson-e1439927427696.png",
+            "filename_disk": "9c7c15d1-555f-4d23-afa1-a8aa1c3fbd11.png",
+            "description": null,
+            "title": "Sig Anderson E1439927427696"
           },
           "contentTrails": []
         },
         {
-          "id": 33,
-          "firstName": "Joyce",
-          "lastName": "Wethered",
-          "birth": "1901-11-17T00:00:00",
-          "birthplace": "Surrey, United Kingdom",
-          "death": "1997-11-18T00:00:00",
-          "inductionYear": 1975,
-          "lockerNumber": 40610,
+          "id": 14,
+          "firstName": "Charles Blair",
+          "lastName": "Macdonald",
+          "birth": "1855-11-14T00:00:00",
+          "birthplace": "Niagara Falls, Ontario, Canada",
+          "death": "1939-04-21T00:00:00",
+          "inductionYear": 2007,
+          "lockerNumber": 40407,
           "media": [],
           "featuredImage": null,
           "backgroundImage": null,
-          "accomplishments": [],
+          "accomplishments": [
+            {
+              "id": 56,
+              "description": null,
+              "name": "Winner of the 1895 U.S. Amateur",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 57,
+              "description": null,
+              "name": "Founding officer of the United States Golf Association",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 58,
+              "description": null,
+              "name": "Founder of the Chicago Golf Club",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 59,
+              "description": "Macdonald's design credits include the National Golf Links of America, Yale Golf Club, and Mid-Ocean Club in Bermuda.",
+              "name": "Designer of the first 18-hole golf course in America",
+              "icon": null,
+              "status": "draft"
+            },
+            {
+              "id": 60,
+              "description": null,
+              "name": "Author of \"Scotland's Gift - Golf\", a celebrated autobiography",
+              "icon": null,
+              "status": "draft"
+            }
+          ],
           "bioImages": [],
-          "bioText": "Joyce Wethered dominated golf in Britain in the 1920s, winning 33 consecutive matches in the Women’s Amateur Championship between 1924 and 1926. In 1929, before a large crowd at St. Andrews, Scotland, she defeated the reigning U.S. Women’s Amateur champion, Glenna Collett Vare, to claim her fourth Women’s Amateur crown. \n\nIn the 1930s, Wethered traversed the United States playing professionally in exhibition matches alongside the best golfers in the world. Bob Jones said she was the best golfer he had ever seen – man or woman. “It was not so much the score she made as the way she made it. It was impossible to expect that Miss Wethered would ever miss a shot,” Jones professed, “and she never did.”",
-          "quote": "She could hit a ball 240 yards on the fly while standing barefoot on a cake of ice.",
-          "quoteByline": "Willie Wilson, Scottish golf professional",
+          "bioText": "Charles Blair Macdonald, a \"founding father\" of American golf, was a driving force in the creation of the United States Golf Association in 1894. He was introduced to golf at age 16, when his parents sent him to live with his grandfather in St. Andrews, Scotland. He quickly became skilled enough to play regularly on the Old Course with two of the finest players of the day – Davey Strath and Young Tom Morris.\n\nSeveral years after Macdonald returned to the United States, he designed a seven-hole course for the 1892 World's Fair in Chicago, launching a career as a world-class architect. No less an authority than Bernard Darwin accurately referred to Macdonald as the first great American golf course architect.",
+          "quote": "Putting greens to a golf course are what the face is to a portrait.",
+          "quoteByline": "Charles Blair Macdonald",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_wethered.png",
-            "filename_disk": "486ccc6d-bd35-494a-a9f5-3c7202a32210.png",
+            "filename_download": "sig_macdonald.png",
+            "filename_disk": "3250d91c-3162-4a71-b798-b042d65a774c.png",
             "description": null,
-            "title": "Sig Wethered"
+            "title": "Sig Macdonald"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 1,
+                "name": "Architects & Designers",
+                "description": null
+              }
+            }
+          ]
         }
       ]
     },
-    "accomplishmentTypes": [
-      {
-        "id": 1,
-        "description": "default British Open description",
-        "name": "British Open",
-        "image": {
-          "id": "8b569f2a-b10e-4b14-b2ea-3643059b34ae",
-          "filename_download": "Capstone_Accomplishment_founder.png",
-          "filename_disk": "8b569f2a-b10e-4b14-b2ea-3643059b34ae.png",
-          "description": null,
-          "title": "Capstone Accomplishment Founder"
-        }
-      },
-      {
-        "id": 2,
-        "description": "default US Amateur desription",
-        "name": "US Amateur",
-        "image": {
-          "id": "e53f7c07-3150-46b9-921b-f78032449331",
-          "filename_download": "Capstone_Accomplishment_USAmetaur-05.png",
-          "filename_disk": "e53f7c07-3150-46b9-921b-f78032449331.png",
-          "description": null,
-          "title": "Capstone Accomplishment Us Ametaur 05"
-        }
-      },
-      {
-        "id": 3,
-        "description": null,
-        "name": "Empty Accomplishment",
-        "image": {
-          "id": "4060be3d-c940-4825-8280-37f80f1f09e0",
-          "filename_download": "Capstone_Accomplishment_Designer.png",
-          "filename_disk": "4060be3d-c940-4825-8280-37f80f1f09e0.png",
-          "description": null,
-          "title": "Capstone Accomplishment Designer"
-        }
-      }
-    ],
     "contentTrails": [
       {
         "id": 1,
@@ -896,6 +1067,28 @@
         "id": 13,
         "name": "Comeback Stories",
         "description": null
+      }
+    ],
+    "accomplishmentIcons": [
+      {
+        "id": 1,
+        "image": {
+          "id": null,
+          "filename_download": "Capstone_Accomplishment_USAmetaur-05.png",
+          "filename_disk": "e53f7c07-3150-46b9-921b-f78032449331.png",
+          "description": null,
+          "title": "Capstone Accomplishment Us Ametaur 05"
+        }
+      },
+      {
+        "id": 2,
+        "image": {
+          "id": null,
+          "filename_download": "Capstone_Accomplishment_founder.png",
+          "filename_disk": "8b569f2a-b10e-4b14-b2ea-3643059b34ae.png",
+          "description": null,
+          "title": "Capstone Accomplishment Founder"
+        }
       }
     ]
   }
