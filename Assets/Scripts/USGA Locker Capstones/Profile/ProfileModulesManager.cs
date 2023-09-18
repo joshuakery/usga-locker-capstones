@@ -23,6 +23,9 @@ namespace JoshKery.USGA.LockerCapstones
         }
 
         [SerializeField]
+        private ProfileBackgroundManager profileBackgroundManager;
+
+        [SerializeField]
         private ProfileHeaderFieldsManager profileHeaderFieldsManager;
 
         [SerializeField]
@@ -50,6 +53,11 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void SetContent(int id)
         {
+            if (profileBackgroundManager != null)
+            {
+                profileBackgroundManager.SetRandom();
+            }
+
             if (appState?.data == null) { return; }
 
             if (appState.data.lockerProfilesDict.ContainsKey(id))

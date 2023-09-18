@@ -15,6 +15,9 @@ public class ClickNotOnRTHelper : MonoBehaviour
     [SerializeField]
     RectTransform targetRectArea;
 
+    [SerializeField]
+    RectTransform[] exceptions;
+
     public bool doCheck = false;
 
     private void Update()
@@ -23,15 +26,24 @@ public class ClickNotOnRTHelper : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0) && targetRectArea != null)
             {
-                Debug.Log("checking");
-                if (!RectTransformUtility.RectangleContainsScreenPoint(targetRectArea, Input.mousePosition))
+                if (!RectTransformUtility.RectangleContainsScreenPoint(targetRectArea, Input.mousePosition) &&
+                    !ExceptionsContainScreenPoint(Input.mousePosition))
                 {
                     onOutOfBounds.Invoke();
-                    Debug.Log("out!");
                 }
             }
             
         }
         
+    }
+
+    private bool ExceptionsContainScreenPoint(Vector2 point)
+    {
+        foreach (RectTransform rt in exceptions)
+        {
+            if (rt != null && RectTransformUtility.RectangleContainsScreenPoint(rt, point)) { return true; }
+        }
+
+        return false;
     }
 }

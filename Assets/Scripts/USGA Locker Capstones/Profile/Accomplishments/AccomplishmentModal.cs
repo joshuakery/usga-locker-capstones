@@ -14,6 +14,7 @@ namespace JoshKery.USGA.LockerCapstones
         public static OnOpen onOpen;
 
         public delegate void OnOpening(Accomplishment accomplishment, Vector2 cardDestination);
+
         /// <summary>
         /// For passing the placeholder's position to an accomplishment card for its dynamic animation to that position.
         /// </summary>
@@ -56,6 +57,13 @@ namespace JoshKery.USGA.LockerCapstones
             MainCanvasStateMachine.beforeAnimateToProfile -= InvokeOnCloseAndComplete;
         }
 
+        /// <summary>
+        /// Sets the content of the card.
+        /// Then waits one frame for the modal layout and for the accomplishment cards' layouts
+        /// to rebuild.
+        /// </summary>
+        /// <param name="accomplishment"></param>
+
         public void SetContentAndOpen(Accomplishment accomplishment)
         {
             if (accomplishment != null)
@@ -66,18 +74,19 @@ namespace JoshKery.USGA.LockerCapstones
                 if (descriptionField != null)
                     descriptionField.text = accomplishment.description;
 
-                Open();
-
-                StartCoroutine(WaitAndInvokeOnOpening(accomplishment));
+                StartCoroutine(WaitThenOpen(accomplishment));
             }
             
         }
 
         /// <summary>
-        /// Wait a frame for layout to rebuild.
+        /// Wait a frame for layouts to rebuild, then animate.
+        /// The open animations will be INSERTED in the following order:
+        /// 1. onOpening animations (i.e. the accomplishment cards' animations)
+        /// 2. this modal's Open animation
         /// </summary>
         /// <returns></returns>
-        private IEnumerator WaitAndInvokeOnOpening(Accomplishment accomplishment)
+        private IEnumerator WaitThenOpen(Accomplishment accomplishment)
         {
             yield return null;
 
@@ -85,7 +94,8 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 onOpening.Invoke(accomplishment, accomplishmentCardPlaceholder.position);
             }
-                
+
+            Open(0f);
         }
 
         public void InvokeOnClose()

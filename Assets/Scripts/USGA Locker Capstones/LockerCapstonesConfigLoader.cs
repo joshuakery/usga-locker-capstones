@@ -39,8 +39,18 @@ namespace JoshKery.USGA.LockerCapstones
             [JsonProperty("attractMediaDirectoryName")]
             public string attractMediaDirectoryName { get; set; } = "attractMedia";
 
+            /// <summary>
+            /// Interval between calls for Attract to rotate images.
+            /// </summary>
             [JsonProperty("attractInterval")]
             public int attractInterval { get; set; } = 10;
+
+            /// <summary>
+            /// Name of directory from which profile backgrounds media will be loaded.
+            /// Paths will be constructed dynamically.
+            /// </summary>
+            [JsonProperty("profileBackgroundsDirectoryName")]
+            public string profileBackgroundsDirectoryName { get; set; } = "profileBackgrounds";
 
             /// <summary>
             /// Name of directory from which locker finder images will be loaded.
@@ -73,6 +83,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private CarouselAutoSpin autoSpin;
+
+        [SerializeField]
+        private ProfileBackgroundManager profileBackgroundManager;
 
         #endregion
 
@@ -148,6 +161,11 @@ namespace JoshKery.USGA.LockerCapstones
                 autoSpin.spinInterval = data.attractInterval;
             }
 
+            if (profileBackgroundManager != null)
+            {
+                yield return StartCoroutine(LoadProfileBackgrounds(data.profileBackgroundsDirectoryName));
+            }
+
             yield return StartCoroutine(LoadLockerLocatorMedia(data.lockerLocatorMediaDirectoryName));
         }
 
@@ -178,6 +196,45 @@ namespace JoshKery.USGA.LockerCapstones
 
                 }
             }
+        }
+
+        private IEnumerator LoadProfileBackgrounds(string profileBackgroundsDirName)
+        {
+            yield return null;
+
+            int count = 0;
+
+            if (appState != null)
+            {
+                appState.profileBackgrounds.Clear();
+
+                string localDirPath = Path.Combine(LocalContentDirectory, profileBackgroundsDirName);
+
+                if (Directory.Exists(localDirPath))
+                {
+                    string[] fileEntries = Directory.GetFiles(localDirPath);
+                    foreach (string path in fileEntries)
+                    {
+                        if (!System.String.IsNullOrEmpty(path) && MediaLoadingUtility.IsImageFile(path))
+                        {
+                            yield return MediaLoadingUtility.LoadTexture2DFromPath(path, (Texture2D tex) =>
+                            {
+                                appState.profileBackgrounds.Add(tex);
+                                count++;
+                            });
+                        }
+                    }
+
+                }
+            }
+
+            RLMGLogger.Instance.Log(
+                System.String.Format(
+                    "{0} images loaded for backgrounds behind profile cards.",
+                    count
+                ),
+                MESSAGETYPE.INFO
+            );
         }
 
         private IEnumerator LoadLockerLocatorMedia(string lockerLocatorMediaDirName)

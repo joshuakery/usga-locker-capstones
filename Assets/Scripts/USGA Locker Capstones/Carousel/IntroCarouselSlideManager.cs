@@ -10,21 +10,25 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private GameObject navigationContainer;
 
+        [SerializeField]
+        private SlideManager backgroundSlideManager;
+
         public void SetContent(List<HistorySlide> historySlides)
         {
             if (historySlides != null)
             {
                 ClearAllDisplays();
                 if (navbarManager != null) { navbarManager.ClearAllDisplays(); }
+                if (backgroundSlideManager != null) { backgroundSlideManager.ClearAllDisplays(); }
 
-                foreach (HistorySlide slide in historySlides)
+                foreach (HistorySlide slideData in historySlides)
                 {
-                    if (slide != null)
+                    if (slideData != null)
                     {
                         IntroCarouselSlideDisplay display = InstantiateDisplay<IntroCarouselSlideDisplay>();
-                        display.SetContent(slide);
+                        display.SetContent(slideData);
 
-                        string slideID = slide.id.ToString();
+                        string slideID = slideData.id.ToString();
                         slideDisplays[slideID] = display;
                         slideOrder.Add(slideID);
 
@@ -34,6 +38,16 @@ namespace JoshKery.USGA.LockerCapstones
 
                             navbarManager.slideDisplays[slideID] = indicator;
                             navbarManager.slideOrder.Add(slideID);
+                        }
+
+                        if (backgroundSlideManager != null)
+                        {
+                            IntroCarouselSlideBackground backgroundSlide = backgroundSlideManager.InstantiateDisplay<IntroCarouselSlideBackground>();
+
+                            backgroundSlideManager.slideDisplays[slideID] = backgroundSlide;
+                            backgroundSlideManager.slideOrder.Add(slideID);
+
+                            backgroundSlide.SetContent(slideData);
                         }
                     }
                 }

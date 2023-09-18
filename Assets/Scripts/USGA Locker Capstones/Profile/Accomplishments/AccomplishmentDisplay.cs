@@ -42,20 +42,28 @@ namespace JoshKery.USGA.LockerCapstones
         private GameObject topCanvas;
 
         /// <summary>
-        /// Parent for rt to reset to after dynamic animation
+        /// Parent for animatedRT, the position of which animatedRT's position will be reset to
+        /// after OnModalOpen dynamic animation
         /// </summary>
         private Transform originalParentOfAnimatedRT;
 
         /// <summary>
-        /// RectTransform of card in dynamic animation
+        /// RectTransform of card that gets dynamically animated
         /// </summary>
         [SerializeField]
         private RectTransform animatedRT;
 
+        /// <summary>
+        /// Duration, easing, etc. for dynamic OnModalOpen & OnModalClose animations
+        /// </summary>
         [SerializeField]
         private UIAnimationData animationData;
 
-        private Tween activeTween;
+        [SerializeField]
+        private UIAnimationSequenceData onModalOpenAdditionalAnimations;
+
+        [SerializeField]
+        private UIAnimationSequenceData onModalCloseAdditionalAnimations;
         #endregion
 
         protected override void OnEnable()
@@ -123,11 +131,19 @@ namespace JoshKery.USGA.LockerCapstones
 
         #endregion
 
+        /// <summary>
+        /// If this accomplishment display is for the given accomplishment,
+        /// Animates this display to the destination
+        /// </summary>
+        /// <param name="accomplishment">Data object with id to match</param>
+        /// <param name="destination">Screen space position to animate to</param>
         private void OnModalOpen(Accomplishment accomplishment, Vector2 destination)
         {
-            
             if (id == accomplishment.id)
             {
+                Tween additionalAnimationsTween = _WindowAction(onModalOpenAdditionalAnimations);
+                sequenceManager.JoinTween(additionalAnimationsTween);
+
                 if (animationData != null)
                 {
                     if (animatedRT != null && topCanvas != null)
@@ -136,31 +152,39 @@ namespace JoshKery.USGA.LockerCapstones
 
                         animatedRT.parent = topCanvas.transform;
 
-                        activeTween = animatedRT.DOMove(destination, animationData.duration);
-                        activeTween.SetDelay(animationData.delay); //todo append to sequence used by modal
-                        UIAnimatorModule.SetEase(activeTween, animationData);
+                        Tween positionTween = animatedRT.DOMove(destination, animationData.duration);
+                        /*positionTween.SetDelay(animationData.delay); //todo append to sequence used by modal*/
+                        UIAnimatorModule.SetEase(positionTween, animationData);
+
+                        sequenceManager.InsertTween(animationData.delay, positionTween);
                     }
                 }
-
-                
             }
         }
 
+        /// <summary>
+        /// If this accomplishment display is not attached to its original parent (i.e. the Accomplishments Container),
+        /// Animates this display back to its original position
+        /// </summary>
         private void OnModalClose()
         {
             if (animatedRT != null && originalParentOfAnimatedRT != null && animatedRT.parent != originalParentOfAnimatedRT)
             {
+                Tween additionalAnimationsTween = _WindowAction(onModalCloseAdditionalAnimations);
+                sequenceManager.JoinTween(additionalAnimationsTween);
+
                 if (animationData != null)
                 {
-                    activeTween = animatedRT.DOMove(originalParentOfAnimatedRT.position, animationData.duration);
-                    UIAnimatorModule.SetEase(activeTween, animationData);
-                    activeTween.onComplete = () =>
+                    Tween positionTween = animatedRT.DOMove(originalParentOfAnimatedRT.position, animationData.duration);
+                    UIAnimatorModule.SetEase(positionTween, animationData);
+                    positionTween.onComplete = () =>
                     {
                         if (originalParentOfAnimatedRT != null)
                             animatedRT.parent = originalParentOfAnimatedRT;
                     };
-                }
 
+                    sequenceManager.JoinTween(positionTween);
+                }
             }
         }
 

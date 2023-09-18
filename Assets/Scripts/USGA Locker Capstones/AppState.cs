@@ -24,6 +24,19 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
 
+        [Header("Profile Backgrounds")]
+        private List<Texture2D> _profileBackgrounds;
+        public List<Texture2D> profileBackgrounds
+        {
+            get
+            {
+                if (_profileBackgrounds == null)
+                    _profileBackgrounds = new List<Texture2D>();
+
+                return _profileBackgrounds;
+            }
+        }
+
         [Header("Locker Finder Media")]
         private Dictionary<int, Texture2D> _lockerLocatorMedia;
 

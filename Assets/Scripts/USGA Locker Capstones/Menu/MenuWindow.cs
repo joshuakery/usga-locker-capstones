@@ -14,6 +14,20 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private TMP_Text descriptionTextField;
 
+        private Canvas canvas;
+
+        protected override void Awake()
+        {
+            base.Awake();
+
+            canvas = GetComponent<Canvas>();
+        }
+
+        private void Start()
+        {
+            if (canvas != null) { canvas.enabled = true; }
+        }
+
         public override void SetContent()
         {
             if (appState == null) { return; }

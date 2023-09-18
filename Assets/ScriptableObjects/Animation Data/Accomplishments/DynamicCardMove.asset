@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationType: 0
   duration: 0.5
-  delay: 0.1
+  delay: 0.5
   to: {x: 0, y: 0, z: 0}
   useFrom: 0
   trueFrom: 0
