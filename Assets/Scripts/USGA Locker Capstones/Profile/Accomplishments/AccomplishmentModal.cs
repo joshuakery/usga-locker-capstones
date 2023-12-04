@@ -40,7 +40,7 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnEnable();
 
             onOpen += SetContentAndOpen;
-            onClose += Close;
+            onClose += DoClose;
             onCloseAndComplete += CloseAndComplete;
 
             MainCanvasStateMachine.beforeAnimateToProfile += InvokeOnCloseAndComplete;
@@ -51,7 +51,7 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             onOpen -= SetContentAndOpen;
-            onClose -= Close;
+            onClose -= DoClose;
             onCloseAndComplete -= CloseAndComplete;
 
             MainCanvasStateMachine.beforeAnimateToProfile -= InvokeOnCloseAndComplete;
@@ -78,6 +78,8 @@ namespace JoshKery.USGA.LockerCapstones
             }
             
         }
+
+        
 
         /// <summary>
         /// Wait a frame for layouts to rebuild, then animate.

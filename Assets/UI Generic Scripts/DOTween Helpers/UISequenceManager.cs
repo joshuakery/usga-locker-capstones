@@ -49,6 +49,20 @@ namespace JoshKery.GenericUI.DOTweenHelpers
             _CompleteCurrentSequence();
         }
 
+        private void _KillCurrentSequence()
+        {
+            if (currentSequence != null)
+            {
+                currentSequence.Kill();
+                currentSequence = null;
+            }
+        }
+
+        public void KillCurrentSequence()
+        {
+            _KillCurrentSequence();
+        }
+
         public void AppendInterval(float interval)
         {
             if (currentSequence == null)
@@ -83,6 +97,12 @@ namespace JoshKery.GenericUI.DOTweenHelpers
                 currentSequence.id = System.Guid.NewGuid();
                 currentSequence.AppendInterval(remaining);
             }
+        }
+
+        public void CreateSequenceIfNull()
+        {
+            if (currentSequence == null)
+                _CreateNewSequence();
         }
 
         public void JoinTween(Tween tween)

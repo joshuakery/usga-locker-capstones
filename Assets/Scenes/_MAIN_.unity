@@ -788,6 +788,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!1001 &46849704
 PrefabInstance:
@@ -1069,6 +1070,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   outForNextSequence:
     sequenceType: 0
@@ -1468,6 +1470,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!223 &78015316
 Canvas:
@@ -1476,7 +1479,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78015313}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
@@ -1595,6 +1598,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
   profileBackgroundManager: {fileID: 391878341}
@@ -1846,6 +1850,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!114 &78710965
 MonoBehaviour:
@@ -2020,6 +2025,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!224 &88595941 stripped
 RectTransform:
@@ -3558,6 +3564,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!1 &182435480
 GameObject:
@@ -4748,6 +4755,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
   selectedHeadingField: {fileID: 874106985}
@@ -4941,7 +4949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 138.45, y: -672}
+  m_AnchoredPosition: {x: 138.4502, y: -672}
   m_SizeDelta: {x: 276.9, y: 1060}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249890596
@@ -6841,6 +6849,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!114 &391878341
 MonoBehaviour:
@@ -7095,6 +7104,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!224 &411005250
 RectTransform:
@@ -7686,7 +7696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -125.91882, y: -672}
+  m_AnchoredPosition: {x: -125.918945, y: -672}
   m_SizeDelta: {x: 292.0313, y: 1060}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486408349
@@ -8931,6 +8941,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
 --- !u!114 &549420232
@@ -9673,6 +9684,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   carousel: {fileID: 1244927982}
   label: {fileID: 1711958353}
@@ -10349,6 +10361,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   nameTextField: {fileID: 2039600472}
   birthDeathInfoTextField: {fileID: 450911464}
@@ -11566,6 +11579,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!1 &805522830
 GameObject:
@@ -11900,6 +11914,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!1 &836968289
 GameObject:
@@ -12068,6 +12083,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!1 &840881441
 GameObject:
@@ -12834,6 +12850,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   contentTrailID: -1
   nameField: {fileID: 0}
@@ -13711,6 +13728,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
   pulseSequence:
@@ -14393,6 +14411,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
   riManager: {fileID: 1198672237}
@@ -15889,6 +15908,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   headerField: {fileID: 148042820}
   descriptionField: {fileID: 1260866008}
@@ -19590,6 +19610,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   carousel: {fileID: 1244927982}
   label: {fileID: 843561594}
@@ -19963,6 +19984,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   toAttractSequence:
     sequenceType: 0
@@ -20887,6 +20909,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!114 &1415814077
 MonoBehaviour:
@@ -21238,6 +21261,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   outForNextSequence:
     sequenceType: 0
@@ -21726,6 +21750,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!1 &1452929896
 GameObject:
@@ -22928,6 +22953,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
 --- !u!223 &1555378877
 Canvas:
@@ -25130,6 +25156,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   carousel: {fileID: 1244927982}
   label: {fileID: 313928498}
@@ -25971,13 +25998,12 @@ MonoBehaviour:
     description\r\n          filename_disk\r\n          filename_download\r\n         
     title\r\n        }\r\n      }\r\n      accomplishments {\r\n        id\r\n       
     name\r\n        icon {\r\n          id\r\n        }\r\n        description\r\n     
-    }\r\n    }\r\n  }\r\n  contentTrails {\r\n    name\r\n    id\r\n  }\r\n  accomplishmentIcons
-    {\r\n    id\r\n    image {\r\n      description\r\n      filename_disk\r\n     
-    filename_download\r\n      title\r\n    }\r\n  }\r\n}"
+    }\r\n    }\r\n  }\r\n  contentTrails {\r\n    name\r\n    id\r\n    description\r\n 
+    }\r\n  accomplishmentIcons {\r\n    id\r\n    image {\r\n      description\r\n     
+    filename_disk\r\n      filename_download\r\n      title\r\n    }\r\n  }\r\n}"
   erasByIdIdVariable: 1
   OnlineContentDirectory: https://usga-exhibits-dev.com/assets/
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
-  erasByIdGraphRef: {fileID: 11400000, guid: 9df2157c59035c249ae450d9f17cfa98, type: 2}
 --- !u!1 &1723963576
 GameObject:
   m_ObjectHideFlags: 0
@@ -28329,6 +28355,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
   slideManager: {fileID: 3500860871159836996}
@@ -29143,6 +29170,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   outForNextSequence:
     sequenceType: 0
@@ -30836,7 +30864,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
@@ -30984,6 +31012,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   appState: {fileID: 11400000, guid: 1601a9f583e91124d85f1e0e0ab4e5ee, type: 2}
   titleTextField: {fileID: 1261396591}

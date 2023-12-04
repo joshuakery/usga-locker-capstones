@@ -38,20 +38,21 @@ namespace JoshKery.USGA.LockerCapstones
             ProfileModulesManager.onResetContent.RemoveListener(SetContent);
         }
 
-        protected override void _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        protected override DG.Tweening.Sequence _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
-            base._Open(sequenceType, atPosition);
-
+            
             if (clickNotOnRTHelper != null)
                 clickNotOnRTHelper.doCheck = true;
+
+            return base._Open(sequenceType, atPosition);
         }
 
-        protected override void _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        protected override DG.Tweening.Sequence _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
-            base._Close(sequenceType, atPosition);
-
             if (clickNotOnRTHelper != null)
                 clickNotOnRTHelper.doCheck = false;
+
+            return base._Close(sequenceType, atPosition);
         }
 
         private void CloseAndComplete()

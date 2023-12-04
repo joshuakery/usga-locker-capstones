@@ -7,14 +7,14 @@
           "image": {
             "id": null,
             "filename_download": "Capstones_History_Boom_1.jpg",
-            "filename_disk": "a6c039b7-808c-43cf-a8d4-9b7491c83a87.jpg",
+            "filename_disk": "c141d1e8-b0b9-4b58-87bf-8a59af97cd42.jpg",
             "description": null,
             "title": "Capstones History Boom 1"
           },
           "order": 1,
           "text": "Historians believe that golf originated in Scotland in the early 1400s. For centuries, the game was played on sandy linksland in just a handful of coastal towns, most prominently St. Andrews. Early golf was principally the domain of the economic and social elite.",
           "imageCaption": null,
-          "title": "Golf Boom Slide 1",
+          "title": "Scottish Origins",
           "backgroundVideo": null
         },
         {
@@ -29,7 +29,7 @@
           "order": 2,
           "text": "The Industrial Revolution transformed Scottish society, encouraging the rapid growth of golf. There were just 24 golf clubs in Britain in 1851 and at least 290 by 1899. The first generation of golf professionals emerged mid-century and by the 1860s were competing in elite competitions like the Open Championship.",
           "imageCaption": null,
-          "title": "Golf Boom Slide 2",
+          "title": "Golf & The Industrial Revolution",
           "backgroundVideo": null
         },
         {
@@ -37,14 +37,14 @@
           "image": {
             "id": null,
             "filename_download": "Capstones_History_Boom_3.jpg",
-            "filename_disk": "3e394855-cfc7-4ee4-a50b-55442d35d30c.jpg",
+            "filename_disk": "7b0bb7d7-2885-4557-995b-21bef6f5c613.jpg",
             "description": null,
             "title": "Capstones History Boom 3"
           },
           "order": 3,
           "text": "Changing perspectives on female sports participation encouraged women to take up the game after 1850. The St. Andrews Ladies’ Club was formed in 1867 and played over an area known as the Himalayas. Westward Ho! (1868), Musselburgh (1872) and Carnoustie (1873) quickly followed in creating clubs and courses for women.",
           "imageCaption": null,
-          "title": "Golf Boom Slide 3",
+          "title": "Early Women's Golf",
           "backgroundVideo": null
         },
         {
@@ -52,14 +52,14 @@
           "image": {
             "id": null,
             "filename_download": "Capstones_History_Boom_4.jpg",
-            "filename_disk": "73f2df54-9b0c-4e79-84e0-c49d2fcd0a90.jpg",
+            "filename_disk": "e6a4ae5a-1a59-482c-b50f-9f35b3a10290.jpg",
             "description": null,
             "title": "Capstones History Boom 4"
           },
           "order": 4,
           "text": "Golf’s emergence as a global game reflected the breadth of British economic interests. Golf spread to India in 1830 and Australia by 1840. Vacationers and expatriates helped extend golf across the Continent, to France in 1856, Belgium in 1888 and Italy and Switzerland by 1890. By 1895, golf proliferated in more than 35 countries.",
           "imageCaption": null,
-          "title": "Golf Boom Slide 4",
+          "title": "Golf spreads beyond Britain",
           "backgroundVideo": null
         },
         {
@@ -67,14 +67,14 @@
           "image": {
             "id": null,
             "filename_download": "Capstones_History_Boom_5.jpg",
-            "filename_disk": "2b224ce0-c8c8-4d1b-b92c-d532335180b4.jpg",
+            "filename_disk": "eaa716e3-bce2-47a7-8b75-793b27eaa1b5.jpg",
             "description": null,
             "title": "Capstones History Boom 5"
           },
           "order": 5,
           "text": "Golf was played in America as early as the 1740s, but the game did not flourish in the United States until the 1880s. Many Scottish and English professionals emigrated to America to work at more than 1,000 golf courses that existed by 1900. Some became the first stars of American golf.",
           "imageCaption": null,
-          "title": "Golf Boom Slide 5",
+          "title": "Golf comes to the U.S.",
           "backgroundVideo": null
         }
       ],
@@ -96,38 +96,38 @@
           "media": [
             {
               "directus_files_id": {
-                "id": "8b9fe246-df55-4b36-8a08-ce6490f4049e",
-                "filename_download": "Mask Group 5.png",
-                "filename_disk": "8b9fe246-df55-4b36-8a08-ce6490f4049e.png",
+                "id": "6898874f-05a1-4360-a5ac-b9058706e468",
+                "filename_download": "3000_230093.jpg",
+                "filename_disk": "6898874f-05a1-4360-a5ac-b9058706e468.jpg",
                 "description": null,
-                "title": "Mask Group 5"
+                "title": "3000 230093"
               }
             },
             {
               "directus_files_id": {
-                "id": "724beaab-fc61-441d-b21b-90f36d022a61",
-                "filename_download": "Mask Group 5.png",
-                "filename_disk": "724beaab-fc61-441d-b21b-90f36d022a61.png",
+                "id": "92d82034-5db4-45dc-ac2f-d30fb0f062c8",
+                "filename_download": "3000_230128.jpg",
+                "filename_disk": "92d82034-5db4-45dc-ac2f-d30fb0f062c8.jpg",
                 "description": null,
-                "title": "Mask Group 5"
+                "title": "3000 230128"
               }
             },
             {
               "directus_files_id": {
-                "id": "c506862c-834e-449f-8db0-1e642e8376e9",
-                "filename_download": "Mask Group 3.png",
-                "filename_disk": "c506862c-834e-449f-8db0-1e642e8376e9.png",
+                "id": "2db42d9c-9c57-4461-af6a-e10282806128",
+                "filename_download": "3000_230129.jpg",
+                "filename_disk": "2db42d9c-9c57-4461-af6a-e10282806128.jpg",
                 "description": null,
-                "title": null
+                "title": "3000 230129"
               }
             },
             {
               "directus_files_id": {
-                "id": "a3629984-0af1-4389-97a9-9b442f4bc14b",
-                "filename_download": "Image 7.png",
-                "filename_disk": "a3629984-0af1-4389-97a9-9b442f4bc14b.png",
+                "id": "9f43d4a9-c8a1-4ee3-8007-587a74d46a48",
+                "filename_download": "3000_230131.jpg",
+                "filename_disk": "9f43d4a9-c8a1-4ee3-8007-587a74d46a48.jpg",
                 "description": null,
-                "title": "Image 7"
+                "title": "3000 230131"
               }
             }
           ],
@@ -145,7 +145,7 @@
               "description": null,
               "name": "Golf's first professional and greenskeeper",
               "icon": {
-                "id": 2,
+                "id": 20,
                 "image": null
               },
               "status": null
@@ -155,7 +155,7 @@
               "description": null,
               "name": "Premier club and ball maker in St. Andrews",
               "icon": {
-                "id": 1,
+                "id": 22,
                 "image": null
               },
               "status": null
@@ -165,7 +165,7 @@
               "description": null,
               "name": "First player to break 80 on the Old Course in St. Andrews",
               "icon": {
-                "id": 1,
+                "id": 32,
                 "image": null
               },
               "status": null
@@ -174,7 +174,10 @@
               "id": 7,
               "description": null,
               "name": "Victor in numerous high-profile challenge matches",
-              "icon": null,
+              "icon": {
+                "id": 25,
+                "image": null
+              },
               "status": null
             },
             {
@@ -182,7 +185,7 @@
               "description": null,
               "name": "Frequent partner of Old Tom Morris",
               "icon": {
-                "id": 1,
+                "id": 30,
                 "image": null
               },
               "status": null
@@ -192,7 +195,7 @@
               "description": null,
               "name": "Architect of course improvements at St. Andrews and Carnoustie",
               "icon": {
-                "id": 2,
+                "id": 20,
                 "image": null
               },
               "status": null
@@ -202,19 +205,10 @@
             {
               "directus_files_id": {
                 "id": null,
-                "filename_download": "Mask Group 3.png",
-                "filename_disk": "bb4c1846-48a8-4196-8142-cdc295efd783.png",
-                "description": null,
-                "title": "Mask Group 3"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Image 7.png",
-                "filename_disk": "25fe3102-4ae6-4f5f-b316-7c58a7336c0e.png",
-                "description": null,
-                "title": "Image 7"
+                "filename_download": "AllanRobertson_BioPhoto_WebApp.png",
+                "filename_disk": "6fd5d5be-8914-43ed-a517-1865e8c5b264.png",
+                "description": "Allan Robertson (crouching) and Old Tom Morris, as depicted by noted St. Andrews artist Thomas Hodge, 1885",
+                "title": "Allan Robertson Bio Photo Web App"
               }
             }
           ],
@@ -239,7 +233,62 @@
           "death": "1908-05-24T00:00:00",
           "inductionYear": 1976,
           "lockerNumber": 40203,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "dd976a44-350b-4bb6-a000-66107ddda641",
+                "filename_download": "3000_230130.jpg",
+                "filename_disk": "dd976a44-350b-4bb6-a000-66107ddda641.jpg",
+                "description": null,
+                "title": "3000 230130"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "b681fc13-43b8-42b2-9969-fa3ddb7041b4",
+                "filename_download": "3000_230143.jpg",
+                "filename_disk": "b681fc13-43b8-42b2-9969-fa3ddb7041b4.jpg",
+                "description": null,
+                "title": "3000 230143"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "f00ad0da-674f-4b6e-9078-d253fbbe2b81",
+                "filename_download": "3000_230135.jpg",
+                "filename_disk": "f00ad0da-674f-4b6e-9078-d253fbbe2b81.jpg",
+                "description": null,
+                "title": "3000 230135"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "1581a07b-6ec6-4dab-92c5-2f5d5f0f092b",
+                "filename_download": "3000_230143.jpg",
+                "filename_disk": "1581a07b-6ec6-4dab-92c5-2f5d5f0f092b.jpg",
+                "description": null,
+                "title": "3000 230143"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "dfc1666f-1fee-4ec6-8b7c-170965dea90e",
+                "filename_download": "3000_230136.jpg",
+                "filename_disk": "dfc1666f-1fee-4ec6-8b7c-170965dea90e.jpg",
+                "description": null,
+                "title": "3000 230136"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "e8e865ac-1b0b-475e-8a6b-fba7d394e240",
+                "filename_download": "3000_230140.jpg",
+                "filename_disk": "e8e865ac-1b0b-475e-8a6b-fba7d394e240.jpg",
+                "description": null,
+                "title": "3000 230140"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "641df4d1-b9f7-41bd-8cd0-17caa5cbe787",
             "filename_download": "Capstones_BioCircles_OldTomMorris.jpg",
@@ -253,37 +302,52 @@
               "id": 10,
               "description": "Morris' victories at the Open Championship included winning the 1862 Open by thirteen strokes, and a victory in 1867 at the age of 46.",
               "name": "Four-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 18,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 11,
               "description": null,
               "name": "Premier club and ball maker in St. Andrews",
-              "icon": null,
+              "icon": {
+                "id": 22,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 12,
               "description": null,
               "name": "Design credits include Carnoustie, Muirfield, Prestwick, and Royal Dornoch",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 13,
               "description": null,
               "name": "\"Keeper of the Green\" in St. Andrews from 1865-1904",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             }
           ],
           "bioImages": [
             {
-              "directus_files_id": null
-            },
-            {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "OldTomMorris_BioPhoto_WebApp.png",
+                "filename_disk": "5eb2c7d0-6b9f-494e-9228-8178d0302698.png",
+                "description": "Old Tom Morris wearing the Championship Belt, awarded to the winner of the Open Championship, ca. 1900",
+                "title": "Old Tom Morris Bio Photo Web App"
+              }
             }
           ],
           "bioText": "Forever linked with the Old Course and St. Andrews, four-time Open Champion Tom Morris Sr. is one of the most revered figures in golf. “Old Tom” learned the game as an apprentice of Allan Robertson, caddying for him, making feather balls in Robertson’s shop, and playing with Robertson in many celebrated challenge matches.\n\nMorris served as greenkeeper at Prestwick before returning to St. Andrews in the mid-1860s to manage the links, rebuild the greens and widen the fairways on the Old Course. He is credited as the architect of more than 75 courses throughout the British Isles. He remained a premier player for decades, last playing in the Open Championship in 1896 at age 75.",
@@ -315,7 +379,35 @@
           "death": "1875-12-25T00:00:00",
           "inductionYear": 1976,
           "lockerNumber": 40204,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "e2481f00-6978-4d88-a120-272c58025e11",
+                "filename_download": "1000_201212.jpg",
+                "filename_disk": "e2481f00-6978-4d88-a120-272c58025e11.jpg",
+                "description": null,
+                "title": "1000 201212"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6f545122-e386-46ca-9b59-759e61846dd4",
+                "filename_download": "3000_230137.jpg",
+                "filename_disk": "6f545122-e386-46ca-9b59-759e61846dd4.jpg",
+                "description": null,
+                "title": "3000 230137"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "5d48d40c-5101-4988-a599-b175532952e9",
+                "filename_download": "1000_171204.jpg",
+                "filename_disk": "5d48d40c-5101-4988-a599-b175532952e9.jpg",
+                "description": null,
+                "title": "1000 171204"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "97e548f6-941a-4faa-9568-493c048fc99d",
             "filename_download": "Capstones_BioCircles_YoungTomMorris.jpg",
@@ -329,30 +421,42 @@
               "id": 14,
               "description": "Morris first played in, and won, the Open Championship, at age 17.",
               "name": "Won four Open Championships by age 21",
-              "icon": null,
+              "icon": {
+                "id": 18,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 15,
               "description": "Morris went on to win the Claret Jug with his victory at the 1872 Open Championship",
               "name": "Retired the original Open Championship belt in 1870",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 16,
               "description": null,
               "name": "Recorded the first hole-in-one in a major championship in 1869",
-              "icon": null,
+              "icon": {
+                "id": 24,
+                "image": null
+              },
               "status": null
             }
           ],
           "bioImages": [
             {
-              "directus_files_id": null
-            },
-            {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "YoungTomMorris_WebApp.png",
+                "filename_disk": "0e14d42d-ac45-420d-949e-f2405605e425.png",
+                "description": "Portrait of Old and Young Tom Morris by Thomas Rodger, ca. 1870",
+                "title": "Young Tom Morris Web App"
+              }
             }
           ],
           "bioText": "Tall, strong and handsome, Tom Morris Jr. was to golf in his era what Arnold Palmer became in the 1950s. \"Golfers may come and golfers may go,\" wrote Harold Hutchinson, \"but it is very much open to doubt whether any golfers will be quite the idol of the day as Young Tom was during his brilliant career.\"\n\nHe first won a professional challenge match at 13 and a professional tournament at 16. After claiming four Open Championships between 1868-1872, tragedy struck in 1875, when Morris received a telegram that his wife and baby had died during childbirth. He died three months later on Christmas Eve of a pulmonary hemorrhage, leading to speculation that he died from a broken heart.",
@@ -378,16 +482,40 @@
           "lockerNumber": 40205,
           "media": [
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "93e99edd-ae9e-485c-9a5b-911ac33103bc",
+                "filename_download": "3000_230093.jpg",
+                "filename_disk": "93e99edd-ae9e-485c-9a5b-911ac33103bc.jpg",
+                "description": null,
+                "title": "3000 230093"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "27fbe9ab-df76-4e71-a60f-379bd188696f",
+                "filename_download": "3000_230094.jpg",
+                "filename_disk": "27fbe9ab-df76-4e71-a60f-379bd188696f.jpg",
+                "description": null,
+                "title": "3000 230094"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "897d4676-e6c0-49b2-b428-18f741d707e0",
+                "filename_download": "3000_230132.jpg",
+                "filename_disk": "897d4676-e6c0-49b2-b428-18f741d707e0.jpg",
+                "description": null,
+                "title": "3000 230132"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "16f0a812-44ad-43f0-8176-651effdec2f5",
+                "filename_download": "3000_230133.jpg",
+                "filename_disk": "16f0a812-44ad-43f0-8176-651effdec2f5.jpg",
+                "description": null,
+                "title": "3000 230133"
+              }
             }
           ],
           "featuredImage": {
@@ -403,30 +531,42 @@
               "id": 17,
               "description": "Park was victorious at the Open Championship in 1860, 1863, 1866, and 1875. He added four more runner-up finishes in 1861, 1862, 1865, and 1867.",
               "name": "Four-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 18,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 18,
               "description": null,
               "name": "Designer of at least 35 golf courses in the UK and Ireland",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 19,
               "description": "Park also famously won a challenge match playing his tee shots from a watch face. The watch was unscathed.",
               "name": "Often played challenge matches using only one hand and standing on one leg",
-              "icon": null,
+              "icon": {
+                "id": 29,
+                "image": null
+              },
               "status": null
             }
           ],
           "bioImages": [
             {
-              "directus_files_id": null
-            },
-            {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "WillieParkSr_BioImage.png",
+                "filename_disk": "242c38ea-00ca-41fc-a2af-1314d8a397e3.png",
+                "description": "Photographic portrait of Willie Park Sr., ca. 1880",
+                "title": "Willie Park Sr Bio Image"
+              }
             }
           ],
           "bioText": "Celebrated as a premier club and ball maker from Musselburgh, Scotland, Willie Park Sr. staked his claim to immortality as the inaugural Open Champion in 1860. Like many professionals of his era, Park was introduced to golf as a caddie, using a whittled stick as his first club.\n\nTall and strong, he soon emerged as one of the most dominant golfers of his generation, gaining notoriety through his victories in challenge matches against contemporaries such as Allan Robertson, Willie Dunn and Old Tom Morris. He was a excellent putter, but it was his powerful drives that most intimidated his peers. Allan Robertson, who refused to respond to Park's public challenge in 1853, once confessed, \"Willie frightens us with his long driving.\"",
@@ -454,16 +594,49 @@
           "lockerNumber": 40206,
           "media": [
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "2bbf6c0e-7911-4591-9f45-d96ad0389b58",
+                "filename_download": "1000-00657.jpg",
+                "filename_disk": "2bbf6c0e-7911-4591-9f45-d96ad0389b58.jpg",
+                "description": null,
+                "title": "1000 00657"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "8afc5d9d-0684-40be-8cda-ae0142e8fb30",
+                "filename_download": "1000-05487n.jpg",
+                "filename_disk": "8afc5d9d-0684-40be-8cda-ae0142e8fb30.jpg",
+                "description": null,
+                "title": "1000 05487n"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "9fcd3ea6-d4ae-47fa-b361-e3962db82bd5",
+                "filename_download": "1000-05488n.jpg",
+                "filename_disk": "9fcd3ea6-d4ae-47fa-b361-e3962db82bd5.jpg",
+                "description": null,
+                "title": "1000 05488n"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "1f8d78fd-535f-4c83-bfa7-08ed5ba625e7",
+                "filename_download": "WillieParkArchitectAd.png",
+                "filename_disk": "1f8d78fd-535f-4c83-bfa7-08ed5ba625e7.png",
+                "description": null,
+                "title": "Willie Park Architect Ad"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "2528f7b6-ba0d-4cac-bf54-10acf571ed3b",
+                "filename_download": "3000_230144.jpg",
+                "filename_disk": "2528f7b6-ba0d-4cac-bf54-10acf571ed3b.jpg",
+                "description": null,
+                "title": "3000 230144"
+              }
             }
           ],
           "featuredImage": {
@@ -479,51 +652,72 @@
               "id": 20,
               "description": null,
               "name": "Two-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 21,
               "description": null,
               "name": "Played in his first Open Championship at age 16",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 22,
               "description": null,
               "name": "Author of the first book by a golf professional",
-              "icon": null,
+              "icon": {
+                "id": 17,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 23,
               "description": null,
               "name": "Inventor of the offset putter, lob wedge, and convex-faced driver",
-              "icon": null,
+              "icon": {
+                "id": 22,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 24,
               "description": null,
               "name": "Significantly advanced ball aerodynamics",
-              "icon": null,
+              "icon": {
+                "id": 22,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 25,
               "description": null,
               "name": "Designed over 150 courses around the world",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             }
           ],
           "bioImages": [
             {
-              "directus_files_id": null
-            },
-            {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Willie Park Jr Bio Photo Web App_v2.jpg",
+                "filename_disk": "dedc8e6b-0530-41ed-99da-16163d8a0a24.jpg",
+                "description": "Willie Park Jr. prepares to play a shot, ca. 1890",
+                "title": "Willie Park Jr Bio Photo Web App V2"
+              }
             }
           ],
           "bioText": "Willie Park Jr. was golf's first true Renaissance men: two-time Open champion, golf equipment maker, golf writer and one of his era's finest golf course architects. The son of four-time Open Champion Willie Park, Sr., and nephew of 1870 Open Champion Mungo Park, Willie Park, Jr., was born into the \"First Family of Golf.\" His success was often attributed to exceptional putting, perfected through twelve-hour practice sessions.\n\nConfident, competitive and an iconoclast, Park never sought employment from a club, preferring instead to run his own business. He was an innovator in club and ball design and manufacturing, as well as golf course architecture, and parlayed his fame into business ventures that reached throughout the United Kingdom and extended to America.",
@@ -564,16 +758,40 @@
           "lockerNumber": 40208,
           "media": [
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "07437b0d-db58-4539-a70a-73bb90f56dfa",
+                "filename_download": "1000_191609.jpg",
+                "filename_disk": "07437b0d-db58-4539-a70a-73bb90f56dfa.jpg",
+                "description": null,
+                "title": "1000 191609"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "b72940d7-cf89-4e24-8517-1ad91eb79776",
+                "filename_download": "1000_200550.jpg",
+                "filename_disk": "b72940d7-cf89-4e24-8517-1ad91eb79776.jpg",
+                "description": null,
+                "title": "1000 200550"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "b6a71795-3cab-435d-9d0a-979e4ea3af63",
+                "filename_download": "3000_230149.jpg",
+                "filename_disk": "b6a71795-3cab-435d-9d0a-979e4ea3af63.jpg",
+                "description": null,
+                "title": "3000 230149"
+              }
             },
             {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": "7737cc03-2d93-4b3b-81b2-1ad08f54f30d",
+                "filename_download": "John Ball 1912 Amateur.png",
+                "filename_disk": "7737cc03-2d93-4b3b-81b2-1ad08f54f30d.png",
+                "description": null,
+                "title": "John Ball 1912 Amateur"
+              }
             }
           ],
           "featuredImage": {
@@ -589,37 +807,52 @@
               "id": 26,
               "description": "In the process, Ball became the first amateur, and first Englishman, to win the Open Championship.",
               "name": "First to with the Open and Amateur Championships in the same year",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 27,
               "description": null,
               "name": "Eight-time winner of the Amateur Championship",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 28,
               "description": null,
               "name": "Irish Amateur champion in 1890",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 29,
               "description": null,
               "name": "Won more than 40 major amateur competitions",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             }
           ],
           "bioImages": [
             {
-              "directus_files_id": null
-            },
-            {
-              "directus_files_id": null
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "JohnBall_BioPhoto_WebApp.png",
+                "filename_disk": "61707e51-7048-4268-8f79-eba6cf00f901.png",
+                "description": "John Ball Jr. (left) and Samuel Mure Ferguson before the final match of the 1894 Amateur Championship, which Ball won at Royal Liverpool Golf Club",
+                "title": "John Ball Bio Photo Web App"
+              }
             }
           ],
           "bioText": "A fierce competitor, known for his fiery temper and determined spirt, Englishman John Ball, Jr. dominated amateur golf in late nineteenth-century Great Britain, winning eight Amateur Championships between 1888 and 1912, the Open Championship in 1890, and the hearts and respect of his country.\n\nBall learned the game on the links at Holyoke, competing against his rival and friend, Harold Hilton. His swing was graceful and many contemporaries considered him the most stylish player of his era. But it was his stubbornness and dogged determination that made Ball a lion in match play. He retired with a match-play record of 99 wins against just 22 losses.",
@@ -647,7 +880,44 @@
           "death": "1942-03-05T00:00:00",
           "inductionYear": 1978,
           "lockerNumber": 40207,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "bb70fb05-f86c-458e-96f6-970ec648d292",
+                "filename_download": "1000_200470.jpg",
+                "filename_disk": "bb70fb05-f86c-458e-96f6-970ec648d292.jpg",
+                "description": null,
+                "title": "1000 200470"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "0dca9fa4-bb76-44fc-8a80-d91aa7ef2497",
+                "filename_download": "1000_200502.jpg",
+                "filename_disk": "0dca9fa4-bb76-44fc-8a80-d91aa7ef2497.jpg",
+                "description": null,
+                "title": "1000 200502"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6c8d94a3-1311-4e56-a462-e8e2c77c3eec",
+                "filename_download": "3000_230100.jpg",
+                "filename_disk": "6c8d94a3-1311-4e56-a462-e8e2c77c3eec.jpg",
+                "description": null,
+                "title": "3000 230100"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6ba20cec-f240-4d85-a5c1-abc01924566b",
+                "filename_download": "3000-01158n.jpg",
+                "filename_disk": "6ba20cec-f240-4d85-a5c1-abc01924566b.jpg",
+                "description": null,
+                "title": "3000 01158n"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "1616bc28-0d81-491d-bcd9-5bcdc6573cdc",
             "filename_download": "Capstones_BioCircles_Hilton.jpg",
@@ -661,47 +931,75 @@
               "id": 30,
               "description": null,
               "name": "Two-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 31,
               "description": null,
               "name": "Four-time winner of the Amateur Championship",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 32,
               "description": null,
               "name": "Two-time winner of the Irish Amateur",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 33,
               "description": null,
               "name": "Winner of the 1911 U.S. Amateur Championship",
-              "icon": null,
+              "icon": {
+                "id": 34,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 34,
               "description": null,
               "name": "First to win the Amateur and U.S. Amateur in the same year",
-              "icon": null,
+              "icon": {
+                "id": 34,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 35,
               "description": null,
               "name": "Won over 20 major amateur competitions",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             }
           ],
-          "bioImages": [],
-          "bioText": "Harold Hilton, a powerful, if unconventional, shot-maker, won the Open Championship in 1892 &ndash; the first time it was played at 72 holes and contested over two days &ndash; and again in 1897. But it was his dominance of English amateur golf, and his rivalry with John Ball, Jr., that earned him widespread fame.\n\nA wild swinger who re-gripped the club at the top of his backswing, Hilton owned a stellar match play record, boasting a 99-29 mark in amateur competitions. After retiring from competitive golf, Hilton authored several books on golf and became the founding editor of Golf Monthly and editor of Golf Illustrated.",
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Harold Hilton Bio Photo Web App_v2.jpg",
+                "filename_disk": "a775e875-c90e-49af-8b4c-cf2f5c0cfb16.jpg",
+                "description": "Harold Hilton at the 1900 Amateur Championship at St. Andrews, where he claimed his first of four Amateur titles",
+                "title": "Harold Hilton Bio Photo Web App V2"
+              }
+            }
+          ],
+          "bioText": "Harold Hilton, a powerful, if unconventional, shot-maker, won the Open Championship in 1892 – the first time it was played at 72 holes and contested over two days – and again in 1897. But it was his dominance of English amateur golf, and his rivalry with John Ball, Jr., that earned him widespread fame.\n\nA wild swinger who re-gripped the club at the top of his backswing, Hilton owned a stellar match play record, boasting a 99-29 mark in amateur competitions. After retiring from competitive golf, Hilton authored several books on golf and became the founding editor of Golf Monthly and editor of Golf Illustrated.",
           "quote": "He was a small man of powerful physique; it was exhilirating to watch his perky walk between shots. His assiduity was his greatness.",
           "quoteByline": "Robert Harris",
           "signatureImage": {
@@ -730,7 +1028,44 @@
           "death": "1937-03-20T00:00:00",
           "inductionYear": 1974,
           "lockerNumber": 40212,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "e5aee6d2-5681-4970-89ba-d2cbdb9bc2a0",
+                "filename_download": "1000_191663.jpg",
+                "filename_disk": "e5aee6d2-5681-4970-89ba-d2cbdb9bc2a0.jpg",
+                "description": "Harry Vardon at Pinehurst during his tour of the United States in 1900",
+                "title": "1000 191663"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "3cc51f84-6cca-49d9-9454-94adb8326c5e",
+                "filename_download": "1000_201872.jpg",
+                "filename_disk": "3cc51f84-6cca-49d9-9454-94adb8326c5e.jpg",
+                "description": "Harry Vardon at the Fall River Country Club in Massachusetts during his tour of the United States in 1900",
+                "title": "1000 201872"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "e1b20bbe-0497-4ffe-97f1-d33baf5eaaee",
+                "filename_download": "1000-00676.jpg",
+                "filename_disk": "e1b20bbe-0497-4ffe-97f1-d33baf5eaaee.jpg",
+                "description": "Harry Vardon, watched by Old Tom Morris, on the first tee at St. Andrews, 1905 Open Championship",
+                "title": "1000 00676"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "dd89bb24-0025-478f-90b8-803a1727e7f1",
+                "filename_download": "1000-02106e.jpg",
+                "filename_disk": "dd89bb24-0025-478f-90b8-803a1727e7f1.jpg",
+                "description": "Harry Vardon and legendary English professional Ted Ray at the 1920 U.S. Open at the Inverness Club in Ohio",
+                "title": "1000 02106e"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "ee192e95-d09d-4a3d-bd7b-143697587997",
             "filename_download": "Capstones_BioCircles_Vardon.jpg",
@@ -744,46 +1079,74 @@
               "id": 36,
               "description": null,
               "name": "Six-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 37,
               "description": null,
               "name": "Winner of the 1900 U.S. Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 35,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 38,
               "description": null,
               "name": "Won over 40 professional tournaments",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 39,
               "description": null,
               "name": "Popularized the overlapping grip",
-              "icon": null,
+              "icon": {
+                "id": 29,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 40,
               "description": "The Vardon Trophy is awarded annually by the PGA of America to the PGA TOUR's leader in scoring average.",
               "name": "Namesake of the PGA TOUR's Vardon Trophy",
-              "icon": null,
+              "icon": {
+                "id": 32,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 41,
               "description": null,
               "name": "Designer of more than 20 courses in the UK and Europe",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             }
           ],
-          "bioImages": [],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "HarryVardon_BioPhoto_WebApp.png",
+                "filename_disk": "c5c6069e-a8ab-406b-a1a3-7f39944a02c1.png",
+                "description": "Harry Vardon at the top of his backswing, ca. 1910",
+                "title": "Harry Vardon Bio Photo Web App"
+              }
+            }
+          ],
           "bioText": "Harry Vardon possessed a magnetic personality, immense talent and a method so singular that he was considered a shotmaking machine. He was golf’s first international superstar, winning a record six Open Championship titles between 1896 and 1914. He toured the United States in 1900, 1913, and 1920, promoting awareness and driving growth of the game.\n\nVardon possessed one of the most admired and proficient golf swings the game has ever seen. He stood just 5'9\" tall and tipped the scales at 155 pounds, but he had enormous hands that melted perfectly around the club. His swing was more upright and his ball flight higher than his contemporaries, giving his approach shots the advantage of greater carry and softer landing.",
           "quote": "I cannot believe that anyone ever had or will have a greater genius for hitting a golf ball than Harry Vardon.",
           "quoteByline": "Bernard Darwin",
@@ -813,7 +1176,53 @@
           "death": "1963-02-10T00:00:00",
           "inductionYear": 1975,
           "lockerNumber": 40211,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "d3ef793d-150f-4ca7-9e47-fca7ba214e30",
+                "filename_download": "1000_191405.jpg",
+                "filename_disk": "d3ef793d-150f-4ca7-9e47-fca7ba214e30.jpg",
+                "description": null,
+                "title": "1000 191405"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "db43a556-38a3-4123-a2fc-fc5dc10a133c",
+                "filename_download": "1000_191434.jpg",
+                "filename_disk": "db43a556-38a3-4123-a2fc-fc5dc10a133c.jpg",
+                "description": null,
+                "title": "1000 191434"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "5c21ffa4-eb14-4d1a-9959-35e2e8cd30a3",
+                "filename_download": "1000_191436.jpg",
+                "filename_disk": "5c21ffa4-eb14-4d1a-9959-35e2e8cd30a3.jpg",
+                "description": null,
+                "title": "1000 191436"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "74646cde-2326-4648-852c-19a60058afe5",
+                "filename_download": "1000_191437.jpg",
+                "filename_disk": "74646cde-2326-4648-852c-19a60058afe5.jpg",
+                "description": null,
+                "title": "1000 191437"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "a4bde4b8-724c-4b99-8865-da62779b8683",
+                "filename_download": "1000_191402.jpg",
+                "filename_disk": "a4bde4b8-724c-4b99-8865-da62779b8683.jpg",
+                "description": null,
+                "title": "1000 191402"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "71a70ebb-525b-4c6b-92f9-5a2d85364b64",
             "filename_download": "Capstones_BioCircles_Taylor.jpg",
@@ -827,46 +1236,74 @@
               "id": 42,
               "description": null,
               "name": "Five-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 43,
               "description": null,
               "name": "Two-time winner of the British PGA Championship",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 44,
               "description": null,
               "name": "Winner of the French Open, German Open, and Dutch Open",
-              "icon": null,
+              "icon": {
+                "id": 23,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 45,
               "description": null,
               "name": "1934 Ryder Cup Captain",
-              "icon": null,
+              "icon": {
+                "id": 31,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 46,
               "description": null,
               "name": "Co-founder and first chairman of the British Professional Golfers' Association",
-              "icon": null,
+              "icon": {
+                "id": 28,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 47,
               "description": null,
               "name": "Specialized in designing public golf facilities",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             }
           ],
-          "bioImages": [],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "J.H.Taylor_BioPhoto_WebApp.png",
+                "filename_disk": "769d4a40-49a9-4ff7-8e1a-c88b7e440472.png",
+                "description": "J.H. Taylor with his son L.J. Taylor at Royal Mid Surrey, 1931",
+                "title": "J.h.taylor Bio Photo Web App"
+              }
+            }
+          ],
           "bioText": "Legendary Open champions J.H. Taylor, Harry Vardon and James Braid together dominated professional golf from the mid-1890s to the mid-1910s. Taylor earned his spot in this so-called \"Great Triumvirate\" by winning the Open Championship five times, becoming the first professional from England to do so.\n\nTaylor's ability to play in wind and bad weather set him apart from his peers. He won his first Open Championship battling extreme wind and rain, while defeating Ted Ray by eight strokes. Bernard Darwin once characterized him as \"a man on wires, having to choke down his temper and often suffering agonies.\" Beloved by many, he dedicated his later life to writing books, making clubs, and designing courses.",
           "quote": "To try to play golf really well is far from being a joke, and lightheartedness of endeavor is a sure sign of eventual failure.",
           "quoteByline": "J.H. Taylor",
@@ -897,7 +1334,44 @@
           "death": "1950-11-27T00:00:00",
           "inductionYear": 1976,
           "lockerNumber": 40210,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "43235426-1778-4745-8c90-563941873ae6",
+                "filename_download": "1000_200554.jpg",
+                "filename_disk": "43235426-1778-4745-8c90-563941873ae6.jpg",
+                "description": null,
+                "title": "1000 200554"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "dfb9af0e-ccca-475e-bafd-171b1ee990df",
+                "filename_download": "1000_200608.jpg",
+                "filename_disk": "dfb9af0e-ccca-475e-bafd-171b1ee990df.jpg",
+                "description": null,
+                "title": "1000 200608"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "5f32e9eb-aadb-4d2b-8984-6b487e562148",
+                "filename_download": "1000_230339.jpg",
+                "filename_disk": "5f32e9eb-aadb-4d2b-8984-6b487e562148.jpg",
+                "description": null,
+                "title": "1000 230339"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "591be035-ef87-49a4-8b87-22f393a7020f",
+                "filename_download": "3000_230141.jpg",
+                "filename_disk": "591be035-ef87-49a4-8b87-22f393a7020f.jpg",
+                "description": null,
+                "title": "3000 230141"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "0f16ec3d-5388-492c-b2dd-2ee69941452e",
             "filename_download": "Capstones_BioCircles_Braid.jpg",
@@ -911,39 +1385,64 @@
               "id": 48,
               "description": "Braid was also runner-up at the Open Championship four times.",
               "name": "Five-time winner of the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 19,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 49,
               "description": null,
               "name": "First to break 70 in the Open Championship",
-              "icon": null,
+              "icon": {
+                "id": 32,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 50,
               "description": null,
               "name": "Four-time News of the World Match Play champion",
-              "icon": null,
+              "icon": {
+                "id": 25,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 51,
               "description": null,
               "name": "Co-founder of the British Professional Golfers' Association",
-              "icon": null,
+              "icon": {
+                "id": 28,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 52,
               "description": null,
               "name": "Long-time club professional at Walton Heath",
-              "icon": null,
+              "icon": {
+                "id": 33,
+                "image": null
+              },
               "status": null
             }
           ],
-          "bioImages": [],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "JamesBraid_BioPhoto_WebApp.png",
+                "filename_disk": "cf2eaca2-b5c6-43f2-a2cf-2791d07179d6.png",
+                "description": "The power of James Braid, ca. 1905",
+                "title": "James Braid Bio Photo Web App"
+              }
+            }
+          ],
           "bioText": "A tall, stately man of great character who was a friend of princes, peers and the common man, James Braid was a pioneer in elevating the status of professional golfers. As a golfer, he was a late bloomer, not winning his first Open Championship until Harry Vardon and J.H. Taylor had already won three each. But once Braid won his first in 1901, there was no stopping him: He captured the Open again in 1905, 1906, 1908 and 1910, thus becoming the first man to raise the Claret Jug five times. \n\nBraid later turned to golf course architecture, designing or redesigning more than 200 courses, including Carnoustie, Royal Troon and the King's and Queen's courses at Gleneagles.",
           "quote": "Keep on hitting it straight until the wee ball goes in the hole.",
           "quoteByline": "James Braid",
@@ -980,7 +1479,44 @@
           "death": "1910-10-25T00:00:00",
           "inductionYear": 1975,
           "lockerNumber": 40408,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "e5c84166-a9ed-4d0a-ac3e-f9bb577d983c",
+                "filename_download": "3000_190793.jpg",
+                "filename_disk": "e5c84166-a9ed-4d0a-ac3e-f9bb577d983c.jpg",
+                "description": null,
+                "title": "3000 190793"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "b22bf651-dc78-4e56-afba-51a511488e22",
+                "filename_download": "3000_190786.jpg",
+                "filename_disk": "b22bf651-dc78-4e56-afba-51a511488e22.jpg",
+                "description": null,
+                "title": "3000 190786"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "29b4bce1-5e7f-4443-b147-45c1082e4f1d",
+                "filename_download": "1000-00090.jpg",
+                "filename_disk": "29b4bce1-5e7f-4443-b147-45c1082e4f1d.jpg",
+                "description": null,
+                "title": "1000 00090"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "3fdd8ca0-8d26-40ba-8a26-e76098d2a8f9",
+                "filename_download": "1000-00583.jpg",
+                "filename_disk": "3fdd8ca0-8d26-40ba-8a26-e76098d2a8f9.jpg",
+                "description": null,
+                "title": "1000 00583"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "e2a1ef32-d5c6-4cb1-ae5f-49f927f709aa",
             "filename_download": "Capstones_BioCircles_Anderson.jpg",
@@ -1012,7 +1548,17 @@
               "status": null
             }
           ],
-          "bioImages": [],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "WillieAnderson_BioPhoto_WebApp.png",
+                "filename_disk": "e7854be5-25fd-4283-bb94-954acce46659.png",
+                "description": "Willie Anderson with Alex Smith, the 1906 and 1910 U.S. Open champion",
+                "title": "Willie Anderson Bio Photo Web App"
+              }
+            }
+          ],
           "bioText": "Willie Anderson, modest in nature and never boastful of his successes, belongs in the same pantheon of U.S. Open history as Bob Jones, Ben Hogan and Jack Nicklaus. From 1897 to 1910, Anderson won the U. S. Open four times, finished second once, third once, fourth twice and fifth three times. He was, in many respects, the first dominant professional in America.\n\nReared on the links of North Berwick, Scotland, Anderson was a sturdy man with muscular shoulders, brawny forearms and exceptionally large hands. He played with a flat, full-sweeping action known as the \"St. Andrews swing.\" Despite what many considered to be swing flaws, Anderson was consistently accurate. He died prematurely of arteriosclerosis at age 31.",
           "quote": "Most likely, had he lived longer, Willie would have set a record for U.S. Open championships that would never be beaten.",
           "quoteByline": "Alex Smith, 1906 and 1910 U.S. Open champion",
@@ -1034,7 +1580,44 @@
           "death": "1939-04-21T00:00:00",
           "inductionYear": 2007,
           "lockerNumber": 40407,
-          "media": [],
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "70c4d40b-4c5d-42dd-901d-8c236b59c2ad",
+                "filename_download": "1000_160402.jpg",
+                "filename_disk": "70c4d40b-4c5d-42dd-901d-8c236b59c2ad.jpg",
+                "description": null,
+                "title": "1000 160402"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "fc0c0400-7248-4f19-9b55-aec3a24c917b",
+                "filename_download": "1000-03229e.jpg",
+                "filename_disk": "fc0c0400-7248-4f19-9b55-aec3a24c917b.jpg",
+                "description": null,
+                "title": "1000 03229e"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "422dfd7c-1352-4f5c-87b1-681aff268234",
+                "filename_download": "1000-02114e.jpg",
+                "filename_disk": "422dfd7c-1352-4f5c-87b1-681aff268234.jpg",
+                "description": null,
+                "title": "1000 02114e"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "2fcdbad7-52e2-490e-a4dd-56dcfabd22dd",
+                "filename_download": "1000-02086J.jpg",
+                "filename_disk": "2fcdbad7-52e2-490e-a4dd-56dcfabd22dd.jpg",
+                "description": null,
+                "title": "1000 02086 J"
+              }
+            }
+          ],
           "featuredImage": {
             "id": "89e68d78-ee5c-4e67-816a-6b8c2213ff12",
             "filename_download": "Capstones_BioCircles_MacDonald.jpg",
@@ -1048,39 +1631,64 @@
               "id": 56,
               "description": null,
               "name": "Winner of the 1895 U.S. Amateur",
-              "icon": null,
+              "icon": {
+                "id": 34,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 57,
               "description": null,
               "name": "Founding officer of the United States Golf Association",
-              "icon": null,
+              "icon": {
+                "id": 28,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 58,
               "description": null,
               "name": "Founder of the Chicago Golf Club",
-              "icon": null,
+              "icon": {
+                "id": 28,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 59,
               "description": "Macdonald's design credits include the National Golf Links of America, Yale Golf Club, and Mid-Ocean Club in Bermuda.",
               "name": "Designer of the first 18-hole golf course in America",
-              "icon": null,
+              "icon": {
+                "id": 20,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 60,
               "description": null,
               "name": "Author of \"Scotland's Gift - Golf\", a celebrated autobiography",
-              "icon": null,
+              "icon": {
+                "id": 17,
+                "image": null
+              },
               "status": null
             }
           ],
-          "bioImages": [],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "CharlesBlairMacDonald_BioPhoto_WebApp.png",
+                "filename_disk": "8c4cfd0b-bef3-4e67-995b-19aa29cc1810.png",
+                "description": "Charles Blair Macdonald, 1895",
+                "title": "Charles Blair Mac Donald Bio Photo Web App"
+              }
+            }
+          ],
           "bioText": "Charles Blair Macdonald, a \"founding father\" of American golf, was a driving force in the creation of the United States Golf Association in 1894. He was introduced to golf at age 16, when his parents sent him to live with his grandfather in St. Andrews, Scotland. He quickly became skilled enough to play regularly on the Old Course with two of the finest players of the day – Davey Strath and Young Tom Morris.\n\nSeveral years after Macdonald returned to the United States, he designed a seven-hole course for the 1892 World's Fair in Chicago, launching a career as a world-class architect. No less an authority than Bernard Darwin accurately referred to Macdonald as the first great American golf course architect.",
           "quote": "Putting greens to a golf course are what the face is to a portrait.",
           "quoteByline": "Charles Blair Macdonald",
@@ -1107,53 +1715,243 @@
       {
         "id": 1,
         "name": "Architects & Designers",
-        "description": null
+        "description": "Hall of Famers who shaped the landscape of golf through iconic courses and crafted the equipment that has defined the evolution of the game."
       },
       {
         "id": 5,
         "name": "Military Figures",
-        "description": null
+        "description": "Hall of Famers whose off-the-course contributions included service to their countries."
       },
       {
         "id": 7,
         "name": "Growth Drivers",
-        "description": null
+        "description": "Ambassadors for the game who have spread its impact to new players, new audiences, and new parts of the world."
       },
       {
         "id": 11,
         "name": "Teachers",
-        "description": null
+        "description": "Players and other contributors who left their mark through teaching tools, writings, and face-to-face instruction and coaching."
       },
       {
         "id": 12,
         "name": "Voices of the Game",
-        "description": null
+        "description": "Writers, commentators, and others who, through their words, shape our understanding of golf's most memorable moments."
       },
       {
         "id": 13,
         "name": "Comeback Stories",
-        "description": null
+        "description": "Hall of Famers who etched their legacy by overcoming setbacks, personal hardships, and impossible  odds."
       }
     ],
     "accomplishmentIcons": [
       {
-        "id": 1,
+        "id": 15,
         "image": {
           "id": null,
-          "filename_download": "Capstone_Accomplishment_USAmetaur-05.png",
-          "filename_disk": "e53f7c07-3150-46b9-921b-f78032449331.png",
+          "filename_download": "Capstones_Achievements_V2_Announcing-commentary.png",
+          "filename_disk": "cc4d92ab-0c2b-4c8e-ae13-89b365326e1c.png",
           "description": null,
-          "title": "Capstone Accomplishment Us Ametaur 05"
+          "title": "Capstones Achievements V2 Announcing Commentary"
         }
       },
       {
-        "id": 2,
+        "id": 16,
         "image": {
           "id": null,
-          "filename_download": "Capstone_Accomplishment_founder.png",
-          "filename_disk": "8b569f2a-b10e-4b14-b2ea-3643059b34ae.png",
+          "filename_download": "Capstones_Achievements_V2_Artistic achievement.png",
+          "filename_disk": "30e2b6c4-9321-44f0-9ab0-e06b8947b360.png",
           "description": null,
-          "title": "Capstone Accomplishment Founder"
+          "title": "Capstones Achievements V2 Artistic Achievement"
+        }
+      },
+      {
+        "id": 17,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Authorship.png",
+          "filename_disk": "cfd6b412-6453-4d06-9eaf-8b76e91fa459.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Authorship"
+        }
+      },
+      {
+        "id": 18,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_British Open - Championship Belt.png",
+          "filename_disk": "2d6aac78-e0a6-4248-aacd-5d3d63933e0f.png",
+          "description": null,
+          "title": "Capstones Achievements V2 British Open   Championship Belt"
+        }
+      },
+      {
+        "id": 19,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_British Open - Claret Jug.png",
+          "filename_disk": "76f6fa4b-864d-4d18-908e-35b57923bcce.png",
+          "description": null,
+          "title": "Capstones Achievements V2 British Open   Claret Jug"
+        }
+      },
+      {
+        "id": 20,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Course design & architecture.png",
+          "filename_disk": "b59e2385-a36f-4ba4-8114-c28e46479c8b.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Course Design & Architecture"
+        }
+      },
+      {
+        "id": 21,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Earnings achievement.png",
+          "filename_disk": "c3618fe4-0faf-421c-a138-7d1fdb34c771.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Earnings Achievement"
+        }
+      },
+      {
+        "id": 22,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Equipment design or endorsement.png",
+          "filename_disk": "2b2d47d9-c060-4c30-bdd7-394da1df5a43.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Equipment Design or Endorsement"
+        }
+      },
+      {
+        "id": 23,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Generic Trophy + Medal.png",
+          "filename_disk": "eaf4e389-62ce-4f59-83f1-f8e37d75c50a.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Generic Trophy + Medal"
+        }
+      },
+      {
+        "id": 24,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Hole-in-one or other singular shot.png",
+          "filename_disk": "326e107d-a419-43f6-a33e-d220c2b6765f.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Hole in One or Other Singular Shot"
+        }
+      },
+      {
+        "id": 25,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Match play record.png",
+          "filename_disk": "c726ed00-0cb2-4a48-a043-31729235f4ff.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Match Play Record"
+        }
+      },
+      {
+        "id": 26,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Military or government (UK).png",
+          "filename_disk": "f21a6d01-3d57-4fdd-a413-610000a6156c.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Military or Government (uk)"
+        }
+      },
+      {
+        "id": 27,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Military or government (US).png",
+          "filename_disk": "c9ba8282-58f3-447a-b9c6-ff68c5e5ab91.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Military or Government (us)"
+        }
+      },
+      {
+        "id": 28,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Misc. Founding-Admin .png",
+          "filename_disk": "2e0f44ff-f55a-4ead-b6dc-41bbc9d99655.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Misc. Founding Admin "
+        }
+      },
+      {
+        "id": 29,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Notable shot or shot type.png",
+          "filename_disk": "c03be956-bb29-41fc-bdf3-03267741ccc2.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Notable Shot or Shot Type"
+        }
+      },
+      {
+        "id": 30,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Rivalry.png",
+          "filename_disk": "2985fbc1-29f7-4c33-ab94-d3aa628da0b4.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Rivalry"
+        }
+      },
+      {
+        "id": 31,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Ryder Cup.png",
+          "filename_disk": "07c37f32-9268-403d-95d3-aa49fe7f72aa.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Ryder Cup"
+        }
+      },
+      {
+        "id": 32,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Scoring record.png",
+          "filename_disk": "79114aee-3bb8-4449-895c-1b318feb1fc6.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Scoring Record"
+        }
+      },
+      {
+        "id": 33,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Teaching.png",
+          "filename_disk": "52a3a670-3c24-4875-8d8e-c4e9fd1674e2.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Teaching"
+        }
+      },
+      {
+        "id": 34,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_US Amateur Trophy.png",
+          "filename_disk": "f8892aa3-754f-4b1f-a7aa-da69c59917b9.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Us Amateur Trophy"
+        }
+      },
+      {
+        "id": 35,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_US Open Trophy.png",
+          "filename_disk": "c0fdbd79-0de9-49c5-8d7e-54d9286561d7.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Us Open Trophy"
         }
       }
     ]

@@ -37,9 +37,6 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private AppState appState;
-
-        [SerializeField]
-        private GraphApi erasByIdGraphRef;
         #endregion
 
         #region Monobehaviour Methods
@@ -85,7 +82,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             if (request.result != UnityWebRequest.Result.Success)
             {
-                GraphResponseFail(request);
+                await GraphResponseFail(request);
             }
             else
             {
@@ -95,7 +92,11 @@ namespace JoshKery.USGA.LockerCapstones
 
         private async Task GraphResponseSuccess(string text)
         {
-            Debug.Log(text);
+            int n = 50;
+            RLMGLogger.Instance.Log(
+                string.Format("Graph response success! First {0} chars of response: {1}", n, text.Substring(0,n)),
+                MESSAGETYPE.INFO
+            );
 
             SaveContentFileToDisk(text);
 
@@ -106,16 +107,32 @@ namespace JoshKery.USGA.LockerCapstones
             await new WaitForEndOfFrame(); //TODO why do I do this?
         }
 
-        private void GraphResponseFail(UnityWebRequest request)
+        private async Task GraphResponseFail(UnityWebRequest request)
         {
-            RLMGLogger.Instance.Log(request.error, MESSAGETYPE.ERROR);
+            RLMGLogger.Instance.Log(
+                string.Format("Graph response error! Error message: {0}", request.error),
+                MESSAGETYPE.ERROR
+            );
             //TODO UI display of error handling and option to try again
+
+            RLMGLogger.Instance.Log(
+                "Falling back to locally saved content...",
+                MESSAGETYPE.INFO
+            );
+
+            await LoadLocalContent();
         }
         #endregion
 
         #region Load Local Content Fallback
         protected override IEnumerator LoadLocalContentSuccess(string text)
         {
+            int n = 50;
+            RLMGLogger.Instance.Log(
+                string.Format("Local content loaded successively! First {0} chars of response: {1}", n, text.Substring(0, n)),
+                MESSAGETYPE.INFO
+            );
+
             yield return StartCoroutine(PopulateContent(text));
 
             SaveContentFileToDisk(text);
