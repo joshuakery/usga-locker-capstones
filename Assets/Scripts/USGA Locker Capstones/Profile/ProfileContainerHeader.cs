@@ -25,7 +25,8 @@ namespace JoshKery.USGA.LockerCapstones
         {
             base.OnEnable();
 
-            carousel.onSlideChanged.AddListener(OnSlideChanged);
+            if (carousel != null)
+                carousel.onSlideChanged.AddListener(OnSlideChanged);
 
             ProfileModulesManager.onResetContent.AddListener(WaitAndComplete);
         }
@@ -34,7 +35,8 @@ namespace JoshKery.USGA.LockerCapstones
         {
             base.OnDisable();
 
-            carousel.onSlideChanged.RemoveListener(OnSlideChanged);
+            if (carousel != null)
+                carousel.onSlideChanged.RemoveListener(OnSlideChanged);
 
             ProfileModulesManager.onResetContent.RemoveListener(WaitAndComplete);
         }

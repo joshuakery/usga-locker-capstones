@@ -227,7 +227,7 @@
         {
           "id": 4,
           "firstName": "Tom",
-          "lastName": "Morris, Sr.",
+          "lastName": "Morris Sr.",
           "birth": "1821-06-16T00:00:00",
           "birthplace": "St. Andrews, Fife, Scotland",
           "death": "1908-05-24T00:00:00",
@@ -373,7 +373,7 @@
         {
           "id": 5,
           "firstName": "Tom",
-          "lastName": "Morris, Jr.",
+          "lastName": "Morris Jr.",
           "birth": "1851-04-20T00:00:00",
           "birthplace": "St. Andrews, Fife, Scotland",
           "death": "1875-12-25T00:00:00",
@@ -474,7 +474,7 @@
         {
           "id": 6,
           "firstName": "Willie",
-          "lastName": "Park, Sr.",
+          "lastName": "Park Sr.",
           "birth": "1833-06-30T00:00:00",
           "birthplace": "Wallyford, Scotland",
           "death": "1903-07-25T00:00:00",
@@ -586,7 +586,7 @@
         {
           "id": 7,
           "firstName": "Willie",
-          "lastName": "Park, Jr.",
+          "lastName": "Park Jr.",
           "birth": "1864-02-04T00:00:00",
           "birthplace": "Musselburgh, Scotland",
           "death": "1925-05-01T00:00:00",
@@ -720,7 +720,7 @@
               }
             }
           ],
-          "bioText": "Willie Park Jr. was golf's first true Renaissance men: two-time Open champion, golf equipment maker, golf writer and one of his era's finest golf course architects. The son of four-time Open Champion Willie Park, Sr., and nephew of 1870 Open Champion Mungo Park, Willie Park, Jr., was born into the \"First Family of Golf.\" His success was often attributed to exceptional putting, perfected through twelve-hour practice sessions.\n\nConfident, competitive and an iconoclast, Park never sought employment from a club, preferring instead to run his own business. He was an innovator in club and ball design and manufacturing, as well as golf course architecture, and parlayed his fame into business ventures that reached throughout the United Kingdom and extended to America.",
+          "bioText": "Willie Park Jr. was golf's first true Renaissance men: two-time Open champion, golf equipment maker, golf writer and one of his era's finest golf course architects. The son of four-time Open Champion Willie Park Sr., and nephew of 1870 Open Champion Mungo Park, Willie Park Jr., was born into the \"First Family of Golf.\" His success was often attributed to exceptional putting, perfected through twelve-hour practice sessions.\n\nConfident, competitive and an iconoclast, Park never sought employment from a club, preferring instead to run his own business. He was an innovator in club and ball design and manufacturing, as well as golf course architecture, and parlayed his fame into business ventures that reached throughout the United Kingdom and extended to America.",
           "quote": "The Man who can putt is a match for anyone.",
           "quoteByline": "Willie Park Jr., 1920",
           "signatureImage": {
@@ -750,7 +750,7 @@
         {
           "id": 8,
           "firstName": "John",
-          "lastName": "Ball, Jr.",
+          "lastName": "Ball Jr.",
           "birth": "1861-12-24T00:00:00",
           "birthplace": "Hoylake, England",
           "death": "1940-12-02T00:00:00",
@@ -855,7 +855,7 @@
               }
             }
           ],
-          "bioText": "A fierce competitor, known for his fiery temper and determined spirt, Englishman John Ball, Jr. dominated amateur golf in late nineteenth-century Great Britain, winning eight Amateur Championships between 1888 and 1912, the Open Championship in 1890, and the hearts and respect of his country.\n\nBall learned the game on the links at Holyoke, competing against his rival and friend, Harold Hilton. His swing was graceful and many contemporaries considered him the most stylish player of his era. But it was his stubbornness and dogged determination that made Ball a lion in match play. He retired with a match-play record of 99 wins against just 22 losses.",
+          "bioText": "A fierce competitor, known for his fiery temper and determined spirt, Englishman John Ball Jr. dominated amateur golf in late nineteenth-century Great Britain, winning eight Amateur Championships between 1888 and 1912, the Open Championship in 1890, and the hearts and respect of his country.\n\nBall learned the game on the links at Holyoke, competing against his rival and friend, Harold Hilton. His swing was graceful and many contemporaries considered him the most stylish player of his era. But it was his stubbornness and dogged determination that made Ball a lion in match play. He retired with a match-play record of 99 wins against just 22 losses.",
           "quote": "I have derived greater aesthetic and emotional pleasure from watching John Ball than from any other spectacle in the game.",
           "quoteByline": "Bernard Darwin",
           "signatureImage": {
@@ -999,7 +999,7 @@
               }
             }
           ],
-          "bioText": "Harold Hilton, a powerful, if unconventional, shot-maker, won the Open Championship in 1892 – the first time it was played at 72 holes and contested over two days – and again in 1897. But it was his dominance of English amateur golf, and his rivalry with John Ball, Jr., that earned him widespread fame.\n\nA wild swinger who re-gripped the club at the top of his backswing, Hilton owned a stellar match play record, boasting a 99-29 mark in amateur competitions. After retiring from competitive golf, Hilton authored several books on golf and became the founding editor of Golf Monthly and editor of Golf Illustrated.",
+          "bioText": "Harold Hilton, a powerful, if unconventional, shot-maker, won the Open Championship in 1892 – the first time it was played at 72 holes and contested over two days – and again in 1897. But it was his dominance of English amateur golf, and his rivalry with John Ball Jr., that earned him widespread fame.\n\nA wild swinger who re-gripped the club at the top of his backswing, Hilton owned a stellar match play record, boasting a 99-29 mark in amateur competitions. After retiring from competitive golf, Hilton authored several books on golf and became the founding editor of Golf Monthly and editor of Golf Illustrated.",
           "quote": "He was a small man of powerful physique; it was exhilirating to watch his perky walk between shots. His assiduity was his greatness.",
           "quoteByline": "Robert Harris",
           "signatureImage": {
