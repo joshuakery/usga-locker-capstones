@@ -10,31 +10,12 @@ using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class MediaGallerySlideDisplay : SlideDisplay
+    public class MediaGallerySlideDisplay : BaseWindow
     {
         [SerializeField]
         private RawImageManager riManager;
 
-        [SerializeField]
-        private GameObject captionContainer;
-
-        [SerializeField]
-        private TMP_Text captionTextField;
-
-        [SerializeField]
-        private RectTransform rt;
-
-        [SerializeField]
-        private UIAnimationSequenceData outForUpNextSequence;
-
-        [SerializeField]
-        private UIAnimationSequenceData inAsUpNextSequence;
-
-        [SerializeField]
-        private UIAnimationSequenceData outForUpPrevSequence;
-
-        [SerializeField]
-        private UIAnimationSequenceData inAsUpPrevSequence;
+        public string caption { get; private set; }
 
         public void SetContent(MediaFile mediaFile)
         {
@@ -45,75 +26,14 @@ namespace JoshKery.USGA.LockerCapstones
                     riManager.texture = mediaFile.texture;
                 }
 
-                if (!string.IsNullOrEmpty(mediaFile.description))
-                {
-                    if (captionContainer != null)
-                    {
-                        captionContainer.SetActive(true);
-                    }
-                    if (captionTextField != null)
-                    {
-                        captionTextField.text = mediaFile.description;
-                    }
-                }
-                else
-                {
-                    if (captionContainer != null)
-                    {
-                        captionContainer.SetActive(false);
-                    }
-                }
-
-                
+                caption = mediaFile.description;
             }
         }
 
-        public override void SlideOutForNext()
+        public void RebuildLayout()
         {
-            rt.SetPivot(PivotPresets.MiddleLeft, false);
-            base.SlideOutForNext();
-        }
-
-        public override void SlideInAsNext()
-        {
-            rt.SetPivot(PivotPresets.MiddleCenter, false);
-            base.SlideInAsNext();
-        }
-
-        public override void SlideOutForPrev()
-        {
-            rt.SetPivot(PivotPresets.MiddleRight, false);
-            base.SlideOutForPrev();
-        }
-
-        public override void SlideInAsPrev()
-        {
-            rt.SetPivot(PivotPresets.MiddleCenter, false);
-            base.SlideInAsPrev();
-        }
-
-        public virtual void SlideOutForUpNext()
-        {
-            rt.SetPivot(PivotPresets.MiddleRight, false);
-            _WindowAction(outForUpNextSequence, SequenceType.Join);
-        }
-
-        public virtual void SlideInAsUpNext()
-        {
-            rt.SetPivot(PivotPresets.MiddleRight, false);
-            _WindowAction(inAsUpNextSequence, SequenceType.Join);
-        }
-
-        public virtual void SlideOutForUpPrev()
-        {
-            rt.SetPivot(PivotPresets.MiddleLeft, false);
-            _WindowAction(outForUpPrevSequence, SequenceType.Join);
-        }
-
-        public virtual void SlideInAsUpPrev()
-        {
-            rt.SetPivot(PivotPresets.MiddleLeft, false);
-            _WindowAction(inAsUpPrevSequence, SequenceType.Join);
+            if (riManager != null)
+                riManager.texture = riManager.texture;
         }
     }
 }

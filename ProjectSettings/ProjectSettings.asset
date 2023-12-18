@@ -587,7 +587,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: LETAI_TRUESHADOW
+    Standalone: LETAI_TRUESHADOW;PUBLISHING_TOOLS_ASSET_STORE_RELEASE;INFINITE_SCROLL_ASSET_STORE_RELEASE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

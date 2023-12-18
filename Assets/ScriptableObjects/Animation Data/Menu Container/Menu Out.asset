@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Menu Out
   m_EditorClassIdentifier: 
   animationType: 1
-  duration: 0.75
+  duration: 0.5
   delay: 0
-  to: {x: 0, y: -3250, z: 0}
+  to: {x: 0, y: -2550, z: 0}
   useFrom: 0
   trueFrom: 0
   setToFromImmediately: 0

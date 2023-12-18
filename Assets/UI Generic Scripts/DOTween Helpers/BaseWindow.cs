@@ -579,6 +579,109 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         }
         #endregion
 
+        #region Window Pulse Methods
+        protected virtual void MidPulseCallback()
+        {
+            //override to do things
+        }
+        public enum PulseType
+        {
+            Dynamic = 0,
+            OpenCloseOpen = 1,
+            CloseOpenClose = 2
+        }
+        protected virtual Sequence _Pulse(
+            PulseType pulseType = PulseType.Dynamic,
+            SequenceType sequenceType = SequenceType.UnSequenced,
+            float atPosition = 0f
+        )
+        {
+            if ((pulseType == PulseType.Dynamic && !isOpen) || pulseType == PulseType.CloseOpenClose)
+            {
+                isOpen = false;
+
+                Sequence pulseSequence = DOTween.Sequence();
+
+                Sequence callbackWrapper = DOTween.Sequence();
+
+                Sequence open = _WindowAction(openSequence, SequenceType.UnSequenced);
+                if (open != null)
+                {
+                    callbackWrapper.Join(open);
+                    callbackWrapper.OnComplete(() => MidPulseCallback());
+                    pulseSequence.Join(callbackWrapper);
+                }
+
+                Sequence close = _WindowAction(closeSequence, SequenceType.UnSequenced);
+                if (close != null) { pulseSequence.Append(close); }
+
+                if (open != null || close != null)
+                {
+                    sequenceManager.CreateSequenceIfNull();
+                    AttachTweenToSequence(sequenceType, pulseSequence, sequenceManager.currentSequence, false, atPosition, null);
+                    return pulseSequence;
+                }
+                else
+                    return null;
+            }
+            else if ((pulseType == PulseType.Dynamic && isOpen) || pulseType == PulseType.OpenCloseOpen)
+            {
+                isOpen = true;
+
+                Sequence pulseSequence = DOTween.Sequence();
+
+                Sequence callbackWrapper = DOTween.Sequence();
+
+                Sequence close = _WindowAction(closeSequence, SequenceType.UnSequenced);
+                if (close != null)
+                {
+                    callbackWrapper.Join(close);
+                    callbackWrapper.OnComplete(() => MidPulseCallback());
+                    pulseSequence.Join(callbackWrapper);
+                }
+
+                Sequence open = _WindowAction(openSequence, SequenceType.UnSequenced);
+                if (open != null) { pulseSequence.Append(open); }
+
+                if (open != null || close != null)
+                {
+                    sequenceManager.CreateSequenceIfNull();
+                    AttachTweenToSequence(sequenceType, pulseSequence, sequenceManager.currentSequence, false, atPosition, null);
+                    return pulseSequence;
+                }
+                else
+                    return null;
+            }
+            else
+                return null;
+        }
+
+        public virtual Sequence Pulse(PulseType pulseType)
+        {
+            return _Pulse(pulseType);
+        }
+
+        public virtual Sequence Pulse(SequenceType sequenceType)
+        {
+            return _Pulse(PulseType.Dynamic, sequenceType);
+        }
+
+        public virtual Sequence Pulse(float atPosition)
+        {
+            return _Pulse(PulseType.Dynamic, SequenceType.Insert, atPosition);
+        }
+
+        public virtual Sequence Pulse()
+        {
+            return _Pulse(PulseType.Dynamic, SequenceType.Join);
+        }
+
+        public virtual void DoPulse()
+        {
+            _Pulse(PulseType.Dynamic, SequenceType.Join);
+        }
+        #endregion
+
     }
 }
 

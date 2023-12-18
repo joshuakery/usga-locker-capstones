@@ -5,6 +5,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using JoshKery.USGA.Directus;
+using DG.Tweening;
+using JoshKery.GenericUI.DOTweenHelpers;
 
 
 namespace JoshKery.USGA.LockerCapstones
@@ -52,6 +54,14 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private RawImage rawImage;
 
+        [SerializeField]
+        private UIAnimationSequenceData specialHighlightSequence;
+
+        [SerializeField]
+        private UIAnimationSequenceData specialCloseSequence;
+
+        
+
         public void SetContent(LockerProfile lockerProfile)
         {
             if (lockerProfile != null)
@@ -90,8 +100,27 @@ namespace JoshKery.USGA.LockerCapstones
 
         public override void SetContent()
         {
-
+            //do nothing
         }
+
+        #region Animation Methods
+        public Sequence _SpecialHighlight(
+            SequenceType sequenceType = SequenceType.UnSequenced,
+            float atPosition = 0f
+        )
+        {
+            return _WindowAction(specialHighlightSequence, sequenceType, atPosition);
+        }
+
+        public Sequence _SpecialClose(
+            SequenceType sequenceType = SequenceType.UnSequenced,
+            float atPosition = 0f
+        )
+        {
+            isOpen = false;
+            return _WindowAction(specialCloseSequence, sequenceType, atPosition);
+        }
+        #endregion
     }
 }
 

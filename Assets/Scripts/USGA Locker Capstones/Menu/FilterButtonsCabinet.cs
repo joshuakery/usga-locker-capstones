@@ -7,6 +7,9 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class FilterButtonsCabinet : LockerCapstonesWindow
     {
+        [SerializeField]
+        private LeTai.TrueShadow.TrueShadow trueShadow;
+
         protected override void OnEnable()
         {
             base.OnEnable();
@@ -52,6 +55,24 @@ namespace JoshKery.USGA.LockerCapstones
             }
 
             ResetChildWindows();
+
+            StartCoroutine(ToggleTrueShadow());
+        }
+
+        /// <summary>
+        /// Seeing a bug in this third party script that throws an error every frame because child gameobjects were deleted.
+        /// Toggling it seems to fix the problem.
+        /// </summary>
+        /// <returns></returns>
+        private IEnumerator ToggleTrueShadow()
+        {
+            if (trueShadow != null)
+                trueShadow.enabled = false;
+
+            yield return null;
+
+            if (trueShadow != null)
+                trueShadow.enabled = true;
         }
     }
 }

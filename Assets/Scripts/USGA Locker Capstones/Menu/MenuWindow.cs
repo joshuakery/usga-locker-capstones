@@ -6,7 +6,7 @@ using TMPro;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class MenuWindow : LockerCapstonesWindow
+    public class MenuWindow : LockerCapstonesStateMachine
     {
         [SerializeField]
         private TMP_Text titleTextField;

@@ -1,17 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using JoshKery.GenericUI.Carousel;
+using UnityEngine.UI;
+using UnityEngine.UI.Extensions;
+using JoshKery.GenericUI.DOTweenHelpers;
+using MagneticScrollView;
 
 namespace JoshKery.USGA.LockerCapstones
 {
-    public class MediaGalleryManager : SlideManager
+    public class MediaGalleryManager : BaseWindow
     {
         [SerializeField]
-        private Carousel carousel;
+        private MagneticScrollRect scrollRect;
 
         [SerializeField]
-        private GameObject navigationContainer;
+        private RectTransform swipeDetectionArea;
+
+        [SerializeField]
+        private MediaGalleryPaginationManager paginationManager;
 
         public void SetContent(LockerProfile lockerProfile)
         {
@@ -19,38 +25,48 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 if (lockerProfile.media != null)
                 {
-                    ClearAllDisplays();
-                    if (navbarManager != null) { navbarManager.ClearAllDisplays(); }
+                    if (paginationManager != null)
+                        paginationManager.SetContent(lockerProfile);
 
-                    foreach (MediaItem item in lockerProfile.media)
-                    {
-                        if (item != null)
-                        {
-                            MediaGallerySlideDisplay display = InstantiateDisplay<MediaGallerySlideDisplay>();
-                            display.SetContent(item.mediaFile);
-
-                            string slideID = item.mediaFile.filename_disk;
-                            slideDisplays[slideID] = display;
-                            slideOrder.Add(slideID);
-
-                            if (navbarManager != null)
-                            {
-                                SlideDisplay indicator = navbarManager.InstantiateDisplay<SlideDisplay>();
-                                navbarManager.slideDisplays[slideID] = indicator;
-                                navbarManager.slideOrder.Add(slideID);
-                            }
-                        }
-                    }
-
-                    if (navigationContainer != null)
-                    {
-                        navigationContainer.SetActive(lockerProfile.media.Count > 1);
-                    }
-
-                    onInitialized.Invoke();
+                    StartCoroutine(SetContentCoroutine(lockerProfile));
                 }
             }
         }
+
+        public IEnumerator SetContentCoroutine(LockerProfile lockerProfile)
+        {
+            if (scrollRect == null) { yield break; }
+
+            scrollRect.StartAutoArranging();
+
+            yield return null;
+
+            base.ClearAllDisplays();
+
+            yield return null;
+
+            foreach (MediaItem item in lockerProfile.media)
+            {
+                if (item != null)
+                {
+                    MediaGallerySlideDisplay display = InstantiateDisplay<MediaGallerySlideDisplay>();
+                    display.SetContent(item.mediaFile);
+                }
+            }
+
+            yield return null;
+
+            scrollRect.StopAutoArranging();
+
+            MagneticScrollView.SwipeDetection swipeDetection = scrollRect.gameObject.GetComponent<MagneticScrollView.SwipeDetection>();
+            swipeDetection.scrollRect = swipeDetectionArea;
+        }
+
+        public override void ClearAllDisplays()
+        {
+            return;
+        }
+
     }
 }
 

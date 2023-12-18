@@ -51,6 +51,8 @@ namespace JoshKery.USGA.LockerCapstones
 
         public List<int> selectedContentTrailIDs;
 
+        private MenuItem justClickedItem;
+
         #region Monobehaviour Methods
 
         protected override void OnEnable()
@@ -92,6 +94,7 @@ namespace JoshKery.USGA.LockerCapstones
                     int id = lockerProfile.id;
                     display.gameObject.name = string.Format("Menu Button: {0} {1} {2}", id, lockerProfile.firstName, lockerProfile.lastName);
                     display.button.onClick.AddListener(() => { MainCanvasStateMachine.onAnimateToProfile.Invoke(id); });
+                    display.button.onClick.AddListener(() => { OnItemClick(display); });
                 }
             }
 
@@ -160,6 +163,63 @@ namespace JoshKery.USGA.LockerCapstones
         {
             SetSelectedCategory(contentTrailID);
             Pulse(SequenceType.Join);
+        }
+        #endregion
+
+        #region Menu Out and In Animation Methods
+        /// <summary>
+        /// Subscribes to MenuItem's button's onClick event so that we can know which item was clicked to do a dynamic animation
+        /// </summary>
+        /// <param name="item"></param>
+        private void OnItemClick(MenuItem item)
+        {
+            justClickedItem = item;
+        }
+        public void CloseAllItemsButSelected()
+        {
+            foreach (MenuItem item in childMenuItems)
+            {
+                if (item != justClickedItem)
+                    item.Close(SequenceType.UnSequenced);
+            }
+        }
+
+        public void SpecialHighlightSelectedItem()
+        {
+            if (justClickedItem != null)
+                justClickedItem._SpecialHighlight();
+        }
+
+        public void SpecialCloseSelectedItem()
+        {
+            if (justClickedItem != null)
+                justClickedItem._SpecialClose();
+        }
+
+        public void CloseAllItems()
+        {
+            foreach (MenuItem item in childMenuItems)
+            {
+                item.Close(SequenceType.UnSequenced);
+            }
+        }
+
+        
+
+        public void CloseAllItemsImmediately()
+        {
+            foreach (MenuItem item in childMenuItems)
+            {
+                item.Close(SequenceType.CompleteImmediately);
+            }
+        }
+
+        public void OpenAllItems()
+        {
+            foreach (MenuItem item in childMenuItems)
+            {
+                item.Open(SequenceType.UnSequenced);
+            }
         }
         #endregion
     }

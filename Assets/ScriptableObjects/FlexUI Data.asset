@@ -51,7 +51,7 @@ MonoBehaviour:
   toggleBackground: {fileID: 0}
   primaryTypography:
     title:
-      size: 250
+      size: 190
       font: {fileID: 11400000, guid: 144266e051346e546bf7d7ff26746921, type: 2}
       weight: 400
       spacingOptions:
@@ -69,7 +69,7 @@ MonoBehaviour:
         line: 0
         paragraph: 0
     h1:
-      size: 69
+      size: 74
       font: {fileID: 11400000, guid: 8cdf0687f5b7cd844af11eee8bfbac4a, type: 2}
       weight: 400
       spacingOptions:
@@ -87,7 +87,7 @@ MonoBehaviour:
         line: 0
         paragraph: 0
     h3:
-      size: 55
+      size: 44
       font: {fileID: 11400000, guid: d3b099a1d782c504a922578e437a76a7, type: 2}
       weight: 400
       spacingOptions:
@@ -105,7 +105,7 @@ MonoBehaviour:
         line: 0
         paragraph: 0
     p:
-      size: 35
+      size: 30
       font: {fileID: 11400000, guid: d3b099a1d782c504a922578e437a76a7, type: 2}
       weight: 400
       spacingOptions:

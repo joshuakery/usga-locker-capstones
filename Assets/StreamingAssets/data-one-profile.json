@@ -1,0 +1,474 @@
+{
+  "data": {
+    "eras_by_id": {
+      "historySlides": [
+        {
+          "id": 12,
+          "image": {
+            "id": null,
+            "filename_download": "Capstones_History_Boom_1.jpg",
+            "filename_disk": "c141d1e8-b0b9-4b58-87bf-8a59af97cd42.jpg",
+            "description": null,
+            "title": "Capstones History Boom 1"
+          },
+          "order": 1,
+          "text": "Historians believe that golf originated in Scotland in the early 1400s. For centuries, the game was played on sandy linksland in just a handful of coastal towns, most prominently St. Andrews. Early golf was principally the domain of the economic and social elite.",
+          "imageCaption": null,
+          "title": "Scottish Origins",
+          "backgroundVideo": null
+        },
+        {
+          "id": 13,
+          "image": {
+            "id": null,
+            "filename_download": "Capstones_History_Boom_2.jpg",
+            "filename_disk": "01c6c41a-e74c-485d-9665-353c02f0a91c.jpg",
+            "description": null,
+            "title": "Capstones History Boom 2"
+          },
+          "order": 2,
+          "text": "The Industrial Revolution transformed Scottish society, encouraging the rapid growth of golf. There were just 24 golf clubs in Britain in 1851 and at least 290 by 1899. The first generation of golf professionals emerged mid-century and by the 1860s were competing in elite competitions like the Open Championship.",
+          "imageCaption": null,
+          "title": "Golf & The Industrial Revolution",
+          "backgroundVideo": null
+        },
+        {
+          "id": 14,
+          "image": {
+            "id": null,
+            "filename_download": "Capstones_History_Boom_3.jpg",
+            "filename_disk": "7b0bb7d7-2885-4557-995b-21bef6f5c613.jpg",
+            "description": null,
+            "title": "Capstones History Boom 3"
+          },
+          "order": 3,
+          "text": "Changing perspectives on female sports participation encouraged women to take up the game after 1850. The St. Andrews Ladies’ Club was formed in 1867 and played over an area known as the Himalayas. Westward Ho! (1868), Musselburgh (1872) and Carnoustie (1873) quickly followed in creating clubs and courses for women.",
+          "imageCaption": null,
+          "title": "Early Women's Golf",
+          "backgroundVideo": null
+        },
+        {
+          "id": 15,
+          "image": {
+            "id": null,
+            "filename_download": "Capstones_History_Boom_4.jpg",
+            "filename_disk": "e6a4ae5a-1a59-482c-b50f-9f35b3a10290.jpg",
+            "description": null,
+            "title": "Capstones History Boom 4"
+          },
+          "order": 4,
+          "text": "Golf’s emergence as a global game reflected the breadth of British economic interests. Golf spread to India in 1830 and Australia by 1840. Vacationers and expatriates helped extend golf across the Continent, to France in 1856, Belgium in 1888 and Italy and Switzerland by 1890. By 1895, golf proliferated in more than 35 countries.",
+          "imageCaption": null,
+          "title": "Golf spreads beyond Britain",
+          "backgroundVideo": null
+        },
+        {
+          "id": 16,
+          "image": {
+            "id": null,
+            "filename_download": "Capstones_History_Boom_5.jpg",
+            "filename_disk": "eaa716e3-bce2-47a7-8b75-793b27eaa1b5.jpg",
+            "description": null,
+            "title": "Capstones History Boom 5"
+          },
+          "order": 5,
+          "text": "Golf was played in America as early as the 1740s, but the game did not flourish in the United States until the 1880s. Many Scottish and English professionals emigrated to America to work at more than 1,000 golf courses that existed by 1900. Some became the first stars of American golf.",
+          "imageCaption": null,
+          "title": "Golf comes to the U.S.",
+          "backgroundVideo": null
+        }
+      ],
+      "id": 2,
+      "startYear": "Beginnings",
+      "endYear": "1910s",
+      "title": "The Great Golf Boom",
+      "description": "Golf's first legends emerge as the game's popularity explodes",
+      "profiles": [
+        {
+          "id": 3,
+          "firstName": "Allan",
+          "lastName": "Robertson",
+          "birth": "1815-09-11T00:00:00",
+          "birthplace": "St. Andrews, Fife, Scotland",
+          "death": "1859-09-01T00:00:00",
+          "inductionYear": 2001,
+          "lockerNumber": 40201,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "6898874f-05a1-4360-a5ac-b9058706e468",
+                "filename_download": "3000_230093.jpg",
+                "filename_disk": "6898874f-05a1-4360-a5ac-b9058706e468.jpg",
+                "description": null,
+                "title": "3000 230093"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "92d82034-5db4-45dc-ac2f-d30fb0f062c8",
+                "filename_download": "3000_230128.jpg",
+                "filename_disk": "92d82034-5db4-45dc-ac2f-d30fb0f062c8.jpg",
+                "description": null,
+                "title": "3000 230128"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "2db42d9c-9c57-4461-af6a-e10282806128",
+                "filename_download": "3000_230129.jpg",
+                "filename_disk": "2db42d9c-9c57-4461-af6a-e10282806128.jpg",
+                "description": null,
+                "title": "3000 230129"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "9f43d4a9-c8a1-4ee3-8007-587a74d46a48",
+                "filename_download": "3000_230131.jpg",
+                "filename_disk": "9f43d4a9-c8a1-4ee3-8007-587a74d46a48.jpg",
+                "description": null,
+                "title": "3000 230131"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "a829950f-674b-4b40-956a-e12e224010a9",
+            "filename_download": "Capstones_BioCircles_Robertson.jpg",
+            "filename_disk": "a829950f-674b-4b40-956a-e12e224010a9.jpg",
+            "description": null,
+            "title": "Capstones Bio Circles Robertson"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 4,
+              "description": null,
+              "name": "Golf's first professional and greenskeeper",
+              "icon": {
+                "id": 20,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 5,
+              "description": null,
+              "name": "Premier club and ball maker in St. Andrews",
+              "icon": {
+                "id": 22,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 6,
+              "description": null,
+              "name": "First player to break 80 on the Old Course in St. Andrews",
+              "icon": {
+                "id": 32,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 7,
+              "description": null,
+              "name": "Victor in numerous high-profile challenge matches",
+              "icon": {
+                "id": 25,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 8,
+              "description": null,
+              "name": "Frequent partner of Old Tom Morris",
+              "icon": {
+                "id": 30,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 9,
+              "description": null,
+              "name": "Architect of course improvements at St. Andrews and Carnoustie",
+              "icon": {
+                "id": 20,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "AllanRobertson_BioPhoto_WebApp.png",
+                "filename_disk": "6fd5d5be-8914-43ed-a517-1865e8c5b264.png",
+                "description": "Allan Robertson (crouching) and Old Tom Morris, as depicted by noted St. Andrews artist Thomas Hodge, 1885",
+                "title": "Allan Robertson Bio Photo Web App"
+              }
+            }
+          ],
+          "bioText": "Often identified as the first golf professional in history, Allan Robertson was the first player to earn distinction as the world’s \"Champion Golfer.\" His grandfather and father were celebrated caddies, as well as feathery ball makers and club makers of the highest repute. Allan followed in the family tradition.\n\nRobertson famously completed in numerous high-stakes challenge matches. He took great delight in deliberately extending challenge matches to the 17th hole, when he could have polished off his foe earlier. He did so not only to avoid wounding his opponent’s pride, but also to make it impossible for the opponent to ask for better odds at their next match.",
+          "quote": "He is not only the best golf player, but quite a capital ball-maker, and withall a quiet, hard-boned, wired little fellow, always as cool as a cucumber.",
+          "quoteByline": "Fifeshire Journal, 1846",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_robertson.png",
+            "filename_disk": "bf8d9c12-5840-4ca3-b40f-480072c452ed.png",
+            "description": null,
+            "title": "Sig Robertson"
+          },
+          "contentTrails": []
+        }
+      ]
+    },
+    "contentTrails": [
+      {
+        "id": 1,
+        "name": "Architects & Designers",
+        "description": "Hall of Famers who shaped the landscape of golf through iconic courses and crafted the equipment that has defined the evolution of the game."
+      },
+      {
+        "id": 5,
+        "name": "Military Figures",
+        "description": "Hall of Famers whose off-the-course contributions included service to their countries."
+      },
+      {
+        "id": 7,
+        "name": "Growth Drivers",
+        "description": "Ambassadors for the game who have spread its impact to new players, new audiences, and new parts of the world."
+      },
+      {
+        "id": 11,
+        "name": "Teachers",
+        "description": "Players and other contributors who left their mark through teaching tools, writings, and face-to-face instruction and coaching."
+      },
+      {
+        "id": 12,
+        "name": "Voices of the Game",
+        "description": "Writers, commentators, and others who, through their words, shape our understanding of golf's most memorable moments."
+      },
+      {
+        "id": 13,
+        "name": "Comeback Stories",
+        "description": "Hall of Famers who etched their legacy by overcoming setbacks, personal hardships, and impossible  odds."
+      }
+    ],
+    "accomplishmentIcons": [
+      {
+        "id": 15,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Announcing-commentary.png",
+          "filename_disk": "cc4d92ab-0c2b-4c8e-ae13-89b365326e1c.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Announcing Commentary"
+        }
+      },
+      {
+        "id": 16,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Artistic achievement.png",
+          "filename_disk": "30e2b6c4-9321-44f0-9ab0-e06b8947b360.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Artistic Achievement"
+        }
+      },
+      {
+        "id": 17,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Authorship.png",
+          "filename_disk": "cfd6b412-6453-4d06-9eaf-8b76e91fa459.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Authorship"
+        }
+      },
+      {
+        "id": 18,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_British Open - Championship Belt.png",
+          "filename_disk": "2d6aac78-e0a6-4248-aacd-5d3d63933e0f.png",
+          "description": null,
+          "title": "Capstones Achievements V2 British Open   Championship Belt"
+        }
+      },
+      {
+        "id": 19,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_British Open - Claret Jug.png",
+          "filename_disk": "76f6fa4b-864d-4d18-908e-35b57923bcce.png",
+          "description": null,
+          "title": "Capstones Achievements V2 British Open   Claret Jug"
+        }
+      },
+      {
+        "id": 20,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Course design & architecture.png",
+          "filename_disk": "b59e2385-a36f-4ba4-8114-c28e46479c8b.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Course Design & Architecture"
+        }
+      },
+      {
+        "id": 21,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Earnings achievement.png",
+          "filename_disk": "c3618fe4-0faf-421c-a138-7d1fdb34c771.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Earnings Achievement"
+        }
+      },
+      {
+        "id": 22,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Equipment design or endorsement.png",
+          "filename_disk": "2b2d47d9-c060-4c30-bdd7-394da1df5a43.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Equipment Design or Endorsement"
+        }
+      },
+      {
+        "id": 23,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Generic Trophy + Medal.png",
+          "filename_disk": "eaf4e389-62ce-4f59-83f1-f8e37d75c50a.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Generic Trophy + Medal"
+        }
+      },
+      {
+        "id": 24,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Hole-in-one or other singular shot.png",
+          "filename_disk": "326e107d-a419-43f6-a33e-d220c2b6765f.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Hole in One or Other Singular Shot"
+        }
+      },
+      {
+        "id": 25,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Match play record.png",
+          "filename_disk": "c726ed00-0cb2-4a48-a043-31729235f4ff.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Match Play Record"
+        }
+      },
+      {
+        "id": 26,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Military or government (UK).png",
+          "filename_disk": "f21a6d01-3d57-4fdd-a413-610000a6156c.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Military or Government (uk)"
+        }
+      },
+      {
+        "id": 27,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Military or government (US).png",
+          "filename_disk": "c9ba8282-58f3-447a-b9c6-ff68c5e5ab91.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Military or Government (us)"
+        }
+      },
+      {
+        "id": 28,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Misc. Founding-Admin .png",
+          "filename_disk": "2e0f44ff-f55a-4ead-b6dc-41bbc9d99655.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Misc. Founding Admin "
+        }
+      },
+      {
+        "id": 29,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Notable shot or shot type.png",
+          "filename_disk": "c03be956-bb29-41fc-bdf3-03267741ccc2.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Notable Shot or Shot Type"
+        }
+      },
+      {
+        "id": 30,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Rivalry.png",
+          "filename_disk": "2985fbc1-29f7-4c33-ab94-d3aa628da0b4.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Rivalry"
+        }
+      },
+      {
+        "id": 31,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Ryder Cup.png",
+          "filename_disk": "07c37f32-9268-403d-95d3-aa49fe7f72aa.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Ryder Cup"
+        }
+      },
+      {
+        "id": 32,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Scoring record.png",
+          "filename_disk": "79114aee-3bb8-4449-895c-1b318feb1fc6.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Scoring Record"
+        }
+      },
+      {
+        "id": 33,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_Teaching.png",
+          "filename_disk": "52a3a670-3c24-4875-8d8e-c4e9fd1674e2.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Teaching"
+        }
+      },
+      {
+        "id": 34,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_US Amateur Trophy.png",
+          "filename_disk": "f8892aa3-754f-4b1f-a7aa-da69c59917b9.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Us Amateur Trophy"
+        }
+      },
+      {
+        "id": 35,
+        "image": {
+          "id": null,
+          "filename_download": "Capstones_Achievements_V2_US Open Trophy.png",
+          "filename_disk": "c0fdbd79-0de9-49c5-8d7e-54d9286561d7.png",
+          "description": null,
+          "title": "Capstones Achievements V2 Us Open Trophy"
+        }
+      }
+    ]
+  }
+}

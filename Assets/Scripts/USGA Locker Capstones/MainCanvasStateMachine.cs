@@ -119,8 +119,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void AnimateToMenu()
         {
-            beforeAnimateToMenu.Invoke();
+            beforeAnimateToMenu?.Invoke();
             sequenceManager.CompleteCurrentSequence();
+            //Reset the filters, which triggers an animation but we'll complete it immediately
             FilterDrawer.ClearFilters();
             sequenceManager.CompleteCurrentSequence();
             _WindowAction(toMenuSequence, SequenceType.Join);
@@ -128,7 +129,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void AnimateToProfile(int id)
         {
-            beforeAnimateToProfile.Invoke();
+            beforeAnimateToProfile?.Invoke();
             sequenceManager.CompleteCurrentSequence();
             ProfileModulesManager.onResetContent.Invoke(id);
             _WindowAction(toProfileSequence, SequenceType.Join);
