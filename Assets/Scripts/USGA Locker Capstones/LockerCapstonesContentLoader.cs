@@ -71,6 +71,7 @@ namespace JoshKery.USGA.LockerCapstones
         /// <returns></returns>
         protected override IEnumerator LoadTargetContent()
         {
+            onLoadingProgress?.Invoke("Starting to Load Content via GraphQL");
             yield return LoadGraphContent().AsIEnumerator();
         }
 
@@ -93,10 +94,11 @@ namespace JoshKery.USGA.LockerCapstones
         private async Task GraphResponseSuccess(string text)
         {
             int n = 50;
-            RLMGLogger.Instance.Log(
-                string.Format("Graph response success! First {0} chars of response: {1}", n, text.Substring(0,n)),
-                MESSAGETYPE.INFO
-            );
+            string message = string.Format("Graph response success! First {0} chars of response: {1}", n, text.Substring(0, n));
+
+            onLoadingDetails?.Invoke(message);
+
+            RLMGLogger.Instance.Log(message,MESSAGETYPE.INFO);
 
             SaveContentFileToDisk(text);
 
@@ -109,10 +111,12 @@ namespace JoshKery.USGA.LockerCapstones
 
         private async Task GraphResponseFail(UnityWebRequest request)
         {
-            RLMGLogger.Instance.Log(
-                string.Format("Graph response error! Error message: {0}", request.error),
-                MESSAGETYPE.ERROR
-            );
+            string message = string.Format("Graph response error! Error message: {0}", request.error);
+
+            onLoadingError?.Invoke(message);
+
+            RLMGLogger.Instance.Log(message,MESSAGETYPE.ERROR);
+
             //TODO UI display of error handling and option to try again
 
             RLMGLogger.Instance.Log(
@@ -128,14 +132,17 @@ namespace JoshKery.USGA.LockerCapstones
         protected override IEnumerator LoadLocalContentSuccess(string text)
         {
             int n = 50;
-            RLMGLogger.Instance.Log(
-                string.Format("Local content loaded successively! First {0} chars of response: {1}", n, text.Substring(0, n)),
-                MESSAGETYPE.INFO
-            );
+            string message = string.Format("Local content loaded successively! First {0} chars of response: {1}", n, text.Substring(0, n));
+
+            onLoadingDetails?.Invoke(message);
+
+            RLMGLogger.Instance.Log(message, MESSAGETYPE.INFO);
 
             yield return StartCoroutine(PopulateContent(text));
 
             SaveContentFileToDisk(text);
+
+            yield return null;
 
             onPopulateContentFinish.Invoke();
 
@@ -149,6 +156,10 @@ namespace JoshKery.USGA.LockerCapstones
         #endregion
 
         #region Save Local Content to Disk Override
+        /// <summary>
+        /// Prettifies the json before base.SaveContentFileToDisk
+        /// </summary>
+        /// <param name="text"></param>
         public override void SaveContentFileToDisk(string text)
         {
             string aux = JsonConvert.SerializeObject(JsonConvert.DeserializeObject<LockerCapstonesDataWrapper>(text), Formatting.Indented);
@@ -162,6 +173,8 @@ namespace JoshKery.USGA.LockerCapstones
         #region PopulateContent
         private IEnumerator PopulateContent(string text)
         {
+            onLoadingProgress?.Invoke("Populating Content", "Starting to populate content...");
+
             yield return null;
             //TODO manage displays for progess updates?
 
@@ -175,7 +188,12 @@ namespace JoshKery.USGA.LockerCapstones
             LockerCapstonesWindow.onSetContent.Invoke();
             LockerCapstonesStateMachine.onSetContent.Invoke();
             FilterButtonsManager.onSetContent.Invoke();
-            
+
+            yield return null;
+
+            onPopulateContentFinish?.Invoke();
+
+            onLoadingDetails?.Invoke("Finished populating content.");
         }
 
         private IEnumerator LoadLockerCapstonesMedia()
@@ -185,18 +203,40 @@ namespace JoshKery.USGA.LockerCapstones
             // AccomplishmentIcons must come first in order to assign images to the locker profiles' accomplishments
             if (appState.data.accomplishmentIcons != null)
             {
-                foreach (AccomplishmentIcon icon in appState.data.accomplishmentIcons)
+                onLoadingProgress?.Invoke("Loading Achivements", "Starting to load achievement icons...", appState.data.accomplishmentIcons.Count, 0);
+
+                for (int i=0; i< appState.data.accomplishmentIcons.Count; i++)
                 {
+                    AccomplishmentIcon icon = appState.data.accomplishmentIcons[i];
                     yield return StartCoroutine(LoadMediaForAccomplishmentIcon(icon));
+                    onLoadingProgress?.Invoke(
+                        "Loading Achivements",
+                        "Finished loading achievement icon " + icon.id,
+                        appState.data.accomplishmentIcons.Count,
+                        i+1
+                    );
                 }
+
+                onLoadingDetails?.Invoke("Finished loading achievement icons.");
             }
 
             if (appState.data.lockerProfiles != null)
             {
-                foreach (LockerProfile lockerProfile in appState.data.lockerProfiles)
+                onLoadingProgress?.Invoke("Loading Locker Profile Media", "Starting to load locker profile media...", appState.data.lockerProfiles.Count, 0);
+
+                for (int i=0; i<appState.data.lockerProfiles.Count; i++)
                 {
+                    LockerProfile lockerProfile = appState.data.lockerProfiles[i];
                     yield return StartCoroutine(LoadMediaForLockerProfile(lockerProfile));
+                    onLoadingProgress?.Invoke(
+                        "Loading Locker Profile Media",
+                        "Finished loading locker profile media for " + lockerProfile.fullName,
+                        appState.data.lockerProfiles.Count,
+                        i + 1
+                    );
                 }
+
+                onLoadingDetails?.Invoke("Finished loading locker profile media.");
             }
             
             if (appState.data.era != null)
@@ -240,11 +280,22 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (era?.historySlides != null)
             {
-                foreach (HistorySlide slide in era.historySlides)
+                onLoadingProgress?.Invoke("Loading Era History Slides Media", "Starting to load era history slides media...", era.historySlides.Count, 0);
+
+                for (int i=0; i<era.historySlides.Count; i++)
                 {
+                    HistorySlide slide = era.historySlides[i];
                     yield return StartCoroutine(LoadMediaFromMediaFile(slide?.image));
                     yield return StartCoroutine(LoadMediaFromMediaFile(slide?.backgroundVideo));
+                    onLoadingProgress?.Invoke(
+                        "Loading Era History Slides Media",
+                        "Finished loading era history slide \"" + slide.title + "\"",
+                        era.historySlides.Count,
+                        i + 1
+                    );
                 }
+
+                onLoadingDetails?.Invoke("Finished loading era history slides media.");
             }
         }
 
@@ -254,17 +305,17 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 string localPath = GetLocalMediaPath(mediaFile.filename_disk);
 
-                if (File.Exists(localPath))
-                {
-                    yield return StartCoroutine(appState.SetMediaFileTextureFromPath(mediaFile, localPath));
-                }
-                else if (!doDefaultLocalLoadContent)
+                if (!File.Exists(localPath) && !doDefaultLocalLoadContent)
                 {
                     string onlinePath = Path.Combine(OnlineContentDirectory, mediaFile.filename_disk);
                     yield return SaveMediaToDisk(onlinePath, localPath);
-                    yield return StartCoroutine(appState.SetMediaFileTextureFromPath(mediaFile, localPath));
                 }
 
+                if (File.Exists(localPath))
+                {
+                    onLoadingDetails?.Invoke("Loading media from local path: " + localPath);
+                    yield return StartCoroutine(AppState.SetMediaFileTextureFromPath(mediaFile, localPath));
+                }
             }
         }
         #endregion

@@ -9,6 +9,22 @@ namespace JoshKery.USGA.LockerCapstones
 {
     public class MainCanvasStateMachine : BaseWindow
     {
+        #region FIELDS
+        private LockerCapstonesContentLoader contentLoader;
+
+        [SerializeField]
+        private UIAnimationSequenceData toAttractSequence;
+
+        [SerializeField]
+        private UIAnimationSequenceData toIntroSequence;
+
+        [SerializeField]
+        private UIAnimationSequenceData toMenuSequence;
+
+        [SerializeField]
+        private UIAnimationSequenceData toProfileSequence;
+        #endregion
+
         #region UnityEvents
         private static UnityEvent _onAnimateToAttract;
         public static UnityEvent onAnimateToAttract
@@ -68,6 +84,12 @@ namespace JoshKery.USGA.LockerCapstones
         #endregion
 
         #region Monobehaviour Methods
+        protected override void Awake()
+        {
+            base.Awake();
+
+            contentLoader = FindObjectOfType<LockerCapstonesContentLoader>();
+        }
         protected override void OnEnable()
         {
             base.OnEnable();
@@ -76,6 +98,9 @@ namespace JoshKery.USGA.LockerCapstones
             onAnimateToIntro.AddListener(AnimateToIntro);
             onAnimateToMenu.AddListener(AnimateToMenu);
             onAnimateToProfile.AddListener(AnimateToProfile);
+
+            if (contentLoader != null)
+                contentLoader.onPopulateContentFinish.AddListener(OnPopulateContentFinish);
         }
 
         protected override void OnDisable()
@@ -83,41 +108,34 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             onAnimateToAttract.RemoveListener(AnimateToAttract);
-
             onAnimateToIntro.RemoveListener(AnimateToIntro);
-
             onAnimateToMenu.RemoveListener(AnimateToMenu);
-
             onAnimateToProfile.RemoveListener(AnimateToProfile);
+
+            if (contentLoader != null)
+                contentLoader.onPopulateContentFinish.RemoveListener(OnPopulateContentFinish);
         }
         #endregion
 
-        #region FIELDS
-        [SerializeField]
-        private UIAnimationSequenceData toAttractSequence;
-
-        [SerializeField]
-        private UIAnimationSequenceData toIntroSequence;
-
-        [SerializeField]
-        private UIAnimationSequenceData toMenuSequence;
-
-        [SerializeField]
-        private UIAnimationSequenceData toProfileSequence;
+        #region Content Loader Callback
+        private void OnPopulateContentFinish()
+        {
+            onAnimateToAttract?.Invoke();
+        }
         #endregion
 
         #region Animate Methods
-        public void AnimateToAttract()
+        private void AnimateToAttract()
         {
             _WindowAction(toAttractSequence, SequenceType.Join);
         }
 
-        public void AnimateToIntro()
+        private void AnimateToIntro()
         {
             _WindowAction(toIntroSequence, SequenceType.Join);
         }
 
-        public void AnimateToMenu()
+        private void AnimateToMenu()
         {
             beforeAnimateToMenu?.Invoke();
             sequenceManager.CompleteCurrentSequence();
@@ -127,7 +145,7 @@ namespace JoshKery.USGA.LockerCapstones
             _WindowAction(toMenuSequence, SequenceType.Join);
         }
 
-        public void AnimateToProfile(int id)
+        private void AnimateToProfile(int id)
         {
             beforeAnimateToProfile?.Invoke();
             sequenceManager.CompleteCurrentSequence();

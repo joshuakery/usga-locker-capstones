@@ -12,21 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18830c9343f7f4c05a156c6317efef79, type: 3}
   m_Name: Out For Prev
   m_EditorClassIdentifier: 
-  animationType: 0
-  duration: 2
+  animationType: 1
+  duration: 0.5
   delay: 0
-  to: {x: 0, y: 0, z: 0}
-  useFrom: 0
+  to: {x: 18, y: 0, z: 0}
+  useFrom: 1
   trueFrom: 0
   setToFromImmediately: 0
   from: {x: 0, y: 0, z: 0}
-  toColor:
-    serializedVersion: 2
-    rgba: 0
-  fromColor:
-    serializedVersion: 2
-    rgba: 0
-  useFlexUIColors: 0
   easingOption: 1
   ease: 6
   animationCurve:

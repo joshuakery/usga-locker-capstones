@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.GenericUI.Carousel
@@ -19,23 +20,44 @@ namespace JoshKery.GenericUI.Carousel
         [SerializeField]
         private UIAnimationSequenceData inAsPrevSequence;
 
-        public virtual void SlideOutForNext()
+        public virtual Tween SlideOutForNext()
         {
-            _WindowAction(outForNextSequence, SequenceType.Join);
-        }
-        public virtual void SlideInAsNext()
-        {
-            _WindowAction(inAsNextSequence, SequenceType.Join);
+            return _WindowAction(outForNextSequence, SequenceType.Join);
         }
 
-        public virtual void SlideOutForPrev()
+        public virtual Tween SlideOutForNext(SequenceType sequenceType)
         {
-            _WindowAction(outForPrevSequence, SequenceType.Join);
+            return _WindowAction(outForNextSequence, sequenceType);
         }
 
-        public virtual void SlideInAsPrev()
+        public virtual Tween SlideInAsNext()
         {
-            _WindowAction(inAsPrevSequence, SequenceType.Join);
+            return _WindowAction(inAsNextSequence, SequenceType.Join);
+        }
+
+        public virtual Tween SlideInAsNext(SequenceType sequenceType)
+        {
+            return _WindowAction(inAsNextSequence, sequenceType);
+        }
+
+        public virtual Tween SlideOutForPrev()
+        {
+            return _WindowAction(outForPrevSequence, SequenceType.Join);
+        }
+
+        public virtual Tween SlideOutForPrev(SequenceType sequenceType)
+        {
+            return _WindowAction(outForPrevSequence, sequenceType);
+        }
+
+        public virtual Tween SlideInAsPrev()
+        {
+            return _WindowAction(inAsPrevSequence, SequenceType.Join);
+        }
+
+        public virtual Tween SlideInAsPrev(SequenceType sequenceType)
+        {
+            return _WindowAction(inAsPrevSequence, sequenceType);
         }
     }
 }

@@ -8,6 +8,7 @@ using System;
 using System.Text.RegularExpressions;
 using UnityEngine.Networking;
 using UnityEngine.Events;
+using JoshKery.GenericUI.Events;
 
 namespace JoshKery.GenericUI.ContentLoading
 {
@@ -58,15 +59,28 @@ namespace JoshKery.GenericUI.ContentLoading
 			}
 		}
 
+        #region Events
+
+        #region Load Content Coroutine Events
+        private UnityEvent _onLoadContentCoroutineStart;
 		/// <summary>
         /// Fires at start of LoadContentCoroutine
         /// </summary>
-		public UnityEvent onLoadContentCoroutineStart;
+		public UnityEvent onLoadContentCoroutineStart
+        {
+			get
+            {
+				if (_onLoadContentCoroutineStart == null)
+					_onLoadContentCoroutineStart = new UnityEvent();
 
+				return _onLoadContentCoroutineStart;
+            }
+        }
+
+		private UnityEvent _onLoadContentCoroutineFinish;
 		/// <summary>
 		/// Fires at end of LoadContentCouroutine
 		/// </summary>
-		private UnityEvent _onLoadContentCoroutineFinish;
 		public UnityEvent onLoadContentCoroutineFinish
         {
 			get
@@ -77,23 +91,44 @@ namespace JoshKery.GenericUI.ContentLoading
 				return _onLoadContentCoroutineFinish;
             }
         }
+		#endregion
 
+		private UnityEvent _onPopulateContentFinish;
 		/// <summary>
         /// Fires when caching and setting up content is complete
         /// </summary>
-		public UnityEvent onPopulateContentFinish;
-
-/*		public static string fileProtocolPrefix
-		{
+		public UnityEvent onPopulateContentFinish
+        {
 			get
-			{
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
-			return "file:///";
-#else
-				return "file://";
-#endif
-			}
-		}*/
+            {
+				if (_onPopulateContentFinish == null)
+					_onPopulateContentFinish = new UnityEvent();
+
+				return _onPopulateContentFinish;
+            }
+        }
+
+		public delegate void OnLoadingProgressEvent(string mainMessage, string detailMessage = null, float totalWork = 0f, float loadedWork = 0f);
+		public OnLoadingProgressEvent onLoadingProgress;
+
+		public delegate void OnLoadingDetailsEvent(string message);
+		public OnLoadingDetailsEvent onLoadingDetails;
+
+		public delegate void OnLoadingErrorEvent(string message);
+		public OnLoadingErrorEvent onLoadingError;
+		#endregion
+
+		/*		public static string fileProtocolPrefix
+				{
+					get
+					{
+		#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
+					return "file:///";
+		#else
+						return "file://";
+		#endif
+					}
+				}*/
 
 		public enum CONTENT_LOCATION
 		{
@@ -156,10 +191,8 @@ namespace JoshKery.GenericUI.ContentLoading
             }
         }
 
-		
-
-        #region Refresh Content Fields
-        public enum RefreshType
+		#region Refresh Content Fields
+		public enum RefreshType
 		{
 			NoRefresh = 0,
 			HardRefresh = 1,
@@ -191,9 +224,6 @@ namespace JoshKery.GenericUI.ContentLoading
         public virtual void LoadContent()
 		{
 			StopAllCoroutines();
-
-			Debug.Log("Loading content...");
-
 			StartCoroutine(LoadContentCoroutine());
 		}
 
@@ -201,8 +231,8 @@ namespace JoshKery.GenericUI.ContentLoading
 		{
 			_hasLoadedContent = false;
 
-			if (onLoadContentCoroutineStart != null)
-				onLoadContentCoroutineStart.Invoke();
+			onLoadContentCoroutineStart?.Invoke();
+			onLoadingProgress?.Invoke("Starting to Load Content");
 
 			if (doLoadContent && (!Application.isEditor || canUseInEditor))
 			{
@@ -214,14 +244,17 @@ namespace JoshKery.GenericUI.ContentLoading
 
 			_hasLoadedContent = true;
 
-			if (onLoadContentCoroutineFinish != null)
-				onLoadContentCoroutineFinish.Invoke();
+			onLoadContentCoroutineFinish?.Invoke();
+			onLoadingProgress?.Invoke("Finished Loading Content");
 		}
 		#endregion
 
 		#region Load Target Content
 		protected virtual IEnumerator LoadTargetContent()
         {
+			onLoadingProgress?.Invoke("Started Loading Target Content");
+
+			//override to do something other than load local content
 			yield return StartCoroutine(LoadLocalContent());
         }
 		#endregion
@@ -229,6 +262,8 @@ namespace JoshKery.GenericUI.ContentLoading
 		#region Load Local Content
 		protected virtual IEnumerator LoadLocalContent()
         {
+			onLoadingProgress?.Invoke("Started Loading Local Content");
+
 			using (UnityWebRequest webRequest = UnityWebRequest.Get(LocalContentPath))
 			{
 				yield return webRequest.SendWebRequest();
@@ -255,6 +290,7 @@ namespace JoshKery.GenericUI.ContentLoading
 		protected virtual IEnumerator LoadLocalContentFailure(string error, string url)
         {
 			RLMGLogger.Instance.Log("Load Local Content Error: " + error + " at " + url);
+			onLoadingError?.Invoke("Load Local Content Error: " + error + " at " + url);
 			yield return null;
         }
 
@@ -295,30 +331,36 @@ namespace JoshKery.GenericUI.ContentLoading
 		}
 		protected virtual IEnumerator SaveMediaToDisk(string onlinePath, string localPath)
         {
-			UnityWebRequest webRequest = UnityWebRequestTexture.GetTexture(onlinePath);
-			yield return webRequest.SendWebRequest();
+			onLoadingDetails?.Invoke("Downloading media from " + onlinePath + " to " + localPath);
 
-			switch (webRequest.result)
-			{
-				case UnityWebRequest.Result.ConnectionError:
-				case UnityWebRequest.Result.DataProcessingError:
-				case UnityWebRequest.Result.ProtocolError:
-					yield return SaveMediaToDiskFailure(webRequest);
-					break;
-				case UnityWebRequest.Result.Success:
-					yield return SaveMediaToDiskSuccess(webRequest.result);
-					File.WriteAllBytes(localPath, webRequest.downloadHandler.data);
-					break;
-			}
+			using (UnityWebRequest webRequest = UnityWebRequestTexture.GetTexture(onlinePath))
+            {
+				yield return webRequest.SendWebRequest();
+
+				switch (webRequest.result)
+				{
+					case UnityWebRequest.Result.ConnectionError:
+					case UnityWebRequest.Result.DataProcessingError:
+					case UnityWebRequest.Result.ProtocolError:
+						yield return SaveMediaToDiskFailure(webRequest);
+						break;
+					case UnityWebRequest.Result.Success:
+						yield return SaveMediaToDiskSuccess(webRequest.result);
+						File.WriteAllBytes(localPath, webRequest.downloadHandler.data);
+						break;
+				}
+			}			
 		}
 
 		protected virtual IEnumerator SaveMediaToDiskSuccess(UnityWebRequest.Result result)
 		{
+			onLoadingDetails?.Invoke("Successfully saved media to disk.");
 			yield return null;
 		}
 
 		protected virtual IEnumerator SaveMediaToDiskFailure(UnityWebRequest request)
 		{
+			onLoadingError?.Invoke("Save Media to Disk Failure: " + request.error);
 			RLMGLogger.Instance.Log("Save Media to Disk Failure: " + request.error);
 			yield return null;
 		}

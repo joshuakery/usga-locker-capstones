@@ -59,7 +59,7 @@ namespace JoshKery.USGA.LockerCapstones
         #endregion
 
         #region Media File Handling
-        public IEnumerator SetMediaFileTextureFromPath(MediaFile mediaFile, string path)
+        public static IEnumerator SetMediaFileTextureFromPath(MediaFile mediaFile, string path)
         {
             if (!System.String.IsNullOrEmpty(path))
             {

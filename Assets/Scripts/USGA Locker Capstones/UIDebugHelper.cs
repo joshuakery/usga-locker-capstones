@@ -26,22 +26,22 @@ namespace JoshKery.USGA.LockerCapstones
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 sequenceManager.CompleteCurrentSequence();
-                mainCanvasState.AnimateToAttract();
+                MainCanvasStateMachine.onAnimateToAttract?.Invoke();
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 sequenceManager.CompleteCurrentSequence();
-                mainCanvasState.AnimateToIntro();
+                MainCanvasStateMachine.onAnimateToIntro?.Invoke();
             }
             else if (Input.GetKeyDown(KeyCode.Alpha4))
             {
                 sequenceManager.CompleteCurrentSequence();
-                mainCanvasState.AnimateToMenu();
+                MainCanvasStateMachine.onAnimateToMenu?.Invoke();
             }
             else if (Input.GetKeyDown(KeyCode.Alpha5))
             {
                 sequenceManager.CompleteCurrentSequence();
-                mainCanvasState.AnimateToProfile(0);
+                MainCanvasStateMachine.onAnimateToProfile?.Invoke(0); //accepts locker profile id as input
             }
         }
     }

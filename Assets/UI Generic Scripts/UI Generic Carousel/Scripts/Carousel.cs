@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using DG.Tweening;
 using JoshKery.GenericUI.DOTweenHelpers;
 using JoshKery.GenericUI.Events;
 
@@ -67,32 +68,51 @@ namespace JoshKery.GenericUI.Carousel
             sequenceManager.CompleteCurrentSequence();
         }
 
+        public virtual void SlideOutAll()
+        {
+            SlideOutAll(SequenceType.UnSequenced);
+        }
+
         /// <summary>
         /// Trigger a transition out animation for all slides
         /// </summary>
-        public virtual void SlideOutAll()
+        public virtual Tween SlideOutAll(SequenceType sequenceType = SequenceType.UnSequenced)
         {
+            Sequence wrapper = null;
+
             foreach (KeyValuePair<string, SlideDisplay> kvp in slideManager.slideDisplays)
             {
                 SlideDisplay display = kvp.Value;
-                display.SlideOutForPrev();
+
+                if (wrapper == null) { wrapper = DOTween.Sequence(); }
+
+                wrapper.Join(display.SlideOutForPrev(SequenceType.UnSequenced));
             }
 
             if (navbar != null)
             {
-                navbar.SlideOutAll();
+                if (wrapper == null) { wrapper = DOTween.Sequence(); }
+
+                wrapper.Join(navbar.SlideOutAll(SequenceType.UnSequenced));
             }
+
+            return wrapper;
+        }
+
+        public void GoToFirstSlide()
+        {
+            GoToFirstSlide(SequenceType.UnSequenced);
         }
 
         /// <summary>
         /// Go to the first slide
         /// </summary>
-        public void GoToFirstSlide()
+        public Tween GoToFirstSlide(SequenceType sequenceType = SequenceType.UnSequenced)
         {
             int _currentSlideIndex = CurrentSlideIndex;
             int firstSlideIndex = 0;
 
-            GoToSlide(_currentSlideIndex, firstSlideIndex, ForceDirection.NewIsNext);
+            return GoToSlide(_currentSlideIndex, firstSlideIndex, ForceDirection.NewIsNext, true, sequenceType);
         }
 
         /// <summary>
@@ -148,14 +168,14 @@ namespace JoshKery.GenericUI.Carousel
         /// Go to the slide at the given index, if valid.
         /// </summary>
         /// <param name="newSlideIndex"></param>
-        public void GoToSlide(int newSlideIndex)
+        public Tween GoToSlide(int newSlideIndex)
         {
-            if (CurrentSlideIndex == newSlideIndex) { return; }
-            if (newSlideIndex < 0 || newSlideIndex > slideManager.slideDisplays.Count - 1) { return; }
+            if (CurrentSlideIndex == newSlideIndex) { return null; }
+            if (newSlideIndex < 0 || newSlideIndex > slideManager.slideDisplays.Count - 1) { return null; }
 
             int _currentSlideIndex = CurrentSlideIndex;
 
-            GoToSlide(_currentSlideIndex, newSlideIndex);
+            return GoToSlide(_currentSlideIndex, newSlideIndex);
         }
 
         /// <summary>
@@ -177,14 +197,17 @@ namespace JoshKery.GenericUI.Carousel
         /// <param name="newSlideIndex">Slide index to transition to.</param>
         /// <param name="forceDirection">Direction slides should animate.</param>
         /// <param name="doCompleteCurrentSequence">If true, current sequence completes before creating new tweens</param>
-        public virtual void GoToSlide(
+        public virtual Tween GoToSlide(
             int oldSlideIndex, int newSlideIndex,
             ForceDirection forceDirection = ForceDirection.Default,
-            bool doCompleteCurrentSequence = true
+            bool doCompleteCurrentSequence = true,
+            SequenceType sequenceType = SequenceType.UnSequenced
         )
         {
             if (doCompleteCurrentSequence && sequenceManager != null)
                 sequenceManager.CompleteCurrentSequence();
+
+            Sequence wrapper = null;
 
             for (int i = 0; i < slideManager.slideOrder.Count; i++)
             {
@@ -197,27 +220,48 @@ namespace JoshKery.GenericUI.Carousel
                         (forceDirection == ForceDirection.Default && newSlideIndex > oldSlideIndex)
                     ) //new should enter as next; old should exit for next
                     {
-                        if (i == oldSlideIndex && i != newSlideIndex) { display.SlideOutForNext(); }
-                        if (i == newSlideIndex) { display.SlideInAsNext(); }
+                        if (i == oldSlideIndex && i != newSlideIndex)
+                        {
+                            if (wrapper == null) { wrapper = DOTween.Sequence(); }
+                            wrapper.Join(display.SlideOutForNext(SequenceType.UnSequenced));
+                        }
+                        if (i == newSlideIndex) {
+                            if (wrapper == null) { wrapper = DOTween.Sequence(); }
+                            wrapper.Join(display.SlideInAsNext(SequenceType.UnSequenced));
+                        }
                     }
                     else if (forceDirection == ForceDirection.NewIsPrev ||
                              (forceDirection == ForceDirection.Default && newSlideIndex < oldSlideIndex)
                     ) //new should enter as prev; old should exit for prev
                     {
-                        if (i == oldSlideIndex && i != newSlideIndex) { display.SlideOutForPrev(); }
-                        if (i == newSlideIndex) { display.SlideInAsPrev(); }
+                        if (i == oldSlideIndex && i != newSlideIndex)
+                        {
+                            if (wrapper == null) { wrapper = DOTween.Sequence(); }
+                            wrapper.Join(display.SlideOutForPrev(SequenceType.UnSequenced));
+                        }
+                        if (i == newSlideIndex)
+                        {
+                            if (wrapper == null) { wrapper = DOTween.Sequence(); }
+                            wrapper.Join(display.SlideInAsPrev(SequenceType.UnSequenced));
+                        }
                     }
                 }
             }
 
             if (navbar != null)
             {
-                navbar.GoToSlide(oldSlideIndex, newSlideIndex, forceDirection, false);
+                if (wrapper == null) { wrapper = DOTween.Sequence(); }
+                wrapper.Join(navbar.GoToSlide(oldSlideIndex, newSlideIndex, forceDirection, false, SequenceType.UnSequenced));
             }
+
+            sequenceManager.CreateSequenceIfNull();
+            BaseWindow.AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, 0, null);
 
             CurrentSlideIndex = newSlideIndex;
 
             onSlideChanged.Invoke(CurrentSlideIndex);
+
+            return wrapper;
         }
     }
 }
