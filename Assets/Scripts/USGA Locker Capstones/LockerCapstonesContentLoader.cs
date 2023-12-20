@@ -104,8 +104,6 @@ namespace JoshKery.USGA.LockerCapstones
 
             await PopulateContent(text);
 
-            onPopulateContentFinish.Invoke();
-
             await new WaitForEndOfFrame(); //TODO why do I do this?
         }
 
@@ -141,10 +139,6 @@ namespace JoshKery.USGA.LockerCapstones
             yield return StartCoroutine(PopulateContent(text));
 
             SaveContentFileToDisk(text);
-
-            yield return null;
-
-            onPopulateContentFinish.Invoke();
 
             yield return new WaitForEndOfFrame();
         }
@@ -249,13 +243,14 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (lockerProfile != null)
             {
+                //yield return StartCoroutine(LoadMediaFromMediaFile(lockerProfile.featuredImage, LoadMediaMethod.CustomSize, 432, 432));
                 yield return StartCoroutine(LoadMediaFromMediaFile(lockerProfile.featuredImage));
-                
+
                 if (lockerProfile.media != null)
                 {
                     foreach (MediaItem item in lockerProfile.media)
                     {
-                        yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile));
+                        yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile, LoadMediaMethod.FitToParent, 1630, 1200));
                     }
                 }
 
@@ -297,6 +292,62 @@ namespace JoshKery.USGA.LockerCapstones
 
                 onLoadingDetails?.Invoke("Finished loading era history slides media.");
             }
+        }
+
+        private enum LoadMediaMethod
+        {
+            Default = 0,
+            CustomSize = 1,
+            FitToParent = 2
+        }
+
+        private IEnumerator LoadMediaFromMediaFile(MediaFile mediaFile, LoadMediaMethod loadMethod = LoadMediaMethod.Default, int width = 0, int height = 0)
+        {
+            yield return StartCoroutine(LoadMediaFromMediaFile(mediaFile));
+
+            if (mediaFile.texture != null)
+            {
+                switch (loadMethod)
+                {
+                    case LoadMediaMethod.CustomSize:
+                        mediaFile.texture = Resize(mediaFile.texture, width, height);
+                        break;
+                    case LoadMediaMethod.FitToParent:
+                        float ratio = (float)mediaFile.texture.width / (float)mediaFile.texture.height;
+                        float parentRatio = (float)width / (float)height;
+                        if (ratio > parentRatio)
+                            height = Mathf.RoundToInt(width * (1f / ratio));
+                        else if (ratio < parentRatio)
+                            width = Mathf.RoundToInt(height * ratio);
+                        mediaFile.texture = Resize(mediaFile.texture, width, height);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="newWidth"></param>
+        /// <param name="newHeight"></param>
+        /// <returns></returns>
+        public static Texture2D Resize(Texture2D source, int newWidth, int newHeight)
+        {
+            source.filterMode = FilterMode.Trilinear;
+            RenderTexture rt = RenderTexture.GetTemporary(newWidth, newHeight);
+            rt.filterMode = FilterMode.Point;
+            RenderTexture.active = rt;
+            Graphics.Blit(source, rt);
+            Texture2D nTex = new Texture2D(newWidth, newHeight);
+            nTex.ReadPixels(new Rect(0, 0, newWidth, newHeight), 0, 0);
+            nTex.Apply();
+            RenderTexture.active = null;
+            RenderTexture.ReleaseTemporary(rt);
+            Destroy(source);
+            return nTex;
         }
 
         private IEnumerator LoadMediaFromMediaFile(MediaFile mediaFile)

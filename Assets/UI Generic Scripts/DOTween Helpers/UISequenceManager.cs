@@ -45,7 +45,7 @@ namespace JoshKery.GenericUI.DOTweenHelpers
 
         public void CompleteCurrentSequence()
         {
-            Debug.Log("completing current sequence");
+            //Debug.Log("completing current sequence");
             _CompleteCurrentSequence();
         }
 
