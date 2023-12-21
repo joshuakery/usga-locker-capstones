@@ -1,9 +1,51 @@
 {
-  "eraID": 2,
-  "hex": "#003B49",
-  "timeout": 60,
-  "attractMediaDirectoryName": "attractMedia",
+  "eraID": 1,
+  "chooseEraTimeout": 30,
+  "timeout": 180,
   "attractInterval": 11,
-  "profileBackgroundsDirectoryName": "profileBackgrounds",
-  "lockerLocatorMediaDirectoryName": "lockerLocatorMedia"
+  "lockerLocatorMediaDirectoryName": "lockerLocatorMedia",
+  "eraOptions": [
+    {
+      "eraID": 1,
+      "hex": "#003B49",
+      "attractMediaDirectoryName": "attractMedia/1_theGreatGolfBoom",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/1_theGreatGolfBoom"
+    },
+    {
+      "eraID": 2,
+      "hex": "#00587C",
+      "attractMediaDirectoryName": "attractMedia/2_golfsGoldenAge",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/2_golfsGoldenAge"
+    },
+    {
+      "eraID": 3,
+      "hex": "#006BA6",
+      "attractMediaDirectoryName": "attractMedia/3_heroesOfANewEra",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/3_heroesOfANewEra"
+    },
+    {
+      "eraID": 4,
+      "hex": "#188DB9",
+      "attractMediaDirectoryName": "attractMedia/4_theComebackAge",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/4_theComebackAge"
+    },
+    {
+      "eraID": 5,
+      "hex": "#279989",
+      "attractMediaDirectoryName": "attractMedia/5_theAgeOfTheSuperpowers",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/5_theAgeOfTheSuperpowers"
+    },
+    {
+      "eraID": 6,
+      "hex": "#005F61",
+      "attractMediaDirectoryName": "attractMedia/6_theGlobalGame",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/6_theGlobalGame"
+    },
+    {
+      "eraID": 7,
+      "hex": "#1D3C34",
+      "attractMediaDirectoryName": "attractMedia/7_theNewMillenium",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/7_theNewMillenium"
+    }
+  ]
 }

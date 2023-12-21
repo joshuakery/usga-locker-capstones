@@ -94,7 +94,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             if (accomplishmentCardPlaceholder != null)
             {
-                onOpening.Invoke(accomplishment, accomplishmentCardPlaceholder.position);
+                onOpening?.Invoke(accomplishment, accomplishmentCardPlaceholder.position);
             }
 
             Open(0f);
@@ -112,7 +112,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         private void InvokeOnCloseAndComplete()
         {
-            onCloseAndComplete.Invoke();
+            onCloseAndComplete?.Invoke();
         }
 
         

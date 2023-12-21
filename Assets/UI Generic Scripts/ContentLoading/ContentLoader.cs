@@ -276,8 +276,8 @@ namespace JoshKery.GenericUI.ContentLoading
 						yield return LoadLocalContentFailure(webRequest.error, webRequest.url);
 						break;
 					case UnityWebRequest.Result.Success:
-						yield return LoadLocalContentSuccess(webRequest.downloadHandler.text);
 						SaveContentFileToDisk(webRequest.downloadHandler.text);
+						yield return LoadLocalContentSuccess(webRequest.downloadHandler.text);
 						break;
 				}
 
@@ -318,6 +318,8 @@ namespace JoshKery.GenericUI.ContentLoading
         #region Save Content File to Disk
 		public virtual void SaveContentFileToDisk(string text)
 		{
+			Debug.Log(LocalContentPath);
+			Debug.Log(text);
 			File.WriteAllText(LocalContentPath, text);
 			RLMGLogger.Instance.Log(string.Format("Saved data to local directory: {0}", LocalContentPath), MESSAGETYPE.INFO);
 		}

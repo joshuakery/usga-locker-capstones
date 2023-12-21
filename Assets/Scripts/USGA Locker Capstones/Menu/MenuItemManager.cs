@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using JoshKery.GenericUI.Events;
 using JoshKery.GenericUI.DOTweenHelpers;
+using DG.Tweening;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -43,11 +44,7 @@ namespace JoshKery.USGA.LockerCapstones
             }
         }
 
-
         private MenuItem[] childMenuItems;
-
-        [SerializeField]
-        private UIAnimationSequenceData pulseSequence;
 
         public List<int> selectedContentTrailIDs;
 
@@ -101,27 +98,11 @@ namespace JoshKery.USGA.LockerCapstones
             ResetChildWindows();
         }
 
-        #region Pulse Animation Methods
-        protected virtual void _Pulse(
-            SequenceType sequenceType = SequenceType.UnSequenced,
-            float atPosition = 0f
-        )
-        {
-            _WindowAction(pulseSequence, sequenceType, atPosition);
-        }
-
-        public virtual void Pulse(SequenceType sequenceType)
-        {
-            _Pulse(sequenceType);
-        }
-
-        public virtual void Pulse(float atPosition)
-        {
-            _Pulse(SequenceType.Insert, atPosition);
-        }
-        #endregion
-
         #region Filter Methods
+        protected override void MidPulseCallback()
+        {
+            Filter();
+        }
 
         public void Filter()
         {
@@ -196,30 +177,51 @@ namespace JoshKery.USGA.LockerCapstones
                 justClickedItem._SpecialClose();
         }
 
-        public void CloseAllItems()
+        protected override Sequence _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
+            Sequence wrapper = DOTween.Sequence();
+
+            wrapper.Join(base._Close(SequenceType.UnSequenced, atPosition));
+
+            //Close All Items
             foreach (MenuItem item in childMenuItems)
             {
-                item.Close(SequenceType.UnSequenced);
+                Tween tween = item.Close(SequenceType.UnSequenced);
+                if (tween != null)
+                    wrapper.Join(tween);
             }
+
+            sequenceManager.CreateSequenceIfNull();
+            AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, 0, null);
+
+            return wrapper;
         }
 
-        
-
-        public void CloseAllItemsImmediately()
+        public void CloseImmediately()
         {
-            foreach (MenuItem item in childMenuItems)
-            {
-                item.Close(SequenceType.CompleteImmediately);
-            }
+            _Close(SequenceType.CompleteImmediately);
         }
 
-        public void OpenAllItems()
+        protected override Sequence _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
-            foreach (MenuItem item in childMenuItems)
+            Sequence wrapper = DOTween.Sequence();
+
+            wrapper.Join(base._Open(SequenceType.UnSequenced, atPosition));
+
+            //Open All Items with offset in their order
+            for (int i=0; i<childMenuItems.Length; i++)
             {
-                item.Open(SequenceType.UnSequenced);
+                MenuItem item = childMenuItems[i];
+
+                Tween tween = item.Open(SequenceType.UnSequenced);
+                if (tween != null)
+                    wrapper.Insert(i * 0.05f, tween);
             }
+
+            sequenceManager.CreateSequenceIfNull();
+            AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, 0, null);
+
+            return wrapper;
         }
         #endregion
     }
