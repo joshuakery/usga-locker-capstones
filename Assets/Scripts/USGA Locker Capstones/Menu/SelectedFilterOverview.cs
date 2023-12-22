@@ -23,6 +23,7 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnEnable();
 
             FilterDrawer.onFilterClicked += SetSelectedContentTrailAndUpdateContent;
+            MainCanvasStateMachine.onAnimateToProfile.AddListener(OnAnimateToProfile);
         }
 
         protected override void OnDisable()
@@ -30,8 +31,14 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             FilterDrawer.onFilterClicked -= SetSelectedContentTrailAndUpdateContent;
+            MainCanvasStateMachine.onAnimateToProfile.RemoveListener(OnAnimateToProfile);
         }
         #endregion
+
+        private void OnAnimateToProfile(int id)
+        {
+            _Close(SequenceType.UnSequenced);
+        }
 
         #region Pulse Animation Methods
         /// <summary>

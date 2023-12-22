@@ -202,7 +202,9 @@ namespace JoshKery.USGA.LockerCapstones
                 for (int i=0; i< appState.data.accomplishmentIcons.Count; i++)
                 {
                     AccomplishmentIcon icon = appState.data.accomplishmentIcons[i];
+
                     yield return StartCoroutine(LoadMediaForAccomplishmentIcon(icon));
+
                     onLoadingProgress?.Invoke(
                         "Loading Achivements",
                         "Finished loading achievement icon " + icon.id,
@@ -221,7 +223,9 @@ namespace JoshKery.USGA.LockerCapstones
                 for (int i=0; i<appState.data.lockerProfiles.Count; i++)
                 {
                     LockerProfile lockerProfile = appState.data.lockerProfiles[i];
+
                     yield return StartCoroutine(LoadMediaForLockerProfile(lockerProfile));
+
                     onLoadingProgress?.Invoke(
                         "Loading Locker Profile Media",
                         "Finished loading locker profile media for " + lockerProfile.fullName,
@@ -280,8 +284,11 @@ namespace JoshKery.USGA.LockerCapstones
                 for (int i=0; i<era.historySlides.Count; i++)
                 {
                     HistorySlide slide = era.historySlides[i];
+
                     yield return StartCoroutine(LoadMediaFromMediaFile(slide?.image));
+
                     yield return StartCoroutine(LoadMediaFromMediaFile(slide?.backgroundVideo));
+
                     onLoadingProgress?.Invoke(
                         "Loading Era History Slides Media",
                         "Finished loading era history slide \"" + slide.title + "\"",
@@ -325,6 +332,8 @@ namespace JoshKery.USGA.LockerCapstones
                         break;
                 }
             }
+
+            Debug.Log(mediaFile.texture.width + " " + mediaFile.texture.height);
         }
 
         /// <summary>

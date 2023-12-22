@@ -15,6 +15,7 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnEnable();
 
             MainCanvasStateMachine.beforeAnimateToMenu += CloseAndComplete;
+            MainCanvasStateMachine.onAnimateToProfile.AddListener(OnAnimateToProfile);
         }
 
         protected override void OnDisable()
@@ -22,6 +23,12 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             MainCanvasStateMachine.beforeAnimateToMenu -= CloseAndComplete;
+            MainCanvasStateMachine.onAnimateToProfile.RemoveListener(OnAnimateToProfile);
+        }
+
+        private void OnAnimateToProfile(int id)
+        {
+            _Close(GenericUI.DOTweenHelpers.SequenceType.UnSequenced);
         }
 
         private void CloseAndComplete()

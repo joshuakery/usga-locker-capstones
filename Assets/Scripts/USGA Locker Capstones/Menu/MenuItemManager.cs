@@ -99,10 +99,7 @@ namespace JoshKery.USGA.LockerCapstones
         }
 
         #region Filter Methods
-        protected override void MidPulseCallback()
-        {
-            Filter();
-        }
+
 
         public void Filter()
         {
@@ -143,11 +140,16 @@ namespace JoshKery.USGA.LockerCapstones
         private void SetSelectedCategoryAndFilter(int contentTrailID)
         {
             SetSelectedCategory(contentTrailID);
-            Pulse(SequenceType.Join);
+            Pulse(PulseType.OpenCloseOpen, SequenceType.Join);
         }
         #endregion
 
         #region Menu Out and In Animation Methods
+        protected override void MidPulseCallback()
+        {
+            Filter();
+        }
+
         /// <summary>
         /// Subscribes to MenuItem's button's onClick event so that we can know which item was clicked to do a dynamic animation
         /// </summary>

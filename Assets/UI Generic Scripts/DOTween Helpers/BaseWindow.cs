@@ -604,7 +604,8 @@ namespace JoshKery.GenericUI.DOTweenHelpers
 
                 Sequence callbackWrapper = DOTween.Sequence();
 
-                Sequence open = _WindowAction(openSequence, SequenceType.UnSequenced);
+                //Sequence open = _WindowAction(openSequence, SequenceType.UnSequenced);
+                Tween open = _Open(SequenceType.UnSequenced);
                 if (open != null)
                 {
                     callbackWrapper.Join(open);
@@ -612,7 +613,8 @@ namespace JoshKery.GenericUI.DOTweenHelpers
                     pulseSequence.Join(callbackWrapper);
                 }
 
-                Sequence close = _WindowAction(closeSequence, SequenceType.UnSequenced);
+                //Sequence close = _WindowAction(closeSequence, SequenceType.UnSequenced);
+                Tween close = _Close(SequenceType.UnSequenced);
                 if (close != null) { pulseSequence.Append(close); }
 
                 if (open != null || close != null)
@@ -632,7 +634,8 @@ namespace JoshKery.GenericUI.DOTweenHelpers
 
                 Sequence callbackWrapper = DOTween.Sequence();
 
-                Sequence close = _WindowAction(closeSequence, SequenceType.UnSequenced);
+                //Sequence close = _WindowAction(closeSequence, SequenceType.UnSequenced);
+                Tween close = _Close(SequenceType.UnSequenced);
                 if (close != null)
                 {
                     callbackWrapper.Join(close);
@@ -640,7 +643,8 @@ namespace JoshKery.GenericUI.DOTweenHelpers
                     pulseSequence.Join(callbackWrapper);
                 }
 
-                Sequence open = _WindowAction(openSequence, SequenceType.UnSequenced);
+                //Sequence open = _WindowAction(openSequence, SequenceType.UnSequenced);
+                Tween open = _Open(SequenceType.UnSequenced);
                 if (open != null) { pulseSequence.Append(open); }
 
                 if (open != null || close != null)
@@ -656,9 +660,9 @@ namespace JoshKery.GenericUI.DOTweenHelpers
                 return null;
         }
 
-        public virtual Sequence Pulse(PulseType pulseType)
+        public virtual Sequence Pulse(PulseType pulseType, SequenceType sequenceType = SequenceType.UnSequenced)
         {
-            return _Pulse(pulseType);
+            return _Pulse(pulseType, sequenceType);
         }
 
         public virtual Sequence Pulse(SequenceType sequenceType)

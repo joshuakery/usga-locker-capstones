@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Filters Out
   m_EditorClassIdentifier: 
   animationType: 1
-  duration: 0.2
+  duration: 0.5
   delay: 0
   to: {x: 0, y: 222, z: 0}
   useFrom: 0

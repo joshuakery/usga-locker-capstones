@@ -48,6 +48,12 @@ namespace JoshKery.USGA.LockerCapstones
             public string lockerLocatorMediaDirectoryName { get; set; } = "lockerLocatorMedia";
 
             /// <summary>
+            /// If true, will attempt to query Directus CMS. Otherwise will default to already loaded data.
+            /// </summary>
+            [JsonProperty("doLoadFromCMS")]
+            public bool doLoadFromCMS { get; set; } = true;
+
+            /// <summary>
             /// List of possible eras to query for across the different instances of Locker Capstones
             /// </summary>
             [JsonProperty("eraOptions")]
@@ -179,6 +185,7 @@ namespace JoshKery.USGA.LockerCapstones
             if (contentLoader != null)
             {
                 contentLoader.erasByIdIdVariable = data.eraID;
+                contentLoader.doDefaultLocalLoadContent = !data.doLoadFromCMS;
 
                 // The other media will load in the background to the larger content media loading
                 contentLoader.LoadContent();

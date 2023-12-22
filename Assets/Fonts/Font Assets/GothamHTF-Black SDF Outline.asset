@@ -120,9 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: GothamHTF-Black SDF Outline
   m_EditorClassIdentifier: 
-  hashCode: 489013753
+  hashCode: -2075426887
   material: {fileID: -6926042920211305357}
-  materialHashCode: -1353783367
+  materialHashCode: -1657241607
   m_Version: 1.1.0
   m_SourceFontFileGUID: 59fb96495858c6041bfbb67c09bd9b1d
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 59fb96495858c6041bfbb67c09bd9b1d, type: 3}
