@@ -332,8 +332,6 @@ namespace JoshKery.USGA.LockerCapstones
                         break;
                 }
             }
-
-            Debug.Log(mediaFile.texture.width + " " + mediaFile.texture.height);
         }
 
         /// <summary>

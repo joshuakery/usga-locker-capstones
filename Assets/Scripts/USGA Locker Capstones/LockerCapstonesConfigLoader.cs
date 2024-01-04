@@ -221,6 +221,7 @@ namespace JoshKery.USGA.LockerCapstones
             if (profileBackgroundManager != null)
             {
                 yield return StartCoroutine(LoadProfileBackgrounds(eras[data.eraID].profileBackgroundsDirectoryName));
+                profileBackgroundManager.SetRandom();
             }
 
             yield return StartCoroutine(LoadLockerLocatorMedia(data.lockerLocatorMediaDirectoryName));
