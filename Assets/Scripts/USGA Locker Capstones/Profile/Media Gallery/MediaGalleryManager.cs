@@ -47,7 +47,7 @@ namespace JoshKery.USGA.LockerCapstones
 
             foreach (MediaItem item in lockerProfile.media)
             {
-                if (item != null)
+                if (item?.mediaFile?.texture != null)
                 {
                     MediaGallerySlideDisplay display = InstantiateDisplay<MediaGallerySlideDisplay>();
                     display.SetContent(item.mediaFile);

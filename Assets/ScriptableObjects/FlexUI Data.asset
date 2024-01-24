@@ -32,7 +32,7 @@ MonoBehaviour:
     rgba: 4279476177
   contentColor1:
     serializedVersion: 2
-    rgba: 4282989312
+    rgba: 4284571392
   primaryTextGradient: {fileID: 0}
   secondaryTextGradient: {fileID: 0}
   primaryButtonSprite: {fileID: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
         paragraph: 0
     subtitle:
       size: 85
-      font: {fileID: 11400000, guid: 3d2fdafed30801f43a8b41c7feede44f, type: 2}
+      font: {fileID: 11400000, guid: c92729cb9fd9ccb4e9e5b35011cd62c8, type: 2}
       weight: 400
       spacingOptions:
         character: 6.33

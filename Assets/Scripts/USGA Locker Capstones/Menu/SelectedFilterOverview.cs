@@ -61,6 +61,8 @@ namespace JoshKery.USGA.LockerCapstones
             Tween partOne = _WindowAction(closeSequence);
             sequence.Join(partOne);
 
+            sequence.AppendCallback(UpdateContent);
+
             if (condition())
             {
                 Tween partTwo = _WindowAction(openSequence);

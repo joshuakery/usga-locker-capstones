@@ -15,13 +15,15 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 foreach (MediaItem mediaItem in lockerProfile.bioImages)
                 {
-                    if (mediaItem?.mediaFile != null)
+                    if (mediaItem?.mediaFile?.texture != null)
                     {
                         BioImageWindow display = InstantiateDisplay<BioImageWindow>();
                         display.SetContent(mediaItem.mediaFile);
                     }
                 }
             }
+
+            
         }
 }
 }

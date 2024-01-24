@@ -17,7 +17,7 @@ namespace JoshKery.USGA.LockerCapstones
         private TMP_Text captionTextField;
         public void SetContent(MediaFile mediaFile)
         {
-            if (mediaFile != null)
+            if (mediaFile?.texture != null && mediaFile.texture.width > 0 && mediaFile.texture.height > 0)
             {
                 if (riManager != null)
                     riManager.texture = mediaFile.texture;

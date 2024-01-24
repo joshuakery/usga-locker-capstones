@@ -19,7 +19,7 @@ namespace JoshKery.USGA.LockerCapstones
 
         public void SetContent(MediaFile mediaFile)
         {
-            if (mediaFile != null)
+            if (mediaFile?.texture != null)
             {
                 if (riManager != null)
                 {

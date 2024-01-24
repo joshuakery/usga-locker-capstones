@@ -35,6 +35,9 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private GameObject infoSkin;
 
+        [SerializeField]
+        private Texture2D placeholderIcon;
+
         #region Dynamic Animation Fields
         /// <summary>
         /// Top Canvas to which the animating cards will parent to during their animations
@@ -106,6 +109,10 @@ namespace JoshKery.USGA.LockerCapstones
                     )
                 {
                     iconRIManager.texture = appState.data.accomplishmentIconsDict[accomplishment.icon.id].image?.texture;
+                }
+                else
+                {
+                    iconRIManager.texture = placeholderIcon;
                 }
                     
 

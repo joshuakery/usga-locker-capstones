@@ -1,10 +1,10 @@
 {
-  "eraID": 1,
+  "eraID": 6,
   "chooseEraTimeout": 30,
   "timeout": 180,
   "attractInterval": 11,
   "lockerLocatorMediaDirectoryName": "lockerLocatorMedia",
-  "doLoadFromCMS": false,
+  "doLoadFromCMS": true,
   "eraOptions": [
     {
       "eraID": 1,

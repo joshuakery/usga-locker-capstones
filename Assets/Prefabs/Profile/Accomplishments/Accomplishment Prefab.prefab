@@ -858,6 +858,7 @@ MonoBehaviour:
   titleTextField: {fileID: 3487052005708166794}
   infoButton: {fileID: 7176945814508016228}
   infoSkin: {fileID: 3343197870991107952}
+  placeholderIcon: {fileID: 2800000, guid: 11e6f279ade864c6d951e8db74c11b54, type: 3}
   animatedRT: {fileID: 3013130406629003169}
   animationData: {fileID: 11400000, guid: ab5a77188d97199429c9c49e06c6c3e5, type: 2}
   onModalOpenAdditionalAnimations:

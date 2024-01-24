@@ -88,7 +88,7 @@ namespace JoshKery.USGA.LockerCapstones
 
                 if (yearInductedTextField != null)
                 {
-                    yearInductedTextField.text = lockerProfile.inductionYear.ToString();
+                    yearInductedTextField.text = "Class of " + lockerProfile.inductionYear.ToString();
                 }
 
                 if (rawImage != null && lockerProfile.featuredImage != null)

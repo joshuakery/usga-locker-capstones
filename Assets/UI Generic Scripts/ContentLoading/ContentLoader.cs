@@ -289,7 +289,7 @@ namespace JoshKery.GenericUI.ContentLoading
 
 		protected virtual IEnumerator LoadLocalContentFailure(string error, string url)
         {
-			RLMGLogger.Instance.Log("Load Local Content Error: " + error + " at " + url);
+			RLMGLogger.Instance.Log("Load Local Content Error: " + error + " at " + url, MESSAGETYPE.ERROR);
 			onLoadingError?.Invoke("Load Local Content Error: " + error + " at " + url);
 			yield return null;
         }
@@ -342,12 +342,12 @@ namespace JoshKery.GenericUI.ContentLoading
 				switch (webRequest.result)
 				{
 					case UnityWebRequest.Result.ConnectionError:
-					case UnityWebRequest.Result.DataProcessingError:
 					case UnityWebRequest.Result.ProtocolError:
-						yield return SaveMediaToDiskFailure(webRequest);
+					case UnityWebRequest.Result.DataProcessingError:
+						yield return StartCoroutine(SaveMediaToDiskFailure(webRequest, onlinePath));
 						break;
 					case UnityWebRequest.Result.Success:
-						yield return SaveMediaToDiskSuccess(webRequest.result);
+						yield return StartCoroutine(SaveMediaToDiskSuccess(webRequest.result));
 						File.WriteAllBytes(localPath, webRequest.downloadHandler.data);
 						break;
 				}
@@ -360,10 +360,16 @@ namespace JoshKery.GenericUI.ContentLoading
 			yield return null;
 		}
 
-		protected virtual IEnumerator SaveMediaToDiskFailure(UnityWebRequest request)
+		protected virtual IEnumerator SaveMediaToDiskFailure(UnityWebRequest request, string fromPath = null)
 		{
-			onLoadingError?.Invoke("Save Media to Disk Failure: " + request.error);
-			RLMGLogger.Instance.Log("Save Media to Disk Failure: " + request.error);
+			string message = String.Format(
+				"Save Media to Disk Failure for {0}:\n{1}\n{2}",
+				fromPath,
+				request.error.ToString(),
+				request.downloadHandler.error.ToString()
+			);
+			onLoadingError?.Invoke(message);
+			RLMGLogger.Instance.Log(message, MESSAGETYPE.ERROR);
 			yield return null;
 		}
 		#endregion

@@ -253,7 +253,7 @@ namespace JoshKery.TouchModule
         //////////////////////////////////CALLBACK FUNCTIONS/////////////////////////////
         void OnSwipeUp()
         {
-            Debug.Log("Swipe UP");
+            //Debug.Log("Swipe UP");
             if (swipeUp != null)
                 swipeUp();
 
@@ -263,7 +263,7 @@ namespace JoshKery.TouchModule
 
         void OnSwipeDown()
         {
-            Debug.Log("Swipe Down");
+            //Debug.Log("Swipe Down");
             if (swipeDown != null)
                 swipeDown();
 
@@ -273,7 +273,7 @@ namespace JoshKery.TouchModule
 
         void OnSwipeLeft()
         {
-            Debug.Log("Swipe Left");
+            //Debug.Log("Swipe Left");
             if (swipeLeft != null)
                 swipeLeft();
 
@@ -283,7 +283,7 @@ namespace JoshKery.TouchModule
 
         void OnSwipeRight()
         {
-            Debug.Log("Swipe Right");
+            //Debug.Log("Swipe Right");
             if (swipeRight != null)
                 swipeRight();
 

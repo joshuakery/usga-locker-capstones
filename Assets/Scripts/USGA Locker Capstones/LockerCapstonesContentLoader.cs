@@ -203,7 +203,18 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     AccomplishmentIcon icon = appState.data.accomplishmentIcons[i];
 
-                    yield return StartCoroutine(LoadMediaForAccomplishmentIcon(icon));
+                    yield return StartCoroutine(LoadMediaFromMediaFile(icon?.image));
+
+                    //Report a more detailed error statement if the media did not load
+                    if (icon.image.texture == null)
+                        RLMGLogger.Instance.Log(
+                            string.Format(
+                                "Failed to load media for achievement icon {0}, for image titled {1}",
+                                icon.id,
+                                icon.image.title
+                               ),
+                            MESSAGETYPE.ERROR
+                        );
 
                     onLoadingProgress?.Invoke(
                         "Loading Achivements",
@@ -255,6 +266,17 @@ namespace JoshKery.USGA.LockerCapstones
                     foreach (MediaItem item in lockerProfile.media)
                     {
                         yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile, LoadMediaMethod.FitToParent, 1630, 1200));
+
+                        //Report a more detailed error statement if the media did not load
+                        if (item.mediaFile.texture == null)
+                            RLMGLogger.Instance.Log(
+                                string.Format(
+                                    "Failed to load media for locker profile {0}, for media gallery media titled {1}",
+                                    lockerProfile.fullName,
+                                    item.mediaFile.title
+                                   ),
+                                MESSAGETYPE.ERROR
+                            );
                     }
                 }
 
@@ -265,14 +287,20 @@ namespace JoshKery.USGA.LockerCapstones
                     foreach (MediaItem item in lockerProfile.bioImages)
                     {
                         yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile));
+
+                        //Report a more detailed error statement if the media did not load
+                        if (item.mediaFile.texture == null)
+                            RLMGLogger.Instance.Log(
+                                string.Format(
+                                    "Failed to load media for locker profile {0}, for bio image titled {1}",
+                                    lockerProfile.fullName,
+                                    item.mediaFile.title
+                                   ),
+                                MESSAGETYPE.ERROR
+                            );
                     }
                 }
             }
-        }
-
-        private IEnumerator LoadMediaForAccomplishmentIcon(AccomplishmentIcon icon)
-        {
-            yield return StartCoroutine(LoadMediaFromMediaFile(icon?.image));
         }
 
         private IEnumerator LoadMediaForEra(Era era)
@@ -287,7 +315,29 @@ namespace JoshKery.USGA.LockerCapstones
 
                     yield return StartCoroutine(LoadMediaFromMediaFile(slide?.image));
 
+                    //Report a more detailed error statement if the media did not load
+                    if (slide.image.texture == null)
+                        RLMGLogger.Instance.Log(
+                            string.Format(
+                                "Failed to load media for era history slide {0}, for image titled {1}",
+                                slide.title,
+                                slide.image.title
+                               ),
+                            MESSAGETYPE.ERROR
+                        );
+
                     yield return StartCoroutine(LoadMediaFromMediaFile(slide?.backgroundVideo));
+
+                    //Report a more detailed error statement if the media did not load
+                    if (slide.image.texture == null)
+                        RLMGLogger.Instance.Log(
+                            string.Format(
+                                "Failed to load background media for era history slide {0}, for image titled {1}",
+                                slide.title,
+                                slide.backgroundVideo.title
+                               ),
+                            MESSAGETYPE.ERROR
+                        );
 
                     onLoadingProgress?.Invoke(
                         "Loading Era History Slides Media",
