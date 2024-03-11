@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using JoshKery.USGA.Directus;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.GenericUI.Text;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -31,6 +32,8 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private BioImagesManager bioImagesManager;
 
+
+
         public void SetContent(LockerProfile lockerProfile)
         {
             if (lockerProfile != null)
@@ -44,6 +47,7 @@ namespace JoshKery.USGA.LockerCapstones
                 if (bodyTextField != null)
                 {
                     bodyTextField.text = lockerProfile.bioText;
+                    AddNoBreakTags.AddNoBreakTagsToText(bodyTextField);
                 }
 
                 if (quoteContainer != null)

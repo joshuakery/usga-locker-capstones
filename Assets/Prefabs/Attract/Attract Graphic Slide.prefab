@@ -200,12 +200,13 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   outForNextSequence:
     sequenceType: 0
     individualSequencingData:
     - sequenceSource: 0
-      animationData: {fileID: 11400000, guid: 97546e1b9b089463ea4dcbb188821d1c, type: 2}
+      animationData: {fileID: 11400000, guid: 9e8ceb05aec83a84087e8e004dcb03a1, type: 2}
       objectToAnimate: {fileID: 0}
       onStartEvent:
         m_PersistentCalls:
@@ -232,7 +233,7 @@ MonoBehaviour:
     sequenceType: 0
     individualSequencingData:
     - sequenceSource: 0
-      animationData: {fileID: 11400000, guid: 78d4aff004f904abba7799ae58b3b584, type: 2}
+      animationData: {fileID: 11400000, guid: e8beb4c3727dbbe469a1cf8d6763c6b3, type: 2}
       objectToAnimate: {fileID: 0}
       onStartEvent:
         m_PersistentCalls:
@@ -259,7 +260,7 @@ MonoBehaviour:
     sequenceType: 0
     individualSequencingData:
     - sequenceSource: 0
-      animationData: {fileID: 11400000, guid: 97546e1b9b089463ea4dcbb188821d1c, type: 2}
+      animationData: {fileID: 11400000, guid: 9e8ceb05aec83a84087e8e004dcb03a1, type: 2}
       objectToAnimate: {fileID: 0}
       onStartEvent:
         m_PersistentCalls:
@@ -286,7 +287,7 @@ MonoBehaviour:
     sequenceType: 0
     individualSequencingData:
     - sequenceSource: 0
-      animationData: {fileID: 11400000, guid: 78d4aff004f904abba7799ae58b3b584, type: 2}
+      animationData: {fileID: 11400000, guid: e8beb4c3727dbbe469a1cf8d6763c6b3, type: 2}
       objectToAnimate: {fileID: 0}
       onStartEvent:
         m_PersistentCalls:
@@ -310,6 +311,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   riManager: {fileID: 4944315851741399138}
+  toZoom: {fileID: 3919719607738915011}
+  zoomTarget: 1.333
+  zoomDuration: 20
 --- !u!114 &7551716514985711749
 MonoBehaviour:
   m_ObjectHideFlags: 0

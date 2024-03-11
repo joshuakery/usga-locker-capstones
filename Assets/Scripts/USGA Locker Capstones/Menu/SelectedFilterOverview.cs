@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using DG.Tweening;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.GenericUI.Text;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -56,37 +57,40 @@ namespace JoshKery.USGA.LockerCapstones
             float atPosition = 0f
         )
         {
-            Sequence sequence = DOTween.Sequence();
+            Sequence wrapper = DOTween.Sequence();
 
-            Tween partOne = _WindowAction(closeSequence);
-            sequence.Join(partOne);
+            if (isOpen)
+            {
+                Tween partOne = _Close(SequenceType.UnSequenced);
+                wrapper.Join(partOne);
+            }
 
-            sequence.AppendCallback(UpdateContent);
+            wrapper.AppendCallback(UpdateContent);
 
             if (condition())
             {
-                Tween partTwo = _WindowAction(openSequence);
-                sequence.Append(partTwo);
+                Tween partTwo = _Open(SequenceType.UnSequenced);
+                wrapper.Append(partTwo);
             }
 
             switch (sequenceType)
             {
                 case (SequenceType.CompleteImmediately):
-                    sequence.Complete();
+                    wrapper.Complete();
                     break;
                 case (SequenceType.UnSequenced):
                     break;
                 case (SequenceType.Join):
-                    sequenceManager.JoinTween(sequence);
+                    sequenceManager.JoinTween(wrapper);
                     break;
                 case (SequenceType.Append):
-                    sequenceManager.AppendTween(sequence);
+                    sequenceManager.AppendTween(wrapper);
                     break;
                 case (SequenceType.Insert):
-                    sequenceManager.InsertTween(atPosition, sequence);
+                    sequenceManager.InsertTween(atPosition, wrapper);
                     break;
                 case (SequenceType.BackInsert):
-                    sequenceManager.InsertTween(sequenceManager.currentSequence.Duration() - atPosition, sequence);
+                    sequenceManager.InsertTween(sequenceManager.currentSequence.Duration() - atPosition, wrapper);
                     break;
             }
         }
@@ -140,10 +144,19 @@ namespace JoshKery.USGA.LockerCapstones
             if (contentTrail != null)
             {
                 if (selectedHeadingField != null)
+                {
                     selectedHeadingField.text = contentTrail.name;
+                    AddNoBreakTags.AddNoBreakTagsToText(selectedHeadingField);
+                }
+                    
 
                 if (selectedBodyField != null)
+                {
                     selectedBodyField.text = contentTrail.description;
+                    AddNoBreakTags.AddNoBreakTagsToText(selectedBodyField);
+                }
+                    
+
             }
         }
     }

@@ -139,7 +139,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1086,7 +1086,7 @@ MonoBehaviour:
       baseStateMachine: {fileID: 0}
       stateToAnimateTo: 0
     - sequenceSource: 0
-      animationData: {fileID: 11400000, guid: 78d4aff004f904abba7799ae58b3b584, type: 2}
+      animationData: {fileID: 11400000, guid: 9af50765ccaf4e343ad9badaad63092c, type: 2}
       objectToAnimate: {fileID: 0}
       onStartEvent:
         m_PersistentCalls:
@@ -1131,7 +1131,7 @@ MonoBehaviour:
     sequenceType: 0
     individualSequencingData:
     - sequenceSource: 0
-      animationData: {fileID: 11400000, guid: 97546e1b9b089463ea4dcbb188821d1c, type: 2}
+      animationData: {fileID: 11400000, guid: cd403dd306dca64408598fe40d4517ff, type: 2}
       objectToAnimate: {fileID: 0}
       onStartEvent:
         m_PersistentCalls:

@@ -93,6 +93,22 @@ namespace JoshKery.GenericUI.ContentLoading
         }
 		#endregion
 
+		private static UnityEvent _onSetContentDone;
+
+		/// <summary>
+		/// Fires after onSetContent is invoked, but a 'yield return null' before onPopulateContentFinish
+		/// </summary>
+		public static UnityEvent onSetContentDone
+        {
+			get
+            {
+				if (_onSetContentDone == null)
+					_onSetContentDone = new UnityEvent();
+
+				return _onSetContentDone;
+            }
+        }
+
 		private UnityEvent _onPopulateContentFinish;
 		/// <summary>
         /// Fires when caching and setting up content is complete

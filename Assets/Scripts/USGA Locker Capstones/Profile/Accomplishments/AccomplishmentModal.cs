@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using JoshKery.GenericUI.DOTweenHelpers;
-using JoshKery.GenericUI.AspectRatio;
+using JoshKery.GenericUI.Text;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -69,10 +69,17 @@ namespace JoshKery.USGA.LockerCapstones
             if (accomplishment != null)
             {
                 if (headerField != null)
+                {
                     headerField.text = accomplishment.name;
+                    AddNoBreakTags.AddNoBreakTagsToText(headerField);
+                }
+                    
 
                 if (descriptionField != null)
+                {
                     descriptionField.text = accomplishment.description;
+                    AddNoBreakTags.AddNoBreakTagsToText(descriptionField);
+                }
 
                 StartCoroutine(WaitThenOpen(accomplishment));
             }

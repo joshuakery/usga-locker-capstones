@@ -185,6 +185,10 @@ namespace JoshKery.USGA.LockerCapstones
 
             yield return null;
 
+            onSetContentDone?.Invoke();
+
+            yield return null;
+
             onPopulateContentFinish?.Invoke();
 
             onLoadingDetails?.Invoke("Finished populating content.");

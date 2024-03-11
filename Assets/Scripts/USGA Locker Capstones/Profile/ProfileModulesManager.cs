@@ -117,7 +117,7 @@ namespace JoshKery.USGA.LockerCapstones
 
                         if (lockerProfile.hasAccomplishments)
                         {
-                            modulePaginatorManager.InstantiatePaginator("Achivements");
+                            modulePaginatorManager.InstantiatePaginator("Achievements");
                         }
 
                         modulePaginatorManager.InstantiatePaginator("Biography");

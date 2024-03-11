@@ -60,7 +60,18 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private UIAnimationSequenceData specialCloseSequence;
 
-        
+        /// <summary>
+        /// Does the menuItem match any of the given selectedContentTrailIDs?
+        /// </summary>
+        /// <param name="selectedContentTrailIDs">int IDs which would match menuItem's contentTrailIDs</param>
+        /// <returns></returns>
+        public bool IsInFilter(List<int> selectedContentTrailIDs)
+        {
+            if (selectedContentTrailIDs != null && selectedContentTrailIDs.Count > 0)
+                return selectedContentTrailIDs.Intersect(contentTrailIDs).Any();
+            else
+                return true;
+        }
 
         public void SetContent(LockerProfile lockerProfile)
         {

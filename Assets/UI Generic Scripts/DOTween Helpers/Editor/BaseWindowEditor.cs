@@ -21,6 +21,10 @@ namespace JoshKery.GenericUI.DOTweenHelpers
             {
                 script.Close(SequenceType.UnSequenced);
             }
+            if (GUILayout.Button("Pulse"))
+            {
+                script.Pulse(SequenceType.UnSequenced);
+            }
         }
     }
 }

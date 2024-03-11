@@ -65,7 +65,7 @@ MonoBehaviour:
       weight: 400
       spacingOptions:
         character: 6.33
-        word: -6
+        word: 6
         line: 0
         paragraph: 0
     h1:

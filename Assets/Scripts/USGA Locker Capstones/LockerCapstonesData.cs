@@ -179,7 +179,7 @@ namespace JoshKery.USGA.LockerCapstones
                     if (death == null)
                         return "b. " + birth.Value.ToString("MMMM dd, yyyy");
                     else
-                        return death.Value.ToString("MMMM dd, yyyy") + " - " + birth.Value.ToString("MMMM dd, yyyy");
+                        return birth.Value.ToString("MMMM dd, yyyy") + " - " + death.Value.ToString("MMMM dd, yyyy");
                 }
             }
         }

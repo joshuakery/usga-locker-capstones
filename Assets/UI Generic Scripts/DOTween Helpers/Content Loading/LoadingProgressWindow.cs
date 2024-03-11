@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using JoshKery.GenericUI.ContentLoading;
+using JoshKery.GenericUI.DOTweenHelpers;
 
 namespace JoshKery.GenericUI.DOTweenHelpers.ContentLoading
 {
@@ -22,17 +23,14 @@ namespace JoshKery.GenericUI.DOTweenHelpers.ContentLoading
         private TMP_Text detailsDisplay;
 
         [SerializeField]
-        private GameObject errorContainer;
-
-        [SerializeField]
-        private TMP_Text errorDisplay;
+        private BaseWindow errorsContainer;
 
         protected override void OnEnable()
         {
             base.OnEnable();
 
-            if (errorContainer != null)
-                errorContainer.SetActive(false);
+            if (errorsContainer != null)
+                errorsContainer.ClearAllDisplays();
 
             contentLoader.onLoadContentCoroutineStart.AddListener(OnLoadContentCoroutineStart);
             contentLoader.onLoadingProgress += OnLoadingProgress;
@@ -83,11 +81,18 @@ namespace JoshKery.GenericUI.DOTweenHelpers.ContentLoading
 
         private void OnLoadingError(string e)
         {
-            if (errorContainer != null)
-                errorContainer.SetActive(true);
+            BaseWindow errorDisplay = errorsContainer.InstantiateDisplay<BaseWindow>();
+            Debug.Log(errorDisplay);
 
             if (errorDisplay != null)
-                errorDisplay.text = e;
+            {
+                TMP_Text textDisplay = errorDisplay.GetComponentInChildren<TMP_Text>();
+                Debug.Log(textDisplay);
+                if (textDisplay != null)
+                {
+                    textDisplay.text = e;
+                }
+            }
         }
 
         private void OnPopulateContentFinished()

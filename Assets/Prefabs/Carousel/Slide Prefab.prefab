@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 6692153697983064068}
   - component: {fileID: 5031004779304327392}
   - component: {fileID: 6864535811698390344}
+  - component: {fileID: 6719946128617757189}
   m_Layer: 5
   m_Name: Body
   m_TagString: Untagged
@@ -267,8 +268,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -277,11 +278,11 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 2
+  m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 40
+  m_lineSpacing: 80
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 31
+  m_paragraphSpacing: 70
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -323,7 +324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinData: {fileID: 11400000, guid: c16a02915cb99b848b0c5743780f337b, type: 2}
   screenType: 1
-  headingType: 6
+  headingType: 9
   fontColor: 0
 --- !u!114 &6864535811698390344
 MonoBehaviour:
@@ -341,6 +342,18 @@ MonoBehaviour:
   m_MaskInteraction: 85
   m_UseStencil: 1
   m_RaycastFilter: 0
+--- !u!114 &6719946128617757189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720051193618317328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19649eb83ee3044694691f115f10889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7547946379959307422
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,6 +430,7 @@ MonoBehaviour:
     onCompleteEvent:
       m_PersistentCalls:
         m_Calls: []
+  directChildWindowsOnly: 1
   childWindows: []
   outForNextSequence:
     sequenceType: 0

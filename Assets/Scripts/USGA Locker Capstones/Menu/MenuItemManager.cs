@@ -50,6 +50,9 @@ namespace JoshKery.USGA.LockerCapstones
 
         private MenuItem justClickedItem;
 
+        [SerializeField]
+        private BaseWindow viewportWindow;
+
         #region Monobehaviour Methods
 
         protected override void OnEnable()
@@ -105,20 +108,21 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (childMenuItems != null && childMenuItems.Length > 0)
             {
-                if (selectedContentTrailIDs != null && selectedContentTrailIDs.Count > 0)
+                bool allIn = true;
+                foreach (MenuItem menuItem in childMenuItems)
                 {
-                    foreach (MenuItem menuItem in childMenuItems)
-                    {
-                        bool hasAtLeastOneCategoryInCommon = selectedContentTrailIDs.Intersect(menuItem.contentTrailIDs).Any();
-                        menuItem.gameObject.SetActive(hasAtLeastOneCategoryInCommon);
-                    }
+                    bool inFilter = menuItem.IsInFilter(selectedContentTrailIDs);
+                    menuItem.gameObject.SetActive(inFilter);
+                    if (!inFilter)
+                        allIn = false;
                 }
-                else
+
+                if (viewportWindow != null)
                 {
-                    foreach (MenuItem menuItem in childMenuItems)
-                    {
-                        menuItem.gameObject.SetActive(true);
-                    }
+                    if (allIn)
+                        viewportWindow.Open(SequenceType.CompleteImmediately);
+                    else
+                        viewportWindow.Close(SequenceType.CompleteImmediately);
                 }
 
                 onFiltered.Invoke();
@@ -181,9 +185,13 @@ namespace JoshKery.USGA.LockerCapstones
 
         protected override Sequence _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
+            isOpen = false;
+
             Sequence wrapper = DOTween.Sequence();
 
-            wrapper.Join(base._Close(SequenceType.UnSequenced, atPosition));
+            Tween closeTween = base._Close(SequenceType.UnSequenced, atPosition);
+            if (closeTween != null)
+                wrapper.Join(closeTween);
 
             //Close All Items
             foreach (MenuItem item in childMenuItems)
@@ -206,18 +214,28 @@ namespace JoshKery.USGA.LockerCapstones
 
         protected override Sequence _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
+            isOpen = true;
+
             Sequence wrapper = DOTween.Sequence();
 
-            wrapper.Join(base._Open(SequenceType.UnSequenced, atPosition));
+            Tween openTween = base._Open(SequenceType.UnSequenced, atPosition);
+            if (openTween != null)
+                wrapper.Join(openTween);
 
             //Open All Items with offset in their order
+            int count = 0;
             for (int i=0; i<childMenuItems.Length; i++)
             {
                 MenuItem item = childMenuItems[i];
 
-                Tween tween = item.Open(SequenceType.UnSequenced);
-                if (tween != null)
-                    wrapper.Insert(i * 0.05f, tween);
+                if (item.IsInFilter(selectedContentTrailIDs))
+                {
+                    Tween tween = item.Open(SequenceType.UnSequenced);
+                    if (tween != null)
+                        wrapper.Insert(count * 0.05f, tween);
+
+                    count++;
+                }
             }
 
             sequenceManager.CreateSequenceIfNull();

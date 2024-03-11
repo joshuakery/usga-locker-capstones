@@ -5,6 +5,7 @@ using TMPro;
 using JoshKery.GenericUI.DOTweenHelpers;
 using MagneticScrollView;
 using DG.Tweening;
+using JoshKery.GenericUI.Text;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -57,7 +58,11 @@ namespace JoshKery.USGA.LockerCapstones
         protected override void MidPulseCallback()
         {
             if (textDisplay != null)
+            {
                 textDisplay.text = currentCaptionText;
+                AddNoBreakTags.AddNoBreakTagsToText(textDisplay);
+            }
+                
         }
     }
 }
