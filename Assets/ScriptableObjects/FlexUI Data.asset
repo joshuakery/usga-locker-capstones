@@ -64,8 +64,8 @@ MonoBehaviour:
       font: {fileID: 11400000, guid: c92729cb9fd9ccb4e9e5b35011cd62c8, type: 2}
       weight: 400
       spacingOptions:
-        character: 6.33
-        word: 6
+        character: 5
+        word: 15.5
         line: 0
         paragraph: 0
     h1:

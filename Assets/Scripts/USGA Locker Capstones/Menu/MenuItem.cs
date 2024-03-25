@@ -60,6 +60,26 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private UIAnimationSequenceData specialCloseSequence;
 
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+
+            MainCanvasStateMachine.onAnimateToMenu.AddListener(OnAnimateToMenu);
+        }
+
+        protected override void OnDisable()
+        {
+            base.OnDisable();
+
+            MainCanvasStateMachine.onAnimateToMenu.RemoveListener(OnAnimateToMenu);
+        }
+
+        private void OnAnimateToMenu()
+        {
+            if (button != null)
+                button.interactable = true;
+        }
+
         /// <summary>
         /// Does the menuItem match any of the given selectedContentTrailIDs?
         /// </summary>

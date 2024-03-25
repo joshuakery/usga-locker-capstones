@@ -4,6 +4,7 @@ using TMPro;
 using DG.Tweening;
 using JoshKery.GenericUI.DOTweenHelpers;
 using JoshKery.GenericUI.AspectRatio;
+using JoshKery.GenericUI.Text;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -117,7 +118,12 @@ namespace JoshKery.USGA.LockerCapstones
                     
 
                 if (titleTextField != null)
+                {
                     titleTextField.text = accomplishment.name;
+                    AddNoBreakTags.AddNoBreakTagsToText(titleTextField);
+                    ParseItalics.ParseItalicsInText(titleTextField);
+                }
+                    
 
                 SetupInfoButton(accomplishment);
             }

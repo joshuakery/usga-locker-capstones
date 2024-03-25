@@ -54,9 +54,9 @@ namespace JoshKery.USGA.LockerCapstones
 
                         if (appState?.data?.era?.contentTrailIDs != null)
                         {
-                            filterButton.button.interactable = appState.data.era.contentTrailIDs.Contains(contentTrail.id);
+                            filterButton.isInEra = appState.data.era.contentTrailIDs.Contains(contentTrail.id);
                         }
-                        filterButton.SetInteractable(filterButton.button.interactable).Complete();
+                        filterButton.SetInteractable().Complete();
                     }
                 }
             }

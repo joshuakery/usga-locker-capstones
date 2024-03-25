@@ -35,6 +35,11 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private RectTransform accomplishmentCardPlaceholder;
 
+        private void Start()
+        {
+            CloseAndComplete();
+        }
+
         protected override void OnEnable()
         {
             base.OnEnable();
@@ -72,6 +77,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     headerField.text = accomplishment.name;
                     AddNoBreakTags.AddNoBreakTagsToText(headerField);
+                    ParseItalics.ParseItalicsInText(headerField);
                 }
                     
 
@@ -79,6 +85,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     descriptionField.text = accomplishment.description;
                     AddNoBreakTags.AddNoBreakTagsToText(descriptionField);
+                    ParseItalics.ParseItalicsInText(descriptionField);
                 }
 
                 StartCoroutine(WaitThenOpen(accomplishment));

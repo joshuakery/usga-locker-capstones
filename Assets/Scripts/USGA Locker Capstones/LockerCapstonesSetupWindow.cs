@@ -76,7 +76,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     LockerCapstonesConfigLoader.EraOption eraOption = eraOptions[i];
 
-                    dropdown.options.Add( new TMP_Dropdown.OptionData() { text=eraOption.eraID.ToString() } );
+                    dropdown.options.Add( new TMP_Dropdown.OptionData() { text=eraOption.name } );
                 }
 
                 dropdown.value = selectedIndex;

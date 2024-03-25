@@ -54,6 +54,24 @@ namespace JoshKery.USGA.LockerCapstones
             public bool doLoadFromCMS { get; set; } = true;
 
             /// <summary>
+            /// Server hosting CMS
+            /// </summary>
+            [JsonProperty("apiServer")]
+            public string apiServer { get; set; }
+
+            /// <summary>
+            /// Auth token for CMS
+            /// </summary>
+            [JsonProperty("apiToken")]
+            public string apiToken { get; set; }
+
+            /// <summary>
+            /// GraphQL endpoint for CMS
+            /// </summary>
+            [JsonProperty("apiEndpoint")]
+            public string apiEndpoint { get; set; }
+
+            /// <summary>
             /// List of possible eras to query for across the different instances of Locker Capstones
             /// </summary>
             [JsonProperty("eraOptions")]
@@ -62,6 +80,12 @@ namespace JoshKery.USGA.LockerCapstones
 
         public class EraOption
         {
+            /// <summary>
+            /// Display name in the setup window; does not need to correspond to any CMS data
+            /// </summary>
+            [JsonProperty("name")]
+            public string name { get; set; }
+
             /// <summary>
             /// Era ID to use as variable in graphQL query of LockerCapstonesContentLoader
             /// </summary>
@@ -184,6 +208,9 @@ namespace JoshKery.USGA.LockerCapstones
 
             if (contentLoader != null)
             {
+                contentLoader.graphQLURL = data.apiServer + "/" + data.apiEndpoint;
+                contentLoader.authToken = data.apiToken;
+
                 contentLoader.erasByIdIdVariable = data.eraID;
                 contentLoader.doDefaultLocalLoadContent = !data.doLoadFromCMS;
 

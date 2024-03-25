@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using JoshKery.GenericUI.Carousel;
+using JoshKery.GenericUI.Text;
 
 namespace JoshKery.USGA.LockerCapstones
 {

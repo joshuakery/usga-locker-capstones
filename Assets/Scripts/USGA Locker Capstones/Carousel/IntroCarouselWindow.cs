@@ -30,6 +30,7 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (mainCarousel != null)
             {
+                Debug.Log("animating to intro");
                 mainCarousel.GoToFirstSlide(SequenceType.CompleteImmediately);
             }
         }

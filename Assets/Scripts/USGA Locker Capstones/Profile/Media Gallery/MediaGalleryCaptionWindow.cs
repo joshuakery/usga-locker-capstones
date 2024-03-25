@@ -61,6 +61,7 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 textDisplay.text = currentCaptionText;
                 AddNoBreakTags.AddNoBreakTagsToText(textDisplay);
+                ParseItalics.ParseItalicsInText(textDisplay);
             }
                 
         }

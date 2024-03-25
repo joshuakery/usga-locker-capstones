@@ -47,8 +47,7 @@ namespace JoshKery.GenericUI.DOTweenHelpers
         #endregion
 
         #region FIELDS
-        [SerializeField]
-        protected UISequenceManager sequenceManager;
+        public UISequenceManager sequenceManager;
 
         public bool isOpen = true;
 

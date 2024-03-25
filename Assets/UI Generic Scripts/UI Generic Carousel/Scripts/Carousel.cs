@@ -63,6 +63,9 @@ namespace JoshKery.GenericUI.Carousel
         /// </summary>
         public virtual void Setup()
         {
+
+            Debug.Log("setup");
+
             SlideOutAll();
             GoToFirstSlide();
             sequenceManager.CompleteCurrentSequence();
@@ -97,11 +100,6 @@ namespace JoshKery.GenericUI.Carousel
             }
 
             return wrapper;
-        }
-
-        public void GoToFirstSlide()
-        {
-            GoToFirstSlide(SequenceType.UnSequenced);
         }
 
         /// <summary>

@@ -47,7 +47,15 @@ namespace JoshKery.USGA.LockerCapstones
                     profileImage.texture = lockerProfile.featuredImage?.texture;
 
                 if (signatureImage != null)
+                {
                     signatureImage.texture = lockerProfile.signatureImage?.texture;
+
+                    if (signatureImage.texture == null)
+                        signatureImage.color = Color.clear;
+                    else
+                        signatureImage.color = Color.white;
+                }
+                    
             }
 
         }

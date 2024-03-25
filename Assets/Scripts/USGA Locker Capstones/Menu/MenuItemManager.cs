@@ -196,6 +196,8 @@ namespace JoshKery.USGA.LockerCapstones
             //Close All Items
             foreach (MenuItem item in childMenuItems)
             {
+                item.button.interactable = false;
+
                 Tween tween = item.Close(SequenceType.UnSequenced);
                 if (tween != null)
                     wrapper.Join(tween);
@@ -227,6 +229,8 @@ namespace JoshKery.USGA.LockerCapstones
             for (int i=0; i<childMenuItems.Length; i++)
             {
                 MenuItem item = childMenuItems[i];
+
+                item.button.interactable = true;
 
                 if (item.IsInFilter(selectedContentTrailIDs))
                 {

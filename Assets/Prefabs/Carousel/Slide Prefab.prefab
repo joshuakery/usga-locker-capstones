@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4168338913070605223}
   - component: {fileID: 8730029677802587563}
   - component: {fileID: 7828775388765796252}
+  - component: {fileID: 6626526316231670432}
+  - component: {fileID: 174779830379233027}
   m_Layer: 5
   m_Name: Heading
   m_TagString: Untagged
@@ -37,8 +39,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 376}
-  m_SizeDelta: {x: 750, y: 50}
+  m_AnchoredPosition: {x: 0, y: 621}
+  m_SizeDelta: {x: 816, y: 523.241}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6527567456630787997
 CanvasRenderer:
@@ -169,6 +171,30 @@ MonoBehaviour:
   m_MaskInteraction: 85
   m_UseStencil: 1
   m_RaycastFilter: 0
+--- !u!114 &6626526316231670432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819150634636627175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38670c0e3834a844299db85b774df6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &174779830379233027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819150634636627175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19649eb83ee3044694691f115f10889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4720051193618317328
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +209,7 @@ GameObject:
   - component: {fileID: 5031004779304327392}
   - component: {fileID: 6864535811698390344}
   - component: {fileID: 6719946128617757189}
+  - component: {fileID: 4197669001915168687}
   m_Layer: 5
   m_Name: Body
   m_TagString: Untagged
@@ -207,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 15}
-  m_SizeDelta: {x: 1050, y: 294}
+  m_AnchoredPosition: {x: 0, y: 22.9}
+  m_SizeDelta: {x: 983.7792, y: 294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1389690779638647964
 CanvasRenderer:
@@ -241,7 +268,8 @@ MonoBehaviour:
   m_text: Historians believe that golf originated in Scotland in the early 1400s.
     For centuries, the game was played on sandy linksland in just a handful of coastal
     towns, most prominently St. Andrews. Early golf was principally the domain of
-    the economic and social elite.
+    the economic and social elite. Early golf was principally the domain of the economic
+    and social elite.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d3b099a1d782c504a922578e437a76a7, type: 2}
   m_sharedMaterial: {fileID: 2734883592192317124, guid: d3b099a1d782c504a922578e437a76a7, type: 2}
@@ -352,6 +380,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c19649eb83ee3044694691f115f10889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4197669001915168687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720051193618317328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38670c0e3834a844299db85b774df6a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7547946379959307422

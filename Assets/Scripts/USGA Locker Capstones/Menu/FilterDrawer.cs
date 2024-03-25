@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 using DG.Tweening;
 using JoshKery.GenericUI.DOTweenHelpers;
@@ -14,7 +15,6 @@ namespace JoshKery.USGA.LockerCapstones
     /// Also contains custom UIAnimation Sequences for de/selected
     /// and disabled/interactable states.
     /// </summary>
-    [RequireComponent(typeof(Button))]
     public class FilterDrawer : BaseWindow
     {
         #region Static Delegate
@@ -38,6 +38,8 @@ namespace JoshKery.USGA.LockerCapstones
         /// </summary>
         [SerializeField]
         private TMP_Text nameField;
+
+        private bool isSelected;
 
         #region Custom UIAnimation Sequences
         /// <summary>
@@ -66,17 +68,10 @@ namespace JoshKery.USGA.LockerCapstones
         #endregion
 
 
-        private Button _button;
-        public Button button
-        {
-            get
-            {
-                if (_button == null)
-                    _button = GetComponent<Button>();
+        public Button button;
 
-                return _button;
-            }
-        }
+        public bool isInEra = false;
+        
         #endregion
 
         #region Static Methods
@@ -92,6 +87,9 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnEnable();
 
             MenuItemManager.onCategorySelectedCallback.AddListener(OnCategorySelected);
+
+            MainCanvasStateMachine.onAnimateToMenu.AddListener(OnAnimateToMenu);
+            MainCanvasStateMachine.onAnimateToProfile.AddListener(OnAnimateToProfile);
         }
 
         protected override void OnDisable()
@@ -99,8 +97,21 @@ namespace JoshKery.USGA.LockerCapstones
             base.OnDisable();
 
             MenuItemManager.onCategorySelectedCallback.RemoveListener(OnCategorySelected);
+
+            MainCanvasStateMachine.onAnimateToMenu.RemoveListener(OnAnimateToMenu);
+            MainCanvasStateMachine.onAnimateToProfile.RemoveListener(OnAnimateToProfile);
         }
         #endregion
+
+        private void OnAnimateToMenu()
+        {
+            button.interactable = true;
+        }
+
+        private void OnAnimateToProfile(int id)
+        {
+            button.interactable = false;
+        }
 
         #region Public Methods
         /// <summary>
@@ -128,14 +139,13 @@ namespace JoshKery.USGA.LockerCapstones
         /// <summary>
         /// Sets the UI to animate the button based on if it's interactable or not
         /// </summary>
-        /// <param name="interactable"></param>
         /// <returns>Tween of the animation</returns>
-        public Tween SetInteractable(bool interactable)
+        public Tween SetInteractable()
         {
-            if (interactable)
-                return _WindowAction(interactableSequence, SequenceType.UnSequenced);
+            if (isInEra)
+                return _WindowAction(interactableSequence, SequenceType.CompleteImmediately);
             else
-                return _WindowAction(disabledSequence, SequenceType.UnSequenced);
+                return _WindowAction(disabledSequence, SequenceType.CompleteImmediately);
         }
         #endregion
 
@@ -146,29 +156,31 @@ namespace JoshKery.USGA.LockerCapstones
         /// <param name="selectedContentTrailIDs"></param>
         private void OnCategorySelected(List<int> selectedContentTrailIDs)
         {
-            SetAsSelected(selectedContentTrailIDs.Contains(contentTrailID));
+            isSelected = selectedContentTrailIDs.Contains(contentTrailID);
+            SetAsSelected();
         }
 
         /// <summary>
         /// Sets the UI to highlight the button as selected or not
         /// </summary>
         /// <param name="isSelected">Is this button selected?</param>
-        private void SetAsSelected(bool isSelected)
+        private void SetAsSelected()
         {
-            if (button.interactable)
+            if (button == null) return;
+
+            if (isInEra)
             {
                 if (isSelected)
-                    _WindowAction(selectSequence, SequenceType.UnSequenced);
+                    _WindowAction(selectSequence, SequenceType.CompleteImmediately);
                 else
-                    _WindowAction(deselectSequence, SequenceType.UnSequenced);
+                    _WindowAction(deselectSequence, SequenceType.CompleteImmediately);
             }
             else
             {
-                SetInteractable(false);
+                SetInteractable();
             }
         }
         #endregion
-
 
     }
 }

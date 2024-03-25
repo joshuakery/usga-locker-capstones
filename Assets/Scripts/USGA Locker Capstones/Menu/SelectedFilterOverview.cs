@@ -147,6 +147,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     selectedHeadingField.text = contentTrail.name;
                     AddNoBreakTags.AddNoBreakTagsToText(selectedHeadingField);
+                    ParseItalics.ParseItalicsInText(selectedHeadingField);
                 }
                     
 
@@ -154,6 +155,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     selectedBodyField.text = contentTrail.description;
                     AddNoBreakTags.AddNoBreakTagsToText(selectedBodyField);
+                    ParseItalics.ParseItalicsInText(selectedBodyField);
                 }
                     
 

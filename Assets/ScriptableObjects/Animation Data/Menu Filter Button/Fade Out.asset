@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fade Out
   m_EditorClassIdentifier: 
   animationType: 0
-  duration: 0.5
+  duration: 0
   delay: 0
   to: {x: 0, y: 0, z: 0}
   useFrom: 0
@@ -42,5 +42,3 @@ MonoBehaviour:
   skinData: {fileID: 0}
   fromColorChoice: 0
   toColorChoice: 0
-  fromVertexColorChoice: 0
-  toVertexColorChoice: 0

@@ -16,6 +16,8 @@ public class AppSetupMultiDisplay : MonoBehaviour
         if (!Application.isEditor)
             Cursor.visible = false;
 
+        Input.multiTouchEnabled = false;
+
         // if (setResolution)
         //     Screen.SetResolution(targetScreenWidth, targetScreenHeight, true);
 

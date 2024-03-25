@@ -28,6 +28,7 @@ namespace JoshKery.USGA.LockerCapstones
                 {
                     captionTextField.text = mediaFile.description;
                     AddNoBreakTags.AddNoBreakTagsToText(captionTextField);
+                    ParseItalics.ParseItalicsInText(captionTextField);
                 }
                     
             }

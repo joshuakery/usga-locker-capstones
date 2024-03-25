@@ -79,6 +79,9 @@ namespace JoshKery.USGA.LockerCapstones
         public delegate void BeforeAnimateToMenu();
         public static BeforeAnimateToMenu beforeAnimateToMenu;
 
+        public delegate void AfterAnimateToMenu();
+        public static AfterAnimateToMenu afterAnimateToMenu;
+
         public delegate void BeforeAnimateToProfile();
         public static BeforeAnimateToProfile beforeAnimateToProfile;
         #endregion
@@ -127,26 +130,34 @@ namespace JoshKery.USGA.LockerCapstones
         #region Animate Methods
         private void AnimateToAttract()
         {
+            sequenceManager.KillCurrentSequence();
             _WindowAction(toAttractSequence, SequenceType.Join);
         }
 
         private void AnimateToIntro()
         {
+            sequenceManager.KillCurrentSequence();
             _WindowAction(toIntroSequence, SequenceType.Join);
         }
 
         private void AnimateToMenu()
         {
+            sequenceManager.KillCurrentSequence();
+
             beforeAnimateToMenu?.Invoke();
             sequenceManager.CompleteCurrentSequence();
             //Reset the filters, which triggers an animation but we'll complete it immediately
             FilterDrawer.ClearFilters();
             sequenceManager.CompleteCurrentSequence();
             _WindowAction(toMenuSequence, SequenceType.Join);
+
+            afterAnimateToMenu?.Invoke();
         }
 
         private void AnimateToProfile(int id)
         {
+            sequenceManager.KillCurrentSequence();
+
             beforeAnimateToProfile?.Invoke();
             sequenceManager.CompleteCurrentSequence();
             ProfileModulesManager.onResetContent.Invoke(id);

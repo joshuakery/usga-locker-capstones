@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 namespace JoshKery.GenericUI
 {
@@ -14,10 +15,14 @@ namespace JoshKery.GenericUI
         [SerializeField]
         private bool doAutoSetInteractableAgain = true;
 
+        private EventSystem eventSystem;
+
         private void Awake()
         {
             if (button == null)
                 button = GetComponent<Button>();
+
+            eventSystem = FindObjectOfType<EventSystem>();
         }
 
         private void OnEnable()
@@ -25,6 +30,7 @@ namespace JoshKery.GenericUI
             if (button != null)
             {
                 button.onClick.AddListener(BrieflySetNotInteractableButton);
+                button.onClick.AddListener(Deselect);
             }
         }
 
@@ -33,6 +39,7 @@ namespace JoshKery.GenericUI
             if (button != null)
             {
                 button.onClick.RemoveListener(BrieflySetNotInteractableButton);
+                button.onClick.RemoveListener(Deselect);
             }
         }
 
@@ -52,6 +59,12 @@ namespace JoshKery.GenericUI
                 if (doAutoSetInteractableAgain)
                     button.interactable = true;
             }
+        }
+
+        private void Deselect()
+        {
+            if (eventSystem != null)
+                eventSystem.SetSelectedGameObject(null);
         }
 
     }
