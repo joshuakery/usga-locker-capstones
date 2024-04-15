@@ -37,11 +37,19 @@ namespace JoshKery.USGA.LockerCapstones
 
         [SerializeField]
         private AppState appState;
+
+        [SerializeField]
+        private RefreshText refreshText;
         #endregion
 
         #region Monobehaviour Methods
 
+        protected override void Awake()
+        {
+            base.Awake();
 
+            refreshText = FindObjectOfType<RefreshText>();
+        }
         private void OnEnable()
         {
             if (onPopulateContentFinish != null)
@@ -186,6 +194,15 @@ namespace JoshKery.USGA.LockerCapstones
             yield return null;
 
             onSetContentDone?.Invoke();
+
+            yield return null;
+
+            onLoadingProgress?.Invoke("Refreshing text");
+
+            if (refreshText != null)
+                yield return StartCoroutine(refreshText.RefreshBaseWindowsCo());
+
+
 
             yield return null;
 

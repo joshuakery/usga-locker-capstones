@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.UI.Extensions;
 using JoshKery.GenericUI.DOTweenHelpers;
+using DG.Tweening;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -19,14 +20,21 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private Button button;
 
-        private VerticalScrollSnap scrollSnap;
+
+
+        private ModulePaginatorManager manager;
+
+        protected override void Awake()
+        {
+            base.Awake();
+
+            manager = FindObjectOfType<ModulePaginatorManager>();
+        }
 
         public void SetContent(string text, VerticalScrollSnap vss)
         {
             textDisplay.text = text;
             checkmarkTextDisplay.text = text;
-
-            scrollSnap = vss;
 
             if (button != null)
                 button.onClick.AddListener(OnClick);
@@ -40,10 +48,8 @@ namespace JoshKery.USGA.LockerCapstones
 
         private void OnClick()
         {
-            if (scrollSnap != null)
-            {
-                scrollSnap.GoToScreen(transform.GetSiblingIndex());
-            }
+            if (manager != null)
+                manager.OnPaginatorClick(transform.GetSiblingIndex());
         }
     }
 }

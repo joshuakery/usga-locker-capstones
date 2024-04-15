@@ -2,48 +2,60 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class ClickNotOnRTHelper : MonoBehaviour
+namespace JoshKery.USGA.LockerCapstones
 {
-    /// <summary>
-    /// Fired when click is outside RT
-    /// </summary>
-    public UnityEvent onOutOfBounds;
-
-    /// <summary>
-    /// RT outside of which a click onPointerDown calls onOutOfBounds
-    /// </summary>
-    [SerializeField]
-    RectTransform targetRectArea;
-
-    [SerializeField]
-    RectTransform[] exceptions;
-
-    public bool doCheck = false;
-
-    private void Update()
+    public class ClickNotOnRTHelper : MonoBehaviour
     {
-        if (doCheck)
+        /// <summary>
+        /// Fired when click is outside RT
+        /// </summary>
+        public UnityEvent onOutOfBounds;
+
+        [SerializeField]
+        Canvas targetCanvas;
+
+        [SerializeField]
+        LockerLocatorDrawer lockerLocatorDrawer;
+
+        /// <summary>
+        /// RT outside of which a click onPointerDown calls onOutOfBounds
+        /// </summary>
+        [SerializeField]
+        RectTransform targetRectArea;
+
+        [SerializeField]
+        RectTransform[] exceptions;
+
+        public bool doCheck = false;
+
+        private void Update()
         {
-            if (Input.GetMouseButtonDown(0) && targetRectArea != null)
+            if (doCheck)
             {
-                if (!RectTransformUtility.RectangleContainsScreenPoint(targetRectArea, Input.mousePosition) &&
-                    !ExceptionsContainScreenPoint(Input.mousePosition))
+                if (Input.GetMouseButtonDown(0) && targetRectArea != null && targetCanvas != null && targetCanvas.enabled
+                    && lockerLocatorDrawer != null && lockerLocatorDrawer.isOpen)
                 {
-                    onOutOfBounds.Invoke();
+                    if (!RectTransformUtility.RectangleContainsScreenPoint(targetRectArea, Input.mousePosition) &&
+                        !ExceptionsContainScreenPoint(Input.mousePosition))
+                    {
+                        onOutOfBounds.Invoke();
+                    }
                 }
+
             }
-            
-        }
-        
-    }
 
-    private bool ExceptionsContainScreenPoint(Vector2 point)
-    {
-        foreach (RectTransform rt in exceptions)
+        }
+
+        private bool ExceptionsContainScreenPoint(Vector2 point)
         {
-            if (rt != null && RectTransformUtility.RectangleContainsScreenPoint(rt, point)) { return true; }
-        }
+            foreach (RectTransform rt in exceptions)
+            {
+                if (rt != null && RectTransformUtility.RectangleContainsScreenPoint(rt, point)) { return true; }
+            }
 
-        return false;
+            return false;
+        }
     }
+
 }
+

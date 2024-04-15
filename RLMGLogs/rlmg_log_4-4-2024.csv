@@ -1,0 +1,133 @@
+Timestamp, Message
+2024/04/04 11:57:21,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\config.json
+2024/04/04 11:57:21,Application Awake - version #1.0
+2024/04/04 11:57:21,Primary Display    App (screen dims): 1920 x 1080 (1.777778)   "Current Resolution": 1920 x 1080   Rendering Res: 1920 x 1080   System Res: 1920 x 1080
+2024/04/04 11:57:23,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\config.json
+2024/04/04 11:57:24,Graph response success! First 50 chars of response: {"data":{"eras_by_id":{"endYear":"1980s","id":"5",
+2024/04/04 11:57:24,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\data.json
+2024/04/04 11:57:25,1 images loaded for backgrounds behind profile cards.
+2024/04/04 11:57:34,Save Media to Disk Failure for https://usga-exhibits-dev.com/assets/3a49be50-1b2a-48af-8661-9feb7aa45707.jpg:
+Data Processing Error, see Download Handler error
+Failed to create texture from downloaded bytes
+2024/04/04 11:57:34,Failed to load media for locker profile Karsten Solheim, for bio image titled Player Capstone Bio1 the Age of the Superpowers Karsten Solheim
+2024/04/04 11:57:43,Save Media to Disk Failure for https://usga-exhibits-dev.com/assets/503f95b8-f5aa-4051-81d5-472334d003a7.jpg:
+Data Processing Error, see Download Handler error
+Failed to create texture from downloaded bytes
+2024/04/04 11:57:43,Failed to load media for locker profile Ken Venturi, for media gallery media titled Player Capstone Gallery5 the Age of the Superpowers Ken Venturi
+2024/04/04 11:57:54,The following 26 locker profiles are missing their locker locator images:
+Peter Alliss: #41019
+Deane Beman: #41021
+JoAnne Carner: #41014
+Billy Casper: #41005
+Bob Charles: #41025
+Frank Chirkinian: #41017
+Roberto De Vicenzo: #41024
+Joe Dey: #41009
+Pete Dye: #41020
+Tony Jacklin: #41022
+Gene Littler: #41006
+Henry Longhurst: #41018
+Carol Mann: #41015
+Mark McCormack: #41008
+Jack Nicklaus: #41002
+Christy O'Connor Sr.: #41023
+Arnold Palmer: #41001
+Gary Player: #41003
+Chi Chi Rodríguez: #41027
+Charlie Sifford: #41030
+Karsten Solheim: #41016
+Peter Thomson: #41026
+Lee Trevino: #41004
+Ken Venturi: #41007
+Kathy Whitworth: #41013
+Mickey Wright: #41012
+2024/04/04 12:00:30,Quit application via 'Escape' key.
+2024/04/04 12:00:30,Application Quit
+2024/04/04 12:07:55,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\config.json
+2024/04/04 12:07:56,Application Awake - version #1.0
+2024/04/04 12:07:56,Primary Display    App (screen dims): 1920 x 1080 (1.777778)   "Current Resolution": 1920 x 1080   Rendering Res: 1920 x 1080   System Res: 1920 x 1080
+2024/04/04 12:07:59,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\config.json
+2024/04/04 12:08:00,Graph response success! First 50 chars of response: {"data":{"eras_by_id":{"endYear":"1980s","id":"5",
+2024/04/04 12:08:00,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\data.json
+2024/04/04 12:08:01,1 images loaded for backgrounds behind profile cards.
+2024/04/04 12:08:09,Save Media to Disk Failure for https://usga-exhibits-dev.com/assets/3a49be50-1b2a-48af-8661-9feb7aa45707.jpg:
+Data Processing Error, see Download Handler error
+Failed to create texture from downloaded bytes
+2024/04/04 12:08:09,Failed to load media for locker profile Karsten Solheim, for bio image titled Player Capstone Bio1 the Age of the Superpowers Karsten Solheim
+2024/04/04 12:08:15,Save Media to Disk Failure for https://usga-exhibits-dev.com/assets/503f95b8-f5aa-4051-81d5-472334d003a7.jpg:
+Data Processing Error, see Download Handler error
+Failed to create texture from downloaded bytes
+2024/04/04 12:08:15,Failed to load media for locker profile Ken Venturi, for media gallery media titled Player Capstone Gallery5 the Age of the Superpowers Ken Venturi
+2024/04/04 12:08:26,The following 26 locker profiles are missing their locker locator images:
+Peter Alliss: #41019
+Deane Beman: #41021
+JoAnne Carner: #41014
+Billy Casper: #41005
+Bob Charles: #41025
+Frank Chirkinian: #41017
+Roberto De Vicenzo: #41024
+Joe Dey: #41009
+Pete Dye: #41020
+Tony Jacklin: #41022
+Gene Littler: #41006
+Henry Longhurst: #41018
+Carol Mann: #41015
+Mark McCormack: #41008
+Jack Nicklaus: #41002
+Christy O'Connor Sr.: #41023
+Arnold Palmer: #41001
+Gary Player: #41003
+Chi Chi Rodríguez: #41027
+Charlie Sifford: #41030
+Karsten Solheim: #41016
+Peter Thomson: #41026
+Lee Trevino: #41004
+Ken Venturi: #41007
+Kathy Whitworth: #41013
+Mickey Wright: #41012
+2024/04/04 12:08:44,Quit application via 'Escape' key.
+2024/04/04 12:08:44,Application Quit
+2024/04/04 12:18:23,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\config.json
+2024/04/04 12:18:23,Application Awake - version #1.0
+2024/04/04 12:18:23,Primary Display    App (screen dims): 1920 x 1080 (1.777778)   "Current Resolution": 1920 x 1080   Rendering Res: 1920 x 1080   System Res: 1920 x 1080
+2024/04/04 12:18:26,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\config.json
+2024/04/04 12:18:27,Graph response success! First 50 chars of response: {"data":{"eras_by_id":{"endYear":"1980s","id":"5",
+2024/04/04 12:18:27,Saved data to local directory: C:/Users/joshu/Documents/GitHub/USGA/usga-locker-capstones/Builds/usga-locker-capstones-20240404/usga-locker-capstones_Data/StreamingAssets\data.json
+2024/04/04 12:18:28,1 images loaded for backgrounds behind profile cards.
+2024/04/04 12:18:35,Save Media to Disk Failure for https://usga-exhibits-dev.com/assets/3a49be50-1b2a-48af-8661-9feb7aa45707.jpg:
+Data Processing Error, see Download Handler error
+Failed to create texture from downloaded bytes
+2024/04/04 12:18:35,Failed to load media for locker profile Karsten Solheim, for bio image titled Player Capstone Bio1 the Age of the Superpowers Karsten Solheim
+2024/04/04 12:18:43,Save Media to Disk Failure for https://usga-exhibits-dev.com/assets/503f95b8-f5aa-4051-81d5-472334d003a7.jpg:
+Data Processing Error, see Download Handler error
+Failed to create texture from downloaded bytes
+2024/04/04 12:18:43,Failed to load media for locker profile Ken Venturi, for media gallery media titled Player Capstone Gallery5 the Age of the Superpowers Ken Venturi
+2024/04/04 12:18:54,The following 26 locker profiles are missing their locker locator images:
+Peter Alliss: #41019
+Deane Beman: #41021
+JoAnne Carner: #41014
+Billy Casper: #41005
+Bob Charles: #41025
+Frank Chirkinian: #41017
+Roberto De Vicenzo: #41024
+Joe Dey: #41009
+Pete Dye: #41020
+Tony Jacklin: #41022
+Gene Littler: #41006
+Henry Longhurst: #41018
+Carol Mann: #41015
+Mark McCormack: #41008
+Jack Nicklaus: #41002
+Christy O'Connor Sr.: #41023
+Arnold Palmer: #41001
+Gary Player: #41003
+Chi Chi Rodríguez: #41027
+Charlie Sifford: #41030
+Karsten Solheim: #41016
+Peter Thomson: #41026
+Lee Trevino: #41004
+Ken Venturi: #41007
+Kathy Whitworth: #41013
+Mickey Wright: #41012
+2024/04/04 12:19:18,Quit application via 'Escape' key.
+2024/04/04 12:19:18,Application Quit

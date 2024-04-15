@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using JoshKery.GenericUI.AspectRatio;
 using JoshKery.GenericUI.DOTweenHelpers;
+using JoshKery.GenericUI.DOTweenHelpers.FlexibleUI;
+using DG.Tweening;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -38,21 +40,46 @@ namespace JoshKery.USGA.LockerCapstones
             ProfileModulesManager.onResetContent.RemoveListener(SetContent);
         }
 
-        protected override DG.Tweening.Sequence _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        protected override Sequence _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
-            
-            if (clickNotOnRTHelper != null)
-                clickNotOnRTHelper.doCheck = true;
+            Sequence wrapper = DOTween.Sequence();
 
-            return base._Open(sequenceType, atPosition);
+            wrapper.AppendCallback(() =>
+           {
+               if (clickNotOnRTHelper != null)
+                   clickNotOnRTHelper.doCheck = true;
+           });
+
+            Tween open = base._Open(SequenceType.UnSequenced);
+            wrapper.Join(open);
+
+            if (sequenceManager != null)
+                sequenceManager.CreateSequenceIfNull();
+
+            AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, atPosition, null);
+
+            return wrapper;
         }
 
-        protected override DG.Tweening.Sequence _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        protected override Sequence _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
         {
-            if (clickNotOnRTHelper != null)
-                clickNotOnRTHelper.doCheck = false;
+            Sequence wrapper = DOTween.Sequence();
 
-            return base._Close(sequenceType, atPosition);
+            wrapper.AppendCallback(() =>
+            {
+                if (clickNotOnRTHelper != null)
+                    clickNotOnRTHelper.doCheck = false;
+            });
+
+            Tween close = base._Close(SequenceType.UnSequenced);
+            wrapper.Join(close);
+
+            if (sequenceManager != null)
+                sequenceManager.CreateSequenceIfNull();
+
+            AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, atPosition, null);
+
+            return wrapper;
         }
 
         private void CloseAndComplete()

@@ -39,6 +39,8 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private Texture2D placeholderIcon;
 
+        private bool isInModal = false;
+
         #region Dynamic Animation Fields
         /// <summary>
         /// Top Canvas to which the animating cards will parent to during their animations
@@ -76,6 +78,9 @@ namespace JoshKery.USGA.LockerCapstones
 
             AccomplishmentModal.onOpening += OnModalOpen;
             AccomplishmentModal.onClose += OnModalClose;
+            ModulePaginatorManager.onModulesPageChange += OnModulesPageChange;
+            MainCanvasStateMachine.onAnimateToMenu.AddListener(OnAnimateToMenu);
+            LockerLocatorButton.onButtonClick += OnLockerLocatorButtonClick;
         }
 
         protected override void OnDisable()
@@ -84,6 +89,9 @@ namespace JoshKery.USGA.LockerCapstones
 
             AccomplishmentModal.onOpening -= OnModalOpen;
             AccomplishmentModal.onClose -= OnModalClose;
+            ModulePaginatorManager.onModulesPageChange -= OnModulesPageChange;
+            MainCanvasStateMachine.onAnimateToMenu.RemoveListener(OnAnimateToMenu);
+            LockerLocatorButton.onButtonClick -= OnLockerLocatorButtonClick;
         }
 
         private void Start()
@@ -154,6 +162,10 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (id == accomplishment.id)
             {
+                if (isInModal) return;
+
+                isInModal = true;
+
                 Tween additionalAnimationsTween = _WindowAction(onModalOpenAdditionalAnimations);
                 sequenceManager.JoinTween(additionalAnimationsTween);
 
@@ -183,6 +195,10 @@ namespace JoshKery.USGA.LockerCapstones
         {
             if (animatedRT != null && originalParentOfAnimatedRT != null && animatedRT.parent != originalParentOfAnimatedRT)
             {
+                if (!isInModal) return;
+
+                isInModal = false;
+
                 Tween additionalAnimationsTween = _WindowAction(onModalCloseAdditionalAnimations);
                 sequenceManager.JoinTween(additionalAnimationsTween);
 
@@ -198,6 +214,35 @@ namespace JoshKery.USGA.LockerCapstones
 
                     sequenceManager.JoinTween(positionTween);
                 }
+            }
+        }
+
+        private void OnModulesPageChange(int page)
+        {
+            ResetPosition();
+        }
+
+        private void OnAnimateToMenu()
+        {
+            //ResetPosition();
+        }
+
+        private void OnLockerLocatorButtonClick()
+        {
+            ResetPosition();
+        }
+
+        /// <summary>
+        /// Resets the accomplishments to their default should the page change interrupt the animation
+        /// </summary>
+        private void ResetPosition()
+        {
+            if (animatedRT != null)
+            {
+                if (originalParentOfAnimatedRT != null)
+                    animatedRT.parent = originalParentOfAnimatedRT;
+
+                animatedRT.localPosition = new Vector2(0, 0);
             }
         }
 

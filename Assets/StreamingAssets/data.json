@@ -3,1161 +3,171 @@
     "eras_by_id": {
       "historySlides": [
         {
-          "id": 12,
+          "id": 3,
           "image": {
             "id": null,
-            "filename_download": "Boom_1.jpg",
-            "filename_disk": "3bd61484-9c5a-4785-8ada-6b417ff63d10.jpg",
+            "filename_download": "Golden_1.jpg",
+            "filename_disk": "844d8789-3491-40d0-9d41-24ee21b8134e.jpg",
             "description": null,
-            "title": "Boom 1"
+            "title": "Golden 1"
           },
           "order": 1,
-          "text": "Historians believe that golf emerges in Scotland in the early 1400s. For centuries, the game is played on sandy linksland in just a handful of coastal towns, most prominently Edinburgh and St. Andrews. Early golf is principally the domain of the economic and social elite.",
+          "text": "Golf first appears on the front page of American newspapers when amateur Francis Ouimet defeats legendary British professionals Harry Vardon and Ted Ray at the 1913 U.S. Open. His victory reflects the rise of the United States as an economic and political powerhouse and heralds the arrival of golf’s golden age.",
           "imageCaption": null,
-          "title": "Origins of the Game",
+          "title": "Front Page News",
           "backgroundVideo": null
-        },
-        {
-          "id": 13,
-          "image": {
-            "id": null,
-            "filename_download": "Boom_2.jpg",
-            "filename_disk": "83adb6ec-fa2c-4090-8fa9-28a8a12cc325.jpg",
-            "description": null,
-            "title": "Boom 2"
-          },
-          "order": 2,
-          "text": "The Industrial Revolution transforms Scottish society, encouraging the rapid growth of golf. There are just 24 golf clubs in Britain in 1851 and at least 290 by 1899. The first generation of golf professionals emerges mid-century and by the 1860s they are competing in elite competitions like the Open Championship.",
-          "imageCaption": null,
-          "title": "Golf & The Industrial Revolution",
-          "backgroundVideo": null
-        },
-        {
-          "id": 14,
-          "image": {
-            "id": null,
-            "filename_download": "Boom_3.jpg",
-            "filename_disk": "7db8a4d2-da80-4568-868b-d979b6b4f048.jpg",
-            "description": null,
-            "title": "Boom 3"
-          },
-          "order": 3,
-          "text": "Changing perspectives on female sports participation encourage women to take up the game after 1850. The St. Andrews Ladies’ Club forms in 1867 and plays over an area known as the Himalayas. Westward Ho! (1868), Musselburgh (1872) and Carnoustie (1873) quickly follow in creating clubs and courses for women.",
-          "imageCaption": null,
-          "title": "Early Women's Golf",
-          "backgroundVideo": null
-        },
-        {
-          "id": 15,
-          "image": {
-            "id": null,
-            "filename_download": "Boom_4.jpg",
-            "filename_disk": "d929f321-6f74-4065-bc69-3b2b6a51ae5a.jpg",
-            "description": null,
-            "title": "Boom 4"
-          },
-          "order": 4,
-          "text": "Golf’s emergence as a global game reflects the breadth of British economic and political interests. Golf spreads to India in 1830 and Australia by 1840. Vacationers and expatriates help extend golf across the Continent, to France in 1856, Belgium in 1888 and Italy and Switzerland by 1890. By 1895, golf proliferates in more than 35 countries.",
-          "imageCaption": null,
-          "title": "Beyond Britain",
-          "backgroundVideo": null
-        },
-        {
-          "id": 16,
-          "image": {
-            "id": null,
-            "filename_download": "Boom_5.jpg",
-            "filename_disk": "837fa895-eddb-4c0a-8716-9d229ae825b4.jpg",
-            "description": null,
-            "title": "Boom 5"
-          },
-          "order": 5,
-          "text": "Golf is played in America as early as the 1740s, but the game does not flourish in the United States until the 1880s. Many Scottish and English professionals emigrate to America to work at more than 1,000 golf courses that exist by 1900. Some become the first stars of American golf.",
-          "imageCaption": null,
-          "title": "Golf comes to America",
-          "backgroundVideo": null
-        }
-      ],
-      "id": 2,
-      "startYear": "Beginnings",
-      "endYear": "1910s",
-      "title": "The Great <nobr>Golf Boom</nobr>",
-      "description": "Golf's first legends emerge as the game's popularity explodes",
-      "profiles": [
-        {
-          "id": 3,
-          "firstName": "Allan",
-          "lastName": "Robertson",
-          "birth": "1815-09-11T00:00:00",
-          "birthplace": "St. Andrews, Fife, Scotland",
-          "death": "1859-09-01T00:00:00",
-          "inductionYear": 2001,
-          "lockerNumber": 40201,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "af20e9b8-f2bf-459b-8abb-2033f0f43dcb",
-                "filename_download": "Player_CapstoneGallery1_TheGreatGolfBoom_AllanRobertson.jpg",
-                "filename_disk": "af20e9b8-f2bf-459b-8abb-2033f0f43dcb.jpg",
-                "description": "Photographic portrait of Allan Robertson taken by Thomas Rodger, the first professional photographer in St. Andrews, ca. 1850",
-                "title": "Player Capstone Gallery1 the Great Golf Boom Allan Robertson"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "be017393-c5eb-4a0d-9d6a-1468ae1004d9",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_AllanRobertson.jpg",
-                "filename_disk": "be017393-c5eb-4a0d-9d6a-1468ae1004d9.jpg",
-                "description": "Allan Robertson lining up a putt on the Old Course, watched by Old Tom Morris (behind Robertson) and Willie Park Sr. (to the left of Morris), ca. 1850",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Allan Robertson"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "630a48b6-cc06-40fc-8274-5f9708778dd7",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_AllanRobertson.jpg",
-                "filename_disk": "630a48b6-cc06-40fc-8274-5f9708778dd7.jpg",
-                "description": "Allan Robertson (crouching) and Old Tom Morris, as depicted by noted St. Andrews artist Thomas Hodge, 1885",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Allan Robertson"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "e17a2ee1-0bc4-4de5-b02c-c2cbe8a39b7e",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_AllanRobertson.jpg",
-                "filename_disk": "e17a2ee1-0bc4-4de5-b02c-c2cbe8a39b7e.jpg",
-                "description": "Advertisement for Allan Robertson golf balls, 1859",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Allan Robertson"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "e010ee61-1be5-4d46-8552-cfcc7a502b21",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_AllanRobertson.jpg",
-                "filename_disk": "e010ee61-1be5-4d46-8552-cfcc7a502b21.jpg",
-                "description": "Full-length oil portrait of Allan Robertson painted by noted Scottish artist Charles Lees as a study for his famous painting The Golfers, 1846",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Allan Robertson"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "1a2f135e-d925-4941-b258-6eaa9a42d849",
-            "filename_download": "Player_GreatGolfBoom_Allan Robertson.jpg",
-            "filename_disk": "1a2f135e-d925-4941-b258-6eaa9a42d849.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom Allan Robertson"
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 4,
-              "description": null,
-              "name": "Golf's first professional and greenskeeper",
-              "icon": {
-                "id": 63,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 5,
-              "description": null,
-              "name": "Premier club and ball maker in St. Andrews",
-              "icon": {
-                "id": 63,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 6,
-              "description": null,
-              "name": "First player to break 80 on the Old Course in St. Andrews",
-              "icon": {
-                "id": 87,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 7,
-              "description": null,
-              "name": "Victor in numerous high-profile challenge matches",
-              "icon": {
-                "id": 79,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 8,
-              "description": null,
-              "name": "Frequent partner of Old Tom Morris",
-              "icon": {
-                "id": 79,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 9,
-              "description": null,
-              "name": "Architect of course improvements at St. Andrews and Carnoustie",
-              "icon": {
-                "id": 53,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_AllanRobertson.jpg",
-                "filename_disk": "a2d58cfa-1849-4195-bd20-5cd8d097429d.jpg",
-                "description": "Undated portrait of Allan Robertson in the collection of the Royal and Ancient Golf Club of St. Andrews, ca. 1850",
-                "title": "Player Capstone Bio1 the Great Golf Boom Allan Robertson"
-              }
-            }
-          ],
-          "bioText": "Often identified as the first golf professional in history, Allan Robertson was the first player to earn distinction as the world’s \"Champion Golfer.\" His grandfather and father were celebrated caddies, as well as feathery ball makers and club makers of the highest repute. Allan followed in the family tradition.\n\nRobertson famously competed in numerous high-stakes challenge matches. He took great delight in deliberately extending challenge matches to the 17th hole, when he could have polished off his foe earlier. He did so not only to avoid wounding his opponent’s pride, but also to make it impossible for the opponent to ask for better odds at their next match.",
-          "quote": "He is not only the best golf player, but quite a capital ball-maker, and withall a quiet, hard-boned, wired little fellow, always as cool as a cucumber.",
-          "quoteByline": "**Fifeshire Journal**",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_robertson.png",
-            "filename_disk": "bf8d9c12-5840-4ca3-b40f-480072c452ed.png",
-            "description": null,
-            "title": "Sig Robertson"
-          },
-          "contentTrails": []
         },
         {
           "id": 4,
-          "firstName": "Tom",
-          "lastName": "Morris Sr.",
-          "birth": "1821-06-16T00:00:00",
-          "birthplace": "St. Andrews, Fife, Scotland",
-          "death": "1908-05-24T00:00:00",
-          "inductionYear": 1976,
-          "lockerNumber": 40203,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "814dfdf2-f400-4ed3-ae90-55f99793510d",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "814dfdf2-f400-4ed3-ae90-55f99793510d.jpg",
-                "description": "Old Tom Morris with workers in front of his workshop on the Links Road in St. Andrews, ca. 1900",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Old Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "300370b1-38a9-4ed4-97c8-138c272b5916",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "300370b1-38a9-4ed4-97c8-138c272b5916.jpg",
-                "description": "Portrait of Old Tom Morris taken by noted architect and Hall of Fame member A.W. Tillinghast in 1898",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Old Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "4c29de52-2492-43a4-9a67-9c6066b8e528",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "4c29de52-2492-43a4-9a67-9c6066b8e528.jpg",
-                "description": "Tribute poem written for Old Tom Morris following his death in 1908",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Old Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "c2d08cc2-2330-4356-b1ac-b5e5afe92e4b",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "c2d08cc2-2330-4356-b1ac-b5e5afe92e4b.jpg",
-                "description": "Oil painting of Old Tom Morris by Sir George Reid, commissioned by members of the Royal and Ancient Golf Club of St. Andrews in 1903",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Old Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "5b997baf-8cd2-45bc-b518-8286c53ea04d",
-                "filename_download": "Player_CapstoneGallery7_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "5b997baf-8cd2-45bc-b518-8286c53ea04d.jpg",
-                "description": "Old Tom Morris walking through the Cathedral cemetery at St. Andrews to visit the grave of his son, Tommy Morris, ca. 1890",
-                "title": "Player Capstone Gallery7 the Great Golf Boom Old Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "eb053166-f6b3-452a-8cc9-779d39a29b02",
-                "filename_download": "Player_CapstoneGallery8_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "eb053166-f6b3-452a-8cc9-779d39a29b02.jpg",
-                "description": "Advertisement for Tom Morris golf clubs and golf balls, 1859",
-                "title": "Player Capstone Gallery8 the Great Golf Boom Old Tom Morris"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "454a903b-d469-476c-879b-cc59c343b0b6",
-            "filename_download": "Player_GreatGolfBoom_Old Tom Morris.jpg",
-            "filename_disk": "454a903b-d469-476c-879b-cc59c343b0b6.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom Old Tom Morris"
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 10,
-              "description": "Morris' victories at the Open Championship included winning the 1862 Open by thirteen strokes, and a victory in 1867 at the age of 46.",
-              "name": "Four-time winner of the Open Championship",
-              "icon": {
-                "id": 71,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 11,
-              "description": null,
-              "name": "Premier club and ball maker in St. Andrews",
-              "icon": {
-                "id": 85,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 12,
-              "description": null,
-              "name": "Design credits include Carnoustie, Muirfield, Prestwick, and Royal Dornoch",
-              "icon": {
-                "id": 53,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 13,
-              "description": null,
-              "name": "\"Keeper of the Green\" in St. Andrews from 1865-1904",
-              "icon": {
-                "id": 63,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "e9a8f841-312e-426a-88cb-e56503c8c65f.jpg",
-                "description": "Old Tom Morris wearing the Championship Belt, awarded to the winner of the Open Championship, ca. 1900",
-                "title": "Player Capstone Bio1 the Great Golf Boom Old Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_TheGreatGolfBoom_OldTomMorris.jpg",
-                "filename_disk": "37868dee-5f7d-4598-969b-f8cb31c4a5fb.jpg",
-                "description": "The earliest known golf photograph, including Old Tom Morris (third from left), taken by Octavius Hill and Robert Adamson, St. Andrews, ca. 1845",
-                "title": "Player Capstone Bio2 the Great Golf Boom Old Tom Morris"
-              }
-            }
-          ],
-          "bioText": "Forever linked with the Old Course and St. Andrews, four-time Open Champion Tom Morris Sr. is one of the most revered figures in golf. “Old Tom” learned the game as an apprentice of Allan Robertson, caddying for him, making feather balls in Robertson’s shop, and playing with Robertson in many celebrated challenge matches.\n\nMorris served as greenkeeper at Prestwick before returning to St. Andrews in the mid-1860s to manage the links, rebuild the greens and widen the fairways on the Old Course. He is credited as the architect of more than 75 courses throughout the British Isles. He remained a premier player for decades, last playing in The Open Championship in 1896 at age 75.",
-          "quote": "One of the most remarkable men—best of men and best of golfers—that ever missed a short putt.",
-          "quoteByline": "Horace Hutchison",
-          "signatureImage": {
+          "image": {
             "id": null,
-            "filename_download": "sig_morris_sr.png",
-            "filename_disk": "0d62a90b-e4a4-46e3-9e8c-04a05e1d8299.png",
+            "filename_download": "Capstones_History_Golden_2.jpg",
+            "filename_disk": "81752eb6-a300-4d63-83ea-1c81c0e91864.jpg",
             "description": null,
-            "title": "Sig Morris Sr"
+            "title": "Capstones History Golden 2"
           },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
-            }
-          ]
+          "order": 2,
+          "text": "The 1920s marks the “Golden Age” of sports and sportswriters. The Great War has ended, the economy is booming, and fans everywhere wildly cheer athletes like Jack Dempsey (boxing), Suzanne Lenglen (tennis) and Babe Ruth (baseball). Golf’s great showman Walter Hagen proclaims, “I never wanted to be a millionaire. I just wanted to live like one.”",
+          "imageCaption": null,
+          "title": "An Era of Sports Heroes",
+          "backgroundVideo": null
         },
         {
           "id": 5,
-          "firstName": "Tom",
-          "lastName": "Morris Jr.",
-          "birth": "1851-04-20T00:00:00",
-          "birthplace": "St. Andrews, Fife, Scotland",
-          "death": "1875-12-25T00:00:00",
-          "inductionYear": 1975,
-          "lockerNumber": 40204,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "3b5197f9-051d-4966-a9b0-227a8619ad39",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_YoungTomMorris.jpg",
-                "filename_disk": "3b5197f9-051d-4966-a9b0-227a8619ad39.jpg",
-                "description": "Memorial erected near the grave of Young Tom Morris in the St. Andrews Cathedral cemetery",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Young Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "d5e48b7d-6f8e-4eea-acf5-22114b3cf5a6",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_YoungTomMorris.jpg",
-                "filename_disk": "d5e48b7d-6f8e-4eea-acf5-22114b3cf5a6.jpg",
-                "description": "Competitors in the Grand Golf Tournament at Leith LInks, 1867, including Young Tom Morris (at top of stairs to right of doorway)",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Young Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "47e31369-496c-42c8-8a53-0b6ff740871b",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_YoungTomMorris.jpg",
-                "filename_disk": "47e31369-496c-42c8-8a53-0b6ff740871b.jpg",
-                "description": "Portrait of Young Tom Morris wearing the Open Championship belt by Thomas Rodger, ca. 1870",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Young Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "e93691a6-f2a1-44a2-8f6e-28343ef996ce",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_YoungTomMorris.jpg",
-                "filename_disk": "e93691a6-f2a1-44a2-8f6e-28343ef996ce.jpg",
-                "description": "Young Tom Morris’ scorecards for the 1870 Open Championship at Prestwick, his third consecutive victory",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Young Tom Morris"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "c41245cc-8a07-40d4-b205-8514cd5b4480",
-            "filename_download": "Player_GreatGolfBoom_Young Tom Morris.jpg",
-            "filename_disk": "c41245cc-8a07-40d4-b205-8514cd5b4480.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom Young Tom Morris"
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 14,
-              "description": "Morris first played in, and won, the Open Championship, at age 17.",
-              "name": "Won four Open Championships by age 21",
-              "icon": {
-                "id": 71,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 15,
-              "description": "Morris went on to win the Claret Jug with his victory at the 1872 Open Championship",
-              "name": "Retired the original Open Championship belt in 1870",
-              "icon": {
-                "id": 74,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 16,
-              "description": null,
-              "name": "Recorded the first hole-in-one in a major championship in 1869",
-              "icon": {
-                "id": 86,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_YoungTomMorris.jpg",
-                "filename_disk": "a02a95c3-0d08-40e2-bb2c-c672694cf539.jpg",
-                "description": "Portrait of Old and Young Tom Morris by Thomas Rodger, ca. 1870",
-                "title": "Player Capstone Bio1 the Great Golf Boom Young Tom Morris"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_TheGreatGolfBoom_YoungTomMorris.jpg",
-                "filename_disk": "2ed3c271-e01b-44e1-a0f1-b6bd1825a7df.jpg",
-                "description": "Competitors in the Grand Golf Tournament at Leith Links, 1867, including Young Tom Morris (second from right) and Old Tom Morris (third from right)",
-                "title": "Player Capstone Bio2 the Great Golf Boom Young Tom Morris"
-              }
-            }
-          ],
-          "bioText": "Tall, strong and handsome, Tom Morris Jr. was to golf in his era what Arnold Palmer became in the 1950s. \"Golfers may come and golfers may go,\" wrote Harold Hutchinson, \"but it is very much open to doubt whether any golfers will be quite the idol of the day as Young Tom was during his brilliant career.\"\n\nHe first won a professional challenge match at 13 and a professional tournament at 16. After claiming four Open Championships between 1868 and 1872, tragedy struck in 1875, when Morris received a telegram that his wife and baby had died during childbirth. He died three months later on Christmas Eve of a pulmonary hemorrhage, leading to speculation that he died from a broken heart.",
-          "quote": "There isn't a man, English or Scotch, with the same sense of power, or golfing genius as Tommy did, the instant he addressed the ball.",
-          "quoteByline": "Reverend W. Proudfoot",
-          "signatureImage": {
+          "image": {
             "id": null,
-            "filename_download": "USGA_Signatures_Tom-Morris-Jr.png",
-            "filename_disk": "7b80da40-e3a3-44be-ba47-7270ce3ddc68.png",
+            "filename_download": "Golden_3.jpg",
+            "filename_disk": "ea6bd87f-1c90-487a-88bc-2cc027464820.jpg",
             "description": null,
-            "title": "Usga Signatures Tom Morris Jr"
+            "title": "Golden 3"
           },
-          "contentTrails": []
+          "order": 3,
+          "text": "The art and science of golf course architecture flourish in the 1920s. Golden Age architects like Alister MacKenzie, Donald Ross and A.W. Tillinghast create masterpieces of design across North America, Europe, Asia and Australia. Natural forms and strategic options characterize iconic courses like Royal Melbourne, Cypress Point, Seminole and Winged Foot.",
+          "imageCaption": null,
+          "title": "Artists of the Golf Course",
+          "backgroundVideo": null
         },
         {
-          "id": 6,
-          "firstName": "Willie",
-          "lastName": "Park Sr.",
-          "birth": "1833-06-30T00:00:00",
-          "birthplace": "Musselburgh, East Lothian, Scotland",
-          "death": "1903-07-25T00:00:00",
-          "inductionYear": 2005,
-          "lockerNumber": 40205,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "8a6a8b2c-4df4-4d1a-97d7-6aa8fdcb56a7",
-                "filename_download": "Player_CapstoneGallery1_TheGreatGolfBoom_WillieParkSr.jpg",
-                "filename_disk": "8a6a8b2c-4df4-4d1a-97d7-6aa8fdcb56a7.jpg",
-                "description": "A challenge match at St. Andrews, Allan Robertson and Tom Morris Sr. against Willie Park and Willie Dunn, 1855. Park in center with hands clasped.",
-                "title": "Player Capstone Gallery1 the Great Golf Boom Willie Park Sr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "a4e6f388-5449-427a-aba4-5e4e261d71df",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_WillieParkSr.jpg",
-                "filename_disk": "a4e6f388-5449-427a-aba4-5e4e261d71df.jpg",
-                "description": "Photographic portrait of Willie Park Sr., ca. 1880",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Willie Park Sr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "02673746-daa5-4fa8-b10b-f1b961248604",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_WillieParkSr.jpg",
-                "filename_disk": "02673746-daa5-4fa8-b10b-f1b961248604.jpg",
-                "description": "Newspaper clipping recording Willie Park’s victory over Tom Morris Sr. in a three-round challenge match, 1854",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Willie Park Sr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "daf26e6b-80e7-4393-b929-ff4bd02e0255",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_WillieParkSr.jpg",
-                "filename_disk": "daf26e6b-80e7-4393-b929-ff4bd02e0255.jpg",
-                "description": "Portrait of Willie Park Sr, by an unknown artist, possibly executed to commemorate his victory in the 1860 Open Championship",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Willie Park Sr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "75f08827-304f-474a-b484-c0dc145bb42a",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_WillieParkSr.jpg",
-                "filename_disk": "75f08827-304f-474a-b484-c0dc145bb42a.jpg",
-                "description": "A challenge match at St. Andrews, Allan Robertson and Tom Morris Sr. against Willie Park and Willie Dunn, 1855. Park in center behind players.",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Willie Park Sr"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "754e4ecc-1727-450b-bcff-68469c6f9855",
-            "filename_download": "Player_GreatGolfBoom_Willie Park Sr..jpg",
-            "filename_disk": "754e4ecc-1727-450b-bcff-68469c6f9855.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom Willie Park Sr."
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 17,
-              "description": "Park was victorious at the Open Championship in 1860, 1863, 1866, and 1875. He added four more runner-up finishes in 1861, 1862, 1865, and 1867.",
-              "name": "Four-time winner of the Open Championship",
-              "icon": {
-                "id": 74,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 18,
-              "description": null,
-              "name": "Designer of at least 35 golf courses in the UK and Ireland",
-              "icon": {
-                "id": 53,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 19,
-              "description": "Park also famously won a challenge match playing his tee shots from a watch face. The watch was unscathed.",
-              "name": "Often played challenge matches using only one hand and standing on one leg",
-              "icon": {
-                "id": 81,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_WillieParkSr.jpg",
-                "filename_disk": "dd2a7bac-0803-4c23-96d4-551f78c29e6f.jpg",
-                "description": "Old Willie Park by John A. Bonner, ca. 1880; Park is depicted holding his beloved putter, “Auld Pawky.” ",
-                "title": "Player Capstone Bio1 the Great Golf Boom Willie Park Sr"
-              }
-            }
-          ],
-          "bioText": "Celebrated as a premier club and ball maker from Musselburgh, Scotland, Willie Park Sr. staked his claim to immortality as the inaugural Open Champion in 1860. Like many professionals of his era, Park was introduced to golf as a caddie, using a whittled stick as his first club.\n\nTall and strong, he soon emerged as one of the most dominant golfers of his generation, gaining notoriety through his victories in challenge matches against contemporaries such as Allan Robertson, Willie Dunn Sr. and Old Tom Morris. He was an excellent putter, but it was his powerful drives that most intimidated his peers. Allan Robertson, who refused to respond to Park's public challenge in 1853, once confessed, \"Willie frightens us with his long driving.\"",
-          "quote": "He was not merely good, not merely excellent, but brilliant (as a putter). So deadly was he when within three or four yards of the hole.",
-          "quoteByline": "A.H. Coleman",
-          "signatureImage": {
+          "id": 11,
+          "image": {
             "id": null,
-            "filename_download": "USGA_Signatures_William-Park-Sr.png",
-            "filename_disk": "5cedb6d3-a0e9-4f8f-95ac-9de50dac910b.png",
+            "filename_download": "Golden_6.jpg",
+            "filename_disk": "7b60c3bc-4f67-496e-beb3-d8614b984335.jpg",
             "description": null,
-            "title": "Usga Signatures William Park Sr"
+            "title": "Golden 6"
           },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "firstName": "Willie",
-          "lastName": "Park Jr.",
-          "birth": "1864-02-04T00:00:00",
-          "birthplace": "Musselburgh, East Lothian, Scotland",
-          "death": "1925-05-22T00:00:00",
-          "inductionYear": 2013,
-          "lockerNumber": 40206,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "b462e122-1d9d-4deb-a072-1ed167963c21",
-                "filename_download": "Player_CapstoneGallery1_TheGreatGolfBoom_WillieParkJr.jpg",
-                "filename_disk": "b462e122-1d9d-4deb-a072-1ed167963c21.jpg",
-                "description": "Willie Park Jr. prepares to play a shot, ca. 1890",
-                "title": "Player Capstone Gallery1 the Great Golf Boom Willie Park Jr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "6cb74859-8d9e-4dde-ba38-b1251c5f591c",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_WillieParkJr.jpg",
-                "filename_disk": "6cb74859-8d9e-4dde-ba38-b1251c5f591c.jpg",
-                "description": "Willie Park Jr. putting on the first green of the Old Course, St. Andrews, ca. 1895",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Willie Park Jr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "fc2e73da-dc84-4efe-a10b-61d765e36844",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_WillieParkJr.jpg",
-                "filename_disk": "fc2e73da-dc84-4efe-a10b-61d765e36844.jpg",
-                "description": "Advertisement for Willie Park Jr.’s Special Putting Clerk, endorsed by fellow Hall of Fame member Harold Hilton, 1898",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Willie Park Jr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "f3efc889-240b-483a-a0d9-9ef52382cb08",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_WillieParkJr.jpg",
-                "filename_disk": "f3efc889-240b-483a-a0d9-9ef52382cb08.jpg",
-                "description": "Scene from the match between Willie Park Jr. and Willie Dunn at the Meadow Brook Club on Long Island, 1896",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Willie Park Jr"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "95c81f2c-8b51-4826-ae2f-01e0a4448847",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_WillieParkJr.jpg",
-                "filename_disk": "95c81f2c-8b51-4826-ae2f-01e0a4448847.jpg",
-                "description": "Advertisement for Willie Park Jr., Golf Course Architect, showing the expansion  of his design business to the United States, 1916",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Willie Park Jr"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "5c24579e-d24f-48ea-89a0-5042193b3a3c",
-            "filename_download": "Player_GreatGolfBoom_Willie Park Jr..jpg",
-            "filename_disk": "5c24579e-d24f-48ea-89a0-5042193b3a3c.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom Willie Park Jr."
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 20,
-              "description": null,
-              "name": "Two-time winner of the Open Championship",
-              "icon": {
-                "id": 60,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 21,
-              "description": null,
-              "name": "Played in his first Open Championship at age 16",
-              "icon": {
-                "id": 60,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 22,
-              "description": null,
-              "name": "Author of the first book by a golf professional",
-              "icon": {
-                "id": 78,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 23,
-              "description": null,
-              "name": "Inventor of the offset putter, lob wedge, and convex-faced driver",
-              "icon": {
-                "id": 85,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 24,
-              "description": null,
-              "name": "Significantly advanced ball aerodynamics",
-              "icon": {
-                "id": 86,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 25,
-              "description": null,
-              "name": "Designed over 150 courses around the world",
-              "icon": {
-                "id": 53,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_WillieParkJr.jpg",
-                "filename_disk": "9a87fa07-4ddd-48d1-b63f-e456c27129af.jpg",
-                "description": "Willie Park Jr. demonstrates proper putting technique, using his patented offset blade putter, ca. 1900",
-                "title": "Player Capstone Bio1 the Great Golf Boom Willie Park Jr"
-              }
-            }
-          ],
-          "bioText": "Willie Park Jr. was golf's first true Renaissance man: two-time Open champion, golf equipment maker, golf writer and one of his era's finest golf course architects. The son of four-time Open Champion Willie Park Sr., and nephew of 1874 Open Champion Mungo Park, Willie Park Jr., was born into the \"First Family of Golf.\" His success was often attributed to exceptional putting, perfected through twelve-hour practice sessions.\n\nConfident, competitive and an iconoclast, Park never sought employment from a club, preferring instead to run his own business. He was an innovator in club and ball design and manufacturing, as well as golf course architecture, and parlayed his fame into business ventures that reached throughout the United Kingdom and extended to America.",
-          "quote": "The man who can putt is a match for anyone.",
-          "quoteByline": "Willie Park Jr.",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "parkjrsigfinal.png",
-            "filename_disk": "10b48985-4864-4e7b-907f-62401017e765.png",
-            "description": null,
-            "title": "Parkjrsigfinal"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
-                "id": 12,
-                "name": "Voices of the Game",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "firstName": "John",
-          "lastName": "Ball Jr.",
-          "birth": "1861-12-24T00:00:00",
-          "birthplace": "Hoylake, Merseyside, England",
-          "death": "1940-12-02T00:00:00",
-          "inductionYear": 1977,
-          "lockerNumber": 40208,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "cea9d2e2-58fe-407d-be8a-505ecfee6d67",
-                "filename_download": "Player_CapstoneGallery1_TheGreatGolfBoom_JohnBall.jpg",
-                "filename_disk": "cea9d2e2-58fe-407d-be8a-505ecfee6d67.jpg",
-                "description": "John Ball Jr. competing in the 1912 Amateur Championship at Royal North Devon, where he claimed his last of eight titles",
-                "title": "Player Capstone Gallery1 the Great Golf Boom John Ball"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "1553a0ab-14fc-4977-865a-ede8fadefc04",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_JohnBall.jpg",
-                "filename_disk": "1553a0ab-14fc-4977-865a-ede8fadefc04.jpg",
-                "description": "John Ball Jr. (left) and Samuel Mure Ferguson before the final match of the 1894 Amateur Championship, which Ball won at Royal Liverpool Golf Club",
-                "title": "Player Capstone Gallery2 the Great Golf Boom John Ball"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "5dda6795-a336-4cba-8680-d8cc4905f974",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_JohnBall.jpg",
-                "filename_disk": "5dda6795-a336-4cba-8680-d8cc4905f974.jpg",
-                "description": "John Ball Jr. playing a recovery shot from a difficult lie, ca. 1890",
-                "title": "Player Capstone Gallery3 the Great Golf Boom John Ball"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "406dd4db-baa8-4cd1-85ab-3c7601b7dd23",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_JohnBall.jpg",
-                "filename_disk": "406dd4db-baa8-4cd1-85ab-3c7601b7dd23.jpg",
-                "description": "Tobacco card featuring John Ball produced by Cope’s Bros. And Co., London, 1900",
-                "title": "Player Capstone Gallery4 the Great Golf Boom John Ball"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "3e4b9d23-ae3f-420b-9b8c-e437a6cbcf7c",
-            "filename_download": "Player_GreatGolfBoom_John Ball.jpg",
-            "filename_disk": "3e4b9d23-ae3f-420b-9b8c-e437a6cbcf7c.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom John Ball"
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 26,
-              "description": "In the process, Ball became the first amateur, and first Englishman, to win the Open Championship.",
-              "name": "First to with the Open and Amateur Championships in the same year",
-              "icon": {
-                "id": 60,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 27,
-              "description": null,
-              "name": "Eight-time winner of the Amateur Championship",
-              "icon": {
-                "id": 58,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 28,
-              "description": null,
-              "name": "Irish Amateur champion in 1890",
-              "icon": {
-                "id": 58,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 29,
-              "description": null,
-              "name": "Won more than 40 major amateur competitions",
-              "icon": {
-                "id": 81,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_JohnBall.jpg",
-                "filename_disk": "4740b56b-5d94-4d16-8e74-946cdf0c166c.jpg",
-                "description": "John Ball Jr. at the top of his backswing, ca. 1910",
-                "title": "Player Capstone Bio1 the Great Golf Boom John Ball"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_TheGreatGolfBoom_JohnBall.jpg",
-                "filename_disk": "d7c82e38-cfea-4a35-848a-a9e6de120345.jpg",
-                "description": "John Ball Jr. driving from the tee, ca. 1910",
-                "title": "Player Capstone Bio2 the Great Golf Boom John Ball"
-              }
-            }
-          ],
-          "bioText": "A fierce competitor, known for his fiery temper and determined spirit, Englishman John Ball Jr. dominated amateur golf in late nineteenth-century Great Britain, winning eight Amateur Championships between 1888 and 1912, The Open Championship in 1890 and the hearts and respect of his country.\n\nBall learned the game on the links at Holyoke, competing against his rival and friend, Harold Hilton. His swing was graceful and many contemporaries considered him the most stylish player of his era. But it was his stubbornness and dogged determination that made Ball a lion in match play. He retired with a match-play record of 99 wins against just 22 losses.",
-          "quote": "I have derived greater aesthetic and emotional pleasure from watching John Ball than from any other spectacle in the game.",
-          "quoteByline": "Bernard Darwin",
-          "signatureImage": {
-            "id": null,
-            "filename_download": "sig_ball.png",
-            "filename_disk": "54b2678f-318c-4153-857c-de98961d7a33.png",
-            "description": null,
-            "title": "Sig Ball"
-          },
-          "contentTrails": [
-            {
-              "contentTrails_id": null
-            }
-          ]
+          "order": 3,
+          "text": "The golden age of golf culminates in Bob Jones’ remarkable “Impregnable Quadrilateral,” as he records victories in the open and amateur championships of the United States and Great Britain in 1930. His “Grand Slam” is hailed widely as the greatest accomplishment in all of sport.",
+          "imageCaption": null,
+          "title": "A Grand Achievement",
+          "backgroundVideo": null
         },
         {
           "id": 9,
-          "firstName": "Harold",
-          "lastName": "Hilton",
-          "birth": "1869-01-12T00:00:00",
-          "birthplace": "West Kirby, Merseyside, England",
-          "death": "1942-03-05T00:00:00",
-          "inductionYear": 1978,
-          "lockerNumber": 40207,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "d8a08a00-b20c-4ef1-b080-0879a8c9ad25",
-                "filename_download": "Player_CapstoneGallery1_TheGreatGolfBoom_HaroldHilton.jpg",
-                "filename_disk": "d8a08a00-b20c-4ef1-b080-0879a8c9ad25.jpg",
-                "description": "Harold Hilton plays an approach shot, ca. 1910",
-                "title": "Player Capstone Gallery1 the Great Golf Boom Harold Hilton"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "fea12b6d-a923-4b0c-b139-a6865204ad92",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_HaroldHilton.jpg",
-                "filename_disk": "fea12b6d-a923-4b0c-b139-a6865204ad92.jpg",
-                "description": "Harold Hilton putting the final match of the 1911 U.S. Amateur against Fred Herreshoff at the Apawamis Club in Rye, New York",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Harold Hilton"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "862497b1-113d-4c4f-a7fb-368891803d8f",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_HaroldHilton.jpg",
-                "filename_disk": "862497b1-113d-4c4f-a7fb-368891803d8f.jpg",
-                "description": "Harold Hilton and Freddie Tait at the 1896 Amateur Championship at Royal St. George’s Golf Club",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Harold Hilton"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "b31142c5-bf24-4045-8889-2addf0b76cd8",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_HaroldHilton.jpg",
-                "filename_disk": "b31142c5-bf24-4045-8889-2addf0b76cd8.jpg",
-                "description": "Harold Hilton (left) and W.H. Hamilton at Royal Portrush, where Hilton claimed his fourth and final Irish Amateur title in 1902",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Harold Hilton"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "1b31998a-b30a-4148-a722-e4e6f07e14ee",
-            "filename_download": "Player_GreatGolfBoom_Harold Hilton.jpg",
-            "filename_disk": "1b31998a-b30a-4148-a722-e4e6f07e14ee.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom Harold Hilton"
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 30,
-              "description": null,
-              "name": "Two-time winner of the Open Championship",
-              "icon": {
-                "id": 60,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 31,
-              "description": null,
-              "name": "Four-time winner of the Amateur Championship",
-              "icon": {
-                "id": 58,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 32,
-              "description": null,
-              "name": "Two-time winner of the Irish Amateur",
-              "icon": {
-                "id": 58,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 33,
-              "description": null,
-              "name": "Winner of the 1911 U.S. Amateur Championship",
-              "icon": {
-                "id": 59,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 34,
-              "description": null,
-              "name": "First to win the Amateur and U.S. Amateur in the same year",
-              "icon": {
-                "id": 59,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 35,
-              "description": null,
-              "name": "Won over 20 major amateur competitions",
-              "icon": {
-                "id": 81,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_HaroldHilton.jpg",
-                "filename_disk": "4154e9dc-af10-4ee4-822f-c1a8d7d8847c.jpg",
-                "description": "Harold Hilton at the 1900 Amateur Championship at St. Andrews, where he claimed his first of four Amateur titles",
-                "title": "Player Capstone Bio1 the Great Golf Boom Harold Hilton"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_TheGreatGolfBoom_HaroldHilton.jpg",
-                "filename_disk": "2d3239bc-1957-435b-a06f-026cb15c5cc8.jpg",
-                "description": "USGA President Silas Strawn presents the champion’s gold medal to Harold Hilton at the 1911 U.S. Amateur championship",
-                "title": "Player Capstone Bio2 the Great Golf Boom Harold Hilton"
-              }
-            }
-          ],
-          "bioText": "Harold Hilton, a powerful, if unconventional, shot-maker, won The Open Championship in 1892—the first time it was played at 72 holes and contested over two days—and again in 1897. But it was his dominance of English amateur golf, and his rivalry with John Ball Jr., that earned him widespread fame.\n\nA wild swinger who re-gripped the club at the top of his backswing, Hilton owned a stellar match play record, boasting a 99-29 mark in amateur competitions. After retiring from competitive golf, Hilton authored several books on golf and became the founding editor of **Golf Monthly** and editor of **Golf Illustrated.**",
-          "quote": "He was a small man of powerful physique; it was exhilarating to watch his perky walk between shots. His assiduity was his greatness.",
-          "quoteByline": "Robert Harris",
-          "signatureImage": {
+          "image": {
             "id": null,
-            "filename_download": "sig_hilton.png",
-            "filename_disk": "8bd4e2b0-2505-4277-929c-1ee130e887a6.png",
+            "filename_download": "Capstones_History_Golden_4.jpg",
+            "filename_disk": "a68e01b6-64e8-482a-8821-324aa50512dc.jpg",
             "description": null,
-            "title": "Sig Hilton"
+            "title": "Capstones History Golden 4"
           },
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 12,
-                "name": "Voices of the Game",
-                "description": null
-              }
-            }
-          ]
+          "order": 4,
+          "text": "It is a golden age for women’s golf. England’s Joyce Wethered and Glenna Collett Vare dominate on both sides of the Atlantic. Their rivalry—and friendship—elevates the visibility and appreciation of the women’s game. Marion Hollins creates Women’s National Golf and Tennis Club on Long Island, financed entirely by women.",
+          "imageCaption": null,
+          "title": "Women's Golf Strides Forward",
+          "backgroundVideo": null
         },
         {
           "id": 10,
-          "firstName": "Harry",
-          "lastName": "Vardon",
-          "birth": "1870-05-09T00:00:00",
-          "birthplace": "Grouville, Jersey, Channel Islands",
-          "death": "1937-03-20T00:00:00",
-          "inductionYear": 1974,
-          "lockerNumber": 40212,
+          "image": {
+            "id": null,
+            "filename_download": "Golden_5.jpg",
+            "filename_disk": "1633e887-c878-40be-b062-dec8f4b075e8.jpg",
+            "description": null,
+            "title": "Golden 5"
+          },
+          "order": 5,
+          "text": "Following the formation of The Professional Golfers’ Association in the United Kingdom in 1901 and The Professional Golfers’ Association of America in 1916, professional golf flourishes. The game’s greatest professionals travel internationally, especially in the years that follow the Great War, leading to the creation of the Ryder Cup in 1927.",
+          "imageCaption": null,
+          "title": "The Rise of Professional Golf",
+          "backgroundVideo": null
+        }
+      ],
+      "id": 1,
+      "startYear": "1910s",
+      "endYear": "1930s",
+      "title": "Golf’s <nobr>Golden Age</nobr>",
+      "description": "Heroes become household names in the era of sports celebrities",
+      "profiles": [
+        {
+          "id": 15,
+          "firstName": "Tommy",
+          "lastName": "Armour",
+          "birth": "1896-09-24T00:00:00",
+          "birthplace": "Edinburgh, Scotland",
+          "death": "1968-09-11T00:00:00",
+          "inductionYear": 1976,
+          "lockerNumber": 40411,
           "media": [
             {
               "directus_files_id": {
-                "id": "3522faae-d714-4a6d-a0a4-9e0602ee4440",
-                "filename_download": "Player_CapstoneGallery1_TheGreatGolfBoom_HarryVardon.jpg",
-                "filename_disk": "3522faae-d714-4a6d-a0a4-9e0602ee4440.jpg",
-                "description": "Harry Vardon, watched by Old Tom Morris, on the first tee at St. Andrews, 1905 Open Championship",
-                "title": "Player Capstone Gallery1 the Great Golf Boom Harry Vardon"
+                "id": "fbd45817-b994-448a-9995-f4abe86573ca",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_TommyArmour.jpg",
+                "filename_disk": "fbd45817-b994-448a-9995-f4abe86573ca.jpg",
+                "description": "Tommy Armour receives the Claret Jug from the Earl of Airlie after winning the 1931 Open Championship at Carnoustie Golf Club in Scotland",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Tommy Armour"
               }
             },
             {
               "directus_files_id": {
-                "id": "372e5755-ed80-4117-9091-67af30a9bb8f",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_HarryVardon.jpg",
-                "filename_disk": "372e5755-ed80-4117-9091-67af30a9bb8f.jpg",
-                "description": "Harry Vardon first met 18-year-old Bob Jones during the 1920 U.S. Open at the Inverness Club in Ohio",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Harry Vardon"
+                "id": "ad6cb0ca-4f91-4329-b36a-05c32bf4e0b5",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_TommyArmour.jpg",
+                "filename_disk": "ad6cb0ca-4f91-4329-b36a-05c32bf4e0b5.jpg",
+                "description": "Hall of Fame members Gene Sarazen, Tommy Armour and Johnny Farrell on a Transatlantic voyage, ca. 1930",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Tommy Armour"
               }
             },
             {
               "directus_files_id": {
-                "id": "df44cfd2-2034-430c-a2e8-74ddd9ccfd94",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_HarryVardon.jpg",
-                "filename_disk": "df44cfd2-2034-430c-a2e8-74ddd9ccfd94.jpg",
-                "description": "Harry Vardon at Pinehurst during his tour of the United States in 1900",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Harry Vardon"
+                "id": "d336f900-3e52-4e00-af3b-ce4c5b1203b9",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_TommyArmour.jpg",
+                "filename_disk": "d336f900-3e52-4e00-af3b-ce4c5b1203b9.jpg",
+                "description": "Tommy Armour poses with the car presented to him by the members of Congressional Country Club after he won the 1927 U.S. Open",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Tommy Armour"
               }
             },
             {
               "directus_files_id": {
-                "id": "37d9e20a-cbe0-49d2-a637-8a9f22634390",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_HarryVardon.jpg",
-                "filename_disk": "37d9e20a-cbe0-49d2-a637-8a9f22634390.jpg",
-                "description": "Harry Vardon and legendary English professional Ted Ray at the 1920 U.S. Open at the Inverness Club in Ohio",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Harry Vardon"
+                "id": "f4293581-ebc4-4bfb-854e-f8c24704c866",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_TommyArmour.jpg",
+                "filename_disk": "f4293581-ebc4-4bfb-854e-f8c24704c866.jpg",
+                "description": "Tommy Armour’s birdie putt on the 18th green in the final round of the 1927 U.S. Open at Oakmont. Armour defeated Harry Cooper in a playoff the following day.",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Tommy Armour"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "70ea8081-37d9-4470-b167-6f07062626f2",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_TommyArmour.jpg",
+                "filename_disk": "70ea8081-37d9-4470-b167-6f07062626f2.jpg",
+                "description": "Portrait of Tommy Armour by George S. PIetzcker, ca. 1930",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Tommy Armour"
               }
             }
           ],
           "featuredImage": {
-            "id": "0fb99d7e-7bb8-4f48-b4ca-984736c8cbe7",
-            "filename_download": "Player_GreatGolfBoom_Harry Vardon.jpg",
-            "filename_disk": "0fb99d7e-7bb8-4f48-b4ca-984736c8cbe7.jpg",
+            "id": "9eb80aa4-dc50-44ce-bac5-c9dc0558f74a",
+            "filename_download": "Player_GolfsGoldenAge_TommyArmour.jpg",
+            "filename_disk": "9eb80aa4-dc50-44ce-bac5-c9dc0558f74a.jpg",
             "description": null,
-            "title": "Player Great Golf Boom Harry Vardon"
+            "title": "Player Golfs Golden Age Tommy Armour"
           },
           "backgroundImage": null,
           "accomplishments": [
             {
-              "id": 36,
+              "id": 638,
               "description": null,
-              "name": "Six-time winner of the Open Championship",
-              "icon": {
-                "id": 60,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 37,
-              "description": null,
-              "name": "Winner of the 1900 U.S. Open Championship",
+              "name": "Winner of the 1927 U.S. Open Championship",
               "icon": {
                 "id": 64,
                 "image": null
@@ -1165,9 +175,29 @@
               "status": null
             },
             {
-              "id": 38,
+              "id": 639,
               "description": null,
-              "name": "Won over 40 professional tournaments",
+              "name": "Winner of the 1930 PGA Championship",
+              "icon": {
+                "id": 72,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 640,
+              "description": null,
+              "name": "Winner of the 1931 Open Championship",
+              "icon": {
+                "id": 60,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 641,
+              "description": null,
+              "name": "Winner of the 1929 Western Open",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1175,31 +205,21 @@
               "status": null
             },
             {
-              "id": 39,
+              "id": 642,
               "description": null,
-              "name": "Popularized the overlapping grip",
+              "name": "Three-time winner of the Canadian Open",
               "icon": {
-                "id": 81,
+                "id": 58,
                 "image": null
               },
               "status": null
             },
             {
-              "id": 40,
-              "description": "The Vardon Trophy is awarded annually by the PGA of America to the PGA TOUR's leader in scoring average.",
-              "name": "Namesake of the PGA TOUR's Vardon Trophy",
-              "icon": {
-                "id": 87,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 41,
+              "id": 643,
               "description": null,
-              "name": "Designer of more than 20 courses in the UK and Europe",
+              "name": "Author of best-selling book, \"How To Play Your Best Golf All the Time\"",
               "icon": {
-                "id": 53,
+                "id": 78,
                 "image": null
               },
               "status": null
@@ -1209,111 +229,120 @@
             {
               "directus_files_id": {
                 "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_HarryVardon.jpg",
-                "filename_disk": "032cec48-1886-4844-90dd-0000ed1a5e2a.jpg",
-                "description": "Harry Vardon at the top of his backswing, ca. 1910",
-                "title": "Player Capstone Bio1 the Great Golf Boom Harry Vardon"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_TheGreatGolfBoom_HarryVardon.jpg",
-                "filename_disk": "2bd54a7d-7ab8-4990-94b5-5f34c9403ec8.jpg",
-                "description": "Harry Vardon at the Fall River Country Club in Massachusetts during his tour of the United States in 1900",
-                "title": "Player Capstone Bio2 the Great Golf Boom Harry Vardon"
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_TommyArmour.jpg",
+                "filename_disk": "fe53cd4f-6b2b-4227-8249-0294b983f14f.jpg",
+                "description": "Tommy Armour playing at shot at Pinehurst No. 2, ca. 1930",
+                "title": "Player Capstone Bio1 Golfs Golden Age Tommy Armour"
               }
             }
           ],
-          "bioText": "Harry Vardon possessed a magnetic personality, immense talent and a method so singular that he was considered a shotmaking machine. He was golf’s first international superstar, winning a record six Open Championship titles between 1896 and 1914. He toured the United States in 1900, 1913 and 1920, promoting awareness and driving growth of the game.\n\nVardon possessed one of the most admired and proficient golf swings the game has ever seen. He stood just 5-foot-9 and tipped the scales at 155 pounds, but he had enormous hands that melted perfectly around the club. His swing was more upright and his ball flight higher than his contemporaries, giving his approach shots the advantage of greater carry and softer landings.",
-          "quote": "I cannot believe that anyone ever had or will have a greater genius for hitting a golf ball than Harry Vardon.",
-          "quoteByline": "Bernard Darwin",
+          "bioText": "Nicknamed the “Silver Scot” for the color of his hair, Tommy Armour possessed one of the finest golf swings of all time, as well as an uncanny ability to teach the game. He excelled at golf despite injuries he suffered in World War I that left him with sight in only one eye and metal plates in his head and arm. While recovering in the hospital, he focused on thoughts of playing golf. He would go on to win 27 professional events, including three major championships.\n\nAfter he retired from competitive golf, Armour became one of the most successful instructors in the world. The philosophies and techniques that he taught were detailed in his best-selling book, **How to Play Your Best Golf All the Time.**",
+          "quote": "It is not solely the capacity to make great shots that makes champions, but the essential quality of making very few bad shots.",
+          "quoteByline": "Tommy Armour",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_vardon.png",
-            "filename_disk": "6ace88a2-bc64-4ec6-85ed-79ea0d6455f4.png",
+            "filename_download": "sig_armour.png",
+            "filename_disk": "d22a15d9-c9d3-4fac-8944-bc0f2c30c681.png",
             "description": null,
-            "title": "Sig Vardon"
+            "title": "Sig Armour"
           },
           "contentTrails": [
             {
               "contentTrails_id": {
-                "id": 7,
-                "name": "Growth Drivers",
+                "id": 5,
+                "name": "Military Figures",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 11,
+                "name": "Teachers",
                 "description": null
               }
             }
           ]
         },
         {
-          "id": 11,
-          "firstName": "J.H.",
-          "lastName": "Taylor",
-          "birth": "1871-03-19T00:00:00",
-          "birthplace": "Northam, Devon, England",
-          "death": "1963-02-10T00:00:00",
-          "inductionYear": 1975,
-          "lockerNumber": 40211,
+          "id": 16,
+          "firstName": "Jim",
+          "lastName": "Barnes",
+          "birth": "1886-04-08T00:00:00",
+          "birthplace": "Lelant, Cornwall, England",
+          "death": "1966-05-24T00:00:00",
+          "inductionYear": 1989,
+          "lockerNumber": 40414,
           "media": [
             {
               "directus_files_id": {
-                "id": "381671fe-15f8-4189-a820-b74134ca995d",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_JHTaylor.jpg",
-                "filename_disk": "381671fe-15f8-4189-a820-b74134ca995d.jpg",
-                "description": "J.H. Taylor with his twin daughters Phyllis and Audrey at Royal Mid Surrey Golf Club, ca. 1930",
-                "title": "Player Capstone Gallery2 the Great Golf Boom Jh Taylor"
+                "id": "e7d1bc66-508e-454f-bd62-ea0ed1064d26",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "e7d1bc66-508e-454f-bd62-ea0ed1064d26.jpg",
+                "description": "Portrait of Jim Barnes by George S. Pietzcker, ca. 1925",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Jim Barnes"
               }
             },
             {
               "directus_files_id": {
-                "id": "0aabfd84-4216-478b-a8cc-b1a509b8fd45",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_JHTaylor.jpg",
-                "filename_disk": "0aabfd84-4216-478b-a8cc-b1a509b8fd45.jpg",
-                "description": "J.H. Taylor signing autographs after his round, 1924 Open Championship at Royal Liverpool Golf Club",
-                "title": "Player Capstone Gallery3 the Great Golf Boom Jh Taylor"
+                "id": "434c285f-eefc-4e18-afa3-831e34980b85",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "434c285f-eefc-4e18-afa3-831e34980b85.jpg",
+                "description": "Jim Barnes receives congratulations from U.S. President Warren Harding after winning the 1921 U.S. Open at Columbia Country Club",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Jim Barnes"
               }
             },
             {
               "directus_files_id": {
-                "id": "6a91f4d5-f5dc-40e0-8227-4240e50c97c7",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_JHTaylor.jpg",
-                "filename_disk": "6a91f4d5-f5dc-40e0-8227-4240e50c97c7.jpg",
-                "description": "J.H. Taylor with his son L.J. Taylor at Royal Mid Surrey, 1931",
-                "title": "Player Capstone Gallery4 the Great Golf Boom Jh Taylor"
+                "id": "a6fc8a6d-30b4-4772-8cbf-5803d1a3cac3",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "a6fc8a6d-30b4-4772-8cbf-5803d1a3cac3.jpg",
+                "description": "Hall of Fame members Walter Hagen (left) and Jim Barnes (right) with their wives at the 1921 U.S. Open",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Jim Barnes"
               }
             },
             {
               "directus_files_id": {
-                "id": "0dca5e96-1ed6-4069-9f2d-35108e94e735",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_JHTaylor.jpg",
-                "filename_disk": "0dca5e96-1ed6-4069-9f2d-35108e94e735.jpg",
-                "description": "The formidable J.H. Taylor, 1921",
-                "title": "Player Capstone Gallery5 the Great Golf Boom Jh Taylor"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "c92554ce-263a-475e-9e9e-cd7f2f92dbbf",
-                "filename_download": "Player_CapstoneGallery6_TheGreatGolfBoom_JHTaylor.jpg",
-                "filename_disk": "c92554ce-263a-475e-9e9e-cd7f2f92dbbf.jpg",
-                "description": "A closeup of J.H. Taylor’s grip at address, ca. 1900",
-                "title": "Player Capstone Gallery6 the Great Golf Boom Jh Taylor"
+                "id": "7a416a7c-8ca5-4c91-b2ed-f1dc1bde634a",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "7a416a7c-8ca5-4c91-b2ed-f1dc1bde634a.jpg",
+                "description": "Jim Barnes putts on the 17th green at Prestwick en route to victory in the 1925 Open Championship",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Jim Barnes"
               }
             }
           ],
           "featuredImage": {
-            "id": "46b9c9e0-4571-4d55-ba97-0615afd39ab3",
-            "filename_download": "Player_GreatGolfBoom_J.H. Taylor.jpg",
-            "filename_disk": "46b9c9e0-4571-4d55-ba97-0615afd39ab3.jpg",
+            "id": "89f0f01e-9575-459a-bdcb-ca9e554d466d",
+            "filename_download": "Player_GolfsGoldenAge_JimBarnes.jpg",
+            "filename_disk": "89f0f01e-9575-459a-bdcb-ca9e554d466d.jpg",
             "description": null,
-            "title": "Player Great Golf Boom J.h. Taylor"
+            "title": "Player Golfs Golden Age Jim Barnes"
           },
           "backgroundImage": null,
           "accomplishments": [
             {
-              "id": 42,
+              "id": 644,
               "description": null,
-              "name": "Five-time winner of the Open Championship",
+              "name": "Two-time winner of the PGA Championship",
+              "icon": {
+                "id": 72,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 645,
+              "description": null,
+              "name": "Winner of the 1921 U.S. Open Championship",
+              "icon": {
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 646,
+              "description": null,
+              "name": "Winner of the 1925 Open Championship",
               "icon": {
                 "id": 60,
                 "image": null
@@ -1321,9 +350,9 @@
               "status": null
             },
             {
-              "id": 43,
+              "id": 647,
               "description": null,
-              "name": "Two-time winner of the British PGA Championship",
+              "name": "Three-time winner of the Western Open",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1331,9 +360,9 @@
               "status": null
             },
             {
-              "id": 44,
+              "id": 648,
               "description": null,
-              "name": "Winner of the French Open, German Open, and Dutch Open",
+              "name": "Two-time winner of the North and South Open",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1341,9 +370,145 @@
               "status": null
             },
             {
-              "id": 45,
+              "id": 649,
               "description": null,
-              "name": "1934 Ryder Cup Captain",
+              "name": "Author of \"Picture Analysis of Golf Strokes\"",
+              "icon": {
+                "id": 78,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "ebe7fd99-9e88-4675-9653-f1edc97f758f.jpg",
+                "description": "Jim Barnes’ putting stroke, with a wide stance, hands held low, and his right forearm held against his right leg, ca. 1920",
+                "title": "Player Capstone Bio1 Golfs Golden Age Jim Barnes"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "f8f2fadf-ca47-4ab0-aaf7-aa9b684aceb3.jpg",
+                "description": "Jim Barnes admires the Claret Jug after winning the 1925 Open Championship at Prestwick",
+                "title": "Player Capstone Bio2 Golfs Golden Age Jim Barnes"
+              }
+            }
+          ],
+          "bioText": "Towering over the competition at 6-foot-4, “Long Jim” Barnes won more than 25 professional tournaments in the era dominated by Gene Sarazen, Walter Hagen and Bob Jones. He won the inaugural PGA Championship in 1916 and successfully defended the title the next time it was played in 1919. In 1921, he won the U.S. Open by nine strokes and four years later captured the 1925 Open Championship coming from five strokes back in the final round.\n\nBarnes was an intense, quiet competitor who often kept a sprig of clover clamped tightly between his teeth. In 1919, he authored **Picture Analysis of Golf Strokes**, revolutionary as the first golf instructional to make extensive use of photography.",
+          "quote": "You can't always be playing well when it counts. You'll never win golf tournaments until you learn how to score well when you're playing badly.",
+          "quoteByline": "Jim Barnes",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_barnes.png",
+            "filename_disk": "94dbf018-0221-4720-8a47-53dcc53df9f6.png",
+            "description": null,
+            "title": "Sig Barnes"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 11,
+                "name": "Teachers",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "firstName": "Leo",
+          "lastName": "Diegel",
+          "birth": "1899-04-27T00:00:00",
+          "birthplace": "Detroit, Michigan",
+          "death": "1951-05-08T00:00:00",
+          "inductionYear": 2003,
+          "lockerNumber": 40409,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "532d8b2a-8716-4c5d-ad27-5f680dce24ea",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_LeoDiegel.jpg",
+                "filename_disk": "532d8b2a-8716-4c5d-ad27-5f680dce24ea.jpg",
+                "description": "Hall of Fame members Johnny Farrell, Gene Sarazen, Leo Diegel and Horton Smith in an exhibition match at Cherry Valley Golf Club in New York, 1929",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Leo Diegel"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "d97eafa7-b862-4059-8ba8-a3db6f8a167c",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_LeoDiegel.jpg",
+                "filename_disk": "d97eafa7-b862-4059-8ba8-a3db6f8a167c.jpg",
+                "description": "Leo Diegel blasts out of a bunker at Fresh Meadow Country Club during the 1932 U.S. Open",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Leo Diegel"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "bb286848-c378-4f54-90d9-746c177dad69",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_LeoDiegel.jpg",
+                "filename_disk": "bb286848-c378-4f54-90d9-746c177dad69.jpg",
+                "description": "Leo Diegel takes his ball out of the 13th hole after recording a hole-in-one during the second round of the 1931 U.S. Open at Inverness Golf Club",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Leo Diegel"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "2436754f-6576-49d5-b0d1-b9dd9a12bb92",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_LeoDiegel.jpg",
+                "filename_disk": "2436754f-6576-49d5-b0d1-b9dd9a12bb92.jpg",
+                "description": "Leo Diegel demonstrates his eponymous putting stroke during the 1929 U.S. Open at Winged Foot",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Leo Diegel"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "abd10a94-16f6-4aae-aa50-870904353fda",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_LeoDiegel.jpg",
+                "filename_disk": "abd10a94-16f6-4aae-aa50-870904353fda.jpg",
+                "description": "Leo Diegel and Ted Ray on the 18th green at Worcester Country Club in the inaugural Ryder Cup Match in 1927",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Leo Diegel"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "997a005b-656f-4629-b8ad-58547ffd0921",
+            "filename_download": "Player_GolfsGoldenAge_LeoDiegel.jpg",
+            "filename_disk": "997a005b-656f-4629-b8ad-58547ffd0921.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Leo Diegel"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 626,
+              "description": null,
+              "name": "Two-time winner of the PGA Championship",
+              "icon": {
+                "id": 72,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 627,
+              "description": null,
+              "name": "Four-time winner of the Canadian Open",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 628,
+              "description": null,
+              "name": "Four-time member of the USA Ryder Cup Team",
               "icon": {
                 "id": 70,
                 "image": null
@@ -1351,21 +516,31 @@
               "status": null
             },
             {
-              "id": 46,
+              "id": 629,
               "description": null,
-              "name": "Co-founder and first chairman of the British Professional Golfers' Association",
+              "name": "Winner of five tour events in 1925",
               "icon": {
-                "id": 76,
+                "id": 58,
                 "image": null
               },
               "status": null
             },
             {
-              "id": 47,
+              "id": 630,
               "description": null,
-              "name": "Specialized in designing public golf facilities",
+              "name": "Runner-up in 1920 U.S. Open and 1930 Open Championship",
               "icon": {
-                "id": 53,
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 631,
+              "description": null,
+              "name": "Won the 1916 Michigan Open at age 17",
+              "icon": {
+                "id": 58,
                 "image": null
               },
               "status": null
@@ -1375,170 +550,22 @@
             {
               "directus_files_id": {
                 "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_JHTaylor.jpg",
-                "filename_disk": "d2b76568-090a-4c6c-91b5-316b2ca58647.jpg",
-                "description": "J.H. Taylor, demonstrating the proper form of the day with a flat backswing, ca. 1900",
-                "title": "Player Capstone Bio1 the Great Golf Boom Jh Taylor"
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_LeoDiegel.jpg",
+                "filename_disk": "33f551eb-3bd1-452c-938c-fa9fd06e9321.jpg",
+                "description": "Portrait of Leo Diegel by George S. Pietzcker, ca. 1930",
+                "title": "Player Capstone Bio1 Golfs Golden Age Leo Diegel"
               }
             }
           ],
-          "bioText": "Legendary Open champions J.H. Taylor, Harry Vardon and James Braid together dominated professional golf from the mid-1890s to the mid-1910s. Taylor earned his spot in this so-called \"Great Triumvirate\" by winning The Open Championship five times, becoming the first professional from England to do so.\n\nTaylor's ability to play in wind and bad weather set him apart from his peers. He won his last Open Championship in 1913 battling extreme wind and rain, while defeating Ted Ray by eight strokes. Bernard Darwin once characterized him as \"a man on wires, having to choke down his temper and often suffering agonies.\" Beloved by many, he dedicated his later life to writing books, making clubs and designing courses.",
-          "quote": "To try to play golf really well is far from being a joke, and lightheartedness of endeavor is a sure sign of eventual failure.",
-          "quoteByline": "J.H. Taylor",
-          "signatureImage": null,
-          "contentTrails": [
-            {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
-              }
-            },
-            {
-              "contentTrails_id": {
-                "id": 12,
-                "name": "Voices of the Game",
-                "description": null
-              }
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "firstName": "James",
-          "lastName": "Braid",
-          "birth": "1870-02-06T00:00:00",
-          "birthplace": "Earlsferry, Fife, Scotland",
-          "death": "1950-11-27T00:00:00",
-          "inductionYear": 1976,
-          "lockerNumber": 40210,
-          "media": [
-            {
-              "directus_files_id": {
-                "id": "b381d86b-070d-4f99-93d1-b38ec364aac3",
-                "filename_download": "Player_CapstoneGallery2_TheGreatGolfBoom_JamesBraid.jpg",
-                "filename_disk": "b381d86b-070d-4f99-93d1-b38ec364aac3.jpg",
-                "description": "Clement Fowler, The Great Triumvirate, 1912; J.H. Taylor (left), and James Braid (center) watch Harry Vardon (driving)",
-                "title": "Player Capstone Gallery2 the Great Golf Boom James Braid"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "a976f430-5345-42da-b0f5-b0b034f3acd9",
-                "filename_download": "Player_CapstoneGallery3_TheGreatGolfBoom_JamesBraid.jpg",
-                "filename_disk": "a976f430-5345-42da-b0f5-b0b034f3acd9.jpg",
-                "description": "Harry Vardon and James Braid at Murrayfield Golf Club in Edinburgh, Scotland, 1904",
-                "title": "Player Capstone Gallery3 the Great Golf Boom James Braid"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "8b715759-1959-4300-bdf0-9482bc7119f4",
-                "filename_download": "Player_CapstoneGallery4_TheGreatGolfBoom_JamesBraid.jpg",
-                "filename_disk": "8b715759-1959-4300-bdf0-9482bc7119f4.jpg",
-                "description": "James Braid driving from the first tee St Andrews, 1905 Open Championship, watched by J.H. Taylor (right) and Old Tom Morris (seated in center)",
-                "title": "Player Capstone Gallery4 the Great Golf Boom James Braid"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": "7a3d32cd-a894-4d77-bea2-6bade67a05db",
-                "filename_download": "Player_CapstoneGallery5_TheGreatGolfBoom_JamesBraid.jpg",
-                "filename_disk": "7a3d32cd-a894-4d77-bea2-6bade67a05db.jpg",
-                "description": "The power of James Braid, ca. 1905",
-                "title": "Player Capstone Gallery5 the Great Golf Boom James Braid"
-              }
-            }
-          ],
-          "featuredImage": {
-            "id": "eb1acd29-31fe-49ee-8edc-c0de563a8dbd",
-            "filename_download": "Player_GreatGolfBoom_James Braid.jpg",
-            "filename_disk": "eb1acd29-31fe-49ee-8edc-c0de563a8dbd.jpg",
-            "description": null,
-            "title": "Player Great Golf Boom James Braid"
-          },
-          "backgroundImage": null,
-          "accomplishments": [
-            {
-              "id": 48,
-              "description": "Braid was also runner-up at the Open Championship four times.",
-              "name": "Five-time winner of the Open Championship",
-              "icon": {
-                "id": 60,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 49,
-              "description": null,
-              "name": "First to break 70 in the Open Championship",
-              "icon": {
-                "id": 87,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 50,
-              "description": null,
-              "name": "Four-time News of the World Match Play champion",
-              "icon": {
-                "id": 79,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 51,
-              "description": null,
-              "name": "Co-founder of the British Professional Golfers' Association",
-              "icon": {
-                "id": 76,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 52,
-              "description": null,
-              "name": "Long-time club professional at Walton Heath",
-              "icon": {
-                "id": 82,
-                "image": null
-              },
-              "status": null
-            }
-          ],
-          "bioImages": [
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio1_TheGreatGolfBoom_JamesBraid.jpg",
-                "filename_disk": "515e2529-63ad-414e-aa39-ecabc86d8368.jpg",
-                "description": "James Braid at the top of his backswing, ca. 1900",
-                "title": "Player Capstone Bio1 the Great Golf Boom James Braid"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_TheGreatGolfBoom_JamesBraid.jpg",
-                "filename_disk": "a8a6306e-b13e-4220-8863-eb0a9e0c8229.jpg",
-                "description": "Open champions, 1929: (rear) Harry Vardon, James Braid, Alec Herd, Jack White, Arnold Massey; (front) George Duncan, Walter Hagen, Jim Barnes, Ted Ray",
-                "title": "Player Capstone Bio2 the Great Golf Boom James Braid"
-              }
-            }
-          ],
-          "bioText": "A tall, stately man of great character who was a friend of princes, peers and the common man, James Braid was a pioneer in elevating the status of professional golfers. As a golfer, he was a late bloomer, not winning his first Open Championship until Harry Vardon and J.H. Taylor had already won three each. But once Braid won his first in 1901, there was no stopping him. He captured the Open again in 1905, 1906, 1908 and 1910, thus becoming the first man to raise the Claret Jug five times. \n\nBraid later turned to golf course architecture, designing or redesigning more than 200 courses, including Carnoustie, Royal Troon and the King's and Queen's courses at Gleneagles.",
-          "quote": "Keep on hitting it straight until the wee ball goes in the hole.",
-          "quoteByline": "James Braid",
+          "bioText": "Celebrated as one of the game’s great shot-makers, Leo Diegel will forever be remembered for his unorthodox putting stroke. His trademark style of putting, which came to be known as “Diegeling,” consisted of bending over at the waist and widely extending both arms with his elbows at right angles. \n\nDiegel’s peculiar technique earned him 30 PGA TOUR titles, including two PGA Championships, between 1920 and 1934. He also claimed four Canadian Open titles, as well as spots on four USA Ryder Cup Teams. After retiring in 1938, he became a club professional and worked with the U.S. Army during World War II to promote golf as a form of rehabilitation for wounded soldiers.",
+          "quote": "In all my years of golf, I have never seen anyone whose devotion to the game could match Leo’s. Every night he went to bed dreaming theory and every morning he awakened with some hot idea that was going to revolutionize the game.",
+          "quoteByline": "Gene Sarazen",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_braid.png",
-            "filename_disk": "9ee626b4-1f13-4a9a-8b65-ae6cc7c18e59.png",
+            "filename_download": "sig_diegel.png",
+            "filename_disk": "329f4378-271f-4b66-9743-e6a678bea6c6.png",
             "description": null,
-            "title": "Sig Braid"
+            "title": "Sig Diegel"
           },
           "contentTrails": [
             {
@@ -1547,84 +574,549 @@
                 "name": "Growth Drivers",
                 "description": null
               }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "firstName": "Chick",
+          "lastName": "Evans",
+          "birth": "1890-07-18T00:00:00",
+          "birthplace": "Indianapolis, Indiana",
+          "death": "1979-11-06T00:00:00",
+          "inductionYear": 1975,
+          "lockerNumber": 40403,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "d4d37f6d-6a3e-485a-bfe2-2a5890b63d38",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "d4d37f6d-6a3e-485a-bfe2-2a5890b63d38.jpg",
+                "description": "Portrait of Chick Evans, ca. 1916",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Chick Evans"
+              }
             },
             {
+              "directus_files_id": {
+                "id": "7ed261b3-0054-48e4-8a69-d2c914c01956",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "7ed261b3-0054-48e4-8a69-d2c914c01956.jpg",
+                "description": "Chick Evans and his caddie, “Shorty,” who helped him complete his historic “Double” at Merion Cricket Club",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Chick Evans"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6c3aebab-17b6-4e37-b405-6d24513227b7",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "6c3aebab-17b6-4e37-b405-6d24513227b7.jpg",
+                "description": "(Left to right) Tommy Armour, Chick Evans, Bing Crosby and Bob Hope at a war relief exhibition match in Chicago, 1942",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Chick Evans"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "dbfe5b88-ff78-47d0-bb47-953b3a23dcdd",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "dbfe5b88-ff78-47d0-bb47-953b3a23dcdd.jpg",
+                "description": "Chick Evans and his wife, Esther Underwood Evans, in 1935",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Chick Evans"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "0da2431b-f0dc-4426-9cb6-a6f2b720d421",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "0da2431b-f0dc-4426-9cb6-a6f2b720d421.jpg",
+                "description": "Chick Evans putting in a match against Francis Ouimet in the 1919 U.S. Amateur at Oakmont Country Club",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Chick Evans"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "8e47d42f-3ad9-40bc-a8e6-80cbac3c6660",
+                "filename_download": "Player_CapstoneGallery6_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "8e47d42f-3ad9-40bc-a8e6-80cbac3c6660.jpg",
+                "description": "Chick Evans (left) with Gene Sarazen and Fred Corcoran at the opening of the World Golf Hall of Fame in Pinehurst, 1975",
+                "title": "Player Capstone Gallery6 Golfs Golden Age Chick Evans"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "30172189-6f7a-42c2-abce-8b5c4802cfae",
+            "filename_download": "Player_GolfsGoldenAge_ChickEvans.jpg",
+            "filename_disk": "30172189-6f7a-42c2-abce-8b5c4802cfae.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Chick Evans"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 561,
+              "description": null,
+              "name": "Winner of the 1916 U.S. Open and two-time winner of the U.S. Amateur",
+              "icon": {
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 562,
+              "description": null,
+              "name": "Eight-time Western Amateur champion",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 563,
+              "description": null,
+              "name": "Winner of the 1910 Western Open",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 564,
+              "description": null,
+              "name": "Three-time member of the USA Walker Cup Team",
+              "icon": {
+                "id": 66,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 565,
+              "description": null,
+              "name": "Recipient of the Bob Jones Award in 1960",
+              "icon": {
+                "id": 68,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 566,
+              "description": null,
+              "name": "Founder of the Evans Scholars Foundation providing college scholarship for caddies",
+              "icon": {
+                "id": 54,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "db9f7e19-f792-44b5-991f-c6319a8e38f7.jpg",
+                "description": "Timeless champion Chick Evans with the Western Open and Western Amateur trophies, 1962",
+                "title": "Player Capstone Bio1 Golfs Golden Age Chick Evans"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "0572d06a-d0a9-4930-a5a3-5dec2f04aa03.jpg",
+                "description": "Chick Evans drives a golf ball from a man’s hand, ca. 1920",
+                "title": "Player Capstone Bio2 Golfs Golden Age Chick Evans"
+              }
+            }
+          ],
+          "bioText": "Charles “Chick” Evans, whose competitive career spanned more than 50 years, was endowed with remarkable creativity and shot-making skills. In 1916, he became the first player to win the U.S. Open and U.S. Amateur in the same year. Evans remained at the highest level of competitive golf for decades, competing in every U.S. Amateur from 1907 through 1962 and establishing the championship’s record for most matches won (57). \n\nWith the money Evans earned from producing golf instructional records and writing a golf book, he created a college scholarship for caddies. The Western Golf Association began administering the funds in 1929 and established the Evans Scholars Foundation, whose legacy includes helping more than 8,000 caddies receive a college education.",
+          "quote": "I made a rule never to swing a golf club except to hit a golf ball, for I had learned that one could swing beautifully when the ball wasn’t there, and poorly when it was.",
+          "quoteByline": "Chick Evans",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_evans.png",
+            "filename_disk": "171792f8-2820-4144-9b35-1ecfeb2ce560.png",
+            "description": null,
+            "title": "Sig Evans"
+          },
+          "contentTrails": [
+            {
               "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
+                "id": 11,
+                "name": "Teachers",
                 "description": null
               }
             }
           ]
         },
         {
-          "id": 13,
-          "firstName": "Willie",
-          "lastName": "Anderson",
-          "birth": "1879-10-21T00:00:00",
-          "birthplace": "North Berwick, East Lothian, Scotland",
-          "death": "1910-10-25T00:00:00",
-          "inductionYear": 1975,
-          "lockerNumber": 40408,
+          "id": 21,
+          "firstName": "Walter",
+          "lastName": "Hagen",
+          "birth": "1982-12-21T00:00:00",
+          "birthplace": "Rochester, New York",
+          "death": "1969-10-06T00:00:00",
+          "inductionYear": 1974,
+          "lockerNumber": 40416,
           "media": [
             {
               "directus_files_id": {
-                "id": "58d71973-b5c9-4e5c-8db8-62d61d4169a2",
-                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_WillieAnderson.jpg",
-                "filename_disk": "58d71973-b5c9-4e5c-8db8-62d61d4169a2.jpg",
-                "description": "Willie Anderson, 1904",
-                "title": "Player Capstone Gallery1 Golfs Golden Age Willie Anderson"
+                "id": "a30f32bb-7673-4814-b0bf-ff6ebaf3dd84",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_WalterHagen.jpg",
+                "filename_disk": "a30f32bb-7673-4814-b0bf-ff6ebaf3dd84.jpg",
+                "description": "Goudey Sport Kings Chewing Gum trading card for Walter Hagen, 1933",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Walter Hagen"
               }
             },
             {
               "directus_files_id": {
-                "id": "b13a1fc4-96c7-498c-adff-d2100971db4f",
-                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_WillieAnderson.jpg",
-                "filename_disk": "b13a1fc4-96c7-498c-adff-d2100971db4f.jpg",
-                "description": "Willie Anderson at the top of his backswing, 1903",
-                "title": "Player Capstone Gallery2 Golfs Golden Age Willie Anderson"
+                "id": "87e168ed-5697-4bda-9f3d-b1fdd09c0bdd",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_WalterHagen.jpg",
+                "filename_disk": "87e168ed-5697-4bda-9f3d-b1fdd09c0bdd.jpg",
+                "description": "Walter Hagen putts on the final green at Brae Burn Country Club in Massachusetts in the final round of the 1919 U.S. Open. Hagen captured his second U.S. Open title.",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Walter Hagen"
               }
             },
             {
               "directus_files_id": {
-                "id": "f3514813-8203-4947-8a9f-259fc51d5f89",
-                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_WillieAnderson.jpg",
-                "filename_disk": "f3514813-8203-4947-8a9f-259fc51d5f89.jpg",
-                "description": "Willie Anderson with Alex Smith, the 1906 and 1910 U.S. Open champion",
-                "title": "Player Capstone Gallery3 Golfs Golden Age Willie Anderson"
+                "id": "b1d446b5-486d-4076-85cd-3308deddb4f1",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_WalterHagen.jpg",
+                "filename_disk": "b1d446b5-486d-4076-85cd-3308deddb4f1.jpg",
+                "description": "Walter Hagen receives the Wannamaker Trophy after winning the 1921 PGA Championship at Inwood Country Club on Long Island",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Walter Hagen"
               }
             },
             {
               "directus_files_id": {
-                "id": "1fd3fd91-6221-4803-b628-401981a4a9ce",
-                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_WillieAnderson.jpg",
-                "filename_disk": "1fd3fd91-6221-4803-b628-401981a4a9ce.jpg",
-                "description": "Early U.S. Open champions, including Horace Rawlins (1895, on ground), and Willie Anderson (behind Rawlins) with an arm around Alex Smith (1906, 1910)",
-                "title": "Player Capstone Gallery4 Golfs Golden Age Willie Anderson"
+                "id": "c93cd4df-8aaa-4ea7-bcba-42ef8a81bf30",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_WalterHagen.jpg",
+                "filename_disk": "c93cd4df-8aaa-4ea7-bcba-42ef8a81bf30.jpg",
+                "description": "Walter Hagen putts on the final green at Muirfield in the final round of the 1929 Open Championships. Hagen successfully defended his title with a 9-stroke victory over Johnny Farrell.",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Walter Hagen"
               }
             },
             {
               "directus_files_id": {
-                "id": "99373cc0-907a-40f2-8d45-e5d30c4d5aa9",
-                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_WillieAnderson.jpg",
-                "filename_disk": "99373cc0-907a-40f2-8d45-e5d30c4d5aa9.jpg",
-                "description": "Alex Smith, George Low, Willie Anderson and Johnny McDermott, ca. 1910; Smith, Anderson and McDermott each won multiple U.S. Open titles",
-                "title": "Player Capstone Gallery5 Golfs Golden Age Willie Anderson"
+                "id": "535dac12-8469-42f0-8241-11a7110ddce0",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_WalterHagen.jpg",
+                "filename_disk": "535dac12-8469-42f0-8241-11a7110ddce0.jpg",
+                "description": "Walter Hagen at spring training, 1934. Hagen, a talented pitcher and shortstop, contemplated a career in professional baseball before winning the 1914 U.S. Open.",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Walter Hagen"
               }
             }
           ],
           "featuredImage": {
-            "id": "378d04e8-e3c3-49ee-87b0-797b0b150058",
-            "filename_download": "Player_GreatGolfBoom_Willie Anderson.jpg",
-            "filename_disk": "378d04e8-e3c3-49ee-87b0-797b0b150058.jpg",
+            "id": "ca56fb96-95e1-48e1-a874-d6db346e8009",
+            "filename_download": "Player_GolfsGoldenAge_WalterHagen.jpg",
+            "filename_disk": "ca56fb96-95e1-48e1-a874-d6db346e8009.jpg",
             "description": null,
-            "title": "Player Great Golf Boom Willie Anderson"
+            "title": "Player Golfs Golden Age Walter Hagen"
           },
           "backgroundImage": null,
           "accomplishments": [
             {
-              "id": 53,
-              "description": "Anderson is the only player to win three consecutive U.S. Open titles. He also finished second in 1897, at the age of 17.",
+              "id": 656,
+              "description": null,
+              "name": "Five-time winner of the PGA Championship",
+              "icon": {
+                "id": 72,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 657,
+              "description": null,
+              "name": "Four-time winner of the Open Championship",
+              "icon": {
+                "id": 60,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 658,
+              "description": null,
+              "name": "Two-time winner of the U.S. Open",
+              "icon": {
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 659,
+              "description": "Includes 5 wins at the Western Open in 1916. 1921, 1926, 1927 and 1932",
+              "name": "Winner of 24 PGA Tour events",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 660,
+              "description": null,
+              "name": "Five-time Playing Captain of the USA Ryder Cup team",
+              "icon": {
+                "id": 70,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 661,
+              "description": null,
+              "name": "Captain of the 1937 USA Ryder Cup team",
+              "icon": {
+                "id": 70,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_WalterHagen.jpg",
+                "filename_disk": "98ceadea-f65c-4e8b-ac29-bc1de4981e16.jpg",
+                "description": "Portrait of Walter Hagen, ca. 1920",
+                "title": "Player Capstone Bio1 Golfs Golden Age Walter Hagen"
+              }
+            }
+          ],
+          "bioText": "Walter Hagen, the greatest showman of golf’s “Golden Age,\" was legendary for his style and charisma. In fact, his reputation as a flamboyant and romantic character often overshadows his accomplishments on the course. Yet these were extraordinary. \n\nHagen won 11 major championships and 45 tournaments during his career, including five Western Opens, an elite tournament that held near-Major status. He also captained the first six USA Ryder Cup Teams, posting a record of 7-1-1 in Ryder Cup competition. \n\nHagen is justifiably remembered for his devotion to raising the profile of golf professionals and growing the game through nationwide exhibitions. “I never wanted to be a millionaire,” Hagen once wrote, “I just wanted to live like one.”",
+          "quote": "You’re only here for a short visit. Don’t hurry. Don’t worry. And be sure to smell the flowers along the way.",
+          "quoteByline": "Walter Hagen",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_hagen.png",
+            "filename_disk": "8d95c7f6-8f3c-4cba-a18f-34860f1c9482.png",
+            "description": null,
+            "title": "Sig Hagen"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "firstName": "Jock",
+          "lastName": "Hutchison",
+          "birth": "1884-06-06T00:00:00",
+          "birthplace": "St. Andrews, Fife, Scotland",
+          "death": "1977-09-27T00:00:00",
+          "inductionYear": 2011,
+          "lockerNumber": 40410,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "21a6362c-9e10-4ddb-b6f6-156490ed8558",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "21a6362c-9e10-4ddb-b6f6-156490ed8558.jpg",
+                "description": "Gene Sarazen (left) and Jock Hutchison (right) examine Hollywood legend Buster Keaton’s golf cubs, 1923",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Jock Hutchison"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "4998094a-2d9e-47ff-817d-b0a85392fdf2",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "4998094a-2d9e-47ff-817d-b0a85392fdf2.jpg",
+                "description": "U.S. President Warren Harding presents the Claret Jug to Jock Hutchison in a ceremony at the 1921 U.S. Open, as U.S. Open champion Jim Barnes looks on",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Jock Hutchison"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6853eeaa-b350-40a9-86f4-961deee90d80",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "6853eeaa-b350-40a9-86f4-961deee90d80.jpg",
+                "description": "Jock Hutchison turns in his scorecard to fellow Hall of Fame member Fred Corcoran during the 1938 Senior PGA Championship in Augusta",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Jock Hutchison"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "68a5c78a-a761-4117-ab54-a5c78681b110",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "68a5c78a-a761-4117-ab54-a5c78681b110.jpg",
+                "description": "Jock Hutchison on board the RMS Carmania with the Claret Jug after winning the 1921 Open Championship at St. Andrews",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Jock Hutchison"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "6906c845-b73a-439f-be96-f235ab065977",
+            "filename_download": "Player_GolfsGoldenAge_JockHutchison.jpg",
+            "filename_disk": "6906c845-b73a-439f-be96-f235ab065977.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Jock Hutchison"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 632,
+              "description": null,
+              "name": "Winner of the 1920 PGA Championship",
+              "icon": {
+                "id": 72,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 633,
+              "description": null,
+              "name": "Winner of the 1921 Open Championship",
+              "icon": {
+                "id": 60,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 634,
+              "description": null,
+              "name": "Two-time winner of the Western Open",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 635,
+              "description": null,
+              "name": "Two-time winner of the Senior PGA Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 636,
+              "description": null,
+              "name": "Popularized deep-groove irons, which were subsequently banned by the R&A",
+              "icon": {
+                "id": 85,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 637,
+              "description": null,
+              "name": "Honorary Starter at the Masters from 1963–1973",
+              "icon": {
+                "id": 73,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "da0fa724-3975-47ad-b5a0-cd2fb223cb29.jpg",
+                "description": "Jock Hutchison plays a long approach, ca. 1920",
+                "title": "Player Capstone Bio1 Golfs Golden Age Jock Hutchison"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "60667fd4-b924-4217-86c7-b6069d2b84eb.jpg",
+                "description": "Jock Hutchison, ca. 1920",
+                "title": "Player Capstone Bio2 Golfs Golden Age Jock Hutchison"
+              }
+            }
+          ],
+          "bioText": "St. Andrews native Jock Hutchison immigrated to the United States in the early 1900s and became a naturalized American citizen in 1920. He would go on to win 14 tournaments on the PGA TOUR, including two consecutive major championships. In 1921, Hutchinson became the first U.S.-based player to capture the Claret Jug with his victory at the 1921 Open Championship. \n\nKnown around the course as \"Jovial Jock,\" Hutchison won the inaugural Senior PGA Championship in 1937, and did so again in 1947. He returned to Augusta National Golf Club–the site of his 1937 victory–when he joined 1908 U.S. Open champion Fred McLeod as the first honorary starters at the Masters in 1963.",
+          "quote": "When he shifted into a brilliant streak, Jock could play one perfect hole after another, each shot, like mountain views in Switzerland, seemingly more breathtaking than the one that went before.",
+          "quoteByline": "Herbert Warren Wind",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_hutchinson.png",
+            "filename_disk": "0a09b98d-4fb7-406b-8f5f-af302f774b28.png",
+            "description": null,
+            "title": "Sig Hutchinson"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 24,
+          "firstName": "Robert \"Bob\" Tyre",
+          "lastName": "Jones Jr.",
+          "birth": "1902-03-27T00:00:00",
+          "birthplace": "Atlanta, Georgia",
+          "death": "1971-12-18T00:00:00",
+          "inductionYear": 1974,
+          "lockerNumber": 40401,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "427c949f-9075-4cc3-b8ae-bba5b8ca0e05",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_BobJones.jpg",
+                "filename_disk": "427c949f-9075-4cc3-b8ae-bba5b8ca0e05.jpg",
+                "description": "Autographed portrait of Bob Jones by George S. Pietzcker, ca. 1927",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Bob Jones"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "667ede41-6827-4256-a9a3-5a26590901d5",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_BobJones.jpg",
+                "filename_disk": "667ede41-6827-4256-a9a3-5a26590901d5.jpg",
+                "description": "Bob Jones poses with the trophy after his victory in the 1924 U.S. Amateur at Merion Cricket Club outside Philadelphia",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Bob Jones"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "13099784-6b7b-4cd0-aa3d-d660824db181",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_BobJones.jpg",
+                "filename_disk": "13099784-6b7b-4cd0-aa3d-d660824db181.jpg",
+                "description": "Bob Jones, age 7, at East Lake Golf Club in Atlanta, Georgia",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Bob Jones"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "50d71a1c-d45f-4a3b-abb7-c36302533401",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_BobJones.jpg",
+                "filename_disk": "50d71a1c-d45f-4a3b-abb7-c36302533401.jpg",
+                "description": "Bob Jones in his U.S. Army uniform; Jones and his unit landed at Normandy on June 7, 1944, D-Day Plus One",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Bob Jones"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "fafc780c-976a-4b6c-aa6c-0e1f8d5a93b5",
+            "filename_download": "Player_GolfsGoldenAge_BobJones.jpg",
+            "filename_disk": "fafc780c-976a-4b6c-aa6c-0e1f8d5a93b5.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Bob Jones"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 550,
+              "description": null,
               "name": "Four-time winner of the U.S. Open Championship",
               "icon": {
                 "id": 64,
@@ -1633,9 +1125,26 @@
               "status": null
             },
             {
-              "id": 54,
+              "id": 551,
               "description": null,
-              "name": "Four-time winner of the Western Open",
+              "name": "Five-time winner of the U.S. Amateur Championship",
+              "icon": null,
+              "status": null
+            },
+            {
+              "id": 552,
+              "description": null,
+              "name": "Three-time winner of the Open Championship",
+              "icon": {
+                "id": 60,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 553,
+              "description": null,
+              "name": "Winner of the 1930 Amateur Championship",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1643,11 +1152,21 @@
               "status": null
             },
             {
-              "id": 55,
-              "description": null,
-              "name": "Head professional at 10 different clubs",
+              "id": 554,
+              "description": "Jones represented the USA in 1922, 1924, 1926, 1928, and 1930, captaining the team in 1928 and 1930",
+              "name": "Five-time member of the USA Walker Cup Team",
               "icon": {
-                "id": 81,
+                "id": 66,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 555,
+              "description": null,
+              "name": "Co-founder of the Augusta National Golf Club and The Masters Tournament",
+              "icon": {
+                "id": 73,
                 "image": null
               },
               "status": null
@@ -1657,85 +1176,139 @@
             {
               "directus_files_id": {
                 "id": null,
-                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_WillieAnderson.jpg",
-                "filename_disk": "f14aa1cc-c60d-415f-b6be-219b13fe0421.jpg",
-                "description": "Willie Anderson at the finish of his swing, 1905",
-                "title": "Player Capstone Bio1 Golfs Golden Age Willie Anderson"
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_BobJones.jpg",
+                "filename_disk": "0ed8864d-6a56-4d40-afff-d853116919de.jpg",
+                "description": "Need Caption",
+                "title": "Player Capstone Bio1 Golfs Golden Age Bob Jones"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_BobJones.jpg",
+                "filename_disk": "02f984d8-d707-4e71-9fe0-b1095b1651ec.jpg",
+                "description": "Bob Jones poses with the Grand Slam trophies in 1930; from left to right: Open Championship, U.S. Amateur Championship, Amateur Championship, U.S. Open Championship",
+                "title": "Player Capstone Bio2 Golfs Golden Age Bob Jones"
               }
             }
           ],
-          "bioText": "Willie Anderson, modest in nature and never boastful of his successes, belongs in the same pantheon of U.S. Open history as Bob Jones, Ben Hogan and Jack Nicklaus. From 1897 to 1910, Anderson won the U. S. Open four times, finished second once, third once, fourth twice and fifth three times. He was, in many respects, the first dominant professional in America.\n\nReared on the links of North Berwick, Scotland, Anderson was a sturdy man with muscular shoulders, brawny forearms and exceptionally large hands. He played with a flat, full-sweeping action known as the \"St. Andrews swing.\" Despite what many considered to be swing flaws, Anderson was consistently accurate. He died prematurely of arteriosclerosis at age 31.",
-          "quote": "Most likely, had he lived longer, Willie would have set a record for U.S. Open championships that would never be beaten.",
-          "quoteByline": "Alex Smith, 1906 and 1910 U.S. Open champion",
+          "bioText": "More than any player in history, Robert Tyre \"Bob\" Jones Jr. remains the model of a complete golfer and the quintessential champion. A man of intelligence, character and pure athleticism, Jones merged all three traits to become not only a singular champion, but a genuine hero. \n\nA lawyer by trade, Jones won five U.S. Amateurs, one Amateur Championship, four U.S. Opens and three Open Championships. In 1930, he did the near-impossible and claimed all four majors in a single year, then promptly retired from competitive golf. Together with his partner Clifford Roberts, Jones would go on to found Augusta National Golf Club and the Masters, enlisting Alister MacKenzie to assist in the course design.",
+          "quote": "What Jones did was create a model that everyone, consciously or unconsciously, followed. It is why we have so many fine people in golf. He showed the world how to do it.",
+          "quoteByline": "William Campbell",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_anderson-e1439927427696.png",
-            "filename_disk": "9c7c15d1-555f-4d23-afa1-a8aa1c3fbd11.png",
+            "filename_download": "Bobby-Jones-e1452089977219.png",
+            "filename_disk": "88900d8e-5914-411f-b07b-50e3d7476c0a.png",
             "description": null,
-            "title": "Sig Anderson E1439927427696"
+            "title": "Bobby Jones E1452089977219"
           },
-          "contentTrails": []
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
         },
         {
-          "id": 14,
-          "firstName": "Charles Blair",
-          "lastName": "Macdonald",
-          "birth": "1855-11-14T00:00:00",
-          "birthplace": "Niagara Falls, Ontario, Canada",
-          "death": "1939-04-21T00:00:00",
-          "inductionYear": 2007,
-          "lockerNumber": 40407,
+          "id": 26,
+          "firstName": "Francis",
+          "lastName": "Ouimet",
+          "birth": "1873-05-08T00:00:00",
+          "birthplace": "Brookline, Massachusetts",
+          "death": "1967-09-02T00:00:00",
+          "inductionYear": 1974,
+          "lockerNumber": 40402,
           "media": [
             {
               "directus_files_id": {
-                "id": "3fd9f8e0-7791-466e-b341-2e1b5a7c2fc9",
-                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_CharlesBlairMacdonald.jpg",
-                "filename_disk": "3fd9f8e0-7791-466e-b341-2e1b5a7c2fc9.jpg",
-                "description": "Legendary British golf writer and Hall of Fame member Bernard Darwin (left) with Charles Blair Macdonald at the National Golf Links of America, 1913",
-                "title": "Player Capstone Gallery1 Golfs Golden Age Charles Blair Macdonald"
+                "id": "14c41371-8727-4f61-92bf-1d5b6a73a249",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "14c41371-8727-4f61-92bf-1d5b6a73a249.jpg",
+                "description": "Francis Ouimet’s scorecard from the 1913 U.S. Open playoff; Hall of Fame member Bernard Darwin was his marker",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Francis Ouimet"
               }
             },
             {
               "directus_files_id": {
-                "id": "0aea0fdb-9317-4669-b884-082c11addd0a",
-                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_CharlesBlairMacdonald.jpg",
-                "filename_disk": "0aea0fdb-9317-4669-b884-082c11addd0a.jpg",
-                "description": "The first international match between Canada and the United States, October 1, 1898; Macdonald seated, second row, second from left in white cap",
-                "title": "Player Capstone Gallery2 Golfs Golden Age Charles Blair Macdonald"
+                "id": "c61ad3d7-2a9e-4fbb-9b67-d0153b81d68a",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "c61ad3d7-2a9e-4fbb-9b67-d0153b81d68a.jpg",
+                "description": "Francis Ouimet drives off from the first tee at St. Andrews, becoming the first American captain of the Royal and Ancient Golf Club",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Francis Ouimet"
               }
             },
             {
               "directus_files_id": {
-                "id": "818c47c0-3796-4ace-b66b-200bf8ecfd0f",
-                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_CharlesBlairMacdonald.jpg",
-                "filename_disk": "818c47c0-3796-4ace-b66b-200bf8ecfd0f.jpg",
-                "description": "Construction of the 17th hole at Lido Golf Club on Long Island, C.B. Macdonald’s audacious design built with 2 million tons of dredged sand",
-                "title": "Player Capstone Gallery3 Golfs Golden Age Charles Blair Macdonald"
+                "id": "8ab5881a-0bd7-4de9-bbfd-6c2836cbe539",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "8ab5881a-0bd7-4de9-bbfd-6c2836cbe539.jpg",
+                "description": "Francis Ouimet blasts out of a bunker during the 1923 Walker Cup, played on the Old Course in St. Andrews",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Francis Ouimet"
               }
             },
             {
               "directus_files_id": {
-                "id": "9a6e705a-9121-44ce-bb9d-ec250b5022cc",
-                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_CharlesBlairMacdonald.jpg",
-                "filename_disk": "9a6e705a-9121-44ce-bb9d-ec250b5022cc.jpg",
-                "description": "Portrait of Charles Blair Macdonald by George Pietzcker, ca. 1920",
-                "title": "Player Capstone Gallery4 Golfs Golden Age Charles Blair Macdonald"
+                "id": "949bd96c-7684-464a-ac56-dcdbe7256672",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "949bd96c-7684-464a-ac56-dcdbe7256672.jpg",
+                "description": "Francis Ouimet and Eddie Lowery at the 1913 U.S. Open",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Francis Ouimet"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "ab48b48a-5940-4caa-92be-f4fa1299738a",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "ab48b48a-5940-4caa-92be-f4fa1299738a.jpg",
+                "description": "Francis Ouimet, Eddie Lowery and fans celebrate after Ouimet’s historic victory in the 1913 U.S. Open",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Francis Ouimet"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "36ef2295-6fe1-418c-bb32-42288f39ed1c",
+                "filename_download": "Player_CapstoneGallery6_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "36ef2295-6fe1-418c-bb32-42288f39ed1c.jpg",
+                "description": "Portrait of Francis Ouimet, 1946",
+                "title": "Player Capstone Gallery6 Golfs Golden Age Francis Ouimet"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "9a7e84e1-d6b6-4792-8e1d-60fc65417bac",
+                "filename_download": "Player_CapstoneGallery7_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "9a7e84e1-d6b6-4792-8e1d-60fc65417bac.jpg",
+                "description": "H.H. Ramsay presents the trophy to Francis Ouimet following his victory in the 1931 U.S. Amateur Championship",
+                "title": "Player Capstone Gallery7 Golfs Golden Age Francis Ouimet"
               }
             }
           ],
           "featuredImage": {
-            "id": "7a544498-5fa0-47f8-8e67-0e6b32f79db5",
-            "filename_download": "Player_GreatGolfBoom_Charles Blair MacDonald.jpg",
-            "filename_disk": "7a544498-5fa0-47f8-8e67-0e6b32f79db5.jpg",
+            "id": "b25d1db7-37a9-4ca9-83f0-0e1b0588ca7f",
+            "filename_download": "Player_GolfsGoldenAge_FrancisOuimet.jpg",
+            "filename_disk": "b25d1db7-37a9-4ca9-83f0-0e1b0588ca7f.jpg",
             "description": null,
-            "title": "Player Great Golf Boom Charles Blair Mac Donald"
+            "title": "Player Golfs Golden Age Francis Ouimet"
           },
           "backgroundImage": null,
           "accomplishments": [
             {
-              "id": 56,
+              "id": 556,
               "description": null,
-              "name": "Winner of the 1895 U.S. Amateur",
+              "name": "Winner of the 1913 U.S. Open Championship",
+              "icon": {
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 557,
+              "description": null,
+              "name": "Two-time winner of the U.S. Amateur Championship",
               "icon": {
                 "id": 59,
                 "image": null
@@ -1743,29 +1316,483 @@
               "status": null
             },
             {
-              "id": 57,
-              "description": null,
-              "name": "Founding officer of the United States Golf Association",
+              "id": 558,
+              "description": "Acted as team captain six times",
+              "name": "Eight-time member of the USA Walker Cup Team",
               "icon": {
-                "id": 76,
+                "id": 66,
                 "image": null
               },
               "status": null
             },
             {
-              "id": 58,
+              "id": 559,
               "description": null,
-              "name": "Founder of the Chicago Golf Club",
+              "name": "Elected Captain of the Royal and Ancient Golf Club of St. Andrews in 1951",
               "icon": {
-                "id": 76,
+                "id": 86,
                 "image": null
               },
               "status": null
             },
             {
-              "id": 59,
-              "description": "Macdonald's design credits include the National Golf Links of America, Yale Golf Club, and Mid-Ocean Club in Bermuda.",
-              "name": "Designer of the first 18-hole golf course in America",
+              "id": 560,
+              "description": null,
+              "name": "Recipient of the Bob Jones Award in 1955",
+              "icon": {
+                "id": 68,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "f9e70845-bda7-4962-8960-8e614020ce87.jpg",
+                "description": "Francis Ouimet with his daughters Janice and Barbara (swinging), 1929",
+                "title": "Player Capstone Bio1 Golfs Golden Age Francis Ouimet"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "e2e3d4b7-301f-4ea3-931c-771211dd1caf.jpg",
+                "description": "Need Caption",
+                "title": "Player Capstone Bio2 Golfs Golden Age Francis Ouimet"
+              }
+            }
+          ],
+          "bioText": "Francis Ouimet began his golf career as an 11-year-old caddie at The Country Club, just across the street from his home in Brookline, Massachusetts. He brought new levels of attention to the game when, as a 20-year-old amateur, he defeated British legends Harry Vardon and Ted Ray in an 18-hole playoff at The Country Club in the 1913 U.S. Open. It would mark the first time that golf appeared on the front page of American newspapers.\n\nFollowing that historic victory, Ouimet went on to capture the U.S. Amateur in 1914 and 1931 while pursuing other business ventures. In 1951, he became the first non-Briton elected Captain of The Royal and Ancient Golf Club of St. Andrews.",
+          "quote": "To me, the ground here is hallowed. The grass grows greener, the trees bloom better, and there is even warmth to the rocks. Somehow or other the sun seems to shine brighter on The Country Club than any other place that I have ever known.",
+          "quoteByline": "Francis Ouimet",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_ouimet.png",
+            "filename_disk": "5698f0b7-a5a4-4296-a76e-992de03e7365.png",
+            "description": null,
+            "title": "Sig Ouimet"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 7,
+                "name": "Growth Drivers",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "firstName": "Gene",
+          "lastName": "Sarazen",
+          "birth": "1902-02-27T00:00:00",
+          "birthplace": "Harrison, New York",
+          "death": "1999-05-13T00:00:00",
+          "inductionYear": 1974,
+          "lockerNumber": 40415,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "a6a62779-3abe-4acb-93ff-889f96d9fd49",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_GeneSarazen.jpg",
+                "filename_disk": "a6a62779-3abe-4acb-93ff-889f96d9fd49.jpg",
+                "description": "Hall of Fame members and friends Gene Sarazen, Tommy Armour and Johnny Farrell, ca. 1930",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Gene Sarazen"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "de152b30-9e43-47f5-9a2d-090a47ebccdb",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_GeneSarazen.jpg",
+                "filename_disk": "de152b30-9e43-47f5-9a2d-090a47ebccdb.jpg",
+                "description": "Gene Sarazen celebrates his first major championship victory, the 1922 U.S. Open at Skokie Country Club in Glencoe, Illinois",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Gene Sarazen"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "9195f989-e5ac-44ec-b12d-ca0436eac773",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_GeneSarazen.jpg",
+                "filename_disk": "9195f989-e5ac-44ec-b12d-ca0436eac773.jpg",
+                "description": "Gene Sarazen at work on his farm in upstate New York, his second passion after golf",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Gene Sarazen"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "65d5322c-8840-4365-94a4-6db52459e16e",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_GeneSarazen.jpg",
+                "filename_disk": "65d5322c-8840-4365-94a4-6db52459e16e.jpg",
+                "description": "Gene Sarazen, his wife Mary, and children Mary Ann and Gene Jr. around the family dining table, ca. 1935",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Gene Sarazen"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "3142d79f-e9f5-422a-b911-9a665639b47e",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_GeneSarazen.jpg",
+                "filename_disk": "3142d79f-e9f5-422a-b911-9a665639b47e.jpg",
+                "description": "Closeup photograph of Gene Sarazen’s grip",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Gene Sarazen"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "2cecc2e0-21f9-43b7-a49f-e71d0c72e5ce",
+            "filename_download": "Player_GolfsGoldenAge_GeneSarazen.jpg",
+            "filename_disk": "2cecc2e0-21f9-43b7-a49f-e71d0c72e5ce.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Gene Sarazen"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 650,
+              "description": null,
+              "name": "Three-time winner of the PGA Championship",
+              "icon": {
+                "id": 72,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 651,
+              "description": null,
+              "name": "Two-time winner of the U.S. Open Championship",
+              "icon": {
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 652,
+              "description": null,
+              "name": "Winner of the 1935 Masters Tournament",
+              "icon": {
+                "id": 73,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 653,
+              "description": null,
+              "name": "Winner of the 1932 Open Championship",
+              "icon": {
+                "id": 60,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 654,
+              "description": null,
+              "name": "Six-time member of the USA Ryder Cup Team",
+              "icon": {
+                "id": 70,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 655,
+              "description": null,
+              "name": "Recipient of the Bob Jones Award in 1992",
+              "icon": {
+                "id": 68,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_GeneSarazen.jpg",
+                "filename_disk": "894237cd-e763-4634-91c3-f34c9c8614cb.jpg",
+                "description": "Portrait of Gene Sarazen by George S. Pietzcker, 1922",
+                "title": "Player Capstone Bio1 Golfs Golden Age Gene Sarazen"
+              }
+            }
+          ],
+          "bioText": "Born Eugenio Saraceni, the son of an Italian carpenter from Rome, Gene Sarazen spanned golf history as a competitor, innovator and senior statesman. He had a compact but ferocious swing and a fiercely competitive but generous heart.\n\nIn the final round of the 1935 Masters, Sarazen holed a miraculous shot from 220 yards for double eagle on the 15th hole. He finished the round tied with Craig Wood, then won the playoff the next day to become the first player to win all four major championships. \n\nIn 1931, while being taught by Howard Hughes how to fly a plane, Sarazen came upon the idea for the modern sand wedge. He later called it his biggest contribution to the game.",
+          "quote": "When Sarazen saw a chance at the bacon hanging over the last green, he could put as much fire and fury into a finishing round as Jack Dempsey could put into a fight.",
+          "quoteByline": "Bob Jones",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_sarazen.png",
+            "filename_disk": "e7010aae-3b1f-49f0-aa31-3d9a824f04e7.png",
+            "description": null,
+            "title": "Sig Sarazen"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 30,
+          "firstName": "Jerry",
+          "lastName": "Travers",
+          "birth": "1887-05-19T00:00:00",
+          "birthplace": "New York, New York",
+          "death": "1951-03-29T00:00:00",
+          "inductionYear": 1976,
+          "lockerNumber": 40404,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "7a54fc78-53c2-401a-9a8a-513800ba9497",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_JerryTravers.jpg",
+                "filename_disk": "7a54fc78-53c2-401a-9a8a-513800ba9497.jpg",
+                "description": "Jerry Travers with the U.S. Open trophy at Baltusrol Golf Club, 1915",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Jerry Travers"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "09593122-2185-4392-bcdd-6d490abc2f2e",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_JerryTravers.jpg",
+                "filename_disk": "09593122-2185-4392-bcdd-6d490abc2f2e.jpg",
+                "description": "Portrait of Jerry Travers by George S. Pietzcker, ca. 1910",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Jerry Travers"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "d11e1601-41e2-4d9a-a3ca-aaf4eba54602",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_JerryTravers.jpg",
+                "filename_disk": "d11e1601-41e2-4d9a-a3ca-aaf4eba54602.jpg",
+                "description": "Close-up view of Jerry Travers’ grip, ca. 1910",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Jerry Travers"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "220d00b5-8ccc-4688-8ee0-e0db17bf0657",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_JerryTravers.jpg",
+                "filename_disk": "220d00b5-8ccc-4688-8ee0-e0db17bf0657.jpg",
+                "description": "Jerry Travers plays an explosion shot from a greenside bunker at Montclair Golf Club, 1932",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Jerry Travers"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "cf0a928f-44f5-4686-b464-1b29d0db1520",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_JerryTravers.jpg",
+                "filename_disk": "cf0a928f-44f5-4686-b464-1b29d0db1520.jpg",
+                "description": "Jerry Travers with the U.S. Open trophy at Baltusrol Golf Club, 1915",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Jerry Travers"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "93886efe-18f4-49d5-9d9d-cd9d4e19b81d",
+            "filename_download": "Player_GolfsGoldenAge_JerryTravers.jpg",
+            "filename_disk": "93886efe-18f4-49d5-9d9d-cd9d4e19b81d.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Jerry Travers"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 567,
+              "description": null,
+              "name": "Winner of the 1915 U.S. Open Championship",
+              "icon": {
+                "id": 64,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 568,
+              "description": null,
+              "name": "Four-time winner of the U.S. Amateur Championship",
+              "icon": {
+                "id": 59,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 569,
+              "description": null,
+              "name": "Five-time winner of the Metropolitan Amateur Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 570,
+              "description": null,
+              "name": "Four-time winner of the New Jersey State Amateur Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 571,
+              "description": null,
+              "name": "Qualified for match play in the 1903 U.S. Amateur at age 16",
+              "icon": {
+                "id": 59,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 572,
+              "description": null,
+              "name": "Participated in numerous exhibition matches to raise funds for the Red Cross during World War I",
+              "icon": {
+                "id": 80,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_JerryTravers.jpg",
+                "filename_disk": "fb02b020-d21e-43b8-9dd7-d2c055ec1813.jpg",
+                "description": "Jerry Travers demonstrates how to play a stymie, lofting his shot over an opponent’s ball, ca. 1910",
+                "title": "Player Capstone Bio1 Golfs Golden Age Jerry Travers"
+              }
+            }
+          ],
+          "bioText": "One of the most feared golfers of his generation, Jerry Travers captured four U.S. Amateurs, five Metropolitan Amateurs and a U.S. Open between 1906 and 1915. He had a brilliant short game, but was erratic off the tee. In 1915, Travers became the second amateur to win the U.S. Open, but he chose to not defend his title and subsequently retired from competitive golf. \n\nAs Herbert Warren Wind explained, it was a fierce rivalry with Walter Travis that “formed the crucible in which a talented young golfer was made into the greatest match player of his decade.” Among his peers, Jerry Travers earned ultimate, almost intimidating, respect. Chick Evans called him “the coldest, hardest golfer I ever knew.”",
+          "quote": "Golf is a game of the head as well as a game of the hands.",
+          "quoteByline": "Jerry Travers",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_travers.png",
+            "filename_disk": "0b1108c5-717f-4c5a-aeb9-cebee3beae66.png",
+            "description": null,
+            "title": "Sig Travers"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 31,
+          "firstName": "Walter",
+          "lastName": "Travis",
+          "birth": "1862-01-10T00:00:00",
+          "birthplace": "Maldon, Victoria, Australia",
+          "death": "1927-07-31T00:00:00",
+          "inductionYear": 1979,
+          "lockerNumber": 40406,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "db579668-aafd-4422-91ab-59278ba35fd7",
+                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_WalterTravis.jpg",
+                "filename_disk": "db579668-aafd-4422-91ab-59278ba35fd7.jpg",
+                "description": "Pencil sketch of Walter Travis by Louis Holz, ca. 1920",
+                "title": "Player Capstone Gallery1 Golfs Golden Age Walter Travis"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "ad8b2fe5-dd52-439f-be63-dca5ad2ae3b4",
+                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_WalterTravis.jpg",
+                "filename_disk": "ad8b2fe5-dd52-439f-be63-dca5ad2ae3b4.jpg",
+                "description": "E.M., “America in England,” 1904, showing Walter Travis and his Schenectady putter winning the 1904 Amateur Championship",
+                "title": "Player Capstone Gallery2 Golfs Golden Age Walter Travis"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "db3ad290-bed7-499b-ad74-1db7944ede0e",
+                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_WalterTravis.jpg",
+                "filename_disk": "db3ad290-bed7-499b-ad74-1db7944ede0e.jpg",
+                "description": "Walter Travis, U.S. Vice President James Sherman, golf professional Allan Lard and U.S. President William Howard Taft at Chevy Chase Club, May 1910",
+                "title": "Player Capstone Gallery3 Golfs Golden Age Walter Travis"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "735a5ee2-dc34-4389-8d92-b7cf7131eb90",
+                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_WalterTravis.jpg",
+                "filename_disk": "735a5ee2-dc34-4389-8d92-b7cf7131eb90.jpg",
+                "description": "Autographed photo of Walter Travis, ca. 1910",
+                "title": "Player Capstone Gallery4 Golfs Golden Age Walter Travis"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "cb04b7d2-34c0-48ac-a968-96bb4cd85063",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_WalterTravis.jpg",
+                "filename_disk": "cb04b7d2-34c0-48ac-a968-96bb4cd85063.jpg",
+                "description": "Walter Travis with his wife Anne, daughter Adelaide (standing) and son Bartlett (in his mother’s lap), ca. 1900",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Walter Travis"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "68795929-96f9-472d-a997-cfeddde740f6",
+            "filename_download": "Player_GolfsGoldenAge_WalterTravis.jpg",
+            "filename_disk": "68795929-96f9-472d-a997-cfeddde740f6.jpg",
+            "description": null,
+            "title": "Player Golfs Golden Age Walter Travis"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 573,
+              "description": null,
+              "name": "Three-time winner of the U.S. Amateur Championship",
+              "icon": {
+                "id": 59,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 574,
+              "description": null,
+              "name": "Winner of the 1904 Amateur Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 575,
+              "description": null,
+              "name": "Four-time winner of the Metropolitan Amateur Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 576,
+              "description": null,
+              "name": "Three-time winner of the North and South Amateur Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 577,
+              "description": "Designs include Garden City and Westchester Country Club’s West Course",
+              "name": "Designed or remodeled nearly 50 courses",
               "icon": {
                 "id": 53,
                 "image": null
@@ -1773,9 +1800,9 @@
               "status": null
             },
             {
-              "id": 60,
+              "id": 578,
               "description": null,
-              "name": "Author of \"Scotland's Gift: Golf\", a celebrated autobiography",
+              "name": "Author of \"Practical Golf\" and \"The Art of Putting\" and founder of \"The American Golfer\" magazine",
               "icon": {
                 "id": 78,
                 "image": null
@@ -1787,37 +1814,35 @@
             {
               "directus_files_id": {
                 "id": null,
-                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_CharlesBlairMacdonald.jpg",
-                "filename_disk": "967b03a7-1cd0-4d15-8482-33ca25f6c166.jpg",
-                "description": "Charles Blair Macdonald, 1895",
-                "title": "Player Capstone Bio1 Golfs Golden Age Charles Blair Macdonald"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_CharlesBlairMacdonald.jpg",
-                "filename_disk": "f03d720f-3c5a-4f1f-b677-996aca5ec54b.jpg",
-                "description": "Russian sculptor Paolo Troubetzkoy working on a life-sized statue of Charles Blair Macdonald for the National Golf Links of America, 1914",
-                "title": "Player Capstone Bio2 Golfs Golden Age Charles Blair Macdonald"
+                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_WalterTravis.jpg",
+                "filename_disk": "35ab01f5-c88d-4d11-9e63-3c4faffd342d.jpg",
+                "description": "Walter Travis, ca. 1900",
+                "title": "Player Capstone Bio1 Golfs Golden Age Walter Travis"
               }
             }
           ],
-          "bioText": "Charles Blair Macdonald, a \"founding father\" of American golf, was a driving force in the creation of the United States Golf Association in 1894. He was introduced to golf at age 16, when his parents sent him to live with his grandfather in St. Andrews, Scotland. He quickly became skilled enough to play regularly on the Old Course with two of the finest players of the day—Davey Strath and Young Tom Morris.\n\nSeveral years after Macdonald returned to the United States, he designed a seven-hole course for the 1893 World's Fair in Chicago, launching a career as a world-class architect. No less an authority than Bernard Darwin accurately referred to Macdonald as the first great American golf course architect.",
-          "quote": "Putting greens to a golf course are what the face is to a portrait.",
-          "quoteByline": "Charles Blair Macdonald",
+          "bioText": "There has not been a golfer who played so well after starting so late in life as Walter J. Travis. He took up golf at age 34, won his first tournament one month later and two years later reached the semifinal round of the U.S. Amateur. Within four years, Travis won the first of three U.S. Amateur titles. He was the first American citizen to win The Amateur Championship and ended his career by winning the prestigious Metropolitan Amateur at age 53. \n\nTravis retired from competitive golf in 1916, but went on to design or renovate more than 50 golf courses. He published several books and founded the magazine **The American Golfer** to share his knowledge of the game.",
+          "quote": "Always be on the aggressive. Act as if you are quite sure of yourself and never give an opponent the psychological advantage of imagining you are the least afraid of him.",
+          "quoteByline": "Walter Travis",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_macdonald.png",
-            "filename_disk": "3250d91c-3162-4a71-b798-b042d65a774c.png",
+            "filename_download": "sig_travis.png",
+            "filename_disk": "b22ac814-e67e-480f-b720-fdde67a6c60c.png",
             "description": null,
-            "title": "Sig Macdonald"
+            "title": "Sig Travis"
           },
           "contentTrails": [
             {
               "contentTrails_id": {
                 "id": 1,
                 "name": "Architects & Designers",
+                "description": null
+              }
+            },
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
                 "description": null
               }
             }

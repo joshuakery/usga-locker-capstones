@@ -7,6 +7,9 @@ namespace JoshKery.GenericUI.DOTweenHelpers.FlexibleUI
     [RequireComponent(typeof(FlexUIColorChangeWindow))]
     public class ColorChangeButton : MonoBehaviour, IPointerDownHandler, IPointerClickHandler, IPointerExitHandler, IPointerEnterHandler
     {
+        /// <summary>
+        /// The window to open and close
+        /// </summary>
         protected FlexUIColorChangeWindow buttonWindow;
 
         protected virtual void Awake()

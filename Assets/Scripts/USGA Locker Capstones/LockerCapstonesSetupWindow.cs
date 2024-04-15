@@ -38,7 +38,11 @@ namespace JoshKery.USGA.LockerCapstones
                 configLoader.onPopulateContentFinish.AddListener(DoClose);
 
                 if (proceedButton != null)
+                {
                     proceedButton.onClick.AddListener(configLoader.ProceedToLoadContent);
+                    proceedButton.onClick.AddListener(OnProceed);
+                }
+                    
 
                 if (dropdown != null)
                     dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
@@ -58,7 +62,11 @@ namespace JoshKery.USGA.LockerCapstones
                 configLoader.onPopulateContentFinish.RemoveListener(DoClose);
 
                 if (proceedButton != null)
+                {
                     proceedButton.onClick.RemoveListener(configLoader.ProceedToLoadContent);
+                    proceedButton.onClick.RemoveListener(OnProceed);
+                }
+                    
 
                 if (dropdown != null)
                     dropdown.onValueChanged.RemoveListener(OnDropdownValueChanged);
@@ -107,6 +115,11 @@ namespace JoshKery.USGA.LockerCapstones
                 if (timeDisplay != null)
                     timeDisplay.text = System.Convert.ToInt16(configLoader.timeRemainingToProceed.TotalSeconds).ToString();
             }
+        }
+
+        private void OnProceed()
+        {
+            _Close(SequenceType.UnSequenced);
         }
     }
 }

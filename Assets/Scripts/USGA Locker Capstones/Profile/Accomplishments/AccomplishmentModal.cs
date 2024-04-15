@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using JoshKery.GenericUI.DOTweenHelpers;
 using JoshKery.GenericUI.Text;
+using DG.Tweening;
 
 namespace JoshKery.USGA.LockerCapstones
 {
@@ -35,6 +36,12 @@ namespace JoshKery.USGA.LockerCapstones
         [SerializeField]
         private RectTransform accomplishmentCardPlaceholder;
 
+/*        [SerializeField]
+        private BaseWindow topCanvasWindow;
+
+        [SerializeField]
+        private BaseWindow profileWindow;*/
+
         private void Start()
         {
             CloseAndComplete();
@@ -49,6 +56,8 @@ namespace JoshKery.USGA.LockerCapstones
             onCloseAndComplete += CloseAndComplete;
 
             MainCanvasStateMachine.beforeAnimateToProfile += InvokeOnCloseAndComplete;
+            //MainCanvasStateMachine.onAnimateToProfile.AddListener(OnAnimateToProfile);
+            MainCanvasStateMachine.afterAnimateToMenu += OnAfterAnimateToMenu;
         }
 
         protected override void OnDisable()
@@ -60,6 +69,8 @@ namespace JoshKery.USGA.LockerCapstones
             onCloseAndComplete -= CloseAndComplete;
 
             MainCanvasStateMachine.beforeAnimateToProfile -= InvokeOnCloseAndComplete;
+            //MainCanvasStateMachine.onAnimateToProfile.RemoveListener(OnAnimateToProfile);
+            MainCanvasStateMachine.afterAnimateToMenu -= OnAfterAnimateToMenu;
         }
 
         /// <summary>
@@ -129,7 +140,66 @@ namespace JoshKery.USGA.LockerCapstones
             onCloseAndComplete?.Invoke();
         }
 
-        
+        private void OnAfterAnimateToMenu()
+        {
+            DoClose();
+        }
+
+/*        private void OnAnimateToProfile(int profileID)
+        {
+            if (topCanvasWindow != null)
+            {
+                topCanvasWindow.Open(SequenceType.CompleteImmediately);
+            }
+        }*/
+
+ /*       protected override Sequence _Close(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        {
+            Sequence wrapper = DOTween.Sequence();
+
+            Tween close = base._Close(SequenceType.UnSequenced, atPosition);
+
+            if (close != null)
+                wrapper.Join(close);
+
+            if (topCanvasWindow != null && profileWindow != null && !profileWindow.isOpen)
+            {
+                Tween topCanvasClose = topCanvasWindow.Close(SequenceType.UnSequenced);
+
+                if (topCanvasClose != null)
+                    wrapper.Join(topCanvasClose);
+            }
+
+            sequenceManager.CreateSequenceIfNull();
+            AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, atPosition, null);
+
+            return wrapper;
+        }
+
+        protected override Sequence _Open(SequenceType sequenceType = SequenceType.UnSequenced, float atPosition = 0)
+        {
+            Sequence wrapper = DOTween.Sequence();
+
+            Tween open = base._Open(SequenceType.UnSequenced, atPosition);
+
+            if (open != null)
+                wrapper.Join(open);
+
+            if (topCanvasWindow != null)
+            {
+                Tween topCanvasOpen = topCanvasWindow.Open(SequenceType.UnSequenced);
+
+                if (topCanvasOpen != null)
+                    wrapper.Join(topCanvasOpen);
+            }
+
+            sequenceManager.CreateSequenceIfNull();
+            AttachTweenToSequence(sequenceType, wrapper, sequenceManager.currentSequence, false, atPosition, null);
+
+            return wrapper;
+        }*/
+
+
     }
 }
 

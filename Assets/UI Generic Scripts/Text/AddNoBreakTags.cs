@@ -11,7 +11,7 @@ namespace JoshKery.GenericUI.Text
             {
                 string[] words = tmp_text.text.Split(" ");
 
-                tmp_text.text = System.String.Join(" ", words.Take(words.Length - 3).ToArray()) +
+                tmp_text.text = System.String.Join(" ", words.Take(words.Length - 2).ToArray()) +
                     " <nobr>" +
                     words[words.Length - 2] + " " + words[words.Length - 1] +
                     "</nobr>";  

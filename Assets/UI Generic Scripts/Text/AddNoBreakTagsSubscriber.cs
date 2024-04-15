@@ -14,6 +14,7 @@ namespace JoshKery.GenericUI.Text
         private void Awake()
         {
             target = GetComponent<TMP_Text>();
+            AddNoBreakTags.AddNoBreakTagsToText(target);
         }
 
         private void OnEnable()

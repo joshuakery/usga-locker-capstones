@@ -105,12 +105,12 @@ namespace JoshKery.USGA.LockerCapstones
 
         private void OnAnimateToMenu()
         {
-            button.interactable = true;
+            button.interactable = isInEra;
         }
 
         private void OnAnimateToProfile(int id)
         {
-            button.interactable = false;
+            button.interactable = isInEra;
         }
 
         #region Public Methods
@@ -142,10 +142,19 @@ namespace JoshKery.USGA.LockerCapstones
         /// <returns>Tween of the animation</returns>
         public Tween SetInteractable()
         {
+            Debug.Log(isInEra);
             if (isInEra)
+            {
+                button.interactable = true;
                 return _WindowAction(interactableSequence, SequenceType.CompleteImmediately);
+            }
+                
             else
+            {
+                button.interactable = false;
                 return _WindowAction(disabledSequence, SequenceType.CompleteImmediately);
+            }
+                
         }
         #endregion
 
