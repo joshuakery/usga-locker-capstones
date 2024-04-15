@@ -52,11 +52,11 @@
       "profileBackgroundsDirectoryName": "profileBackgrounds/6_theGlobalGame"
     },
     {
-      "name": "The New Millenium",
+      "name": "The New Millennium",
       "eraID": 7,
       "hex": "#1D3C34",
-      "attractMediaDirectoryName": "attractMedia/7_theNewMillenium",
-      "profileBackgroundsDirectoryName": "profileBackgrounds/7_theNewMillenium"
+      "attractMediaDirectoryName": "attractMedia/7_theNewMillennium",
+      "profileBackgroundsDirectoryName": "profileBackgrounds/7_theNewMillennium"
     }
   ]
 }
