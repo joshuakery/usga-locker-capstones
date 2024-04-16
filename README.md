@@ -43,4 +43,4 @@ Filenames should match the "Locker Number" field in the CMS e.g. "40411.png"
 
 ### File Size Specification
 
-Images will be scaled to fit to a height of 1200px, with a resulting variable width. There is no padding in within the container. The maximum visible width is the screen's, at 2160px. The image is centered within its container, which is also screen width.
+Images will be scaled to fit to a height of 1200px, with a resulting variable width. There is no padding within the container. The maximum visible width is the screen's, at 2160px. The image is centered within its container, which is also screen width.
