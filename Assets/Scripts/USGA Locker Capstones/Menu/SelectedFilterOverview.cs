@@ -148,6 +148,7 @@ namespace JoshKery.USGA.LockerCapstones
                     selectedHeadingField.text = contentTrail.name;
                     AddNoBreakTags.AddNoBreakTagsToText(selectedHeadingField);
                     ParseItalics.ParseItalicsInText(selectedHeadingField);
+                    RemoveDoubleCarriageReturns.Process(selectedHeadingField);
                 }
                     
 
@@ -156,6 +157,7 @@ namespace JoshKery.USGA.LockerCapstones
                     selectedBodyField.text = contentTrail.description;
                     AddNoBreakTags.AddNoBreakTagsToText(selectedBodyField);
                     ParseItalics.ParseItalicsInText(selectedBodyField);
+                    RemoveDoubleCarriageReturns.Process(selectedBodyField);
                 }
                     
 

@@ -142,7 +142,6 @@ namespace JoshKery.USGA.LockerCapstones
         /// <returns>Tween of the animation</returns>
         public Tween SetInteractable()
         {
-            Debug.Log(isInEra);
             if (isInEra)
             {
                 button.interactable = true;

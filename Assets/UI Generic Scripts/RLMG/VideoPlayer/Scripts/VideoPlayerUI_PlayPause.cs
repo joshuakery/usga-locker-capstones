@@ -5,35 +5,34 @@ using UnityEngine.UI;
 
 public class VideoPlayerUI_PlayPause : VideoPlayerUI_Base
 {
-	public Button button;
-	public Image buttonIconImage;
+    public Button button;
 
-    public Sprite playIcon;
-    public Sprite replayIcon;
-	public Sprite pauseIcon;
+    public GameObject playIcon;
+    public GameObject replayIcon;
+    public GameObject pauseIcon;
 
     public bool allowPausing = true;
 
-	protected override void Start()
-	{
-		base.Start();
+    [SerializeField]
+    private bool doShowUIAtEnd = true;
 
-		if (button == null)
-			button = GetComponent<Button>();
+    protected override void Start()
+    {
+        base.Start();
 
-		if (button != null)
-		{
-			if (buttonIconImage == null)
-				buttonIconImage = button.GetComponentInChildren<Image>();
+        if (button == null)
+            button = GetComponent<Button>();
 
-			button.onClick.AddListener(() => OnClick());
-		}
-	}
+        if (button != null)
+        {
+            button.onClick.AddListener(() => OnClick());
+        }
+    }
 
-	private void OnClick()
-	{
-		if (player == null)
-			return;
+    private void OnClick()
+    {
+        if (player == null)
+            return;
 
         if (player.isPlaying)
         {
@@ -41,40 +40,60 @@ public class VideoPlayerUI_PlayPause : VideoPlayerUI_Base
         }
         else
         {
-            //VideoPlayerManager playerManager = player.GetComponent<VideoPlayerManager>();
-            //if (playerManager != null)
-            //{
-            //    playerManager.Play();
-            //}
-            //else
-            //{
-                player.Play();
-            //}
+            player.Play();
         }
-	}
+    }
 
-	private void Update()
-	{
-		if (player == null || buttonIconImage == null)
-			return;
+    private void Update()
+    {
+        if (player == null) return;
+        if (playIcon == null) return;
 
         if (player.isPlaying)
         {
-            buttonIconImage.sprite = pauseIcon;
-
             button.interactable = allowPausing;
+
+            playIcon.SetActive(false);
+
+            if (pauseIcon != null)
+                pauseIcon.SetActive(true);
+
+            if (replayIcon != null)
+                replayIcon.SetActive(false);
         }
         else
         {
-            //Debug.Log("video complete.  player.time=" + player.time + "  Duration=" + Duration);
+            if (pauseIcon != null)
+                pauseIcon.SetActive(false);
 
-            //if (Mathf.Approximately((float)player.time, Duration) && replayIcon != null)
-            if (Mathf.Abs(Duration - (float)player.time) < 0.1f && replayIcon != null)
-                buttonIconImage.sprite = replayIcon;
-            else
-                buttonIconImage.sprite = playIcon;
+            if (Mathf.Abs(Duration - (float)player.time) < 0.1f)
+            {
+                if (doShowUIAtEnd)
+                {
+                    if (replayIcon != null)
+                    {
+                        replayIcon.SetActive(true);
+                        playIcon.SetActive(false);
+                        button.interactable = true;
+                    }
+                    else
+                    {
+                        playIcon.SetActive(true);
+                        button.interactable = true;
+                    }
+                }
+                else
+                {
+                    playIcon.SetActive(false);
+                    button.interactable = false;
+                }
+            }
+            else //paused but not at the end of the video
+            {
+                playIcon.SetActive(true);
+                button.interactable = true;
+            }
 
-            button.interactable = true;
         }
-	}
+    }
 }

@@ -14,9 +14,28 @@ namespace JoshKery.GenericUI.ContentLoading
 {
 	public abstract class ContentLoader : MonoBehaviour
 	{
+		private static List<string> imageExtensions = new List<string>() { ".png", ".jpg", ".jpeg" };
+		public static bool FileNameHasImageExtension(string filename)
+		{
+			if (String.IsNullOrEmpty(filename))
+				return false;
+			else
+				return imageExtensions.Contains(System.IO.Path.GetExtension(filename));
+		}
+
+		private static List<string> videoExtensions = new List<string>() { ".mp4" };
+
+		public static bool FileNameHasVideoExtension(string filename)
+        {
+			if (String.IsNullOrEmpty(filename))
+				return false;
+			else
+				return videoExtensions.Contains(System.IO.Path.GetExtension(filename));
+        }
+
 		/// <summary>
-        /// If true, LoadContent is called on Awake
-        /// </summary>
+		/// If true, LoadContent is called on Awake
+		/// </summary>
 		public bool loadOnAwake = true;
 
 		/// <summary>
@@ -351,8 +370,11 @@ namespace JoshKery.GenericUI.ContentLoading
         {
 			onLoadingDetails?.Invoke("Downloading media from " + onlinePath + " to " + localPath);
 
-			using (UnityWebRequest webRequest = UnityWebRequestTexture.GetTexture(onlinePath))
-            {
+			using (UnityWebRequest webRequest = FileNameHasImageExtension(onlinePath) ?
+				UnityWebRequestTexture.GetTexture(onlinePath) :
+				UnityWebRequest.Get(onlinePath)
+				)
+			{
 				yield return webRequest.SendWebRequest();
 
 				switch (webRequest.result)
@@ -367,7 +389,9 @@ namespace JoshKery.GenericUI.ContentLoading
 						File.WriteAllBytes(localPath, webRequest.downloadHandler.data);
 						break;
 				}
-			}			
+			}
+
+
 		}
 
 		protected virtual IEnumerator SaveMediaToDiskSuccess(UnityWebRequest.Result result)

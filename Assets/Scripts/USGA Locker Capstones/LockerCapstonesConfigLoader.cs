@@ -71,6 +71,9 @@ namespace JoshKery.USGA.LockerCapstones
             [JsonProperty("apiEndpoint")]
             public string apiEndpoint { get; set; }
 
+            [JsonProperty("assetsEndpoint")]
+            public string assetsEndpoint { get; set; }
+
             /// <summary>
             /// List of possible eras to query for across the different instances of Locker Capstones
             /// </summary>
@@ -210,6 +213,7 @@ namespace JoshKery.USGA.LockerCapstones
             {
                 contentLoader.graphQLURL = data.apiServer + "/" + data.apiEndpoint;
                 contentLoader.authToken = data.apiToken;
+                contentLoader.OnlineContentDirectory = data.apiServer + "/" + data.assetsEndpoint;
 
                 contentLoader.erasByIdIdVariable = data.eraID;
                 contentLoader.doDefaultLocalLoadContent = !data.doLoadFromCMS;

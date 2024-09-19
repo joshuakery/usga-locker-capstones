@@ -32,8 +32,7 @@ namespace JoshKery.USGA.LockerCapstones
         public int erasByIdIdVariable = 0;
         #endregion
 
-        [SerializeField]
-        private string OnlineContentDirectory;
+        public string OnlineContentDirectory;
 
         [SerializeField]
         private AppState appState;
@@ -288,8 +287,8 @@ namespace JoshKery.USGA.LockerCapstones
                     {
                         yield return StartCoroutine(LoadMediaFromMediaFile(item?.mediaFile, LoadMediaMethod.FitToParent, 1630, 1200));
 
-                        //Report a more detailed error statement if the media did not load
-                        if (item.mediaFile.texture == null)
+                        //Report a more detailed error statement if a texture did not load
+                        if (item.mediaFile.HasImageExtension() && item.mediaFile.texture == null)
                             RLMGLogger.Instance.Log(
                                 string.Format(
                                     "Failed to load media for locker profile {0}, for media gallery media titled {1}",
@@ -443,7 +442,11 @@ namespace JoshKery.USGA.LockerCapstones
                 if (File.Exists(localPath))
                 {
                     onLoadingDetails?.Invoke("Loading media from local path: " + localPath);
-                    yield return StartCoroutine(AppState.SetMediaFileTextureFromPath(mediaFile, localPath));
+
+                    mediaFile.local_path = localPath;
+
+                    if (mediaFile.HasImageExtension())
+                        yield return StartCoroutine(AppState.SetMediaFileTextureFromPath(mediaFile, localPath));
                 }
             }
         }

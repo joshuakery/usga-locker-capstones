@@ -5,9 +5,10 @@
   "attractInterval": 11,
   "lockerLocatorMediaDirectoryName": "lockerLocatorMedia",
   "doLoadFromCMS": true,
-  "apiServer": "https://usga-exhibits-dev.com",
+  "apiServer": "https://google.com",
   "apiToken": null,
   "apiEndpoint": "graphql",
+  "assetsEndpoint": "assets",
   "eraOptions": [
     {
       "name": "The Great Golf Boom",

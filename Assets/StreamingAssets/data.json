@@ -153,6 +153,15 @@
                 "description": "Portrait of Tommy Armour by George S. PIetzcker, ca. 1930",
                 "title": "Player Capstone Gallery5 Golfs Golden Age Tommy Armour"
               }
+            },
+            {
+              "directus_files_id": {
+                "id": "c53908c6-dfc9-449f-8fd6-70b41a8a569a",
+                "filename_download": "1927USO.mp4",
+                "filename_disk": "c53908c6-dfc9-449f-8fd6-70b41a8a569a.mp4",
+                "description": "Tommy Armour's birdie putt on the 18th at the 1927 U.S. Open secures his place in the playoff. Armour defeated Harry Cooper to win the first of his three major titles.",
+                "title": "1927 Uso"
+              }
             }
           ],
           "featuredImage": {
@@ -167,7 +176,7 @@
             {
               "id": 638,
               "description": null,
-              "name": "Winner of the 1927 U.S. Open Championship",
+              "name": "Winner of the 1927 U.S. Open",
               "icon": {
                 "id": 64,
                 "image": null
@@ -217,7 +226,7 @@
             {
               "id": 643,
               "description": null,
-              "name": "Author of best-selling book, \"How To Play Your Best Golf All the Time\"",
+              "name": "Author of best-selling book, *How To Play Your Best Golf All the Time*",
               "icon": {
                 "id": 78,
                 "image": null
@@ -236,7 +245,7 @@
               }
             }
           ],
-          "bioText": "Nicknamed the “Silver Scot” for the color of his hair, Tommy Armour possessed one of the finest golf swings of all time, as well as an uncanny ability to teach the game. He excelled at golf despite injuries he suffered in World War I that left him with sight in only one eye and metal plates in his head and arm. While recovering in the hospital, he focused on thoughts of playing golf. He would go on to win 27 professional events, including three major championships.\n\nAfter he retired from competitive golf, Armour became one of the most successful instructors in the world. The philosophies and techniques that he taught were detailed in his best-selling book, **How to Play Your Best Golf All the Time.**",
+          "bioText": "Nicknamed the “Silver Scot” for the color of his hair, Tommy Armour possessed one of the finest golf swings of all time, as well as an uncanny ability to teach the game. He excelled at golf despite injuries he suffered in World War I that left him with sight in only one eye and metal plates in his head and arm. While recovering in the hospital, he focused on thoughts of playing golf. He would go on to win 27 professional events, including three major championships.\n\nAfter he retired from competitive golf, Armour became one of the most successful instructors in the world. The philosophies and techniques that he taught were detailed in his best-selling book, *How to Play Your Best Golf All the Time.*",
           "quote": "It is not solely the capacity to make great shots that makes champions, but the essential quality of making very few bad shots.",
           "quoteByline": "Tommy Armour",
           "signatureImage": {
@@ -308,6 +317,15 @@
                 "description": "Jim Barnes putts on the 17th green at Prestwick en route to victory in the 1925 Open Championship",
                 "title": "Player Capstone Gallery4 Golfs Golden Age Jim Barnes"
               }
+            },
+            {
+              "directus_files_id": {
+                "id": "f272aec5-4624-474c-a6de-74e51baf01e6",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_JimBarnes.jpg",
+                "filename_disk": "f272aec5-4624-474c-a6de-74e51baf01e6.jpg",
+                "description": "Jim Barnes admires the Claret Jug after winning the 1925 Open Championship at Prestwick",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Jim Barnes"
+              }
             }
           ],
           "featuredImage": {
@@ -332,7 +350,7 @@
             {
               "id": 645,
               "description": null,
-              "name": "Winner of the 1921 U.S. Open Championship",
+              "name": "Winner of the 1921 U.S. Open",
               "icon": {
                 "id": 64,
                 "image": null
@@ -372,7 +390,7 @@
             {
               "id": 649,
               "description": null,
-              "name": "Author of \"Picture Analysis of Golf Strokes\"",
+              "name": "Author of *Picture Analysis of Golf Strokes*",
               "icon": {
                 "id": 78,
                 "image": null
@@ -389,18 +407,9 @@
                 "description": "Jim Barnes’ putting stroke, with a wide stance, hands held low, and his right forearm held against his right leg, ca. 1920",
                 "title": "Player Capstone Bio1 Golfs Golden Age Jim Barnes"
               }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_JimBarnes.jpg",
-                "filename_disk": "f8f2fadf-ca47-4ab0-aaf7-aa9b684aceb3.jpg",
-                "description": "Jim Barnes admires the Claret Jug after winning the 1925 Open Championship at Prestwick",
-                "title": "Player Capstone Bio2 Golfs Golden Age Jim Barnes"
-              }
             }
           ],
-          "bioText": "Towering over the competition at 6-foot-4, “Long Jim” Barnes won more than 25 professional tournaments in the era dominated by Gene Sarazen, Walter Hagen and Bob Jones. He won the inaugural PGA Championship in 1916 and successfully defended the title the next time it was played in 1919. In 1921, he won the U.S. Open by nine strokes and four years later captured the 1925 Open Championship coming from five strokes back in the final round.\n\nBarnes was an intense, quiet competitor who often kept a sprig of clover clamped tightly between his teeth. In 1919, he authored **Picture Analysis of Golf Strokes**, revolutionary as the first golf instructional to make extensive use of photography.",
+          "bioText": "Towering over the competition at 6-foot-4, “Long Jim” Barnes won more than 25 professional tournaments in the era dominated by Gene Sarazen, Walter Hagen and Bob Jones. He won the inaugural PGA Championship in 1916 and successfully defended the title the next time it was played in 1919. In 1921, he won the U.S. Open by nine strokes and four years later captured the 1925 Open Championship coming from five strokes back in the final round.\n\nBarnes was an intense, quiet competitor who often kept a sprig of clover clamped tightly between his teeth. In 1919, he authored *Picture Analysis of Golf Strokes*, revolutionary as the first golf instructional to make extensive use of photography.",
           "quote": "You can't always be playing well when it counts. You'll never win golf tournaments until you learn how to score well when you're playing badly.",
           "quoteByline": "Jim Barnes",
           "signatureImage": {
@@ -415,6 +424,312 @@
               "contentTrails_id": {
                 "id": 11,
                 "name": "Teachers",
+                "description": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "firstName": "Dorothy",
+          "lastName": "Campbell Hurd Howe",
+          "birth": "1883-03-24T00:00:00",
+          "birthplace": "North Berwick, East Lothian, Scotland",
+          "death": "1945-03-20T00:00:00",
+          "inductionYear": 1978,
+          "lockerNumber": 40611,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "bc273f49-e43a-4d6e-938d-ab9ac3aea99c",
+                "filename_download": "Player_CapstoneGallery1_HeroesOfANewEra_DorothyCampbell.jpg",
+                "filename_disk": "bc273f49-e43a-4d6e-938d-ab9ac3aea99c.jpg",
+                "description": "Dorothy Campbell poses with the trophies representing her victories in the Canadian Women’s Amateur (left), U.S. Women’s Amateur (center) and Women’s Amateur (right)",
+                "title": "Player Capstone Gallery1 Heroes of a New Era Dorothy Campbell"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "d8419ad6-acd6-440f-8f71-043ef6811b0c",
+                "filename_download": "Player_CapstoneGallery2_HeroesOfANewEra_DorothyCampbell.jpg",
+                "filename_disk": "d8419ad6-acd6-440f-8f71-043ef6811b0c.jpg",
+                "description": "World Golf Hall of Fame members Marion Hollis (left), Glenna Collett Vare and Dorothy Campbell Hurd (putting) on the 14th green at Pasatiempo Golf Club in Santa Cruz, California, ca. 1930",
+                "title": "Player Capstone Gallery2 Heroes of a New Era Dorothy Campbell"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "4213c16d-ee94-4595-9abf-42cd2383773a",
+                "filename_download": "Player_CapstoneGallery3_HeroesOfANewEra_DorothyCampbell.jpg",
+                "filename_disk": "4213c16d-ee94-4595-9abf-42cd2383773a.jpg",
+                "description": "In addition to her skills at golf, Dorothy Campbell was an accomplished archer, winning competitions in Bermuda and the Adirondacks",
+                "title": "Player Capstone Gallery3 Heroes of a New Era Dorothy Campbell"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "49395dec-7baf-4763-9d83-9c9f213a6d85",
+                "filename_download": "Player_CapstoneGallery4_HeroesOfANewEra_DorothyCampbell.jpg",
+                "filename_disk": "49395dec-7baf-4763-9d83-9c9f213a6d85.jpg",
+                "description": "Dorothy Campbell Hurd (center), the champion, with fellow competitors at the 1938 Women’s National Senior Championship at Westchester Country Club in New York",
+                "title": "Player Capstone Gallery4 Heroes of a New Era Dorothy Campbell"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "84a82388-eab7-4876-bdef-bbca66ece23d",
+                "filename_download": "Player_CapstoneGallery5_HeroesOfANewEra_DorothyCampbell.jpg",
+                "filename_disk": "84a82388-eab7-4876-bdef-bbca66ece23d.jpg",
+                "description": "Dorothy Campbell and her son, Sigourney Hurd, at Pinehurst, ca. 1920",
+                "title": "Player Capstone Gallery5 Heroes of a New Era Dorothy Campbell"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "797b98b8-bf23-4a60-b9c7-8b27d0394854",
+            "filename_download": "Player_HeroesOfANewEra_DorothyCampbell.jpg",
+            "filename_disk": "797b98b8-bf23-4a60-b9c7-8b27d0394854.jpg",
+            "description": null,
+            "title": "Player Heroes of a New Era Dorothy Campbell"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 720,
+              "description": null,
+              "name": "Three-time winner of the U.S. Women's Amateur",
+              "icon": {
+                "id": 65,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 721,
+              "description": null,
+              "name": "Two-time winner of The Women's Amateur",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 722,
+              "description": null,
+              "name": "Three-time winner of the Canadian Women's Amateur",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 723,
+              "description": null,
+              "name": "Three-time winner of the Scottish Ladies",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 724,
+              "description": null,
+              "name": "Three-time winner of the North and South Women's Amateur",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 725,
+              "description": null,
+              "name": "First player to win the U.S. Women's Amateur and The Women's Amateur in the same year (1909)",
+              "icon": {
+                "id": 65,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_HeroesOfANewEra_DorothyCampbell.jpg",
+                "filename_disk": "1dcd431f-c9d9-4792-9397-dfc72c25fe68.jpg",
+                "description": "Dorothy Campbell plays a shot from a bunker, ca. 1910",
+                "title": "Player Capstone Bio1 Heroes of a New Era Dorothy Campbell"
+              }
+            }
+          ],
+          "bioText": "Regarded as golf’s first truly international player, Dorothy Campbell Hurd Howe won championships in Bermuda, Canada, England and Scotland. Campbell, who did not evolve into a top player until her late teens despite swinging her first club at 18 months old, won her first amateur title at the age of 22 at the Scottish Ladies Championship, where more than 4,000 people watched her victory. In 1909, she became the first woman to win the U.S. Women's Amateur and Women's Amateur titles in the same year. \n\nBetween 1905 and 1924, Campbell claimed every major title in women’s golf: the Scottish Ladies Championship, The Women's Amateur, U.S. Women’s Amateur, Canadian Women’s Amateur and the North and South Women’s Amateur.",
+          "quote": "How would it be possible to avoid taking an interest in the game, even if one wanted to do so, when the most insistent remembrances of infant summer days are the click of golf balls and the shouts of “fore”?",
+          "quoteByline": "Dorothy Campbell Hurd Howe",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_campbell.png",
+            "filename_disk": "41175777-c4f2-4fbd-aaa7-d3a1c0d777e6.png",
+            "description": null,
+            "title": "Sig Campbell"
+          },
+          "contentTrails": []
+        },
+        {
+          "id": 18,
+          "firstName": "Bernard",
+          "lastName": "Darwin",
+          "birth": "1876-09-07T00:00:00",
+          "birthplace": "Downe, Kent, England",
+          "death": "1961-10-18T00:00:00",
+          "inductionYear": 2005,
+          "lockerNumber": 40612,
+          "media": [
+            {
+              "directus_files_id": {
+                "id": "9d020f60-1d59-436b-890e-014a34ee0f15",
+                "filename_download": "Player_CapstoneGallery1_HeroesOfANewEra_BernardDarwin.jpg",
+                "filename_disk": "9d020f60-1d59-436b-890e-014a34ee0f15.jpg",
+                "description": "Harry Rountree's painting of the 8th hole at Norwood Golf Club in England that was used as an illustration in Bernard Darwin's celebrated book, *The Golf Courses of the British Isles.*",
+                "title": "Player Capstone Gallery1 Heroes of a New Era Bernard Darwin"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6d9d7d89-4720-45cd-82e8-ece058445d00",
+                "filename_download": "Player_CapstoneGallery2_HeroesOfANewEra_BernardDarwin.jpg",
+                "filename_disk": "6d9d7d89-4720-45cd-82e8-ece058445d00.jpg",
+                "description": "Bernard Darwin (left) and fellow Hall of Fame member Charles Blair Macdonald at the National Golf Links of America, 1913",
+                "title": "Player Capstone Gallery2 Heroes of a New Era Bernard Darwin"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "b41ba61b-8aea-4e77-8344-82581160edfa",
+                "filename_download": "Player_CapstoneGallery3_HeroesOfANewEra_BernardDarwin.jpg",
+                "filename_disk": "b41ba61b-8aea-4e77-8344-82581160edfa.jpg",
+                "description": "Bernard Darwin plays a shot from behind the green on the Road Hole (17th) of the Old Course at St. Andrews during The Amateur Championship, 1924",
+                "title": "Player Capstone Gallery3 Heroes of a New Era Bernard Darwin"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "e81b8292-061f-418c-bdbf-69312352acdc",
+                "filename_download": "Player_CapstoneGallery4_HeroesOfANewEra_BernardDarwin.jpg",
+                "filename_disk": "e81b8292-061f-418c-bdbf-69312352acdc.jpg",
+                "description": "Bernard Darwin holding the President's Putter for the annual tournament of the Oxford & Cambridge Golfing Society, 1929",
+                "title": "Player Capstone Gallery4 Heroes of a New Era Bernard Darwin"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "fe6aca95-2434-45aa-b98e-fa302af72ef8",
+                "filename_download": "Player_CapstoneGallery5_HeroesOfANewEra_BernardDarwin.jpg",
+                "filename_disk": "fe6aca95-2434-45aa-b98e-fa302af72ef8.jpg",
+                "description": "Bernard Darwin in his study at his home in Downe Village, Kent, England, <nobr>ca. 1940</nobr>",
+                "title": "Player Capstone Gallery5 Heroes of a New Era Bernard Darwin"
+              }
+            }
+          ],
+          "featuredImage": {
+            "id": "716cf8fb-04a8-4489-8b21-70e74ceb44d0",
+            "filename_download": "Player_HeroesOfANewEra_BernardDarwin.jpg",
+            "filename_disk": "716cf8fb-04a8-4489-8b21-70e74ceb44d0.jpg",
+            "description": null,
+            "title": "Player Heroes of a New Era Bernard Darwin"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 726,
+              "description": null,
+              "name": "Captain of Cambridge University golf team",
+              "icon": {
+                "id": 81,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 727,
+              "description": null,
+              "name": "Semifinalist in The Amateur Championship in 1909 and 1921",
+              "icon": {
+                "id": 79,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 728,
+              "description": null,
+              "name": "Member of the Great Britain & Ireland Walker Cup Team in 1922",
+              "icon": {
+                "id": 66,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 729,
+              "description": null,
+              "name": "Captain of The R&A in 1934",
+              "icon": {
+                "id": 81,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 730,
+              "description": null,
+              "name": "Golf correspondent for *The Times* of London for over 40 years",
+              "icon": {
+                "id": 78,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 731,
+              "description": null,
+              "name": "Author of more than 15 books and nearly 12,000 articles",
+              "icon": {
+                "id": 78,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_HeroesOfANewEra_BernardDarwin.jpg",
+                "filename_disk": "29ee6492-c669-4a19-89e5-3078b170cc54.jpg",
+                "description": "Bernard Darwin plays a shot in the 1921 Amateur Championship at Royal Liverpool, defeating American Allan Graham to advance to the semifinal round",
+                "title": "Player Capstone Bio1 Heroes of a New Era Bernard Darwin"
+              }
+            }
+          ],
+          "bioText": "Bernard Darwin, the grandson of naturalist Charles Darwin, is regarded as the first writer to cover golf daily and was well-known for his entertaining and comprehensive style. Darwin initially practiced law in London, but after a few years decided to change his career to journalism, and more specifically, to write about golf. He wrote articles for *The Times* of London from 1907 until 1953 with the byline \"Our Golf Correspondent\" and wrote essays for *Country Life* from 1907 until 1961. \n\nA fine amateur golfer, Darwin competed in The Amateur Championship 26 times from 1898 to 1925, represented England in 8 international matches, and played for the Great Britain & Ireland Team in the 1922 Walker Cup as a last-minute substitute.",
+          "quote": "It is the constant and undying hope for improvement that makes golf so exquisitely worth playing.",
+          "quoteByline": "Bernard Darwin",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_darwin.png",
+            "filename_disk": "686618e0-560d-4758-bfb8-9eb0458dc0f8.png",
+            "description": null,
+            "title": "Sig Darwin"
+          },
+          "contentTrails": [
+            {
+              "contentTrails_id": {
+                "id": 12,
+                "name": "Voices of the Game",
                 "description": null
               }
             }
@@ -518,7 +833,7 @@
             {
               "id": 629,
               "description": null,
-              "name": "Winner of five tour events in 1925",
+              "name": "Winner of five events in 1925",
               "icon": {
                 "id": 58,
                 "image": null
@@ -592,7 +907,7 @@
                 "id": "d4d37f6d-6a3e-485a-bfe2-2a5890b63d38",
                 "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_ChickEvans.jpg",
                 "filename_disk": "d4d37f6d-6a3e-485a-bfe2-2a5890b63d38.jpg",
-                "description": "Portrait of Chick Evans, ca. 1916",
+                "description": "Portrait of Chick Evans, ca. 1930",
                 "title": "Player Capstone Gallery1 Golfs Golden Age Chick Evans"
               }
             },
@@ -601,7 +916,7 @@
                 "id": "7ed261b3-0054-48e4-8a69-d2c914c01956",
                 "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_ChickEvans.jpg",
                 "filename_disk": "7ed261b3-0054-48e4-8a69-d2c914c01956.jpg",
-                "description": "Chick Evans and his caddie, “Shorty,” who helped him complete his historic “Double” at Merion Cricket Club",
+                "description": "Chick Evans and his caddie, \"Shorty,\" who helped him complete his historic \"Double\" at Merion Cricket Club, 1916",
                 "title": "Player Capstone Gallery2 Golfs Golden Age Chick Evans"
               }
             },
@@ -637,8 +952,17 @@
                 "id": "8e47d42f-3ad9-40bc-a8e6-80cbac3c6660",
                 "filename_download": "Player_CapstoneGallery6_GolfsGoldenAge_ChickEvans.jpg",
                 "filename_disk": "8e47d42f-3ad9-40bc-a8e6-80cbac3c6660.jpg",
-                "description": "Chick Evans (left) with Gene Sarazen and Fred Corcoran at the opening of the World Golf Hall of Fame in Pinehurst, 1975",
+                "description": "Chick Evans (left) with Gene Sarazen and Fred Corcoran at the World Golf Hall of Fame induction ceremony in Pinehurst, 1975",
                 "title": "Player Capstone Gallery6 Golfs Golden Age Chick Evans"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "0795b6a9-d39d-4f72-ba27-64689b5b2bdc",
+                "filename_download": "Player_CapstoneGallery7_GolfsGoldenAge_ChickEvans.jpg",
+                "filename_disk": "0795b6a9-d39d-4f72-ba27-64689b5b2bdc.jpg",
+                "description": "Chick Evans drives a golf ball from a man’s hand, ca. 1920",
+                "title": "Player Capstone Gallery7 Golfs Golden Age Chick Evans"
               }
             }
           ],
@@ -720,15 +1044,6 @@
                 "filename_disk": "db9f7e19-f792-44b5-991f-c6319a8e38f7.jpg",
                 "description": "Timeless champion Chick Evans with the Western Open and Western Amateur trophies, 1962",
                 "title": "Player Capstone Bio1 Golfs Golden Age Chick Evans"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_ChickEvans.jpg",
-                "filename_disk": "0572d06a-d0a9-4930-a5a3-5dec2f04aa03.jpg",
-                "description": "Chick Evans drives a golf ball from a man’s hand, ca. 1920",
-                "title": "Player Capstone Bio2 Golfs Golden Age Chick Evans"
               }
             }
           ],
@@ -830,7 +1145,7 @@
             {
               "id": 657,
               "description": null,
-              "name": "Four-time winner of the Open Championship",
+              "name": "Four-time winner of The Open Championship",
               "icon": {
                 "id": 60,
                 "image": null
@@ -850,7 +1165,7 @@
             {
               "id": 659,
               "description": "Includes 5 wins at the Western Open in 1916. 1921, 1926, 1927 and 1932",
-              "name": "Winner of 24 PGA Tour events",
+              "name": "Winner of 45 tournaments",
               "icon": {
                 "id": 58,
                 "image": null
@@ -924,7 +1239,7 @@
                 "id": "21a6362c-9e10-4ddb-b6f6-156490ed8558",
                 "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_JockHutchison.jpg",
                 "filename_disk": "21a6362c-9e10-4ddb-b6f6-156490ed8558.jpg",
-                "description": "Gene Sarazen (left) and Jock Hutchison (right) examine Hollywood legend Buster Keaton’s golf cubs, 1923",
+                "description": "U.S. President Warren Harding presents the Claret Jug to Jock Hutchison in a ceremony at the 1921 U.S. Open, as U.S. Open champion Jim Barnes looks on",
                 "title": "Player Capstone Gallery1 Golfs Golden Age Jock Hutchison"
               }
             },
@@ -933,7 +1248,7 @@
                 "id": "4998094a-2d9e-47ff-817d-b0a85392fdf2",
                 "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_JockHutchison.jpg",
                 "filename_disk": "4998094a-2d9e-47ff-817d-b0a85392fdf2.jpg",
-                "description": "U.S. President Warren Harding presents the Claret Jug to Jock Hutchison in a ceremony at the 1921 U.S. Open, as U.S. Open champion Jim Barnes looks on",
+                "description": "Jock Hutchison turns in his scorecard to fellow Hall of Fame member Fred Corcoran during the 1938 Senior PGA Championship in Augusta, Georgia",
                 "title": "Player Capstone Gallery2 Golfs Golden Age Jock Hutchison"
               }
             },
@@ -942,7 +1257,7 @@
                 "id": "6853eeaa-b350-40a9-86f4-961deee90d80",
                 "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_JockHutchison.jpg",
                 "filename_disk": "6853eeaa-b350-40a9-86f4-961deee90d80.jpg",
-                "description": "Jock Hutchison turns in his scorecard to fellow Hall of Fame member Fred Corcoran during the 1938 Senior PGA Championship in Augusta",
+                "description": "Jock Hutchison on board the RMS Carmania with the Claret Jug after winning the 1921 Open Championship at St. Andrews",
                 "title": "Player Capstone Gallery3 Golfs Golden Age Jock Hutchison"
               }
             },
@@ -951,8 +1266,17 @@
                 "id": "68a5c78a-a761-4117-ab54-a5c78681b110",
                 "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_JockHutchison.jpg",
                 "filename_disk": "68a5c78a-a761-4117-ab54-a5c78681b110.jpg",
-                "description": "Jock Hutchison on board the RMS Carmania with the Claret Jug after winning the 1921 Open Championship at St. Andrews",
+                "description": "Gene Sarazen (left) and Jock Hutchison (right) examine Hollywood legend Buster Keaton's golf clubs, 1923",
                 "title": "Player Capstone Gallery4 Golfs Golden Age Jock Hutchison"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "6c26d7a6-99ec-419a-9ae3-05f5badcf3d5",
+                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_JockHutchison.jpg",
+                "filename_disk": "6c26d7a6-99ec-419a-9ae3-05f5badcf3d5.jpg",
+                "description": "Jock Hutchison, ca. 1920",
+                "title": "Player Capstone Gallery5 Golfs Golden Age Jock Hutchison"
               }
             }
           ],
@@ -1035,15 +1359,6 @@
                 "description": "Jock Hutchison plays a long approach, ca. 1920",
                 "title": "Player Capstone Bio1 Golfs Golden Age Jock Hutchison"
               }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_JockHutchison.jpg",
-                "filename_disk": "60667fd4-b924-4217-86c7-b6069d2b84eb.jpg",
-                "description": "Jock Hutchison, ca. 1920",
-                "title": "Player Capstone Bio2 Golfs Golden Age Jock Hutchison"
-              }
             }
           ],
           "bioText": "St. Andrews native Jock Hutchison immigrated to the United States in the early 1900s and became a naturalized American citizen in 1920. He would go on to win 14 tournaments on the PGA TOUR, including two consecutive major championships. In 1921, Hutchinson became the first U.S.-based player to capture the Claret Jug with his victory at the 1921 Open Championship. \n\nKnown around the course as \"Jovial Jock,\" Hutchison won the inaugural Senior PGA Championship in 1937, and did so again in 1947. He returned to Augusta National Golf Club–the site of his 1937 victory–when he joined 1908 U.S. Open champion Fred McLeod as the first honorary starters at the Masters in 1963.",
@@ -1073,7 +1388,7 @@
                 "id": "427c949f-9075-4cc3-b8ae-bba5b8ca0e05",
                 "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_BobJones.jpg",
                 "filename_disk": "427c949f-9075-4cc3-b8ae-bba5b8ca0e05.jpg",
-                "description": "Autographed portrait of Bob Jones by George S. Pietzcker, ca. 1927",
+                "description": "Hollywood publicity photo of Bob Jones issued to promote his series of instructional films, *How I Play Golf,* in 1931",
                 "title": "Player Capstone Gallery1 Golfs Golden Age Bob Jones"
               }
             },
@@ -1117,7 +1432,7 @@
             {
               "id": 550,
               "description": null,
-              "name": "Four-time winner of the U.S. Open Championship",
+              "name": "Four-time winner of the U.S. Open",
               "icon": {
                 "id": 64,
                 "image": null
@@ -1127,14 +1442,17 @@
             {
               "id": 551,
               "description": null,
-              "name": "Five-time winner of the U.S. Amateur Championship",
-              "icon": null,
+              "name": "Five-time winner of the U.S. Amateur",
+              "icon": {
+                "id": 59,
+                "image": null
+              },
               "status": null
             },
             {
               "id": 552,
               "description": null,
-              "name": "Three-time winner of the Open Championship",
+              "name": "Three-time winner of The Open Championship",
               "icon": {
                 "id": 60,
                 "image": null
@@ -1153,7 +1471,7 @@
             },
             {
               "id": 554,
-              "description": "Jones represented the USA in 1922, 1924, 1926, 1928, and 1930, captaining the team in 1928 and 1930",
+              "description": "Jones represented the USGA in 1922, 1924, 1926, 1928 and 1930, captaining the team in 1928 and 1930",
               "name": "Five-time member of the USA Walker Cup Team",
               "icon": {
                 "id": 66,
@@ -1178,7 +1496,7 @@
                 "id": null,
                 "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_BobJones.jpg",
                 "filename_disk": "0ed8864d-6a56-4d40-afff-d853116919de.jpg",
-                "description": "Need Caption",
+                "description": "Autographed portrait of Bob Jones by George Pietzcker, 1927",
                 "title": "Player Capstone Bio1 Golfs Golden Age Bob Jones"
               }
             },
@@ -1251,15 +1569,6 @@
             },
             {
               "directus_files_id": {
-                "id": "949bd96c-7684-464a-ac56-dcdbe7256672",
-                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_FrancisOuimet.jpg",
-                "filename_disk": "949bd96c-7684-464a-ac56-dcdbe7256672.jpg",
-                "description": "Francis Ouimet and Eddie Lowery at the 1913 U.S. Open",
-                "title": "Player Capstone Gallery4 Golfs Golden Age Francis Ouimet"
-              }
-            },
-            {
-              "directus_files_id": {
                 "id": "ab48b48a-5940-4caa-92be-f4fa1299738a",
                 "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_FrancisOuimet.jpg",
                 "filename_disk": "ab48b48a-5940-4caa-92be-f4fa1299738a.jpg",
@@ -1284,6 +1593,24 @@
                 "description": "H.H. Ramsay presents the trophy to Francis Ouimet following his victory in the 1931 U.S. Amateur Championship",
                 "title": "Player Capstone Gallery7 Golfs Golden Age Francis Ouimet"
               }
+            },
+            {
+              "directus_files_id": {
+                "id": "481bd833-c80c-4558-acea-57d3a0437a7a",
+                "filename_download": "Player_CapstoneGallery9_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "481bd833-c80c-4558-acea-57d3a0437a7a.jpg",
+                "description": "Francis Ouimet with his daughters Janice and Barbara (swinging), 1929",
+                "title": "Player Capstone Gallery9 Golfs Golden Age Francis Ouimet"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "d3747242-d53d-4030-a6cd-d5b5634af1aa",
+                "filename_download": "Player_CapstoneGallery8_GolfsGoldenAge_FrancisOuimet.jpg",
+                "filename_disk": "d3747242-d53d-4030-a6cd-d5b5634af1aa.jpg",
+                "description": "The competitors in the playoff for the 1913 U.S. Open, from left to right, Harry Vardon, Francis Ouimet and Ted Ray",
+                "title": "Player Capstone Gallery8 Golfs Golden Age Francis Ouimet"
+              }
             }
           ],
           "featuredImage": {
@@ -1298,7 +1625,7 @@
             {
               "id": 556,
               "description": null,
-              "name": "Winner of the 1913 U.S. Open Championship",
+              "name": "Winner of the 1913 U.S. Open",
               "icon": {
                 "id": 64,
                 "image": null
@@ -1308,7 +1635,7 @@
             {
               "id": 557,
               "description": null,
-              "name": "Two-time winner of the U.S. Amateur Championship",
+              "name": "Two-time winner of the U.S. Amateur",
               "icon": {
                 "id": 59,
                 "image": null
@@ -1328,7 +1655,7 @@
             {
               "id": 559,
               "description": null,
-              "name": "Elected Captain of the Royal and Ancient Golf Club of St. Andrews in 1951",
+              "name": "Elected captain of the Royal and Ancient Golf Club of St. Andrews in 1951",
               "icon": {
                 "id": 86,
                 "image": null
@@ -1351,18 +1678,9 @@
               "directus_files_id": {
                 "id": null,
                 "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_FrancisOuimet.jpg",
-                "filename_disk": "f9e70845-bda7-4962-8960-8e614020ce87.jpg",
-                "description": "Francis Ouimet with his daughters Janice and Barbara (swinging), 1929",
+                "filename_disk": "5019bed6-915f-4cdd-a0d2-ff4e58e2b4cd.jpg",
+                "description": "Francis Ouimet and Eddie Lowery at the 1913 U.S. Open",
                 "title": "Player Capstone Bio1 Golfs Golden Age Francis Ouimet"
-              }
-            },
-            {
-              "directus_files_id": {
-                "id": null,
-                "filename_download": "Player_CapstoneBio2_GolfsGoldenAge_FrancisOuimet.jpg",
-                "filename_disk": "e2e3d4b7-301f-4ea3-931c-771211dd1caf.jpg",
-                "description": "Need Caption",
-                "title": "Player Capstone Bio2 Golfs Golden Age Francis Ouimet"
               }
             }
           ],
@@ -1464,7 +1782,7 @@
             {
               "id": 651,
               "description": null,
-              "name": "Two-time winner of the U.S. Open Championship",
+              "name": "Two-time winner of the U.S. Open",
               "icon": {
                 "id": 64,
                 "image": null
@@ -1474,7 +1792,7 @@
             {
               "id": 652,
               "description": null,
-              "name": "Winner of the 1935 Masters Tournament",
+              "name": "Winner of the 1935 Masters",
               "icon": {
                 "id": 73,
                 "image": null
@@ -1586,7 +1904,7 @@
                 "id": "cf0a928f-44f5-4686-b464-1b29d0db1520",
                 "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_JerryTravers.jpg",
                 "filename_disk": "cf0a928f-44f5-4686-b464-1b29d0db1520.jpg",
-                "description": "Jerry Travers with the U.S. Open trophy at Baltusrol Golf Club, 1915",
+                "description": "Jerry Travers putting in his match against Harold Hilton in the 1911 U.S. Amateur at the Apawamis Club",
                 "title": "Player Capstone Gallery5 Golfs Golden Age Jerry Travers"
               }
             }
@@ -1603,7 +1921,7 @@
             {
               "id": 567,
               "description": null,
-              "name": "Winner of the 1915 U.S. Open Championship",
+              "name": "Winner of the 1915 U.S. Open",
               "icon": {
                 "id": 64,
                 "image": null
@@ -1613,7 +1931,7 @@
             {
               "id": 568,
               "description": null,
-              "name": "Four-time winner of the U.S. Amateur Championship",
+              "name": "Four-time winner of the U.S. Amateur",
               "icon": {
                 "id": 59,
                 "image": null
@@ -1685,84 +2003,84 @@
           "contentTrails": []
         },
         {
-          "id": 31,
-          "firstName": "Walter",
-          "lastName": "Travis",
-          "birth": "1862-01-10T00:00:00",
-          "birthplace": "Maldon, Victoria, Australia",
-          "death": "1927-07-31T00:00:00",
-          "inductionYear": 1979,
-          "lockerNumber": 40406,
+          "id": 32,
+          "firstName": "Glenna",
+          "lastName": "Collett Vare",
+          "birth": "1903-06-20T00:00:00",
+          "birthplace": "New Haven, Connecticut",
+          "death": "1989-02-03T00:00:00",
+          "inductionYear": 1975,
+          "lockerNumber": 40609,
           "media": [
             {
               "directus_files_id": {
-                "id": "db579668-aafd-4422-91ab-59278ba35fd7",
-                "filename_download": "Player_CapstoneGallery1_GolfsGoldenAge_WalterTravis.jpg",
-                "filename_disk": "db579668-aafd-4422-91ab-59278ba35fd7.jpg",
-                "description": "Pencil sketch of Walter Travis by Louis Holz, ca. 1920",
-                "title": "Player Capstone Gallery1 Golfs Golden Age Walter Travis"
+                "id": "6b802718-dcdf-4e7c-8c3d-9aba482d3ed0",
+                "filename_download": "Player_CapstoneGallery1_HeroesOfANewEra_GlennaCollettVare.jpg",
+                "filename_disk": "6b802718-dcdf-4e7c-8c3d-9aba482d3ed0.jpg",
+                "description": "Closeup photograph showing the grip of Glenna Collett Vare, ca. 1925",
+                "title": "Player Capstone Gallery1 Heroes of a New Era Glenna Collett Vare"
               }
             },
             {
               "directus_files_id": {
-                "id": "ad8b2fe5-dd52-439f-be63-dca5ad2ae3b4",
-                "filename_download": "Player_CapstoneGallery2_GolfsGoldenAge_WalterTravis.jpg",
-                "filename_disk": "ad8b2fe5-dd52-439f-be63-dca5ad2ae3b4.jpg",
-                "description": "E.M., “America in England,” 1904, showing Walter Travis and his Schenectady putter winning the 1904 Amateur Championship",
-                "title": "Player Capstone Gallery2 Golfs Golden Age Walter Travis"
+                "id": "8f277bd3-a28b-43d2-bd3a-3b3932507fe0",
+                "filename_download": "Player_CapstoneGallery2_HeroesOfANewEra_GlennaCollettVare.jpg",
+                "filename_disk": "8f277bd3-a28b-43d2-bd3a-3b3932507fe0.jpg",
+                "description": "Glenna Collett Vare (center, holding trophy) was the captain of the victorious USA Curtis Cup Team in 1948 at Royal Birkdale in England",
+                "title": "Player Capstone Gallery2 Heroes of a New Era Glenna Collett Vare"
               }
             },
             {
               "directus_files_id": {
-                "id": "db3ad290-bed7-499b-ad74-1db7944ede0e",
-                "filename_download": "Player_CapstoneGallery3_GolfsGoldenAge_WalterTravis.jpg",
-                "filename_disk": "db3ad290-bed7-499b-ad74-1db7944ede0e.jpg",
-                "description": "Walter Travis, U.S. Vice President James Sherman, golf professional Allan Lard and U.S. President William Howard Taft at Chevy Chase Club, May 1910",
-                "title": "Player Capstone Gallery3 Golfs Golden Age Walter Travis"
+                "id": "85bb8a31-7dfa-436b-8d27-7deee51d8d79",
+                "filename_download": "Player_CapstoneGallery3_HeroesOfANewEra_GlennaCollettVare.jpg",
+                "filename_disk": "85bb8a31-7dfa-436b-8d27-7deee51d8d79.jpg",
+                "description": "Glenna Collett Vare skiing at Lake Placid, January 1931",
+                "title": "Player Capstone Gallery3 Heroes of a New Era Glenna Collett Vare"
               }
             },
             {
               "directus_files_id": {
-                "id": "735a5ee2-dc34-4389-8d92-b7cf7131eb90",
-                "filename_download": "Player_CapstoneGallery4_GolfsGoldenAge_WalterTravis.jpg",
-                "filename_disk": "735a5ee2-dc34-4389-8d92-b7cf7131eb90.jpg",
-                "description": "Autographed photo of Walter Travis, ca. 1910",
-                "title": "Player Capstone Gallery4 Golfs Golden Age Walter Travis"
+                "id": "0617c181-d768-416e-aef1-0000ed0b5c9c",
+                "filename_download": "Player_CapstoneGallery4_HeroesOfANewEra_GlennaCollettVare.jpg",
+                "filename_disk": "0617c181-d768-416e-aef1-0000ed0b5c9c.jpg",
+                "description": "Glenna Collett Vare practices putting on the miniature golf course at The Carolina in Pinehurst, ca. 1930",
+                "title": "Player Capstone Gallery4 Heroes of a New Era Glenna Collett Vare"
               }
             },
             {
               "directus_files_id": {
-                "id": "cb04b7d2-34c0-48ac-a968-96bb4cd85063",
-                "filename_download": "Player_CapstoneGallery5_GolfsGoldenAge_WalterTravis.jpg",
-                "filename_disk": "cb04b7d2-34c0-48ac-a968-96bb4cd85063.jpg",
-                "description": "Walter Travis with his wife Anne, daughter Adelaide (standing) and son Bartlett (in his mother’s lap), ca. 1900",
-                "title": "Player Capstone Gallery5 Golfs Golden Age Walter Travis"
+                "id": "55b40c0c-4c09-49af-a9dd-03f972c83803",
+                "filename_download": "Player_CapstoneGallery5_HeroesOfANewEra_GlennaCollettVare.jpg",
+                "filename_disk": "55b40c0c-4c09-49af-a9dd-03f972c83803.jpg",
+                "description": "Glenna Collett Vare drives from the tee at Oakland Hills (South Course) in the final of the 1929 U.S. Women's Amateur Championship",
+                "title": "Player Capstone Gallery5 Heroes of a New Era Glenna Collett Vare"
               }
             }
           ],
           "featuredImage": {
-            "id": "68795929-96f9-472d-a997-cfeddde740f6",
-            "filename_download": "Player_GolfsGoldenAge_WalterTravis.jpg",
-            "filename_disk": "68795929-96f9-472d-a997-cfeddde740f6.jpg",
+            "id": "4ba5ba65-cfbd-4243-8970-1fc1c61a15b8",
+            "filename_download": "Player_HeroesOfANewEra_GlennaCollettVare.jpg",
+            "filename_disk": "4ba5ba65-cfbd-4243-8970-1fc1c61a15b8.jpg",
             "description": null,
-            "title": "Player Golfs Golden Age Walter Travis"
+            "title": "Player Heroes of a New Era Glenna Collett Vare"
           },
           "backgroundImage": null,
           "accomplishments": [
             {
-              "id": 573,
+              "id": 708,
               "description": null,
-              "name": "Three-time winner of the U.S. Amateur Championship",
+              "name": "Six-time winner of the U.S. Women's Amateur",
               "icon": {
-                "id": 59,
+                "id": 65,
                 "image": null
               },
               "status": null
             },
             {
-              "id": 574,
+              "id": 709,
               "description": null,
-              "name": "Winner of the 1904 Amateur Championship",
+              "name": "Six-time winner of the North and South Women's Amateur",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1770,9 +2088,19 @@
               "status": null
             },
             {
-              "id": 575,
+              "id": 710,
               "description": null,
-              "name": "Four-time winner of the Metropolitan Amateur Championship",
+              "name": "Four-time member of the USA Curtis Cup Team",
+              "icon": {
+                "id": 57,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 711,
+              "description": null,
+              "name": "Two-time winner of the Canadian Women's Amateur",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1780,9 +2108,9 @@
               "status": null
             },
             {
-              "id": 576,
+              "id": 712,
               "description": null,
-              "name": "Three-time winner of the North and South Amateur Championship",
+              "name": "Winner of the 1925 French Women's Amateur",
               "icon": {
                 "id": 58,
                 "image": null
@@ -1790,21 +2118,11 @@
               "status": null
             },
             {
-              "id": 577,
-              "description": "Designs include Garden City and Westchester Country Club’s West Course",
-              "name": "Designed or remodeled nearly 50 courses",
-              "icon": {
-                "id": 53,
-                "image": null
-              },
-              "status": null
-            },
-            {
-              "id": 578,
+              "id": 713,
               "description": null,
-              "name": "Author of \"Practical Golf\" and \"The Art of Putting\" and founder of \"The American Golfer\" magazine",
+              "name": "Recipient of the 1965 Bob Jones Award",
               "icon": {
-                "id": 78,
+                "id": 68,
                 "image": null
               },
               "status": null
@@ -1814,39 +2132,173 @@
             {
               "directus_files_id": {
                 "id": null,
-                "filename_download": "Player_CapstoneBio1_GolfsGoldenAge_WalterTravis.jpg",
-                "filename_disk": "35ab01f5-c88d-4d11-9e63-3c4faffd342d.jpg",
-                "description": "Walter Travis, ca. 1900",
-                "title": "Player Capstone Bio1 Golfs Golden Age Walter Travis"
+                "filename_download": "Player_CapstoneBio1_HeroesOfANewEra_GlennaCollettVare.jpg",
+                "filename_disk": "9f965ddd-503e-4509-80e4-832db1dd27e1.jpg",
+                "description": "Glenna Collett Vare poses with the U.S. Women’s Amateur trophy after her victory over Virginia Van Wie at the Virginia Hot Springs G. & T.C. (Cascades Course), 1928",
+                "title": "Player Capstone Bio1 Heroes of a New Era Glenna Collett Vare"
               }
             }
           ],
-          "bioText": "There has not been a golfer who played so well after starting so late in life as Walter J. Travis. He took up golf at age 34, won his first tournament one month later and two years later reached the semifinal round of the U.S. Amateur. Within four years, Travis won the first of three U.S. Amateur titles. He was the first American citizen to win The Amateur Championship and ended his career by winning the prestigious Metropolitan Amateur at age 53. \n\nTravis retired from competitive golf in 1916, but went on to design or renovate more than 50 golf courses. He published several books and founded the magazine **The American Golfer** to share his knowledge of the game.",
-          "quote": "Always be on the aggressive. Act as if you are quite sure of yourself and never give an opponent the psychological advantage of imagining you are the least afraid of him.",
-          "quoteByline": "Walter Travis",
+          "bioText": "Glenna Collett Vare was the preeminent female golfer of golf’s “Golden Age,” winning six U.S. Women’s Amateurs, six North and South Women’s Amateur titles and six Women’s Eastern Amateur crowns between 1922 and 1935. In 1924, Vare won 59 out of 60 matches, with her only loss coming on the 19th hole of the U.S. Women’s Amateur. Her dominance in match play was often attributed to her prodigious driving distances, which occasionally exceeded 300 yards.\n\nThe \"Queen of American Golf\" represented the United States on four USA Curtis Cup Teams and served as captain four times. In 1953, the LPGA introduced the Vare Trophy, which is awarded annually to the player achieving the lowest scoring average during a season.",
+          "quote": "To make oneself a successful match player, there are certain qualities to be sought after, certain ideas must be kept in mind and certain phases of one’s attitude...The three I have taken are these: love of combat, serenity of mind and fearlessness.",
+          "quoteByline": "Glenna Collett Vare",
           "signatureImage": {
             "id": null,
-            "filename_download": "sig_travis.png",
-            "filename_disk": "b22ac814-e67e-480f-b720-fdde67a6c60c.png",
+            "filename_download": "sig_vare.png",
+            "filename_disk": "fe5b660d-41bb-4086-b3a8-38a182d5b134.png",
             "description": null,
-            "title": "Sig Travis"
+            "title": "Sig Vare"
           },
-          "contentTrails": [
+          "contentTrails": []
+        },
+        {
+          "id": 33,
+          "firstName": "Joyce",
+          "lastName": "Wethered",
+          "birth": "1901-11-17T00:00:00",
+          "birthplace": "Brook, Surrey, United Kingdom",
+          "death": "1997-11-18T00:00:00",
+          "inductionYear": 1975,
+          "lockerNumber": 40610,
+          "media": [
             {
-              "contentTrails_id": {
-                "id": 1,
-                "name": "Architects & Designers",
-                "description": null
+              "directus_files_id": {
+                "id": "aaba5344-1c9f-4a79-bfc4-e00175ccf802",
+                "filename_download": "Player_CapstoneGallery1_HeroesOfANewEra_JoyceWethered.jpg",
+                "filename_disk": "aaba5344-1c9f-4a79-bfc4-e00175ccf802.jpg",
+                "description": "Churchman’s Prominent Golfers cigarette card of Joyce Wethered, 1931",
+                "title": "Player Capstone Gallery1 Heroes of a New Era Joyce Wethered"
               }
             },
             {
-              "contentTrails_id": {
-                "id": 12,
-                "name": "Voices of the Game",
-                "description": null
+              "directus_files_id": {
+                "id": "f6cf2eb3-d7d5-477a-952a-2089db783b90",
+                "filename_download": "Player_CapstoneGallery2_HeroesOfANewEra_JoyceWethered.jpg",
+                "filename_disk": "f6cf2eb3-d7d5-477a-952a-2089db783b90.jpg",
+                "description": "Joyce Wethered drives from the second tee at Wentworth Golf Club in Surrey, England during the inaugural Curtis Cup in 1932",
+                "title": "Player Capstone Gallery2 Heroes of a New Era Joyce Wethered"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "202e330b-6928-4f03-9540-563d142709a9",
+                "filename_download": "Player_CapstoneGallery3_HeroesOfANewEra_JoyceWethered.jpg",
+                "filename_disk": "202e330b-6928-4f03-9540-563d142709a9.jpg",
+                "description": "Joyce Wethered, ca. 1920",
+                "title": "Player Capstone Gallery3 Heroes of a New Era Joyce Wethered"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "727b3b55-4496-4205-9a50-b4d7493d1ba4",
+                "filename_download": "Player_CapstoneGallery4_HeroesOfANewEra_JoyceWethered.jpg",
+                "filename_disk": "727b3b55-4496-4205-9a50-b4d7493d1ba4.jpg",
+                "description": "Joyce Wethered plays from a hazard to the ninth green in the final of the Ladies’ London Foursomes at Addington, Surrey, ca. 1930",
+                "title": "Player Capstone Gallery4 Heroes of a New Era Joyce Wethered"
+              }
+            },
+            {
+              "directus_files_id": {
+                "id": "0131bedd-6a71-4e6e-8a8c-148b8e6d3c43",
+                "filename_download": "Player_CapstoneGallery5_HeroesOfANewEra_JoyceWethered.jpg",
+                "filename_disk": "0131bedd-6a71-4e6e-8a8c-148b8e6d3c43.jpg",
+                "description": "Bob Jones and Joyce Wethered in an exhibition match at East Lake Golf Club in Atlanta, Georgia, in 1935. ",
+                "title": "Player Capstone Gallery5 Heroes of a New Era Joyce Wethered"
               }
             }
-          ]
+          ],
+          "featuredImage": {
+            "id": "4d6f861c-76a7-4e75-84c3-02bc84bfffa4",
+            "filename_download": "Player_HeroesOfANewEra_JoyceWethered.jpg",
+            "filename_disk": "4d6f861c-76a7-4e75-84c3-02bc84bfffa4.jpg",
+            "description": null,
+            "title": "Player Heroes of a New Era Joyce Wethered"
+          },
+          "backgroundImage": null,
+          "accomplishments": [
+            {
+              "id": 714,
+              "description": null,
+              "name": "Four-time winner of The Women's Amateur Championship",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 715,
+              "description": null,
+              "name": "Five-time winner of the English Women's Amateur",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 716,
+              "description": null,
+              "name": "Playing captain of the 1932 Great Britain & Ireland Curtis Cup Team",
+              "icon": {
+                "id": 57,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 717,
+              "description": null,
+              "name": "Eight-time winner of the Worplesdon Mixed Foursomes",
+              "icon": {
+                "id": 58,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 718,
+              "description": null,
+              "name": "Represented England in winning the Women’s Home Internationals six times",
+              "icon": {
+                "id": 84,
+                "image": null
+              },
+              "status": null
+            },
+            {
+              "id": 719,
+              "description": null,
+              "name": "First woman to endorse a line of golf clubs",
+              "icon": {
+                "id": 85,
+                "image": null
+              },
+              "status": null
+            }
+          ],
+          "bioImages": [
+            {
+              "directus_files_id": {
+                "id": null,
+                "filename_download": "Player_CapstoneBio1_HeroesOfANewEra_JoyceWethered.jpg",
+                "filename_disk": "4ff59b9a-a23a-42f3-948a-8d215c3e7e07.jpg",
+                "description": "Joyce Wethered plays from the rough to the 18th green in the 1927 Worplesdon Mixed Foursomes Tournament. Wethered won the celebrated event eight times with seven different partners.",
+                "title": "Player Capstone Bio1 Heroes of a New Era Joyce Wethered"
+              }
+            }
+          ],
+          "bioText": "Joyce Wethered dominated golf in Britain in the 1920s, winning 33 consecutive matches in the English Women's Amateur Championship between 1924 and 1926. In 1929, before a large crowd at St. Andrews, Scotland, she defeated the reigning U.S. Women’s Amateur champion, Glenna Collett Vare, to claim her fourth Women’s Amateur crown. \n\nIn the 1930s, Wethered traversed the United States playing professionally in exhibition matches alongside the best golfers in the world. Bob Jones said she was the best golfer he had ever seen—man or woman. “It was not so much the score she made as the way she made it. It was impossible to expect that Miss Wethered would ever miss a shot,” Jones professed, “and she never did.”",
+          "quote": "She could hit a ball 240 yards on the fly while standing barefoot on a cake of ice.",
+          "quoteByline": "Willie Wilson, Scottish golf professional",
+          "signatureImage": {
+            "id": null,
+            "filename_download": "sig_wethered.png",
+            "filename_disk": "486ccc6d-bd35-494a-a9f5-3c7202a32210.png",
+            "description": null,
+            "title": "Sig Wethered"
+          },
+          "contentTrails": []
         }
       ]
     },

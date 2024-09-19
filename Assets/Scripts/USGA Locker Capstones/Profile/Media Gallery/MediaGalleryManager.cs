@@ -47,11 +47,12 @@ namespace JoshKery.USGA.LockerCapstones
 
             foreach (MediaItem item in lockerProfile.media)
             {
-                if (item?.mediaFile?.texture != null)
-                {
-                    MediaGallerySlideDisplay display = InstantiateDisplay<MediaGallerySlideDisplay>();
-                    display.SetContent(item.mediaFile);
-                }
+                if (item?.mediaFile != null)
+                    if (item.mediaFile.HasImage() || item.mediaFile.HasVideoExtension())
+                    {
+                        MediaGallerySlideDisplay display = InstantiateDisplay<MediaGallerySlideDisplay>();
+                        display.SetContent(item.mediaFile, scrollRect);
+                    }
             }
 
             yield return null;

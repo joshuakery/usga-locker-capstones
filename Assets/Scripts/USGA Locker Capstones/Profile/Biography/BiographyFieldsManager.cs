@@ -49,6 +49,7 @@ namespace JoshKery.USGA.LockerCapstones
                     bodyTextField.text = lockerProfile.bioText;
                     AddNoBreakTags.AddNoBreakTagsToText(bodyTextField);
                     ParseItalics.ParseItalicsInText(bodyTextField);
+                    RemoveDoubleCarriageReturns.Process(bodyTextField);
                 }
 
                 if (quoteContainer != null)
@@ -61,6 +62,7 @@ namespace JoshKery.USGA.LockerCapstones
                     quoteTextField.text = lockerProfile.quote;
                     AddNoBreakTags.AddNoBreakTagsToText(quoteTextField);
                     ParseItalics.ParseItalicsInText(quoteTextField);
+                    RemoveDoubleCarriageReturns.Process(quoteTextField);
                 }
 
                 if (bylineTextField != null)
@@ -68,6 +70,7 @@ namespace JoshKery.USGA.LockerCapstones
                     bylineTextField.text = lockerProfile.quoteByline;
                     AddNoBreakTags.AddNoBreakTagsToText(bylineTextField);
                     ParseItalics.ParseItalicsInText(bylineTextField);
+                    RemoveDoubleCarriageReturns.Process(bylineTextField);
                 }
 
                 if (bioImagesManager != null)

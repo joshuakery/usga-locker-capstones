@@ -89,6 +89,7 @@ namespace JoshKery.USGA.LockerCapstones
                     headerField.text = accomplishment.name;
                     AddNoBreakTags.AddNoBreakTagsToText(headerField);
                     ParseItalics.ParseItalicsInText(headerField);
+                    RemoveDoubleCarriageReturns.Process(headerField);
                 }
                     
 
@@ -97,6 +98,7 @@ namespace JoshKery.USGA.LockerCapstones
                     descriptionField.text = accomplishment.description;
                     AddNoBreakTags.AddNoBreakTagsToText(descriptionField);
                     ParseItalics.ParseItalicsInText(descriptionField);
+                    RemoveDoubleCarriageReturns.Process(descriptionField);
                 }
 
                 StartCoroutine(WaitThenOpen(accomplishment));

@@ -130,6 +130,7 @@ namespace JoshKery.USGA.LockerCapstones
                     titleTextField.text = accomplishment.name;
                     AddNoBreakTags.AddNoBreakTagsToText(titleTextField);
                     ParseItalics.ParseItalicsInText(titleTextField);
+                    RemoveDoubleCarriageReturns.Process(titleTextField);
                 }
                     
 
